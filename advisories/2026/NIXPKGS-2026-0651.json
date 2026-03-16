@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0651",
+  "summary": "Tinyauth's OIDC authorization codes are not bound to client on token exchange",
+  "published": "2026-03-15T17:05:19.000Z",
+  "modified": "2026-03-15T17:05:19.000Z",
+  "upstream": [
+    "CVE-2026-32245"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tinyauth"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0651"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500143"
+    }
+  ]
+}

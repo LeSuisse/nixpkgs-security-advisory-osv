@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0539",
+  "summary": "Ghostfolio: Time-Based Blind SQL Injection in Manual Asset Import",
+  "published": "2026-03-07T15:34:43.000Z",
+  "modified": "2026-03-07T15:34:43.000Z",
+  "upstream": [
+    "CVE-2026-28785"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ghostfolio"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0539"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/497597"
+    }
+  ]
+}

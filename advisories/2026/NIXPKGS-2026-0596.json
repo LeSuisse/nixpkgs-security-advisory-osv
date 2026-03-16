@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0596",
+  "summary": "SiYuan Note publish service authorization bypass allows low-privilege users to modify notebook content",
+  "published": "2026-03-11T12:21:14.000Z",
+  "modified": "2026-03-11T12:21:14.000Z",
+  "upstream": [
+    "CVE-2026-30926"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0596"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/498829"
+    }
+  ]
+}

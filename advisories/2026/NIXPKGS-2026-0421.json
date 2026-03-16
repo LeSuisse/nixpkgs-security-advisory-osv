@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0421",
+  "summary": "ActualBudget server is Missing Authentication for SimpleFIN and Pluggy AI bank sync endpoints",
+  "published": "2026-02-27T11:42:35.000Z",
+  "modified": "2026-02-27T11:42:35.000Z",
+  "upstream": [
+    "CVE-2026-27584"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "actual-server"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0421"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494763"
+    }
+  ]
+}
