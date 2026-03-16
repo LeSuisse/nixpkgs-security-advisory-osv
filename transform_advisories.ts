@@ -61,10 +61,8 @@ async function fetchAndParseIssues(
     const advisory_path_base_dir = `${BASE_DIR_ADVISORIES}/${issue_id_year}`;
     const advisory_path = `${advisory_path_base_dir}/${issue_id}.json`;
     if (existsSync(advisory_path)) {
-      info(
-        `Issue ${issue_id} has already been parsed, skipping all remaining issues`,
-      );
-      return;
+      info(`Issue ${issue_id} has already been parsed, skipping`);
+      continue;
     }
 
     const $issue_element = $root(issue_element);
