@@ -1,0 +1,26 @@
+{
+  "name": "nixpkgs-security-advisory-osv",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^25.5.0",
+    "eslint": "^10.0.3",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.57.0"
+  },
+  "scripts": {
+    "typecheck": "tsc",
+    "lint": "eslint '**/*.ts' && prettier --check '**/*.md' '**.json' './.github/'",
+    "lint-fix": "eslint '**/*.ts' --fix && prettier --write '**/*.md' '**/*.json' './.github/'",
+    "transform_advisories": "node ./transform_advisories.ts"
+  },
+  "dependencies": {
+    "@actions/core": "^3.0.0",
+    "cheerio": "^1.2.0"
+  }
+}
