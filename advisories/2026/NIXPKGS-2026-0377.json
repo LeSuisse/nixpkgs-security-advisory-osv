@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0377",
+  "summary": "Wasmtime is vulnerable to panic when dropping a `[Typed]Func::call_async` future",
+  "published": "2026-02-27T11:34:17.000Z",
+  "modified": "2026-02-27T11:34:17.000Z",
+  "upstream": [
+    "CVE-2026-27195"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wasmtime"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0377"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494716"
+    }
+  ]
+}

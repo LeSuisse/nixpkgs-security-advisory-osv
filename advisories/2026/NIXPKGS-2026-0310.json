@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0310",
+  "summary": "Inappropriate implementation in DevTools in Google Chrome prior to 145.0.7632.116 …",
+  "published": "2026-02-24T22:38:15.000Z",
+  "modified": "2026-02-24T22:38:15.000Z",
+  "upstream": [
+    "CVE-2026-3063"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "google-chrome"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0310"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/493823"
+    }
+  ]
+}

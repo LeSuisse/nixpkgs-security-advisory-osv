@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0528",
+  "summary": "CoreDNS Loop Detection Denial of Service Vulnerability",
+  "published": "2026-03-07T14:00:51.000Z",
+  "modified": "2026-03-07T14:00:51.000Z",
+  "upstream": [
+    "CVE-2026-26018"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "coredns"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0528"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/497569"
+    }
+  ]
+}

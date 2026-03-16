@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2025-0002",
+  "summary": "Libtiff: libtiff write-what-where",
+  "published": "2025-10-30T15:15:45.000Z",
+  "modified": "2025-10-30T15:15:45.000Z",
+  "upstream": [
+    "CVE-2025-9900"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libtiff"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2025-0002"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0121",
+  "summary": "i18n XSS through Special:Watchlist",
+  "published": "2026-02-05T15:37:03.000Z",
+  "modified": "2026-02-05T15:37:03.000Z",
+  "upstream": [
+    "CVE-2025-61644"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mediawiki"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0121"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/487302"
+    }
+  ]
+}

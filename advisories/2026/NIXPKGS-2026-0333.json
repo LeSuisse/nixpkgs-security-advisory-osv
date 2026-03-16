@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0333",
+  "summary": "LibreNMS has Stored XSS in Custom OID - unit parameter missing strip_tags()",
+  "published": "2026-02-26T13:57:03.000Z",
+  "modified": "2026-02-26T13:57:03.000Z",
+  "upstream": [
+    "CVE-2026-27016"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "librenms"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0333"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494376"
+    }
+  ]
+}

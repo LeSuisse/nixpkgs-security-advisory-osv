@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0253",
+  "summary": "Outline Affected an Arbitrary File Read via Path Traversal in JSON Import",
+  "published": "2026-02-15T15:03:45.000Z",
+  "modified": "2026-02-15T15:03:45.000Z",
+  "upstream": [
+    "CVE-2026-25062"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "outline"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0253"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490703"
+    }
+  ]
+}

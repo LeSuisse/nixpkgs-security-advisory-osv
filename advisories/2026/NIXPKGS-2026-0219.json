@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0219",
+  "summary": "Adminer has an Unauthenticated Persistent DoS via Array Injection in ?script=version Endpoint",
+  "published": "2026-02-11T08:12:10.000Z",
+  "modified": "2026-02-11T08:12:10.000Z",
+  "upstream": [
+    "CVE-2026-25892"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "adminer"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0219"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/489343"
+    }
+  ]
+}

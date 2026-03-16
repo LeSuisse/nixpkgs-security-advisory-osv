@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0238",
+  "summary": "ntpd-rs affected by excessive CPU load from malformed packets",
+  "published": "2026-02-15T14:09:37.000Z",
+  "modified": "2026-02-15T14:09:37.000Z",
+  "upstream": [
+    "CVE-2026-26076"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ntpd-rs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0238"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490678"
+    }
+  ]
+}

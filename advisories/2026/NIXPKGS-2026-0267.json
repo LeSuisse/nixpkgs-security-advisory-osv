@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0267",
+  "summary": "Unsafe variable evaluation in email templates",
+  "published": "2026-02-17T21:01:59.000Z",
+  "modified": "2026-02-17T21:01:59.000Z",
+  "upstream": [
+    "CVE-2026-2415"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pretix"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0267"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/491500"
+    }
+  ]
+}

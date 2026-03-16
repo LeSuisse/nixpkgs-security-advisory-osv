@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0070",
+  "summary": "Open 5GS WebUI uses a hard-coded JWT signing key",
+  "published": "2026-01-21T07:46:54.000Z",
+  "modified": "2026-01-21T07:46:54.000Z",
+  "upstream": [
+    "CVE-2026-0622"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0070"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482207"
+    }
+  ]
+}

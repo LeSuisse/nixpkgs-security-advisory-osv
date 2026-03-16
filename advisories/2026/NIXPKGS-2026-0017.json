@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0017",
+  "summary": "Gradle fails to disable repositories which can expose builds to malicious artifacts",
+  "published": "2026-01-17T11:39:48.000Z",
+  "modified": "2026-01-17T11:39:48.000Z",
+  "upstream": [
+    "CVE-2026-22816"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gradle_7"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gradle_8"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gradle_9"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0017"
+    }
+  ]
+}

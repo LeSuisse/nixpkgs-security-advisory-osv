@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0665",
+  "summary": "GStreamer RealMedia Demuxer Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "published": "2026-03-16T10:07:33.000Z",
+  "modified": "2026-03-16T10:07:33.000Z",
+  "upstream": [
+    "CVE-2026-2922"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gst_all_1.gstreamer"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0665"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500356"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0024",
+  "summary": "Gradle's failure to disable repositories failing to answer can expose builds to malicious artifacts",
+  "published": "2026-01-17T15:57:36.000Z",
+  "modified": "2026-01-17T15:57:36.000Z",
+  "upstream": [
+    "CVE-2026-22865"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gradle_7"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gradle_8"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gradle_9"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0024"
+    }
+  ]
+}

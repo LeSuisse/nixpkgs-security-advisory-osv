@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0515",
+  "summary": "Vaultwarden: 2FA Bypass on Protected Actions due to Faulty Rate Limit Enforcement",
+  "published": "2026-03-05T10:56:34.000Z",
+  "modified": "2026-03-05T10:56:34.000Z",
+  "upstream": [
+    "CVE-2026-27801"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vaultwarden"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vaultwarden-mysql"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vaultwarden-sqlite"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vaultwarden-postgresql"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0515"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/496848"
+    }
+  ]
+}

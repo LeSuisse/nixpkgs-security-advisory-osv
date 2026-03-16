@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0385",
+  "summary": "Vijkunja has Weak Password Policy Combined with Persistent Sessions After Password Change",
+  "published": "2026-02-27T11:40:24.000Z",
+  "modified": "2026-02-27T11:40:24.000Z",
+  "upstream": [
+    "CVE-2026-27575"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vikunja"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0385"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494727"
+    }
+  ]
+}

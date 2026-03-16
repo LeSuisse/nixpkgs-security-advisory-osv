@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0582",
+  "summary": "mkj Dropbear S Range Check curve25519.c unpackneg signature verification",
+  "published": "2026-03-09T11:56:14.000Z",
+  "modified": "2026-03-09T11:56:14.000Z",
+  "upstream": [
+    "CVE-2026-3706"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dropbear"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0582"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/498203"
+    }
+  ]
+}

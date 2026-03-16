@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0521",
+  "summary": "SourcelessFileLoader does not use io.open_code()",
+  "published": "2026-03-05T17:01:00.000Z",
+  "modified": "2026-03-05T17:01:00.000Z",
+  "upstream": [
+    "CVE-2026-2297"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0521"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/496940"
+    }
+  ]
+}

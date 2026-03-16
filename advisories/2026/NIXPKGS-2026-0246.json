@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0246",
+  "summary": "AprilRobotics apriltag apriltag.c apriltag_detector_detect memory corruption",
+  "published": "2026-02-15T15:03:34.000Z",
+  "modified": "2026-02-15T15:03:34.000Z",
+  "upstream": [
+    "CVE-2026-2246"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apriltag"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0246"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490696"
+    }
+  ]
+}

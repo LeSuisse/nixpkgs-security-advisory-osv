@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0364",
+  "summary": "FreeRDP has Out-of-bounds Write",
+  "published": "2026-02-27T11:33:45.000Z",
+  "modified": "2026-02-27T11:33:45.000Z",
+  "upstream": [
+    "CVE-2026-26965"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0364"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494702"
+    }
+  ]
+}

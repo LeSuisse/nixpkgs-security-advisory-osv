@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0105",
+  "summary": "SiYuan has Arbitrary File Write via /api/file/copyFile leading to RCE",
+  "published": "2026-02-05T15:15:55.000Z",
+  "modified": "2026-02-05T15:15:55.000Z",
+  "upstream": [
+    "CVE-2026-25539"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0105"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/487280"
+    }
+  ]
+}

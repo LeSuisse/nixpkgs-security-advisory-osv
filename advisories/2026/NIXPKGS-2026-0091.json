@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0091",
+  "summary": "PHPUnit Vulnerable to Unsafe Deserialization in PHPT Code Coverage Handling",
+  "published": "2026-01-28T07:12:06.000Z",
+  "modified": "2026-01-28T07:12:06.000Z",
+  "upstream": [
+    "CVE-2026-24765"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "phpunit"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0091"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/484639"
+    }
+  ]
+}

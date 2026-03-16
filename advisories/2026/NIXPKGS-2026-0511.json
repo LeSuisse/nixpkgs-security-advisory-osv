@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0511",
+  "summary": "joserfc PBES2 p2c Unbounded Iteration Count enables Denial of Service (DoS)",
+  "published": "2026-03-04T19:17:13.000Z",
+  "modified": "2026-03-04T19:17:13.000Z",
+  "upstream": [
+    "CVE-2026-27932"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.joserfc"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.joserfc"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.joserfc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0511"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/496658"
+    }
+  ]
+}

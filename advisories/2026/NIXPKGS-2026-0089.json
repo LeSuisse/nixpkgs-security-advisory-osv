@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0089",
+  "summary": "ping in iputils through 20240905 allows a denial of service …",
+  "published": "2026-01-27T17:42:18.000Z",
+  "modified": "2026-01-27T17:42:18.000Z",
+  "upstream": [
+    "CVE-2025-47268"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "iputils"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0089"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/484453"
+    }
+  ]
+}

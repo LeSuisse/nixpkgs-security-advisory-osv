@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0272",
+  "summary": "Jenkins 2.550 and earlier, LTS 2.541.1 and earlier accepts Run …",
+  "published": "2026-02-19T09:54:04.000Z",
+  "modified": "2026-02-19T09:54:04.000Z",
+  "upstream": [
+    "CVE-2026-27100"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jenkins"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0272"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/492032"
+    }
+  ]
+}

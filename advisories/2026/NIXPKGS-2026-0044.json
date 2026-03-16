@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0044",
+  "summary": "Kimai Vulnerable to Authenticated Server-Side Template Injection (SSTI)",
+  "published": "2026-01-19T19:03:19.000Z",
+  "modified": "2026-01-19T19:03:19.000Z",
+  "upstream": [
+    "CVE-2026-23626"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kimai"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0044"
+    }
+  ]
+}

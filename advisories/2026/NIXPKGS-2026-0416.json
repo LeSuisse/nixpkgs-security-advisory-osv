@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0416",
+  "summary": "ZITADEL's truncated opaque tokens are still valid",
+  "published": "2026-02-27T11:42:08.000Z",
+  "modified": "2026-02-27T11:42:08.000Z",
+  "upstream": [
+    "CVE-2026-27840"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zitadel"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0416"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494758"
+    }
+  ]
+}

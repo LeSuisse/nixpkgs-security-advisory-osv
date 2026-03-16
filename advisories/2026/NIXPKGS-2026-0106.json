@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0106",
+  "summary": "melange pipeline working-directory could allow command injection",
+  "published": "2026-02-05T15:15:57.000Z",
+  "modified": "2026-02-05T15:15:57.000Z",
+  "upstream": [
+    "CVE-2026-24844"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "melange"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0106"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/487281"
+    }
+  ]
+}

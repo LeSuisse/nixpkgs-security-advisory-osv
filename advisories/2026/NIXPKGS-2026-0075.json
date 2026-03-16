@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0075",
+  "summary": "Buffer Overflow Vulnerability in libcdio v2.1.0 allows an attacker to …",
+  "published": "2026-01-21T19:35:55.000Z",
+  "modified": "2026-01-21T19:35:55.000Z",
+  "upstream": [
+    "CVE-2024-36600"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libcdio"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0075"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482397"
+    }
+  ]
+}

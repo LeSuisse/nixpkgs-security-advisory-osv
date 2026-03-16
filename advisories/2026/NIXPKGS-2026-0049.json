@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0049",
+  "summary": "Mailpit Vulnerable to Server-Side Request Forgery (SSRF) via HTML Check API",
+  "published": "2026-01-20T08:13:47.000Z",
+  "modified": "2026-01-20T08:13:47.000Z",
+  "upstream": [
+    "CVE-2026-23845"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mailpit"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0049"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/481871"
+    }
+  ]
+}

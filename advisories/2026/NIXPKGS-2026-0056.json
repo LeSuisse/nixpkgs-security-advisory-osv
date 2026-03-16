@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0056",
+  "summary": "SiYuan Vulnerable to Reflected Cross-Site Scripting (XSS) via /api/icon/getDynamicIcon",
+  "published": "2026-01-20T08:43:15.000Z",
+  "modified": "2026-01-20T08:43:15.000Z",
+  "upstream": [
+    "CVE-2026-23847"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0056"
+    }
+  ]
+}

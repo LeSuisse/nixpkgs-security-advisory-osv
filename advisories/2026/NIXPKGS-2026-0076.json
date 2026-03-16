@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0076",
+  "summary": "Keycloak: org.keycloak:keycloak-services: user can refresh offline session even after client's offline_access scope was removed",
+  "published": "2026-01-21T19:35:59.000Z",
+  "modified": "2026-01-21T19:35:59.000Z",
+  "upstream": [
+    "CVE-2025-12110"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "keycloak"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0076"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482398"
+    }
+  ]
+}

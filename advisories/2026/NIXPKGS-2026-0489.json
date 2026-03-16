@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0489",
+  "summary": "PMD Designer has Stored XSS in VBHTMLRenderer and YAHTMLRenderer via unescaped violation messages",
+  "published": "2026-02-28T10:30:44.000Z",
+  "modified": "2026-02-28T10:30:44.000Z",
+  "upstream": [
+    "CVE-2026-28338"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pmd"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0489"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/495153"
+    }
+  ]
+}

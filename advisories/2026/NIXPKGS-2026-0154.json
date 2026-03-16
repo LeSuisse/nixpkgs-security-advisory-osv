@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0154",
+  "summary": "Claude Code Has Sandbox Escape via Persistent Configuration Injection in settings.json",
+  "published": "2026-02-07T18:11:39.000Z",
+  "modified": "2026-02-07T18:11:39.000Z",
+  "upstream": [
+    "CVE-2026-25725"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "claude-code"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0154"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488044"
+    }
+  ]
+}

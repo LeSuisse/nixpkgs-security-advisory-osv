@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0137",
+  "summary": "Rizin has a heap overflow on mach0_chained_fixups.c",
+  "published": "2026-02-07T16:52:49.000Z",
+  "modified": "2026-02-07T16:52:49.000Z",
+  "upstream": [
+    "CVE-2026-22780"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rizin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0137"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488007"
+    }
+  ]
+}

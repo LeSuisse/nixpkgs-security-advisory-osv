@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0653",
+  "summary": "SFTPGo has a Path Traversal and Permission Bypass via Path Normalization Discrepancy",
+  "published": "2026-03-15T17:05:21.000Z",
+  "modified": "2026-03-15T17:05:21.000Z",
+  "upstream": [
+    "CVE-2026-30914"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sftpgo"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0653"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500145"
+    }
+  ]
+}

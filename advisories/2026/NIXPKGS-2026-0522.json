@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0522",
+  "summary": "Traefik: lowercase `Connection` tokens can delete traefik-managed forwarded identity headers (for example, `X-Real-Ip`)",
+  "published": "2026-03-06T17:56:28.000Z",
+  "modified": "2026-03-06T17:56:28.000Z",
+  "upstream": [
+    "CVE-2026-29054"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traefik"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0522"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/497286"
+    }
+  ]
+}

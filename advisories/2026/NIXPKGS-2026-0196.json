@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0196",
+  "summary": "FreeRDP has a heap-use-after-free in update_pointer_new(SDL)",
+  "published": "2026-02-10T07:48:12.000Z",
+  "modified": "2026-02-10T07:48:12.000Z",
+  "upstream": [
+    "CVE-2026-24680"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0196"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488979"
+    }
+  ]
+}

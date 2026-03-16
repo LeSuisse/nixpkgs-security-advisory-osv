@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0392",
+  "summary": "n8n Vulnerable to Stored XSS via Various Nodes",
+  "published": "2026-02-27T11:40:44.000Z",
+  "modified": "2026-02-27T11:40:44.000Z",
+  "upstream": [
+    "CVE-2026-27578"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0392"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494734"
+    }
+  ]
+}

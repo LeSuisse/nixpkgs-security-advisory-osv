@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0291",
+  "summary": "Stalwart Mail Server has Out-of-Memory Denial of Service via Malformed Nested MIME Messages",
+  "published": "2026-02-20T07:54:55.000Z",
+  "modified": "2026-02-20T07:54:55.000Z",
+  "upstream": [
+    "CVE-2026-26312"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "stalwart"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "stalwart-mail"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "stalwart-enterprise"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "stalwart-mail-enterprise"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0291"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/492397"
+    }
+  ]
+}

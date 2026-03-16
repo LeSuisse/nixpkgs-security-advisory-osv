@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0004",
+  "summary": "Wget2: arbitrary file write via metalink path traversal in gnu wget2",
+  "published": "2026-01-11T16:09:41.000Z",
+  "modified": "2026-01-11T16:09:41.000Z",
+  "upstream": [
+    "CVE-2025-69194"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wget2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0004"
+    }
+  ]
+}

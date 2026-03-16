@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2025-0010",
+  "summary": "Catalyst::Authentication::Credential::HTTP versions 1.018 and earlier for Perl use insecurely generated nonces",
+  "published": "2025-11-01T21:33:15.000Z",
+  "modified": "2025-11-01T21:33:15.000Z",
+  "upstream": [
+    "CVE-2025-40920"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.CatalystAuthenticationCredentialHTTP"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.CatalystAuthenticationCredentialHTTP"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.CatalystAuthenticationCredentialHTTP"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2025-0010"
+    }
+  ]
+}

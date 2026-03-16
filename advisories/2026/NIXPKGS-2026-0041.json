@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0041",
+  "summary": "Moodle: password brute force risk when mobile/web services enabled",
+  "published": "2026-01-18T14:26:20.000Z",
+  "modified": "2026-01-18T14:26:20.000Z",
+  "upstream": [
+    "CVE-2025-62399"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "moodle"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0041"
+    }
+  ]
+}

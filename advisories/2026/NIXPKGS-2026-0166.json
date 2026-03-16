@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0166",
+  "summary": "Suricata eve/alert: http1 xff handling can lead to denial of service",
+  "published": "2026-02-07T23:28:35.000Z",
+  "modified": "2026-02-07T23:28:35.000Z",
+  "upstream": [
+    "CVE-2026-22261"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "suricata"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0166"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488121"
+    }
+  ]
+}

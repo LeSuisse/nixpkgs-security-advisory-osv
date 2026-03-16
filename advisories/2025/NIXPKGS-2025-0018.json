@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2025-0018",
+  "summary": "Grub2: missing unregister call for gettext command may lead to use-after-free",
+  "published": "2025-12-18T10:06:45.000Z",
+  "modified": "2025-12-18T10:06:45.000Z",
+  "upstream": [
+    "CVE-2025-61662"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2025-0018"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0282",
+  "summary": "InvoicePlane has Stored XSS via Invoice Number in Invoice View and Dashboard",
+  "published": "2026-02-19T10:13:41.000Z",
+  "modified": "2026-02-19T10:13:41.000Z",
+  "upstream": [
+    "CVE-2026-25595"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "invoiceplane"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0282"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/492044"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0019",
+  "summary": "FreeRDP has a heap-use-after-free in create_irp_thread",
+  "published": "2026-01-17T12:16:07.000Z",
+  "modified": "2026-01-17T12:16:07.000Z",
+  "upstream": [
+    "CVE-2026-22856"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0019"
+    }
+  ]
+}

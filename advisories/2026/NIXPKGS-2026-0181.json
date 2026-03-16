@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0181",
+  "summary": "Libsoup: off-by-one out-of-bounds read in find_boundary() in soup-multipart.c",
+  "published": "2026-02-07T23:49:59.000Z",
+  "modified": "2026-02-07T23:49:59.000Z",
+  "upstream": [
+    "CVE-2025-4969"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsoup_3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsoup_2_4"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0181"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488140"
+    }
+  ]
+}

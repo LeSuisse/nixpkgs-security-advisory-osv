@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0258",
+  "summary": "BACnet Stack WriteProperty decoding length underflow leads to OOB read and crash",
+  "published": "2026-02-15T15:04:13.000Z",
+  "modified": "2026-02-15T15:04:13.000Z",
+  "upstream": [
+    "CVE-2026-26264"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bacnet-stack"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0258"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490708"
+    }
+  ]
+}

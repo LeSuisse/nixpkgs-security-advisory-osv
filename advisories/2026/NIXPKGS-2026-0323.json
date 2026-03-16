@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0323",
+  "summary": "Moodle: moodle: improper input sanitization in tex filter administration setting",
+  "published": "2026-02-26T11:08:49.000Z",
+  "modified": "2026-02-26T11:08:49.000Z",
+  "upstream": [
+    "CVE-2026-26046"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "moodle"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0323"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494334"
+    }
+  ]
+}

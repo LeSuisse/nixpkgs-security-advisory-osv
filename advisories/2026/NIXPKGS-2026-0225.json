@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0225",
+  "summary": "MUNGE has a buffer overflow in message unpacking allows key leakage and credential forgery",
+  "published": "2026-02-11T08:12:23.000Z",
+  "modified": "2026-02-11T08:12:23.000Z",
+  "upstream": [
+    "CVE-2026-25506"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "munge"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0225"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/489349"
+    }
+  ]
+}

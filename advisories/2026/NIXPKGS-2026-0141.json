@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0141",
+  "summary": "Claude Code Vulnerable to Command Injection via Directory Change Bypasses Write Protection",
+  "published": "2026-02-07T17:44:04.000Z",
+  "modified": "2026-02-07T17:44:04.000Z",
+  "upstream": [
+    "CVE-2026-25722"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "claude-code"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0141"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488023"
+    }
+  ]
+}

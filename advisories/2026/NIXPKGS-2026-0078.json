@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0078",
+  "summary": "vLLM affected by RCE via auto_map dynamic module loading during model initialization",
+  "published": "2026-01-23T09:27:10.000Z",
+  "modified": "2026-01-23T09:27:10.000Z",
+  "upstream": [
+    "CVE-2026-22807"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vllm"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0078"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482974"
+    }
+  ]
+}

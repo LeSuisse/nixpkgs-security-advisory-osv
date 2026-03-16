@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0021",
+  "summary": "pyasn1 has a DoS vulnerability in decoder",
+  "published": "2026-01-17T12:16:18.000Z",
+  "modified": "2026-01-17T12:16:18.000Z",
+  "upstream": [
+    "CVE-2026-23490"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.pyasn1"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pyasn1"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0021"
+    }
+  ]
+}

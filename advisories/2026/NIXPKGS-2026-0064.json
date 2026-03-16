@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0064",
+  "summary": "quickjs-ng quickjs Atomics Ops quickjs.c use after free",
+  "published": "2026-01-21T07:10:33.000Z",
+  "modified": "2026-01-21T07:10:33.000Z",
+  "upstream": [
+    "CVE-2026-1144"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "quickjs"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "quickjs-ng"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0064"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482191"
+    }
+  ]
+}

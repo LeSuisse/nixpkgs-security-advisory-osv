@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0292",
+  "summary": "SillyTavern has Server-Side Request Forgery (SSRF) via Asset Download Endpoint that Allows Reading Internal Services",
+  "published": "2026-02-20T07:54:58.000Z",
+  "modified": "2026-02-20T07:54:58.000Z",
+  "upstream": [
+    "CVE-2026-26286"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sillytavern"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0292"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/492398"
+    }
+  ]
+}

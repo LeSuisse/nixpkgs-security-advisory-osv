@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0604",
+  "summary": "HTTP signature verification can be bypassed",
+  "published": "2026-03-11T12:22:04.000Z",
+  "modified": "2026-03-11T12:22:04.000Z",
+  "upstream": [
+    "CVE-2026-28432"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "misskey"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0604"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/498837"
+    }
+  ]
+}

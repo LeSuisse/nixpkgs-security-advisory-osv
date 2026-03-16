@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0221",
+  "summary": "File Browser has a Path-Based Access Control Bypass via Multiple Leading Slashes in URL",
+  "published": "2026-02-11T08:12:18.000Z",
+  "modified": "2026-02-11T08:12:18.000Z",
+  "upstream": [
+    "CVE-2026-25890"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "filebrowser"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0221"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/489345"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0215",
+  "summary": "Gnutls: gnutls: denial of service via excessive resource consumption during certificate verification",
+  "published": "2026-02-10T09:19:04.000Z",
+  "modified": "2026-02-10T09:19:04.000Z",
+  "upstream": [
+    "CVE-2025-14831"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gnutls"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0215"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/489011"
+    }
+  ]
+}

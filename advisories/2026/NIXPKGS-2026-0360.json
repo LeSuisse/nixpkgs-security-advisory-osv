@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0360",
+  "summary": "FreeRDP: vuln_1_15_1 RDPGFX WIRE_TO_SURFACE_2 Out-of-Bounds Read",
+  "published": "2026-02-27T11:33:39.000Z",
+  "modified": "2026-02-27T11:33:39.000Z",
+  "upstream": [
+    "CVE-2026-25941"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0360"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494698"
+    }
+  ]
+}

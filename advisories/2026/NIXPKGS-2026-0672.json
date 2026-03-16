@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0672",
+  "summary": "(SimpleEval) Objects (including modules) can leak dangerous modules through to direct access inside the sandbox.",
+  "published": "2026-03-16T10:07:56.000Z",
+  "modified": "2026-03-16T10:07:56.000Z",
+  "upstream": [
+    "CVE-2026-32640"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.simpleeval"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.simpleeval"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.simpleeval"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0672"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500364"
+    }
+  ]
+}

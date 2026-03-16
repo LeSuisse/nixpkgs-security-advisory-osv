@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0102",
+  "summary": "n8n is Vulnerable to Stored Cross-Site Scripting via Markdown Rendering in Workflow UI",
+  "published": "2026-02-05T15:08:50.000Z",
+  "modified": "2026-02-05T15:08:50.000Z",
+  "upstream": [
+    "CVE-2026-25054"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0102"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/487275"
+    }
+  ]
+}

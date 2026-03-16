@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0549",
+  "summary": "SiYuan: Unauthenticated reflected SVG XSS in `/api/icon/getDynamicIcon` (`type=8`) enables arbitrary JavaScript execution",
+  "published": "2026-03-07T16:40:16.000Z",
+  "modified": "2026-03-07T16:40:16.000Z",
+  "upstream": [
+    "CVE-2026-29183"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0549"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/497624"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0077",
+  "summary": "OS Command Injection in `wrangler pages deploy`",
+  "published": "2026-01-21T19:36:05.000Z",
+  "modified": "2026-01-21T19:36:05.000Z",
+  "upstream": [
+    "CVE-2026-0933"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wrangler"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wrangler_1"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0077"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482399"
+    }
+  ]
+}

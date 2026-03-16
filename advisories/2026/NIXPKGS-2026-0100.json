@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0100",
+  "summary": "n8n Vulnerable to Command Injection in Community Package Installation",
+  "published": "2026-02-05T15:08:39.000Z",
+  "modified": "2026-02-05T15:08:39.000Z",
+  "upstream": [
+    "CVE-2026-21893"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0100"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/487273"
+    }
+  ]
+}

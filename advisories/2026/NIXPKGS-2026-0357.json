@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0357",
+  "summary": "Caddy: Unicode case-folding length expansion causes incorrect split_path index (SCRIPT_NAME/PATH_INFO confusion) in FastCGI transport",
+  "published": "2026-02-27T10:41:56.000Z",
+  "modified": "2026-02-27T10:41:56.000Z",
+  "upstream": [
+    "CVE-2026-27590"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "caddy"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0357"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494683"
+    }
+  ]
+}

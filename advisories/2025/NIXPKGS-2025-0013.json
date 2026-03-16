@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2025-0013",
+  "summary": "Samba: command injection in wins server hook script",
+  "published": "2025-12-14T17:57:25.000Z",
+  "modified": "2025-12-14T17:57:25.000Z",
+  "upstream": [
+    "CVE-2025-10230"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "samba"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "samba4"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sambaFull"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "samba4Full"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2025-0013"
+    }
+  ]
+}

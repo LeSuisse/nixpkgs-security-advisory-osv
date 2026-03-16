@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0492",
+  "summary": "telnetd in GNU inetutils through 2.7 allows privilege escalation that …",
+  "published": "2026-02-28T20:09:18.000Z",
+  "modified": "2026-02-28T20:09:18.000Z",
+  "upstream": [
+    "CVE-2026-28372"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "inetutils"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0492"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/495296"
+    }
+  ]
+}

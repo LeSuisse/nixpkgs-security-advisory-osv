@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2025-0023",
+  "summary": "YAML::Syck versions before 1.36 for Perl has missing Null-Terminators which causes Out-of-Bounds Read and potential Information Disclosure",
+  "published": "2025-12-29T18:16:48.000Z",
+  "modified": "2025-12-29T18:16:48.000Z",
+  "upstream": [
+    "CVE-2025-11683"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.YAMLSyck"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.YAMLSyck"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.YAMLSyck"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2025-0023"
+    }
+  ]
+}

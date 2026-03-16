@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0184",
+  "summary": "Libsoup: null pointer deference on libsoup via  /auth/soup-auth-digest.c through \"soup_auth_digest_authenticate\" on  client when server omits the \"realm\" parameter in an unauthorized  response with digest authentication",
+  "published": "2026-02-08T20:59:16.000Z",
+  "modified": "2026-02-08T20:59:16.000Z",
+  "upstream": [
+    "CVE-2025-32910"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsoup_2_4"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0184"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488465"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0162",
+  "summary": "MuPDF <= 1.27.0 Barcode Decoding Double Free",
+  "published": "2026-02-07T18:21:19.000Z",
+  "modified": "2026-02-07T18:21:19.000Z",
+  "upstream": [
+    "CVE-2026-25556"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mupdf"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mupdf-headless"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0162"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488054"
+    }
+  ]
+}

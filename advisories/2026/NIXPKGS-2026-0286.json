@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0286",
+  "summary": "Go Ethereum Improperly Validates the ECIES Public Key in RLPx Handshake",
+  "published": "2026-02-20T07:43:36.000Z",
+  "modified": "2026-02-20T07:43:36.000Z",
+  "upstream": [
+    "CVE-2026-26315"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "go-ethereum"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0286"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/492392"
+    }
+  ]
+}

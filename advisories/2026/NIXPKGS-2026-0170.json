@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0170",
+  "summary": "alsa-lib 1.2.15.2 Topology Decoder Heap-based Buffer Overflow",
+  "published": "2026-02-07T23:28:58.000Z",
+  "modified": "2026-02-07T23:28:58.000Z",
+  "upstream": [
+    "CVE-2026-25068"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "alsa-lib"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0170"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488125"
+    }
+  ]
+}

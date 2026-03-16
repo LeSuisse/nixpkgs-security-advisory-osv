@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0163",
+  "summary": "mruby JMPNOT-to-JMPIF Optimization vm.c mrb_vm_exec use after free",
+  "published": "2026-02-07T18:21:21.000Z",
+  "modified": "2026-02-07T18:21:21.000Z",
+  "upstream": [
+    "CVE-2026-1979"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mruby"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0163"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488055"
+    }
+  ]
+}

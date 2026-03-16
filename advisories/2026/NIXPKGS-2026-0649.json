@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0649",
+  "summary": "strukturag libheif HEIF File decoder_vvdec.cc vvdec_push_data2 out-of-bounds",
+  "published": "2026-03-15T17:05:16.000Z",
+  "modified": "2026-03-15T17:05:16.000Z",
+  "upstream": [
+    "CVE-2026-3949"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libheif"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0649"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500141"
+    }
+  ]
+}

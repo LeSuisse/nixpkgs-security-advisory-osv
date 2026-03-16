@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0060",
+  "summary": "File Browser vulnerable to Username Enumeration via Timing Attack in /api/login",
+  "published": "2026-01-20T08:57:11.000Z",
+  "modified": "2026-01-20T08:57:11.000Z",
+  "upstream": [
+    "CVE-2026-23849"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "filebrowser"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0060"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2025-0014",
+  "summary": "Webkit: webkitgtk / wpe webkit: out-of-bounds read and integer underflow vulnerability leading to dos",
+  "published": "2025-12-18T10:01:38.000Z",
+  "modified": "2025-12-18T10:01:38.000Z",
+  "upstream": [
+    "CVE-2025-13502"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "webkitgtk_4_0"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "webkitgtk_4_1"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "webkitgtk_6_0"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2025-0014"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/480808"
+    }
+  ]
+}

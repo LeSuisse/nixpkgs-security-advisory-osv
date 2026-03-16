@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0192",
+  "summary": "FreeRDP has a heap-use-after-free in urb_bulk_transfer_cb",
+  "published": "2026-02-10T07:48:04.000Z",
+  "modified": "2026-02-10T07:48:04.000Z",
+  "upstream": [
+    "CVE-2026-24681"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0192"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488974"
+    }
+  ]
+}

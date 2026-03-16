@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0234",
+  "summary": "Kanboard is Missing Access Control on Plugin Installation leading to Administrative RCE",
+  "published": "2026-02-15T13:56:49.000Z",
+  "modified": "2026-02-15T13:56:49.000Z",
+  "upstream": [
+    "CVE-2026-25924"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kanboard"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0234"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490673"
+    }
+  ]
+}

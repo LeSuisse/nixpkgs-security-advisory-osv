@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0244",
+  "summary": "Roundcube Webmail before 1.5.13 and 1.6 before 1.6.13, when \"Block …",
+  "published": "2026-02-15T14:36:16.000Z",
+  "modified": "2026-02-15T14:36:16.000Z",
+  "upstream": [
+    "CVE-2026-25916"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0244"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490692"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0425",
+  "summary": "hoppscotch Vulnerable to Unauthenticated Onboarding Config Takeover",
+  "published": "2026-02-27T11:42:44.000Z",
+  "modified": "2026-02-27T11:42:44.000Z",
+  "upstream": [
+    "CVE-2026-28215"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hoppscotch"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0425"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494767"
+    }
+  ]
+}

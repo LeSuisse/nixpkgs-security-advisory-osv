@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0308",
+  "summary": "Malformed Valkey Cluster bus message can lead to Remote DoS",
+  "published": "2026-02-24T22:34:46.000Z",
+  "modified": "2026-02-24T22:34:46.000Z",
+  "upstream": [
+    "CVE-2026-21863"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "valkey"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0308"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/493821"
+    }
+  ]
+}

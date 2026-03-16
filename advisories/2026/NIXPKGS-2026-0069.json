@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0069",
+  "summary": "Open5GS s5c-handler.c sgwc_s5c_handle_create_session_response denial of service",
+  "published": "2026-01-21T07:10:46.000Z",
+  "modified": "2026-01-21T07:10:46.000Z",
+  "upstream": [
+    "CVE-2025-15529"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0069"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482195"
+    }
+  ]
+}

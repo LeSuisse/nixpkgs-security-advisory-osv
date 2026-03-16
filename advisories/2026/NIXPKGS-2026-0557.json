@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0557",
+  "summary": "OliveTin: Unauthenticated Denial of Service via Memory Exhaustion in PasswordHash API Endpoint",
+  "published": "2026-03-07T16:53:36.000Z",
+  "modified": "2026-03-07T16:53:36.000Z",
+  "upstream": [
+    "CVE-2026-28342"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "olivetin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0557"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/497636"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0344",
+  "summary": "Audiobookshelf has Stored XSS in Tooltip.vue via Audiobook Metadata",
+  "published": "2026-02-27T07:53:24.000Z",
+  "modified": "2026-02-27T07:53:24.000Z",
+  "upstream": [
+    "CVE-2026-27963"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "audiobookshelf"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0344"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494624"
+    }
+  ]
+}

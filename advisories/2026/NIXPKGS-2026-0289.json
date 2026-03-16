@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0289",
+  "summary": "opa-envoy-plugin has an Authorization Bypass via Double-Slash Path Misinterpretation in `input.parsed_path`",
+  "published": "2026-02-20T07:54:52.000Z",
+  "modified": "2026-02-20T07:54:52.000Z",
+  "upstream": [
+    "CVE-2026-26205"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opa-envoy-plugin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0289"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/492395"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0016",
+  "summary": "Libsoup: out-of-bounds read in libsoup websocket frame processing",
+  "published": "2026-01-16T21:01:25.000Z",
+  "modified": "2026-01-16T21:01:25.000Z",
+  "upstream": [
+    "CVE-2026-0716"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsoup_3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsoup_2_4"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0016"
+    }
+  ]
+}

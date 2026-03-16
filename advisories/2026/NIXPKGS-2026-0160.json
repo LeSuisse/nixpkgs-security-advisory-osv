@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0160",
+  "summary": "calibre has a Path Traversal Leading to Arbitrary File Corruption and Code Execution",
+  "published": "2026-02-07T18:21:09.000Z",
+  "modified": "2026-02-07T18:21:09.000Z",
+  "upstream": [
+    "CVE-2026-25636"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "calibre"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0160"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488052"
+    }
+  ]
+}

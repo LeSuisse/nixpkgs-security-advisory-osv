@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0643",
+  "summary": "Gokapi's File Request MaxSize Limit Bypassed via Multi-Chunk Upload",
+  "published": "2026-03-15T16:50:05.000Z",
+  "modified": "2026-03-15T16:50:05.000Z",
+  "upstream": [
+    "CVE-2026-30961"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gokapi"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0643"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500132"
+    }
+  ]
+}

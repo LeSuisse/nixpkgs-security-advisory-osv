@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0358",
+  "summary": "FreeRDP heap-use-after-free in update_pointer_new(SDL): Fix Applied in the Wrong File",
+  "published": "2026-02-27T11:33:35.000Z",
+  "modified": "2026-02-27T11:33:35.000Z",
+  "upstream": [
+    "CVE-2026-27950"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0358"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494696"
+    }
+  ]
+}

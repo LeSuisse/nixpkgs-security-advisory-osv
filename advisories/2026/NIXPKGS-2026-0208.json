@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0208",
+  "summary": "In JetBrains PyCharm before 2025.3.2 a DOM-based XSS on Jupyter …",
+  "published": "2026-02-10T08:03:49.000Z",
+  "modified": "2026-02-10T08:03:49.000Z",
+  "upstream": [
+    "CVE-2026-25847"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.pycharm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.pycharm-oss"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.pycharm-community"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.pycharm-professional"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.pycharm-community-bin"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.pycharm-community-src"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0208"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488993"
+    }
+  ]
+}

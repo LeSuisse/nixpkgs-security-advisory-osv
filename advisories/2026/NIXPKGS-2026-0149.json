@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0149",
+  "summary": "The Asterisk embedded web server 's /httpstatus page echos user supplied values(cookie and query string) without sanitization",
+  "published": "2026-02-07T17:55:27.000Z",
+  "modified": "2026-02-07T17:55:27.000Z",
+  "upstream": [
+    "CVE-2026-23738"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk_18"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk_20"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk_22"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk_23"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0149"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488035"
+    }
+  ]
+}

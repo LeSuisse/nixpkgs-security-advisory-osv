@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0003",
+  "summary": "Wget2: gnu wget2: memory corruption and crash via filename sanitization logic with attacker-controlled urls",
+  "published": "2026-01-11T16:09:39.000Z",
+  "modified": "2026-01-11T16:09:39.000Z",
+  "upstream": [
+    "CVE-2025-69195"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wget2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0003"
+    }
+  ]
+}

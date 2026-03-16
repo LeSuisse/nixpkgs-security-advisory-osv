@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0375",
+  "summary": "exiftool PNG File MacOS.pm SetMacOSTags os command injection",
+  "published": "2026-02-27T11:34:13.000Z",
+  "modified": "2026-02-27T11:34:13.000Z",
+  "upstream": [
+    "CVE-2026-3102"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "exiftool"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0375"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494714"
+    }
+  ]
+}

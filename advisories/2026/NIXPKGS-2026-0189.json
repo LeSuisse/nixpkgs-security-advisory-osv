@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0189",
+  "summary": "vLLM leaks a heap address when PIL throws an error",
+  "published": "2026-02-09T15:00:14.000Z",
+  "modified": "2026-02-09T15:00:14.000Z",
+  "upstream": [
+    "CVE-2026-22778"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.vllm"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0189"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488751"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0127",
+  "summary": "Importing leaks IP address of importer via EventStreams",
+  "published": "2026-02-05T16:01:00.000Z",
+  "modified": "2026-02-05T16:01:00.000Z",
+  "upstream": [
+    "CVE-2025-67476"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mediawiki"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0127"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/487317"
+    }
+  ]
+}

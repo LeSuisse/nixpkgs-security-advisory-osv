@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0144",
+  "summary": "Trilium Notes has a Timing Attack Vulnerability in /api/login/sync",
+  "published": "2026-02-07T17:54:37.000Z",
+  "modified": "2026-02-07T17:54:37.000Z",
+  "upstream": [
+    "CVE-2025-68621"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "trilium-server"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "trilium-desktop"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "trilium-next-desktop"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0144"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488030"
+    }
+  ]
+}

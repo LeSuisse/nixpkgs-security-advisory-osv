@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0331",
+  "summary": "LibreNMS vulnerable to Stored Cross-site Scripting through unsanitized /device-groups name",
+  "published": "2026-02-26T13:57:00.000Z",
+  "modified": "2026-02-26T13:57:00.000Z",
+  "upstream": [
+    "CVE-2026-26991"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "librenms"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0331"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494374"
+    }
+  ]
+}

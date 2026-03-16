@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0167",
+  "summary": "Suricata datasets: stack overflow when saving a set",
+  "published": "2026-02-07T23:28:38.000Z",
+  "modified": "2026-02-07T23:28:38.000Z",
+  "upstream": [
+    "CVE-2026-22262"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "suricata"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0167"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488122"
+    }
+  ]
+}

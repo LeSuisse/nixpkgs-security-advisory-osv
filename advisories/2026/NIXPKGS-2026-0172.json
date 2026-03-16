@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0172",
+  "summary": "tcpflow has TIM Element OOB Write in wifipcap",
+  "published": "2026-02-07T23:29:02.000Z",
+  "modified": "2026-02-07T23:29:02.000Z",
+  "upstream": [
+    "CVE-2026-25061"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tcpflow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0172"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488127"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0206",
+  "summary": "janet-lang janet compile.c janetc_pop_funcdef out-of-bounds",
+  "published": "2026-02-10T08:03:46.000Z",
+  "modified": "2026-02-10T08:03:46.000Z",
+  "upstream": [
+    "CVE-2026-2240"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "janet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0206"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488991"
+    }
+  ]
+}

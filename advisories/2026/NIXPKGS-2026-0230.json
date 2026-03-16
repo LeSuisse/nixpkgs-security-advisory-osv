@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0230",
+  "summary": "vaultwarden has Full Cipher Enumeration Ignoring Organization Collection Permissions",
+  "published": "2026-02-15T13:28:29.000Z",
+  "modified": "2026-02-15T13:28:29.000Z",
+  "upstream": [
+    "CVE-2026-26012"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vaultwarden-mysql"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vaultwarden-sqlite"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vaultwarden-webvault"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vaultwarden-postgresql"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0230"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490663"
+    }
+  ]
+}

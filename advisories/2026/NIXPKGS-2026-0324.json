@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0324",
+  "summary": "Moodle: moodle: improper validation in file restore functionality leading to remote code execution",
+  "published": "2026-02-26T11:09:10.000Z",
+  "modified": "2026-02-26T11:09:10.000Z",
+  "upstream": [
+    "CVE-2026-26045"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "moodle"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0324"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494335"
+    }
+  ]
+}

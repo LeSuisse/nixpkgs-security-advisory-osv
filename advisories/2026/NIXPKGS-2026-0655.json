@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0655",
+  "summary": "WordPress Contact Form by WPForms plugin <= 1.9.9.3 - Broken Access Control vulnerability",
+  "published": "2026-03-15T17:05:24.000Z",
+  "modified": "2026-03-15T17:05:24.000Z",
+  "upstream": [
+    "CVE-2026-32446"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wordpressPackages.plugins.wpforms-lite"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0655"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500147"
+    }
+  ]
+}

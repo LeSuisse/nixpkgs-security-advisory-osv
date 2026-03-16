@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0414",
+  "summary": "Vitess users with backup storage access can gain unauthorized access to production deployment environments",
+  "published": "2026-02-27T11:41:59.000Z",
+  "modified": "2026-02-27T11:41:59.000Z",
+  "upstream": [
+    "CVE-2026-27965"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vitess"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0414"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494756"
+    }
+  ]
+}
