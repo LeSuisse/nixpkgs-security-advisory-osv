@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0325",
+  "summary": "Moodle: moodle: uncontrolled resource consumption in tex formula editor leading to denial of service",
+  "published": "2026-02-26T11:09:41.000Z",
+  "modified": "2026-02-26T11:09:41.000Z",
+  "upstream": [
+    "CVE-2026-26047"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "moodle"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0325"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494337"
+    }
+  ]
+}

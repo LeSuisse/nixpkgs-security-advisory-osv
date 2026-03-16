@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0550",
+  "summary": "GitHub Copilot CLI allows for dangerous shell expansion patterns that enable arbitrary command execution",
+  "published": "2026-03-07T16:44:04.000Z",
+  "modified": "2026-03-07T16:44:04.000Z",
+  "upstream": [
+    "CVE-2026-29783"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "github-copilot-cli"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0550"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/497625"
+    }
+  ]
+}

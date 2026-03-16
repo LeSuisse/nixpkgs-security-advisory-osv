@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0657",
+  "summary": "SiYuan renderSprig: missing admin check allows any user to read full workspace DB",
+  "published": "2026-03-15T17:05:28.000Z",
+  "modified": "2026-03-15T17:05:28.000Z",
+  "upstream": [
+    "CVE-2026-32704"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0657"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500149"
+    }
+  ]
+}
