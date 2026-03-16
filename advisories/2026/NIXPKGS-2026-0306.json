@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0306",
+  "summary": "Traccar Vulnerable to Stored Cross-Site Scripting (XSS) via Malicious SVG File Upload",
+  "published": "2026-02-24T22:32:24.000Z",
+  "modified": "2026-02-24T22:32:24.000Z",
+  "upstream": [
+    "CVE-2026-25648"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traccar"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0306"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/493819"
+    }
+  ]
+}

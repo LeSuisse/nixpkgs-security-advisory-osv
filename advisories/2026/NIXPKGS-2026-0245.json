@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0245",
+  "summary": "Crafted delegations or IP fragments can poison cached delegations in Recursor",
+  "published": "2026-02-15T14:37:44.000Z",
+  "modified": "2026-02-15T14:37:44.000Z",
+  "upstream": [
+    "CVE-2025-59023"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pdns-recursor"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0245"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490693"
+    }
+  ]
+}

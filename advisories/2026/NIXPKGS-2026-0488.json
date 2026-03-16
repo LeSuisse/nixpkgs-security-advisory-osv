@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0488",
+  "summary": "VMware Workstation out-of-bound read vulnerability",
+  "published": "2026-02-28T10:30:39.000Z",
+  "modified": "2026-02-28T10:30:39.000Z",
+  "upstream": [
+    "CVE-2026-22717"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vmware-workstation"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0488"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/495152"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0269",
+  "summary": "Open5GS SMF types.c ogs_gtp2_parse_tft denial of service",
+  "published": "2026-02-17T21:08:56.000Z",
+  "modified": "2026-02-17T21:08:56.000Z",
+  "upstream": [
+    "CVE-2026-2517"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0269"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/491503"
+    }
+  ]
+}

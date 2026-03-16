@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0257",
+  "summary": "The BACnet Protocol Stack library has an Off-by-one Stack-based Buffer Overflow in tokenizer_string",
+  "published": "2026-02-15T15:04:12.000Z",
+  "modified": "2026-02-15T15:04:12.000Z",
+  "upstream": [
+    "CVE-2026-21870"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bacnet-stack"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0257"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490707"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0123",
+  "summary": "Stored XSS through a system message in Special:ApiSandbox",
+  "published": "2026-02-05T15:37:09.000Z",
+  "modified": "2026-02-05T15:37:09.000Z",
+  "upstream": [
+    "CVE-2025-67477"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mediawiki"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0123"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/487304"
+    }
+  ]
+}

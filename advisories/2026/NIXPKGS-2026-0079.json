@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0079",
+  "summary": "WordPress Merge + Minify + Refresh plugin <= 2.14 - Cross Site Request Forgery (CSRF) vulnerability",
+  "published": "2026-01-23T09:27:26.000Z",
+  "modified": "2026-01-23T09:27:26.000Z",
+  "upstream": [
+    "CVE-2026-24384"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wordpressPackages.plugins.merge-minify-refresh"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0079"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482975"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2025-0019",
+  "summary": "Grub2: use-after-free in grub_file_close()",
+  "published": "2025-12-18T10:06:47.000Z",
+  "modified": "2025-12-18T10:06:47.000Z",
+  "upstream": [
+    "CVE-2025-54771"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2025-0019"
+    }
+  ]
+}

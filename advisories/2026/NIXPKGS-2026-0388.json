@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0388",
+  "summary": "Vikunja Vulnerable to Stored Cross-Site Scripting (XSS) via Unsanitized SVG Attachment Upload Leading to Token Exposure",
+  "published": "2026-02-27T11:40:38.000Z",
+  "modified": "2026-02-27T11:40:38.000Z",
+  "upstream": [
+    "CVE-2026-27616"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vikunja"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0388"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494730"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0111",
+  "summary": "Alist has Insecure TLS Config",
+  "published": "2026-02-05T15:22:06.000Z",
+  "modified": "2026-02-05T15:22:06.000Z",
+  "upstream": [
+    "CVE-2026-25160"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "alist"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0111"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/487289"
+    }
+  ]
+}

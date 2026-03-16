@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0039",
+  "summary": "Moodle: course access permissions not properly checked in course_output_fragment_course_overview",
+  "published": "2026-01-18T14:25:56.000Z",
+  "modified": "2026-01-18T14:25:56.000Z",
+  "upstream": [
+    "CVE-2025-62393"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "moodle"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0039"
+    }
+  ]
+}

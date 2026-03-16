@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0200",
+  "summary": "FreeRDP has a heap-use-after-free in ainput_send_input_event",
+  "published": "2026-02-10T07:48:17.000Z",
+  "modified": "2026-02-10T07:48:17.000Z",
+  "upstream": [
+    "CVE-2026-24683"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0200"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488983"
+    }
+  ]
+}

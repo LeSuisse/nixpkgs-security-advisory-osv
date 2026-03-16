@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0231",
+  "summary": "Tandoor Recipes Affected by Authenticated Local File Disclosure (LFD) via Recipe Import leads to Arbitrary File Read",
+  "published": "2026-02-15T13:29:36.000Z",
+  "modified": "2026-02-15T13:29:36.000Z",
+  "upstream": [
+    "CVE-2026-25964"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tandoor-recipes"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0231"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490664"
+    }
+  ]
+}

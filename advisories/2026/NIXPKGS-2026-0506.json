@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0506",
+  "summary": "PKCS7_verify Certificate Chain Validation Bypass in AWS-LC",
+  "published": "2026-03-03T07:43:30.000Z",
+  "modified": "2026-03-03T07:43:30.000Z",
+  "upstream": [
+    "CVE-2026-3336"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "aws-lc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0506"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/496129"
+    }
+  ]
+}

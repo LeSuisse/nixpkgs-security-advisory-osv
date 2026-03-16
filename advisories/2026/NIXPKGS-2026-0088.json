@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0088",
+  "summary": "Moodle: moodle: remote code execution via insufficient restore input validation",
+  "published": "2026-01-26T12:11:34.000Z",
+  "modified": "2026-01-26T12:11:34.000Z",
+  "upstream": [
+    "CVE-2025-67847"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "moodle"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0088"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/483970"
+    }
+  ]
+}

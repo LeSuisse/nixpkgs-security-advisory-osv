@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0158",
+  "summary": "ast_coredumper running as root sources ast_debug_tools.conf from /etc/asterisk; potentially leading to privilege escalation",
+  "published": "2026-02-07T18:12:07.000Z",
+  "modified": "2026-02-07T18:12:07.000Z",
+  "upstream": [
+    "CVE-2026-23741"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk_18"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk_20"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk_22"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk_23"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0158"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488048"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0142",
+  "summary": "Zulip affected by Stored XSS in user profile modal",
+  "published": "2026-02-07T17:45:50.000Z",
+  "modified": "2026-02-07T17:45:50.000Z",
+  "upstream": [
+    "CVE-2026-24050"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zulip"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0142"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488024"
+    }
+  ]
+}

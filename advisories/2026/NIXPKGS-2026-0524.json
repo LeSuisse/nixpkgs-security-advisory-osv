@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0524",
+  "summary": "Traefik: unbounded io.ReadAll on auth server response body causes OOM denial of service(DOS)",
+  "published": "2026-03-06T17:56:29.000Z",
+  "modified": "2026-03-06T17:56:29.000Z",
+  "upstream": [
+    "CVE-2026-26998"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traefik"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0524"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/497288"
+    }
+  ]
+}

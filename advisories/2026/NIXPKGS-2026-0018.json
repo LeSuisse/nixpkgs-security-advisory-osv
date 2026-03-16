@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0018",
+  "summary": "Deno node:crypto doesn't finalize cipher",
+  "published": "2026-01-17T11:39:56.000Z",
+  "modified": "2026-01-17T11:39:56.000Z",
+  "upstream": [
+    "CVE-2026-22863"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "deno"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0018"
+    }
+  ]
+}

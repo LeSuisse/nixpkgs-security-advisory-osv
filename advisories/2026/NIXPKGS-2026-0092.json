@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0092",
+  "summary": "melange QEMU runner could write files outside workspace directory",
+  "published": "2026-02-05T15:02:37.000Z",
+  "modified": "2026-02-05T15:02:37.000Z",
+  "upstream": [
+    "CVE-2026-24843"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "melange"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0092"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/487264"
+    }
+  ]
+}

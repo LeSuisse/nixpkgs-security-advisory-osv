@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0126",
+  "summary": "Claude Code has a Command Injection in find Command Bypasses User Approval Prompt",
+  "published": "2026-02-05T16:00:58.000Z",
+  "modified": "2026-02-05T16:00:58.000Z",
+  "upstream": [
+    "CVE-2026-24887"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "claude-code"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0126"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/487316"
+    }
+  ]
+}

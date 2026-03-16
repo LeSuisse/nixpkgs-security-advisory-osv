@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0096",
+  "summary": "Navidrome affected by Denial of Service and disk exhaustion via oversized `size` parameter in `/rest/getCoverArt` and `/share/img/<token>` endpoints",
+  "published": "2026-02-05T15:07:11.000Z",
+  "modified": "2026-02-05T15:07:11.000Z",
+  "upstream": [
+    "CVE-2026-25579"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "navidrome"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0096"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/487268"
+    }
+  ]
+}

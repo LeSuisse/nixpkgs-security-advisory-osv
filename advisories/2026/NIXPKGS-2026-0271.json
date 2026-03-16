@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0271",
+  "summary": "Open5GS MME esm-build.c memory corruption",
+  "published": "2026-02-17T21:08:58.000Z",
+  "modified": "2026-02-17T21:08:58.000Z",
+  "upstream": [
+    "CVE-2026-2522"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0271"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/491505"
+    }
+  ]
+}

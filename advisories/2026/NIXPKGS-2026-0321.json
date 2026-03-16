@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0321",
+  "summary": "GIMP ICNS File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "published": "2026-02-26T11:01:43.000Z",
+  "modified": "2026-02-26T11:01:43.000Z",
+  "upstream": [
+    "CVE-2026-2047"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gimp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gimp2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gimp3"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0321"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494332"
+    }
+  ]
+}

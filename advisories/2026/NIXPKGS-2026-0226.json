@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0226",
+  "summary": "Kanboard Affected by Cross-Site Request Forgery (CSRF) via Content-Type Misconfiguration in Project Role Assignment",
+  "published": "2026-02-11T08:12:27.000Z",
+  "modified": "2026-02-11T08:12:27.000Z",
+  "upstream": [
+    "CVE-2026-24885"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kanboard"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0226"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/489350"
+    }
+  ]
+}

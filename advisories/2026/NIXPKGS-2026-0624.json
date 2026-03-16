@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0624",
+  "summary": "Istio HTTP debug endpoints on port 15014 to enforce namespace-based authorization, preventing cross-namespace proxy data access.",
+  "published": "2026-03-11T12:24:01.000Z",
+  "modified": "2026-03-11T12:24:01.000Z",
+  "upstream": [
+    "CVE-2026-31838"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "istioctl"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0624"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/498858"
+    }
+  ]
+}

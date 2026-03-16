@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0014",
+  "summary": "Libxml2: libxml2: denial of service via crafted xml catalogs",
+  "published": "2026-01-16T21:01:05.000Z",
+  "modified": "2026-01-16T21:01:05.000Z",
+  "upstream": [
+    "CVE-2026-0992"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libxml2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libxml2_13"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0014"
+    }
+  ]
+}

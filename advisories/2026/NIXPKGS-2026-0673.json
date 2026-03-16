@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0673",
+  "summary": "Radare2 Mach-O File mach0.c walk_exports_trie resource consumption",
+  "published": "2026-03-16T10:07:58.000Z",
+  "modified": "2026-03-16T10:07:58.000Z",
+  "upstream": [
+    "CVE-2026-4174"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "radare2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0673"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500365"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0229",
+  "summary": "FrankenPHP leaks session data between requests in worker mode",
+  "published": "2026-02-15T13:24:27.000Z",
+  "modified": "2026-02-15T13:24:27.000Z",
+  "upstream": [
+    "CVE-2026-24894"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "frankenphp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0229"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490661"
+    }
+  ]
+}

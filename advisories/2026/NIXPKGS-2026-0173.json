@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0173",
+  "summary": "PsySH has Local Privilege Escalation via CWD .psysh.php auto-load",
+  "published": "2026-02-07T23:29:10.000Z",
+  "modified": "2026-02-07T23:29:10.000Z",
+  "upstream": [
+    "CVE-2026-25129"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "php81Packages.psysh"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "php82Packages.psysh"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "php83Packages.psysh"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "php84Packages.psysh"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0173"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488128"
+    }
+  ]
+}

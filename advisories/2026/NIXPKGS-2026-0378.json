@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0378",
+  "summary": "Wasmtime WASI implementations are vulnerable to guest-controlled resource exhaustion",
+  "published": "2026-02-27T11:34:25.000Z",
+  "modified": "2026-02-27T11:34:25.000Z",
+  "upstream": [
+    "CVE-2026-27204"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wasmtime"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0378"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494717"
+    }
+  ]
+}

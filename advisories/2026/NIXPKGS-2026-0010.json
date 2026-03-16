@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0010",
+  "summary": "Libnbd: libnbd: arbitrary code execution via ssh argument injection through a malicious uri",
+  "published": "2026-01-13T21:30:58.000Z",
+  "modified": "2026-01-13T21:30:58.000Z",
+  "upstream": [
+    "CVE-2025-14946"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libnbd"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0010"
+    }
+  ]
+}

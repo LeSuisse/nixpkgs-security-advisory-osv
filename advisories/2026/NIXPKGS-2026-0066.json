@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0066",
+  "summary": "BYVoid OpenCC MaxMatchSegmentation.cpp MaxMatchSegmentation heap-based overflow",
+  "published": "2026-01-21T07:10:44.000Z",
+  "modified": "2026-01-21T07:10:44.000Z",
+  "upstream": [
+    "CVE-2025-15536"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opencc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0066"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482193"
+    }
+  ]
+}

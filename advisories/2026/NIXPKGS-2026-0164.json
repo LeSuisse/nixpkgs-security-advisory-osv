@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0164",
+  "summary": "Suricata dnp3: unbounded transaction growth",
+  "published": "2026-02-07T23:28:29.000Z",
+  "modified": "2026-02-07T23:28:29.000Z",
+  "upstream": [
+    "CVE-2026-22259"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "suricata"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0164"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488118"
+    }
+  ]
+}

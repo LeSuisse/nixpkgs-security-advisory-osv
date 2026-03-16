@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0293",
+  "summary": "Open WebUI vulnerable to Stored XSS via iFrame in citations model",
+  "published": "2026-02-20T07:55:00.000Z",
+  "modified": "2026-02-20T07:55:00.000Z",
+  "upstream": [
+    "CVE-2026-26192"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open-webui"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0293"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/492399"
+    }
+  ]
+}

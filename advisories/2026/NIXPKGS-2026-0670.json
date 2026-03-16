@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0670",
+  "summary": "GStreamer ASF Demuxer Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "published": "2026-03-16T10:07:53.000Z",
+  "modified": "2026-03-16T10:07:53.000Z",
+  "upstream": [
+    "CVE-2026-2920"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gst_all_1.gstreamer"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0670"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500362"
+    }
+  ]
+}

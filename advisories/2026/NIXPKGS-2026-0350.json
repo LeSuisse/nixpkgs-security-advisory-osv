@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0350",
+  "summary": "fosrl Pangolin Role verifyApiKeyRoleAccess access control",
+  "published": "2026-02-27T10:01:48.000Z",
+  "modified": "2026-02-27T10:01:48.000Z",
+  "upstream": [
+    "CVE-2026-3209"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fosrl-pangolin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0350"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494667"
+    }
+  ]
+}

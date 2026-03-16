@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0186",
+  "summary": "oatpp Type.hpp ObjectWrapper null pointer dereference",
+  "published": "2026-02-08T20:59:29.000Z",
+  "modified": "2026-02-08T20:59:29.000Z",
+  "upstream": [
+    "CVE-2026-1990"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "oatpp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0186"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488467"
+    }
+  ]
+}

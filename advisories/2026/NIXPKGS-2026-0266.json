@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0266",
+  "summary": "Crypt::URandom versions from 0.41 before 0.55 for Perl is vulnerable to a heap buffer overflow in the XS function crypt_urandom_getrandom()",
+  "published": "2026-02-17T20:52:05.000Z",
+  "modified": "2026-02-17T20:52:05.000Z",
+  "upstream": [
+    "CVE-2026-2474"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.CryptURandom"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.CryptURandom"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.CryptURandom"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.CryptURandom"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0266"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/491497"
+    }
+  ]
+}

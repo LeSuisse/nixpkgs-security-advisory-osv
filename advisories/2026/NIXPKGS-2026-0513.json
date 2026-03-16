@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0513",
+  "summary": "HomeBox has an Auth Rate Limit Bypass via IP Spoofing",
+  "published": "2026-03-04T19:17:15.000Z",
+  "modified": "2026-03-04T19:17:15.000Z",
+  "upstream": [
+    "CVE-2026-27981"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "homebox"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0513"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/496660"
+    }
+  ]
+}

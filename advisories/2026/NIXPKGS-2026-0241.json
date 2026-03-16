@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0241",
+  "summary": "Net-SNMP snmptrapd crash",
+  "published": "2026-02-15T14:29:11.000Z",
+  "modified": "2026-02-15T14:29:11.000Z",
+  "upstream": [
+    "CVE-2025-68615"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "net-snmp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0241"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490687"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0316",
+  "summary": "Podman: build context bind mount",
+  "published": "2026-02-26T10:46:23.000Z",
+  "modified": "2026-02-26T10:46:23.000Z",
+  "upstream": [
+    "CVE-2025-4953"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "podman"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0316"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494323"
+    }
+  ]
+}

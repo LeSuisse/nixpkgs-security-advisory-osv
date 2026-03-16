@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0608",
+  "summary": "FreshRSS has an authentication bypass due to truncated bcrypt hash [edge branch]",
+  "published": "2026-03-11T12:22:26.000Z",
+  "modified": "2026-03-11T12:22:26.000Z",
+  "upstream": [
+    "CVE-2025-68402"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freshrss"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0608"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/498841"
+    }
+  ]
+}

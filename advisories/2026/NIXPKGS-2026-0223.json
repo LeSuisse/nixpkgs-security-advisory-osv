@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0223",
+  "summary": "Kanboard is missing authorization check in getSwimlane API allows cross-project data access",
+  "published": "2026-02-11T08:12:20.000Z",
+  "modified": "2026-02-11T08:12:20.000Z",
+  "upstream": [
+    "CVE-2026-25530"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kanboard"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0223"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/489347"
+    }
+  ]
+}

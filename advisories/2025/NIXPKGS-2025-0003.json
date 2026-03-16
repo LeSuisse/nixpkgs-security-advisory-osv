@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2025-0003",
+  "summary": "Arbitary Code execution in Keras load_model()",
+  "published": "2025-10-30T15:31:50.000Z",
+  "modified": "2025-10-30T15:31:50.000Z",
+  "upstream": [
+    "CVE-2025-9905"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.keras"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2025-0003"
+    }
+  ]
+}

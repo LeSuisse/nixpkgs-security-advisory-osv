@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0490",
+  "summary": "Net::CIDR versions before 0.24 for Perl mishandle leading zeros in IP CIDR addresses, which may have unspecified impact",
+  "published": "2026-02-28T19:10:10.000Z",
+  "modified": "2026-02-28T19:10:10.000Z",
+  "upstream": [
+    "CVE-2021-4456"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.NetCIDR"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.NetCIDR"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.NetCIDR"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.NetCIDR"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0490"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/495281"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0065",
+  "summary": "Open5GS sgwc s11-handler.c sgwc_s11_handle_downlink_data_notification_ack denial of service",
+  "published": "2026-01-21T07:10:38.000Z",
+  "modified": "2026-01-21T07:10:38.000Z",
+  "upstream": [
+    "CVE-2025-15539"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0065"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482192"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0157",
+  "summary": "Open5GS PGW S5U Address sgwc_sxa_handle_session_modification_response null pointer dereference",
+  "published": "2026-02-07T18:12:04.000Z",
+  "modified": "2026-02-07T18:12:04.000Z",
+  "upstream": [
+    "CVE-2026-2062"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0157"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488047"
+    }
+  ]
+}

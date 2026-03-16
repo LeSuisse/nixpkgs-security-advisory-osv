@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0037",
+  "summary": "Moodle: quiz notifications sent to suspended participants",
+  "published": "2026-01-18T14:25:34.000Z",
+  "modified": "2026-01-18T14:25:34.000Z",
+  "upstream": [
+    "CVE-2025-62394"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "moodle"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0037"
+    }
+  ]
+}

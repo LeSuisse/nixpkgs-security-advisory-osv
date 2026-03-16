@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0046",
+  "summary": "FreeRDP has heap-buffer-overflow in clear_decompress",
+  "published": "2026-01-20T08:13:40.000Z",
+  "modified": "2026-01-20T08:13:40.000Z",
+  "upstream": [
+    "CVE-2026-23531"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0046"
+    }
+  ]
+}

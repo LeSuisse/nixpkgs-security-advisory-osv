@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0403",
+  "summary": "pgvector buffer overflow in parallel HNSW index build",
+  "published": "2026-02-27T11:41:27.000Z",
+  "modified": "2026-02-27T11:41:27.000Z",
+  "upstream": [
+    "CVE-2026-3172"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresqlPackages.pgvector"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql13Packages.pgvector"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql14Packages.pgvector"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql15Packages.pgvector"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql16Packages.pgvector"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql17Packages.pgvector"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql18Packages.pgvector"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0403"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494745"
+    }
+  ]
+}

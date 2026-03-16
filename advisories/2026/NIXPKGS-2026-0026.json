@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0026",
+  "summary": "getnetbyaddr and getnetbyaddr_r leak stack contents to DNS resovler",
+  "published": "2026-01-17T16:03:58.000Z",
+  "modified": "2026-01-17T16:03:58.000Z",
+  "upstream": [
+    "CVE-2026-0915"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "glibc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0026"
+    }
+  ]
+}

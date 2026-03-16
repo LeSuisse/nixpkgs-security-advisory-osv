@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0553",
+  "summary": "Gokapi: Privilege escalation with auth token",
+  "published": "2026-03-07T16:46:32.000Z",
+  "modified": "2026-03-07T16:46:32.000Z",
+  "upstream": [
+    "CVE-2026-29060"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gokapi"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0553"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/497629"
+    }
+  ]
+}

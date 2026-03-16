@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0082",
+  "summary": "telnetd in GNU Inetutils through 2.7 allows remote authentication bypass …",
+  "published": "2026-01-23T09:31:03.000Z",
+  "modified": "2026-01-23T09:31:03.000Z",
+  "upstream": [
+    "CVE-2026-24061"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "inetutils"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0082"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482983"
+    }
+  ]
+}

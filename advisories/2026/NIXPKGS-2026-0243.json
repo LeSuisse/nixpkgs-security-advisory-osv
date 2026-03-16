@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0243",
+  "summary": "ckolivas lrzip stream.c ucompthread null pointer dereference",
+  "published": "2026-02-15T14:33:40.000Z",
+  "modified": "2026-02-15T14:33:40.000Z",
+  "upstream": [
+    "CVE-2025-15571"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lrzip"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0243"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490691"
+    }
+  ]
+}

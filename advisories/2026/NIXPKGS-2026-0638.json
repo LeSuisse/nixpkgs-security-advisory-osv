@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0638",
+  "summary": "FreeRDP has a Heap Buffer Overflow in nsc_process_message() via Unchecked SURFACE_BITS_COMMAND Bitmap Dimensions",
+  "published": "2026-03-15T16:42:55.000Z",
+  "modified": "2026-03-15T16:42:55.000Z",
+  "upstream": [
+    "CVE-2026-31806"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0638"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500126"
+    }
+  ]
+}

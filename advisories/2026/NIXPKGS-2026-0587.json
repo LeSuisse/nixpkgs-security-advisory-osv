@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0587",
+  "summary": "Crash for scoped ip address in Envoy during DNS",
+  "published": "2026-03-11T11:45:17.000Z",
+  "modified": "2026-03-11T11:45:17.000Z",
+  "upstream": [
+    "CVE-2026-26310"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "envoy"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "envoy-bin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0587"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/498817"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0080",
+  "summary": "Rekor COSE v0.0.1 Canonicalize crashes when passed empty Message",
+  "published": "2026-01-23T09:27:36.000Z",
+  "modified": "2026-01-23T09:27:36.000Z",
+  "upstream": [
+    "CVE-2026-23831"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rekor-server"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0080"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482976"
+    }
+  ]
+}

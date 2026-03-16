@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0536",
+  "summary": "Gokapi: CSRF in Login Endpoint",
+  "published": "2026-03-07T15:28:20.000Z",
+  "modified": "2026-03-07T15:28:20.000Z",
+  "upstream": [
+    "CVE-2026-29084"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gokapi"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0536"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/497593"
+    }
+  ]
+}

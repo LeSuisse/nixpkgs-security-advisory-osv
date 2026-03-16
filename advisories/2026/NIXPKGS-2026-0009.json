@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0009",
+  "summary": "wolfSSL Python library `CERT_REQUIRED` mode fails to enforce client certificate requirement",
+  "published": "2026-01-13T21:16:10.000Z",
+  "modified": "2026-01-13T21:16:10.000Z",
+  "upstream": [
+    "CVE-2025-15346"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wolfssl"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0009"
+    }
+  ]
+}

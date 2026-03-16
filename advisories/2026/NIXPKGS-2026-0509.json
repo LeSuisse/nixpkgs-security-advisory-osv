@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0509",
+  "summary": "BentoML has an Arbitrary File Write via Symlink Path Traversal in Tar Extraction",
+  "published": "2026-03-04T19:01:15.000Z",
+  "modified": "2026-03-04T19:01:15.000Z",
+  "upstream": [
+    "CVE-2026-27905"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.bentoml"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.bentoml"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0509"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/496646"
+    }
+  ]
+}

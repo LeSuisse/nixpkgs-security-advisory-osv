@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0174",
+  "summary": "Libsoup: stack-based buffer overflow in libsoup multipart response parsingmultipart http response",
+  "published": "2026-02-07T23:29:18.000Z",
+  "modified": "2026-02-07T23:29:18.000Z",
+  "upstream": [
+    "CVE-2026-1761"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsoup_3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsoup_2_4"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0174"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488129"
+    }
+  ]
+}

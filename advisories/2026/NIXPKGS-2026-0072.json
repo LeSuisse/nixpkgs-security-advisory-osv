@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0072",
+  "summary": "wordexp with WRDE_REUSE and WRDE_APPEND may return uninitialized memory",
+  "published": "2026-01-21T19:35:29.000Z",
+  "modified": "2026-01-21T19:35:29.000Z",
+  "upstream": [
+    "CVE-2025-15281"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "glibc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0072"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482394"
+    }
+  ]
+}

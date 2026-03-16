@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0103",
+  "summary": "Alist vulnerable to Path Traversal in multiple file operation handlers",
+  "published": "2026-02-05T15:15:51.000Z",
+  "modified": "2026-02-05T15:15:51.000Z",
+  "upstream": [
+    "CVE-2026-25161"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "alist"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0103"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/487278"
+    }
+  ]
+}

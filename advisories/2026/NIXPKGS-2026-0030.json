@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0030",
+  "summary": "Moodle: external cohort search service leaks system cohort data",
+  "published": "2026-01-18T13:44:15.000Z",
+  "modified": "2026-01-18T13:44:15.000Z",
+  "upstream": [
+    "CVE-2025-62395"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "moodle"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0030"
+    }
+  ]
+}

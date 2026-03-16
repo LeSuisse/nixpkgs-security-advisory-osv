@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0389",
+  "summary": "OliveTin vulnerable to OS Command Injection via `password` argument type and webhook JSON extraction bypasses shell safety checks",
+  "published": "2026-02-27T11:40:40.000Z",
+  "modified": "2026-02-27T11:40:40.000Z",
+  "upstream": [
+    "CVE-2026-27626"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "olivetin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0389"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494731"
+    }
+  ]
+}

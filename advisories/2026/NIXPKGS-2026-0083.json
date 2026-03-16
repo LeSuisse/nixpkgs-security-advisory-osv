@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0083",
+  "summary": "Fleet has an Access Control vulnerability in debug/pprof endpoints",
+  "published": "2026-01-23T09:31:06.000Z",
+  "modified": "2026-01-23T09:31:06.000Z",
+  "upstream": [
+    "CVE-2026-23517"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fleet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0083"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/482984"
+    }
+  ]
+}

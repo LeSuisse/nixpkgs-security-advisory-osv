@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2025-0022",
+  "summary": "Surrealdb: surrealdb is vulnerable to unauthorized data exposure via live query subscriptions",
+  "published": "2025-12-18T10:12:26.000Z",
+  "modified": "2025-12-18T10:12:26.000Z",
+  "upstream": [
+    "CVE-2025-11060"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "surrealdb"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2025-0022"
+    }
+  ]
+}

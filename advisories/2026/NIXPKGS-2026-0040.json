@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0040",
+  "summary": "Moodle: router produces json instead of 404 error for invalid course id",
+  "published": "2026-01-18T14:26:10.000Z",
+  "modified": "2026-01-18T14:26:10.000Z",
+  "upstream": [
+    "CVE-2025-62397"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "moodle"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0040"
+    }
+  ]
+}

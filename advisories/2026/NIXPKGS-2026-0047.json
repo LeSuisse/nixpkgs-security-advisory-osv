@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0047",
+  "summary": "Heap-use-after-free in gdi_set_bounds",
+  "published": "2026-01-20T08:13:43.000Z",
+  "modified": "2026-01-20T08:13:43.000Z",
+  "upstream": [
+    "CVE-2026-23884"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0047"
+    }
+  ]
+}

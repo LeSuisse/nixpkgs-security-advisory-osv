@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0304",
+  "summary": "Traccar Vulnerable to Authorization Code Theft via Open Redirect in OIDC Provider Endpoints",
+  "published": "2026-02-24T22:30:55.000Z",
+  "modified": "2026-02-24T22:30:55.000Z",
+  "upstream": [
+    "CVE-2026-25649"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traccar"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0304"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/493817"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0541",
+  "summary": "Windmill: SUPERADMIN_SECRET (rarely used) can be accessed publicly",
+  "published": "2026-03-07T15:47:52.000Z",
+  "modified": "2026-03-07T15:47:52.000Z",
+  "upstream": [
+    "CVE-2026-29059"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "windmill"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0541"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/497603"
+    }
+  ]
+}

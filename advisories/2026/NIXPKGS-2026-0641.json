@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0641",
+  "summary": "FreeRDP has an Integer Underflow in update_read_cache_bitmap_order Function of FreeRDP's Core Library",
+  "published": "2026-03-15T16:42:59.000Z",
+  "modified": "2026-03-15T16:42:59.000Z",
+  "upstream": [
+    "CVE-2026-29776"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0641"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500129"
+    }
+  ]
+}

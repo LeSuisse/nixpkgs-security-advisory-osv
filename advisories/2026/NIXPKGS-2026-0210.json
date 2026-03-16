@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0210",
+  "summary": "janet-lang janet specials.c janetc_if out-of-bounds",
+  "published": "2026-02-10T08:03:55.000Z",
+  "modified": "2026-02-10T08:03:55.000Z",
+  "upstream": [
+    "CVE-2026-2242"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "janet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0210"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488995"
+    }
+  ]
+}

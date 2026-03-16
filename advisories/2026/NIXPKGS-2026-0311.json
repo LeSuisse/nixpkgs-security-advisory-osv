@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0311",
+  "summary": "389-ds-base: 389-ds-base: remote code execution and denial of service via heap buffer overflow",
+  "published": "2026-02-24T22:42:31.000Z",
+  "modified": "2026-02-24T22:42:31.000Z",
+  "upstream": [
+    "CVE-2025-14905"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "_389-ds-base"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0311"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/493825"
+    }
+  ]
+}

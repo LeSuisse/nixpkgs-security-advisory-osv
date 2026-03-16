@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0356",
+  "summary": "Caddy: MatchHost becomes case-sensitive for large host lists (>100), enabling host-based route/auth bypass",
+  "published": "2026-02-27T10:41:51.000Z",
+  "modified": "2026-02-27T10:41:51.000Z",
+  "upstream": [
+    "CVE-2026-27588"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "caddy"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0356"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494682"
+    }
+  ]
+}

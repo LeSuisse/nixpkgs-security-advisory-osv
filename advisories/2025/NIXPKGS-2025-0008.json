@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2025-0008",
+  "summary": "Glib: buffer under-read on glib through glib/gfileutils.c via get_tmp_file()",
+  "published": "2025-11-01T20:11:44.000Z",
+  "modified": "2025-11-01T20:11:44.000Z",
+  "upstream": [
+    "CVE-2025-7039"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2025-0008"
+    }
+  ]
+}

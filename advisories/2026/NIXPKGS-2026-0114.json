@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0114",
+  "summary": "n8n Unsafe Buffer Allocation Allows In-Process Memory Disclosure in Task Runner",
+  "published": "2026-02-05T15:22:18.000Z",
+  "modified": "2026-02-05T15:22:18.000Z",
+  "upstream": [
+    "CVE-2025-61917"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0114"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/487292"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0268",
+  "summary": "Heap buffer overflow in libvpx",
+  "published": "2026-02-17T21:04:21.000Z",
+  "modified": "2026-02-17T21:04:21.000Z",
+  "upstream": [
+    "CVE-2026-2447"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "firefox-unwrapped"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "firefox-esr-unwrapped"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "thunderbird-unwrapped"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "firefox-esr-140-unwrapped"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "thunderbird-140-unwrapped"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "thunderbird-esr-unwrapped"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "thunderbird-latest-unwrapped"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "thunderbirdPackages.thunderbird"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "thunderbirdPackages.thunderbird-140"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "thunderbirdPackages.thunderbird-esr"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "thunderbirdPackages.thunderbird-latest"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0268"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/491502"
+    }
+  ]
+}

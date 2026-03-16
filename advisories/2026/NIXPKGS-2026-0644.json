@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0644",
+  "summary": "LibreChat Denial of Service (DoS) via Unhandled Exception in DELETE /api/convos",
+  "published": "2026-03-15T16:50:06.000Z",
+  "modified": "2026-03-15T16:50:06.000Z",
+  "upstream": [
+    "CVE-2026-31949"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "librechat"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0644"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500133"
+    }
+  ]
+}

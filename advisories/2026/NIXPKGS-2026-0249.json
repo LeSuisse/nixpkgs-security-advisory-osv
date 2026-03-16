@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0249",
+  "summary": "Busybox: busybox: arbitrary file overwrite and potential code execution via incomplete path sanitization",
+  "published": "2026-02-15T15:03:42.000Z",
+  "modified": "2026-02-15T15:03:42.000Z",
+  "upstream": [
+    "CVE-2026-26157"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "busybox"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "busybox-sandbox-shell"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "minimal-bootstrap.busybox-static"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0249"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/490699"
+    }
+  ]
+}

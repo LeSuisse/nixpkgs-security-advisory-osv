@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0498",
+  "summary": "An integer overflow in the tt_var_load_item_variation_store function of the Freetype …",
+  "published": "2026-03-03T07:43:08.000Z",
+  "modified": "2026-03-03T07:43:08.000Z",
+  "upstream": [
+    "CVE-2026-23865"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freetype"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0498"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/496121"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2025-0005",
+  "summary": "Sandbox escape in smolagents Local Python execution environment via dunder attributes",
+  "published": "2025-11-01T17:03:27.000Z",
+  "modified": "2025-11-01T17:03:27.000Z",
+  "upstream": [
+    "CVE-2025-9959"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.smolagents"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.smolagents"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2025-0005"
+    }
+  ]
+}

@@ -64,7 +64,7 @@ async function fetchAndParseIssues(
       info(
         `Issue ${issue_id} has already been parsed, skipping all remaining issues`,
       );
-      //return;
+      return;
     }
 
     const $issue_element = $root(issue_element);

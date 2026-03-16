@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0514",
+  "summary": "HomeBox affected by Stored XSS via HTML/SVG Attachment Upload",
+  "published": "2026-03-04T19:17:17.000Z",
+  "modified": "2026-03-04T19:17:17.000Z",
+  "upstream": [
+    "CVE-2026-26272"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "homebox"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0514"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/496661"
+    }
+  ]
+}

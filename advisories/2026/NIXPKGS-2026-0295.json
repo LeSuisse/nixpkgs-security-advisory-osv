@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0295",
+  "summary": "ZoneMinder: Second-Order SQL Injection in `getNearEvents()` via Stored Event Name and Cause Fields",
+  "published": "2026-02-23T10:11:01.000Z",
+  "modified": "2026-02-23T10:11:01.000Z",
+  "upstream": [
+    "CVE-2026-27470"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zoneminder"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0295"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/493268"
+    }
+  ]
+}

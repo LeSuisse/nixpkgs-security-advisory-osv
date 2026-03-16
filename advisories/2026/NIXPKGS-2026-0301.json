@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0301",
+  "summary": "janet-lang janet handleattr specials.c janetc_varset out-of-bounds",
+  "published": "2026-02-23T14:36:26.000Z",
+  "modified": "2026-02-23T14:36:26.000Z",
+  "upstream": [
+    "CVE-2026-2869"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "janet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0301"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/493344"
+    }
+  ]
+}

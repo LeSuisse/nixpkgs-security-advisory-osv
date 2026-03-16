@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0273",
+  "summary": "Jenkins 2.483 through 2.550 (both inclusive), LTS 2.492.1 through 2.541.1 …",
+  "published": "2026-02-19T09:54:13.000Z",
+  "modified": "2026-02-19T09:54:13.000Z",
+  "upstream": [
+    "CVE-2026-27099"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jenkins"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0273"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/492033"
+    }
+  ]
+}

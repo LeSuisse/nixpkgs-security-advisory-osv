@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0661",
+  "summary": "GStreamer H.266 Codec Parser Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+  "published": "2026-03-16T10:07:26.000Z",
+  "modified": "2026-03-16T10:07:26.000Z",
+  "upstream": [
+    "CVE-2026-3081"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gst_all_1.gstreamer"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0661"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500352"
+    }
+  ]
+}

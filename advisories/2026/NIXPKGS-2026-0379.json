@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0379",
+  "summary": "Karakeep's Reddit plugin content bypasses DOMPurify sanitization, enabling stored XSS",
+  "published": "2026-02-27T11:34:38.000Z",
+  "modified": "2026-02-27T11:34:38.000Z",
+  "upstream": [
+    "CVE-2026-27627"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "karakeep"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0379"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494718"
+    }
+  ]
+}

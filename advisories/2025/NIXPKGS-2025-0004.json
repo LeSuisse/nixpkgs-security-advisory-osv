@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2025-0004",
+  "summary": "Symlink Following in txtai leads to arbitrary file write when loading untrusted embedding indices",
+  "published": "2025-11-01T16:05:05.000Z",
+  "modified": "2025-11-01T16:05:05.000Z",
+  "upstream": [
+    "CVE-2025-10854"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.txtai"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.txtai"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2025-0004"
+    }
+  ]
+}

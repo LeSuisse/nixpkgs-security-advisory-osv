@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0338",
+  "summary": "Arbitrary Host File Overwrite via Symlink in Firecracker Jailer",
+  "published": "2026-02-26T15:09:14.000Z",
+  "modified": "2026-02-26T15:09:14.000Z",
+  "upstream": [
+    "CVE-2026-1386"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "firecracker"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0338"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494398"
+    }
+  ]
+}

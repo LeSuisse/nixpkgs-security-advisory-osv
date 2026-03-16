@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0054",
+  "summary": "Heap-use-after-free in update_pointer_new",
+  "published": "2026-01-20T08:13:56.000Z",
+  "modified": "2026-01-20T08:13:56.000Z",
+  "upstream": [
+    "CVE-2026-23883"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0054"
+    }
+  ]
+}

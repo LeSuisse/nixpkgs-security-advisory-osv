@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0035",
+  "summary": "Libxslt: type confusion in exsltfuncresultcompfunction of libxslt",
+  "published": "2026-01-18T14:21:17.000Z",
+  "modified": "2026-01-18T14:21:17.000Z",
+  "upstream": [
+    "CVE-2025-11731"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libxslt"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0035"
+    }
+  ]
+}

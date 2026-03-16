@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0150",
+  "summary": "Claude Code Vulnerable to Command Injection via Piped sed Command Bypasses File Write Restrictions",
+  "published": "2026-02-07T17:58:49.000Z",
+  "modified": "2026-02-07T17:58:49.000Z",
+  "upstream": [
+    "CVE-2026-25723"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "claude-code"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0150"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/488037"
+    }
+  ]
+}

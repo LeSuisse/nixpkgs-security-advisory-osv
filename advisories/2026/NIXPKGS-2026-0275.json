@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0275",
+  "summary": "InvoicePlane has a Stored Cross-Site Scripting (XSS) issue",
+  "published": "2026-02-19T10:13:22.000Z",
+  "modified": "2026-02-19T10:13:22.000Z",
+  "upstream": [
+    "CVE-2026-24745"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "invoiceplane"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0275"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/492037"
+    }
+  ]
+}

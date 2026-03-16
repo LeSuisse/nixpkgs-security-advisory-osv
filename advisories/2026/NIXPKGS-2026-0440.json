@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0440",
+  "summary": "Privilege Escalation via Mass Assignment Allows Regular Users to Set Topics as Global Banners",
+  "published": "2026-02-27T11:43:23.000Z",
+  "modified": "2026-02-27T11:43:23.000Z",
+  "upstream": [
+    "CVE-2026-28219"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "discourse"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "discourseAllPlugins"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0440"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494782"
+    }
+  ]
+}
