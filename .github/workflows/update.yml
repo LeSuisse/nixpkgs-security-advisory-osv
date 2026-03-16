@@ -24,6 +24,8 @@ jobs:
         run: npm run transform_advisories
       - name: Commit changed advisories if needed
         run: |-
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
           git add -A
           git commit -m "Synchronize advisories $(date --rfc-3339=seconds)" || exit 0
           git push
