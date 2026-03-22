@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0548",
+  "summary": "IRRd: web UI host header injection allows password reset poisoning via attacker-controlled email links",
+  "published": "2026-03-07T16:36:51.000Z",
+  "modified": "2026-03-07T16:36:51.000Z",
+  "upstream": [
+    "CVE-2026-28681"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "irrd"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0548"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/497623"
+    }
+  ]
+}

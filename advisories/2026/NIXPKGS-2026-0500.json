@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0500",
+  "summary": "AFFiNE: Open Redirect via Regex Bypass in redirect-proxy",
+  "published": "2026-03-03T07:43:10.000Z",
+  "modified": "2026-03-03T07:43:10.000Z",
+  "upstream": [
+    "CVE-2026-25477"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "affine"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "affine-bin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0500"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/496123"
+    }
+  ]
+}

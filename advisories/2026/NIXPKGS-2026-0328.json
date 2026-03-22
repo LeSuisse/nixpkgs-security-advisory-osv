@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0328",
+  "summary": "LibreNMS has Stored XSS in Alert Rule",
+  "published": "2026-02-26T13:56:55.000Z",
+  "modified": "2026-02-26T13:56:55.000Z",
+  "upstream": [
+    "CVE-2026-26989"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "librenms"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0328"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494371"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0493",
+  "summary": "Exiv2: Out-of-bounds read in CrwMap::decode0x0805",
+  "published": "2026-03-03T07:29:44.000Z",
+  "modified": "2026-03-03T07:29:44.000Z",
+  "upstream": [
+    "CVE-2026-25884"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "exiv2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0493"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/496114"
+    }
+  ]
+}

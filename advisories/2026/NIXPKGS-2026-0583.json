@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0583",
+  "summary": "Glances Exposes Unauthenticated Configuration Secrets",
+  "published": "2026-03-11T11:41:14.000Z",
+  "modified": "2026-03-11T11:41:14.000Z",
+  "upstream": [
+    "CVE-2026-30928"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "glances"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0583"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/498812"
+    }
+  ]
+}

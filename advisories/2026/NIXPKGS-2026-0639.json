@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0639",
+  "summary": "FreeRDP has a heap-buffer-overflow in avc420_yuv_to_rgb via OOB regionRects",
+  "published": "2026-03-15T16:42:56.000Z",
+  "modified": "2026-03-15T16:42:56.000Z",
+  "upstream": [
+    "CVE-2026-29774"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0639"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500127"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0578",
+  "summary": "Netmaker: Denial of Service via Server Shutdown Endpoint",
+  "published": "2026-03-08T03:55:45.000Z",
+  "modified": "2026-03-08T03:55:45.000Z",
+  "upstream": [
+    "CVE-2026-29771"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "netmaker"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "netmaker-full"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0578"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/497804"
+    }
+  ]
+}
