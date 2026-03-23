@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0444",
+  "summary": "Mastodon may allow unconfirmed FASP to make subscriptions",
+  "published": "2026-02-27T12:45:14.000Z",
+  "modified": "2026-02-27T12:45:14.000Z",
+  "upstream": [
+    "CVE-2026-27468"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mastodon"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0444"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494807"
+    }
+  ]
+}

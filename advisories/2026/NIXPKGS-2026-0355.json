@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0355",
+  "summary": "Caddy's mTLS client authentication silently fails open when CA certificate file is missing or malformed",
+  "published": "2026-02-27T10:41:45.000Z",
+  "modified": "2026-02-27T10:41:45.000Z",
+  "upstream": [
+    "CVE-2026-27586"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "caddy"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0355"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494681"
+    }
+  ]
+}

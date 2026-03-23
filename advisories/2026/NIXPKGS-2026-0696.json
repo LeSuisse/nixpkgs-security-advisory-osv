@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0696",
+  "summary": "Heap-based buffer overflow in wc_ecc_import_x963_ex KCAPI path",
+  "published": "2026-03-23T12:53:16.000Z",
+  "modified": "2026-03-23T12:53:16.000Z",
+  "upstream": [
+    "CVE-2026-4395"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wolfssl"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0696"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/502587"
+    }
+  ]
+}

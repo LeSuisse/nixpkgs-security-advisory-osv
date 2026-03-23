@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0704",
+  "summary": "Cryptomator: Tampered vault configuration allows MITM attack on Hub API",
+  "published": "2026-03-23T12:53:32.000Z",
+  "modified": "2026-03-23T12:53:32.000Z",
+  "upstream": [
+    "CVE-2026-32303"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cryptomator"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0704"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/502595"
+    }
+  ]
+}

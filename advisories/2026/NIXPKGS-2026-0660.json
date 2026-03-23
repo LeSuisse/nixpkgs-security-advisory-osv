@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0660",
+  "summary": "telnetd in GNU inetutils through 2.7 allows an out-of-bounds write …",
+  "published": "2026-03-16T10:07:25.000Z",
+  "modified": "2026-03-16T10:07:25.000Z",
+  "upstream": [
+    "CVE-2026-32746"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "inetutils"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0660"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500351"
+    }
+  ]
+}

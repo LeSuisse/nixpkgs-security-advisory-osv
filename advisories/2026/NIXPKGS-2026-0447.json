@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0447",
+  "summary": "LangGraph: BaseCache Deserialization of Untrusted Data may lead to Remote Code Execution",
+  "published": "2026-02-27T16:31:58.000Z",
+  "modified": "2026-02-27T16:31:58.000Z",
+  "upstream": [
+    "CVE-2026-27794"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.langgraph-checkpoint"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.langgraph-checkpoint"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.langgraph-checkpoint"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0447"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494868"
+    }
+  ]
+}

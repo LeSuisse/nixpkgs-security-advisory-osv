@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0340",
+  "summary": "Fleet: Device lock PIN can be predicted if lock time is known",
+  "published": "2026-02-27T07:32:10.000Z",
+  "modified": "2026-02-27T07:32:10.000Z",
+  "upstream": [
+    "CVE-2026-23999"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fleet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0340"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494620"
+    }
+  ]
+}

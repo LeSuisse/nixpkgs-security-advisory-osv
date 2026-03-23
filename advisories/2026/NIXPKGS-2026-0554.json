@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0554",
+  "summary": "File Browser: Path Traversal in Public Share Links Exposes Files Outside Shared Directory",
+  "published": "2026-03-07T16:48:29.000Z",
+  "modified": "2026-03-07T16:48:29.000Z",
+  "upstream": [
+    "CVE-2026-28492"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "filebrowser"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0554"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/497631"
+    }
+  ]
+}
