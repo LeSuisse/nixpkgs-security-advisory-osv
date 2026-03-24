@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0729",
+  "summary": "janmojzis tinyssh Ed25519 Signature crypto_sign_ed25519_tinyssh.c signature verification",
+  "published": "2026-03-23T12:55:32.000Z",
+  "modified": "2026-03-23T12:55:32.000Z",
+  "upstream": [
+    "CVE-2026-4541"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tinyssh"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0729"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/502620"
+    }
+  ]
+}

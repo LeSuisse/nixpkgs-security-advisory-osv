@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0741",
+  "summary": "Rails Active Storage has possible Path Traversal in DiskService",
+  "published": "2026-03-24T11:43:41.000Z",
+  "modified": "2026-03-24T11:43:41.000Z",
+  "upstream": [
+    "CVE-2026-33195"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages.activestorage"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_1.activestorage"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_2.activestorage"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_3.activestorage"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_4.activestorage"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_4_0.activestorage"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0741"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/503019"
+    }
+  ]
+}

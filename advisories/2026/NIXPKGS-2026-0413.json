@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0413",
+  "summary": "NetExec vulnerable to arbitrary file write via path traversal in spider_plus module",
+  "published": "2026-02-27T11:41:57.000Z",
+  "modified": "2026-02-27T11:41:57.000Z",
+  "upstream": [
+    "CVE-2026-27884"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "netexec"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0413"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494755"
+    }
+  ]
+}

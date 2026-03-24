@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0743",
+  "summary": "Rails has a possible XSS vulnerability in its Action View tag helpers",
+  "published": "2026-03-24T11:43:50.000Z",
+  "modified": "2026-03-24T11:43:50.000Z",
+  "upstream": [
+    "CVE-2026-33168"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages.actionview"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_1.actionview"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_2.actionview"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_3.actionview"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_4.actionview"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_4_0.actionview"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0743"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/503021"
+    }
+  ]
+}

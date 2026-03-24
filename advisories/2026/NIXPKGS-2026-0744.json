@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0744",
+  "summary": "Rails Active Support has a possible XSS vulnerability in SafeBuffer#%",
+  "published": "2026-03-24T11:43:54.000Z",
+  "modified": "2026-03-24T11:43:54.000Z",
+  "upstream": [
+    "CVE-2026-33170"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages.activesupport"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_1.activesupport"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_2.activesupport"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_3.activesupport"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_4.activesupport"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_4_0.activesupport"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0744"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/503022"
+    }
+  ]
+}

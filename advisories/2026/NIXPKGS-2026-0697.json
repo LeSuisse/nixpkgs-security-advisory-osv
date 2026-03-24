@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0697",
+  "summary": "Fault injection attack with ML-DSA and ML-KEM on ARM",
+  "published": "2026-03-23T12:53:17.000Z",
+  "modified": "2026-03-23T12:53:17.000Z",
+  "upstream": [
+    "CVE-2026-3503"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wolfssl"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0697"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/502588"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0701",
+  "summary": "SiYuan: Incomplete sensitive path blocklist in globalCopyFiles allows reading /proc and Docker secrets",
+  "published": "2026-03-23T12:53:25.000Z",
+  "modified": "2026-03-23T12:53:25.000Z",
+  "upstream": [
+    "CVE-2026-32747"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0701"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/502592"
+    }
+  ]
+}

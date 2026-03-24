@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0645",
+  "summary": "Gokapi has Privilege Escalation in File Replace",
+  "published": "2026-03-15T16:50:08.000Z",
+  "modified": "2026-03-15T16:50:08.000Z",
+  "upstream": [
+    "CVE-2026-30943"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gokapi"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0645"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/500134"
+    }
+  ]
+}
