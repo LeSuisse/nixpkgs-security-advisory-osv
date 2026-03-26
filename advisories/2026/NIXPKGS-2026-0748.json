@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0748",
+  "summary": "Domoticz < 2026.1 Stored XSS via Hardware Configuration Endpoint",
+  "published": "2026-03-26T08:09:52.000Z",
+  "modified": "2026-03-26T08:09:52.000Z",
+  "upstream": [
+    "CVE-2026-1001"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "domoticz"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0748"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/503641"
+    }
+  ]
+}

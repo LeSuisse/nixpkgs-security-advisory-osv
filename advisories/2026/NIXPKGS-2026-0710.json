@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0710",
+  "summary": "SiYuan has an Incomplete Fix for IsSensitivePath Denylist Allows File Read from /opt, /usr, /home",
+  "published": "2026-03-23T12:54:22.000Z",
+  "modified": "2026-03-23T12:54:22.000Z",
+  "upstream": [
+    "CVE-2026-33194"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0710"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/502601"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0747",
+  "summary": "Stack overflow in Kea daemons",
+  "published": "2026-03-26T08:01:01.000Z",
+  "modified": "2026-03-26T08:01:01.000Z",
+  "upstream": [
+    "CVE-2026-3608"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kea"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0747"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/503637"
+    }
+  ]
+}

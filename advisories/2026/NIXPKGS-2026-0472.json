@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0472",
+  "summary": "ImageMagick has infinite loop when writing IPTCTEXT leads to denial of service via crafted profile",
+  "published": "2026-02-27T20:12:58.000Z",
+  "modified": "2026-02-27T20:12:58.000Z",
+  "upstream": [
+    "CVE-2026-26066"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick6"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagickBig"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick6Big"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick_light"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick6_light"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0472"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494954"
+    }
+  ]
+}

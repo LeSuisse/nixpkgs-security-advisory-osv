@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0751",
+  "summary": "n8n Vulnerable to Credential Theft via Name-Based Resolution and Permission Checker Bypass in Community Edition",
+  "published": "2026-03-26T08:09:56.000Z",
+  "modified": "2026-03-26T08:09:56.000Z",
+  "upstream": [
+    "CVE-2026-33663"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0751"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/503644"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0767",
+  "summary": "NATS credentials are exposed in monitoring port via command-line argv",
+  "published": "2026-03-26T08:10:22.000Z",
+  "modified": "2026-03-26T08:10:22.000Z",
+  "upstream": [
+    "CVE-2026-33247"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nats-server"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0767"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/503660"
+    }
+  ]
+}

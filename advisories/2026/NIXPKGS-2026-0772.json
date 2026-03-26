@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0772",
+  "summary": "n8n Has Multiple Remote Code Execution Vulnerabilities in Merge Node AlaSQL SQL Mode",
+  "published": "2026-03-26T08:10:53.000Z",
+  "modified": "2026-03-26T08:10:53.000Z",
+  "upstream": [
+    "CVE-2026-33660"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0772"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/503665"
+    }
+  ]
+}

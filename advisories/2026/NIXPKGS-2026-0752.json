@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0752",
+  "summary": "n8n's Source Control SSH Configuration Uses StrictHostKeyChecking=no",
+  "published": "2026-03-26T08:09:55.000Z",
+  "modified": "2026-03-26T08:09:55.000Z",
+  "upstream": [
+    "CVE-2026-33724"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0752"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/503645"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0773",
+  "summary": "n8n Vulnerable to Prototype Pollution in XML & GSuiteAdmin node parameters lead to RCE",
+  "published": "2026-03-26T08:10:51.000Z",
+  "modified": "2026-03-26T08:10:51.000Z",
+  "upstream": [
+    "CVE-2026-33696"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0773"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/503666"
+    }
+  ]
+}
