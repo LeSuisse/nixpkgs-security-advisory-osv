@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0698",
+  "summary": "SiYuan Vulnerable to Remote Code Execution via Stored XSS in Notebook Name - Mobile Interface",
+  "published": "2026-03-23T12:53:19.000Z",
+  "modified": "2026-03-23T12:53:19.000Z",
+  "upstream": [
+    "CVE-2026-32751"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0698"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/502589"
+    }
+  ]
+}
