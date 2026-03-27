@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0784",
+  "summary": "ImageMagick has an Out-of-bounds Write via InterpretImageFilename",
+  "published": "2026-03-27T11:34:12.000Z",
+  "modified": "2026-03-27T11:34:12.000Z",
+  "upstream": [
+    "CVE-2026-33536"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0784"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504035"
+    }
+  ]
+}

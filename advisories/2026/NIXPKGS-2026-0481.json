@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0481",
+  "summary": "ImageMagick has Use After Free in MSLStartElement in \"coders/msl.c\"",
+  "published": "2026-02-27T20:13:17.000Z",
+  "modified": "2026-02-27T20:13:17.000Z",
+  "upstream": [
+    "CVE-2026-25983"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick6"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagickBig"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick6Big"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick_light"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick6_light"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "graphicsmagick-imagemagick-compat"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tests.pkg-config.defaultPkgConfigPackages.MagickWand"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tests.pkg-config.defaultPkgConfigPackages.ImageMagick"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0481"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/494964"
+    }
+  ]
+}

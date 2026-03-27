@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0782",
+  "summary": "Tandoor Recipes's Unauthenticated Debug Parameter Leaks Full Raw SQL Queries Including Schema, Table Names, and Access Control Logic",
+  "published": "2026-03-27T11:34:11.000Z",
+  "modified": "2026-03-27T11:34:11.000Z",
+  "upstream": [
+    "CVE-2026-33153"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tandoor-recipes"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0782"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504033"
+    }
+  ]
+}

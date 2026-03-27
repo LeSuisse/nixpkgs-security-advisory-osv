@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0691",
+  "summary": "PuTTY Ed25519 Signature ecc-ssh.c eddsa_verify signature verification",
+  "published": "2026-03-23T11:23:49.000Z",
+  "modified": "2026-03-23T11:23:49.000Z",
+  "upstream": [
+    "CVE-2026-4115"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "putty"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0691"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/502538"
+    }
+  ]
+}

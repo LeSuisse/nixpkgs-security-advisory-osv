@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0813",
+  "summary": "Ory Keto has a SQL injection via forged pagination tokens",
+  "published": "2026-03-27T11:37:52.000Z",
+  "modified": "2026-03-27T11:37:52.000Z",
+  "upstream": [
+    "CVE-2026-33505"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "keto"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0813"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504064"
+    }
+  ]
+}

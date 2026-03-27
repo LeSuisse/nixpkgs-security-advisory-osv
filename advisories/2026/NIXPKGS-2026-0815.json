@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0815",
+  "summary": "Orc discount Markdown markdown.c compile recursion",
+  "published": "2026-03-27T11:37:57.000Z",
+  "modified": "2026-03-27T11:37:57.000Z",
+  "upstream": [
+    "CVE-2026-4833"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "discount"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0815"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504066"
+    }
+  ]
+}

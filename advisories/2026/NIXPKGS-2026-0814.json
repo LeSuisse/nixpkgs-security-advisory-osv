@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0814",
+  "summary": "Ory Oathkeeper has an authentication bypass by cache key confusion",
+  "published": "2026-03-27T11:37:54.000Z",
+  "modified": "2026-03-27T11:37:54.000Z",
+  "upstream": [
+    "CVE-2026-33496"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "oathkeeper"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0814"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504065"
+    }
+  ]
+}

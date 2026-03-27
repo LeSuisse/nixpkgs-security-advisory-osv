@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0790",
+  "summary": "URL Parameter Injection in FDC Food Search API Causes Server Crash and Exposes Internal API Key",
+  "published": "2026-03-27T11:36:56.000Z",
+  "modified": "2026-03-27T11:36:56.000Z",
+  "upstream": [
+    "CVE-2026-33148"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tandoor-recipes"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0790"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504041"
+    }
+  ]
+}

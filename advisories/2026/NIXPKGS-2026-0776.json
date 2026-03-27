@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0776",
+  "summary": "Incus vulnerable to denial of source through crafted bucket backup file",
+  "published": "2026-03-27T11:34:03.000Z",
+  "modified": "2026-03-27T11:34:03.000Z",
+  "upstream": [
+    "CVE-2026-33743"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "incus"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "incus-lts"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0776"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504027"
+    }
+  ]
+}

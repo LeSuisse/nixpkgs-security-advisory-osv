@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0734",
+  "summary": "Kargo: SSRF in Promotion http/http-download Steps Enables Internal Network Access and Data Exfiltration",
+  "published": "2026-03-23T13:01:57.000Z",
+  "modified": "2026-03-23T13:01:57.000Z",
+  "upstream": [
+    "CVE-2026-32828"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kargo"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0734"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/502628"
+    }
+  ]
+}
