@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0821",
+  "summary": "BuildKit Git URL subdir component can cause access to restricted files",
+  "published": "2026-03-28T19:08:49.000Z",
+  "modified": "2026-03-28T19:08:49.000Z",
+  "upstream": [
+    "CVE-2026-33748"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "buildkit"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0821"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504454"
+    }
+  ]
+}

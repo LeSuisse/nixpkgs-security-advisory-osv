@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0823",
+  "summary": "Traefik has Knative Ingress Rule Injection that Allows Host Restriction Bypass",
+  "published": "2026-03-28T19:08:54.000Z",
+  "modified": "2026-03-28T19:08:54.000Z",
+  "upstream": [
+    "CVE-2026-32695"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traefik"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0823"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504456"
+    }
+  ]
+}

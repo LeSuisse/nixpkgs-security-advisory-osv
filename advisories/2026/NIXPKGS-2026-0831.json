@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0831",
+  "summary": "Fleet: Password reset tokens remain valid after password change for 24 hours",
+  "published": "2026-03-28T19:09:21.000Z",
+  "modified": "2026-03-28T19:09:21.000Z",
+  "upstream": [
+    "CVE-2026-26060"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fleet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0831"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504464"
+    }
+  ]
+}

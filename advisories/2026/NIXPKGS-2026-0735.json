@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0735",
+  "summary": "heap out-of-bounds write in libde265 1.0.16",
+  "published": "2026-03-23T13:01:59.000Z",
+  "modified": "2026-03-23T13:01:59.000Z",
+  "upstream": [
+    "CVE-2026-33165"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libde265"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0735"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/502629"
+    }
+  ]
+}

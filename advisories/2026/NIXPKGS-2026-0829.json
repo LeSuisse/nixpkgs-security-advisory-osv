@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0829",
+  "summary": "Fleet Vulnerable to Windows MDM cross-device command disclosure",
+  "published": "2026-03-28T19:09:17.000Z",
+  "modified": "2026-03-28T19:09:17.000Z",
+  "upstream": [
+    "CVE-2026-34391"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fleet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0829"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504462"
+    }
+  ]
+}

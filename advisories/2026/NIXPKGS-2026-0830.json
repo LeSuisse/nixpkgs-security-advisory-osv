@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0830",
+  "summary": "Fleet vulnerable to  SQL injection in MDM bootstrap package by authenticated team or global admin",
+  "published": "2026-03-28T19:09:18.000Z",
+  "modified": "2026-03-28T19:09:18.000Z",
+  "upstream": [
+    "CVE-2026-34386"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fleet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0830"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504463"
+    }
+  ]
+}

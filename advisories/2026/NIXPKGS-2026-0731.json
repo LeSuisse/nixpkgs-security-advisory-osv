@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0731",
+  "summary": "Discourse has moderator privilege escalation via arbitrary post_id in suspend/silence endpoint",
+  "published": "2026-03-23T13:01:47.000Z",
+  "modified": "2026-03-23T13:01:47.000Z",
+  "upstream": [
+    "CVE-2026-30888"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "discourse"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "discourseAllPlugins"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0731"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/502625"
+    }
+  ]
+}

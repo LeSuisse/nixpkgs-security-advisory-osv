@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0828",
+  "summary": "Open5GS CCA Message smf_s6b denial of service",
+  "published": "2026-03-28T19:09:15.000Z",
+  "modified": "2026-03-28T19:09:15.000Z",
+  "upstream": [
+    "CVE-2026-4988"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0828"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504461"
+    }
+  ]
+}

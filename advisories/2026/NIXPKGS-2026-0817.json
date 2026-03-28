@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0817",
+  "summary": "Flannel vulnerable to cross-node remote code execution via extension backend BackendData injection",
+  "published": "2026-03-28T19:08:44.000Z",
+  "modified": "2026-03-28T19:08:44.000Z",
+  "upstream": [
+    "CVE-2026-32241"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "flannel"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0817"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504450"
+    }
+  ]
+}

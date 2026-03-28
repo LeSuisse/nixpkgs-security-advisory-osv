@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0827",
+  "summary": "Windmill: Rogue Workspace Admins can inject code via unescaped workspace environment variable interpolation in NativeTS executor",
+  "published": "2026-03-28T19:09:13.000Z",
+  "modified": "2026-03-28T19:09:13.000Z",
+  "upstream": [
+    "CVE-2026-33881"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "windmill"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0827"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504460"
+    }
+  ]
+}
