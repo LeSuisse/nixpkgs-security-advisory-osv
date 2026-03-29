@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0806",
+  "summary": "Lychee Vulnerable to Stored XSS via Photo Description in RSS/Atom/JSON Feed (No Sanitization on Public Endpoint)",
+  "published": "2026-03-27T11:37:38.000Z",
+  "modified": "2026-03-27T11:37:38.000Z",
+  "upstream": [
+    "CVE-2026-33738"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lychee"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0806"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504057"
+    }
+  ]
+}
