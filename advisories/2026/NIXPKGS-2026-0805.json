@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0805",
+  "summary": "Open WebUI's process_files_batch() endpoint missing ownership check, allows unauthorized file overwrite",
+  "published": "2026-03-27T11:37:26.000Z",
+  "modified": "2026-03-27T11:37:26.000Z",
+  "upstream": [
+    "CVE-2026-28788"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open-webui"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0805"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504056"
+    }
+  ]
+}
