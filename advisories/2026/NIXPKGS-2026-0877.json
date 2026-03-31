@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0877",
+  "summary": "Botan: Case-Insensitive CN Values Bypass DNS excludedSubtrees Name Constraints (RFC 5280 Violation)",
+  "published": "2026-03-31T11:53:16.000Z",
+  "modified": "2026-03-31T11:53:16.000Z",
+  "upstream": [
+    "CVE-2026-32884"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "botan3"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0877"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505318"
+    }
+  ]
+}

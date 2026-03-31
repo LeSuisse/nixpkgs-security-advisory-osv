@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0851",
+  "summary": "OpenBao lacks user confirmation for OIDC direct callback mode",
+  "published": "2026-03-31T11:52:06.000Z",
+  "modified": "2026-03-31T11:52:06.000Z",
+  "upstream": [
+    "CVE-2026-33757"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openbao"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0851"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505292"
+    }
+  ]
+}

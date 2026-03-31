@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0879",
+  "summary": "Botan: Heap Buffer Over-read in SM2 Decryption via Undersized C3 Hash Field",
+  "published": "2026-03-31T11:53:22.000Z",
+  "modified": "2026-03-31T11:53:22.000Z",
+  "upstream": [
+    "CVE-2026-32877"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "botan3"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0879"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505320"
+    }
+  ]
+}

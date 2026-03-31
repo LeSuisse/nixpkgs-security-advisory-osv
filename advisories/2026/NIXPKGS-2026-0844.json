@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0844",
+  "summary": "Query resampling can cause unbounded memory allocations",
+  "published": "2026-03-31T11:51:34.000Z",
+  "modified": "2026-03-31T11:51:34.000Z",
+  "upstream": [
+    "CVE-2026-27879"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "grafana"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0844"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505285"
+    }
+  ]
+}
