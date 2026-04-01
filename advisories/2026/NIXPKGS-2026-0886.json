@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0886",
+  "summary": "FreeRDP: DoS via WINPR_ASSERT in rts_read_auth_verifier_no_checks",
+  "published": "2026-03-31T11:53:41.000Z",
+  "modified": "2026-03-31T11:53:41.000Z",
+  "upstream": [
+    "CVE-2026-33952"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0886"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505327"
+    }
+  ]
+}

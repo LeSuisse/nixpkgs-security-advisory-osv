@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0921",
+  "summary": "RAUC: Improper Signing of Plain Bundles Exceeding 2 GiB",
+  "published": "2026-04-01T06:56:51.000Z",
+  "modified": "2026-04-01T06:56:51.000Z",
+  "upstream": [
+    "CVE-2026-34155"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rauc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0921"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505606"
+    }
+  ]
+}

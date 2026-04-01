@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0911",
+  "summary": "Trino: Iceberg REST catalog static and vended credentials are accessible via query JSON",
+  "published": "2026-04-01T06:56:21.000Z",
+  "modified": "2026-04-01T06:56:21.000Z",
+  "upstream": [
+    "CVE-2026-34214"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "trino-cli"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0911"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505596"
+    }
+  ]
+}

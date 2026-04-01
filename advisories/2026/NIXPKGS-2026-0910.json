@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0910",
+  "summary": "SciTokens vulnerable to SQL Injection in KeyCache",
+  "published": "2026-04-01T06:56:20.000Z",
+  "modified": "2026-04-01T06:56:20.000Z",
+  "upstream": [
+    "CVE-2026-32714"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "scitokens-cpp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0910"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505595"
+    }
+  ]
+}

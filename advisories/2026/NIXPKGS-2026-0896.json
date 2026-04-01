@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0896",
+  "summary": "Discourse: Insufficient topic visibility check allows unauthorized poll manipulation in private categories",
+  "published": "2026-04-01T06:30:01.000Z",
+  "modified": "2026-04-01T06:30:01.000Z",
+  "upstream": [
+    "CVE-2026-32619"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "discourse"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "discourseAllPlugins"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0896"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505576"
+    }
+  ]
+}

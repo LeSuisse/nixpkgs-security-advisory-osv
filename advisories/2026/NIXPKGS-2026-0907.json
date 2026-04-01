@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0907",
+  "summary": "cryptography has incomplete DNS name constraint enforcement on peer names",
+  "published": "2026-04-01T06:54:53.000Z",
+  "modified": "2026-04-01T06:54:53.000Z",
+  "upstream": [
+    "CVE-2026-34073"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.cryptography"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.cryptography"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.cryptography"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0907"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505591"
+    }
+  ]
+}

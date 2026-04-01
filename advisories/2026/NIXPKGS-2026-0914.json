@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0914",
+  "summary": "Ruby LSP has arbitrary code execution through branch setting",
+  "published": "2026-04-01T06:56:25.000Z",
+  "modified": "2026-04-01T06:56:25.000Z",
+  "upstream": [
+    "CVE-2026-34060"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ruby-lsp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages.ruby-lsp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_1.ruby-lsp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_2.ruby-lsp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_3.ruby-lsp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_4.ruby-lsp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_4_0.ruby-lsp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0914"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505599"
+    }
+  ]
+}

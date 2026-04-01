@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0884",
+  "summary": "Tautulli: RCE via eval() sandbox bypass using lambda nested scope to escape co_names whitelist check",
+  "published": "2026-03-31T11:53:36.000Z",
+  "modified": "2026-03-31T11:53:36.000Z",
+  "upstream": [
+    "CVE-2026-28505"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tautulli"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0884"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505325"
+    }
+  ]
+}

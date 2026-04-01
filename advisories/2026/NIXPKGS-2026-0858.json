@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0858",
+  "summary": "OpenSC: `sc_compacttlv_find_tag` can return out-of-bounds pointers",
+  "published": "2026-03-31T11:52:26.000Z",
+  "modified": "2026-03-31T11:52:26.000Z",
+  "upstream": [
+    "CVE-2025-66038"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opensc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0858"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505299"
+    }
+  ]
+}

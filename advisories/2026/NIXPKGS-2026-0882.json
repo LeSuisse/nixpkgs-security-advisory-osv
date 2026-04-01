@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0882",
+  "summary": "FreeRDP: Possible double free in kerberos_AcceptSecurityContext",
+  "published": "2026-03-31T11:53:31.000Z",
+  "modified": "2026-03-31T11:53:31.000Z",
+  "upstream": [
+    "CVE-2026-33995"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0882"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505323"
+    }
+  ]
+}

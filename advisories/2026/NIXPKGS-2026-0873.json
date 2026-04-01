@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0873",
+  "summary": "osrg GoBGP BGP Header bgp.go BGPHeader.DecodeFromBytes access control",
+  "published": "2026-03-31T11:53:06.000Z",
+  "modified": "2026-03-31T11:53:06.000Z",
+  "upstream": [
+    "CVE-2026-5124"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gobgp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gobgpd"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0873"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505314"
+    }
+  ]
+}
