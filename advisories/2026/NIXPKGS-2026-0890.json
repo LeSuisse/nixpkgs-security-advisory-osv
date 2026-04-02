@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0890",
+  "summary": "FRRouting FRR EVPN Type-2 Route bgp_evpn.c process_type2_route access control",
+  "published": "2026-03-31T11:53:52.000Z",
+  "modified": "2026-03-31T11:53:52.000Z",
+  "upstream": [
+    "CVE-2026-5107"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "frr"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0890"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505331"
+    }
+  ]
+}

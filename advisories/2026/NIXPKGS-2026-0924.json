@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0924",
+  "summary": "SiYuan: Broken access control in /api/bookmark/getBookmark allows unauthenticated publish visitors to read password-protected bookmarked content",
+  "published": "2026-04-01T06:56:58.000Z",
+  "modified": "2026-04-01T06:56:58.000Z",
+  "upstream": [
+    "CVE-2026-34453"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0924"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505609"
+    }
+  ]
+}

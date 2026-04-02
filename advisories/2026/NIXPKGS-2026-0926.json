@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0926",
+  "summary": "SiYuan: Reflected XSS via SVG namespace prefix bypass in SanitizeSVG ( getDynamicIcon, unauthenticated )",
+  "published": "2026-04-01T06:56:59.000Z",
+  "modified": "2026-04-01T06:56:59.000Z",
+  "upstream": [
+    "CVE-2026-34605"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0926"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505611"
+    }
+  ]
+}

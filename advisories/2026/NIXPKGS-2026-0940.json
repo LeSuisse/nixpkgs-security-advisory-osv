@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0940",
+  "summary": "File Browser is vulnerable to Stored Cross-Site Scripting via text/template branding injection",
+  "published": "2026-04-02T06:41:01.000Z",
+  "modified": "2026-04-02T06:41:01.000Z",
+  "upstream": [
+    "CVE-2026-34530"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "filebrowser"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0940"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505918"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0801",
+  "summary": "SiYuan has directory traversal within its publishing service",
+  "published": "2026-03-27T11:37:21.000Z",
+  "modified": "2026-03-27T11:37:21.000Z",
+  "upstream": [
+    "CVE-2026-33670"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0801"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/504052"
+    }
+  ]
+}

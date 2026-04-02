@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0939",
+  "summary": "Flask-HTTPAuth invokes token verification callback when missing or empty token was given by client",
+  "published": "2026-04-02T06:40:59.000Z",
+  "modified": "2026-04-02T06:40:59.000Z",
+  "upstream": [
+    "CVE-2026-34531"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.flask-httpauth"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.flask-httpauth"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.flask-httpauth"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0939"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505917"
+    }
+  ]
+}

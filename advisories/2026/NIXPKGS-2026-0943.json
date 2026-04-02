@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0943",
+  "summary": "Corosync: corosync: denial of service via integer overflow in join message validation",
+  "published": "2026-04-02T06:41:06.000Z",
+  "modified": "2026-04-02T06:41:06.000Z",
+  "upstream": [
+    "CVE-2026-35092"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "corosync"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0943"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505921"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0944",
+  "summary": "Cross Namespace Access via Batch Operation",
+  "published": "2026-04-02T06:41:13.000Z",
+  "modified": "2026-04-02T06:41:13.000Z",
+  "upstream": [
+    "CVE-2026-5199"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "temporal"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0944"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505922"
+    }
+  ]
+}
