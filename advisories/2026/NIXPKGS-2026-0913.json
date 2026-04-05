@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0913",
+  "summary": "SciTokens: Authorization Bypass via Path Traversal in Scope Validation",
+  "published": "2026-04-01T06:56:24.000Z",
+  "modified": "2026-04-01T06:56:24.000Z",
+  "upstream": [
+    "CVE-2026-32727"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "scitokens-cpp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0913"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505598"
+    }
+  ]
+}

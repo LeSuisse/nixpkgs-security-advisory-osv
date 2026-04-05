@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0922",
+  "summary": "SciTokens C++: Sibling-Path Authorization Bypass",
+  "published": "2026-04-01T06:56:49.000Z",
+  "modified": "2026-04-01T06:56:49.000Z",
+  "upstream": [
+    "CVE-2026-32726"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "scitokens-cpp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0922"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505607"
+    }
+  ]
+}

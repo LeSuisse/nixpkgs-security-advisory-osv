@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0930",
+  "summary": "Use after free when parsing EDNS options in Lua",
+  "published": "2026-04-01T06:57:15.000Z",
+  "modified": "2026-04-01T06:57:15.000Z",
+  "upstream": [
+    "CVE-2026-27854"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dnsdist"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0930"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505615"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0951",
+  "summary": "An issue was discovered in MariaDB Server before 11.4.10, 11.5.x …",
+  "published": "2026-04-05T19:09:58.000Z",
+  "modified": "2026-04-05T19:09:58.000Z",
+  "upstream": [
+    "CVE-2026-35549"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mariadb"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mariadb_106"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mariadb_114"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mariadb_118"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mariadb_1011"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0951"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507035"
+    }
+  ]
+}

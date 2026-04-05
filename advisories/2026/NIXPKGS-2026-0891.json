@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0891",
+  "summary": "Incomplete privilege drop for com.system76.CosmicGreeter.GetUserData",
+  "published": "2026-03-31T11:53:55.000Z",
+  "modified": "2026-03-31T11:53:55.000Z",
+  "upstream": [
+    "CVE-2026-25704"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cosmic-greeter"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0891"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505332"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0950",
+  "summary": "In OpenSSH before 10.3, a file downloaded by scp may …",
+  "published": "2026-04-05T19:03:48.000Z",
+  "modified": "2026-04-05T19:03:48.000Z",
+  "upstream": [
+    "CVE-2026-35385"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssh"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssh_hpn"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssh_gssapi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opensshWithKerberos"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssh_hpnWithKerberos"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0950"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507029"
+    }
+  ]
+}
