@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0959",
+  "summary": "Tandoor has a Stored CSS Injection via <style> Tag in Recipe Instructions (API-Level)",
+  "published": "2026-04-08T11:57:19.000Z",
+  "modified": "2026-04-08T11:57:19.000Z",
+  "upstream": [
+    "CVE-2026-35046"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tandoor-recipes"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0959"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507879"
+    }
+  ]
+}

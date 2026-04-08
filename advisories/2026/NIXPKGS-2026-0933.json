@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0933",
+  "summary": "Out-of-bounds write when rewriting large DNS packets",
+  "published": "2026-04-01T06:57:20.000Z",
+  "modified": "2026-04-01T06:57:20.000Z",
+  "upstream": [
+    "CVE-2026-27853"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dnsdist"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0933"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505618"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0963",
+  "summary": "LibreChat Affected by Arbitrary File Write via `execute_code` Artifact Filename Traversal",
+  "published": "2026-04-08T12:12:17.000Z",
+  "modified": "2026-04-08T12:12:17.000Z",
+  "upstream": [
+    "CVE-2026-34371"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "librechat"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0963"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507883"
+    }
+  ]
+}

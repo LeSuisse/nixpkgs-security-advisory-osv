@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0934",
+  "summary": "alerta-server has potential SQL Injection vulnerability in Query String Syntax (q=) API",
+  "published": "2026-04-01T06:57:22.000Z",
+  "modified": "2026-04-01T06:57:22.000Z",
+  "upstream": [
+    "CVE-2026-34400"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "alerta-server"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0934"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505619"
+    }
+  ]
+}

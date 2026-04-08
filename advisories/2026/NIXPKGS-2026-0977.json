@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0977",
+  "summary": "Papra has an HTML Injection in Transactional Emails via Unescaped User Display Name",
+  "published": "2026-04-08T12:20:53.000Z",
+  "modified": "2026-04-08T12:20:53.000Z",
+  "upstream": [
+    "CVE-2026-35460"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "papra"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0977"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507897"
+    }
+  ]
+}

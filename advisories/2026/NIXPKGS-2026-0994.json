@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0994",
+  "summary": "Pi-hole FTL: CLI API sessions can import Teleporter archives and modify configuration",
+  "published": "2026-04-08T12:22:02.000Z",
+  "modified": "2026-04-08T12:22:02.000Z",
+  "upstream": [
+    "CVE-2026-35491"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pihole-ftl"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0994"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507915"
+    }
+  ]
+}

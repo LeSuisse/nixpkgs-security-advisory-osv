@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0956",
+  "summary": "Tandoor Recipes — CustomIsShared permits DELETE/PUT on RecipeBook by shared (read-only) users",
+  "published": "2026-04-08T11:52:44.000Z",
+  "modified": "2026-04-08T11:52:44.000Z",
+  "upstream": [
+    "CVE-2026-35488"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tandoor-recipes"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0956"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507876"
+    }
+  ]
+}

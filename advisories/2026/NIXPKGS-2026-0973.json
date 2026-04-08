@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0973",
+  "summary": "Lupa has a Sandbox escape and RCE due to incomplete attribute_filter enforcement in getattr / setattr",
+  "published": "2026-04-08T12:19:15.000Z",
+  "modified": "2026-04-08T12:19:15.000Z",
+  "upstream": [
+    "CVE-2026-34444"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.lupa"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.lupa"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.lupa"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0973"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507893"
+    }
+  ]
+}

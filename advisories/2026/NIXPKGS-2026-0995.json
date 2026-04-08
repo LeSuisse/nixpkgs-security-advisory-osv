@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0995",
+  "summary": "Tinyproxy HTTP request parsing desynchronization via case-sensitive Transfer-Encoding handling",
+  "published": "2026-04-08T12:22:05.000Z",
+  "modified": "2026-04-08T12:22:05.000Z",
+  "upstream": [
+    "CVE-2026-31842"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tinyproxy"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0995"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507916"
+    }
+  ]
+}

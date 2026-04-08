@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0927",
+  "summary": "SiYuan: Stored XSS in imported .sy.zip content leads to arbitrary command execution",
+  "published": "2026-04-01T06:56:56.000Z",
+  "modified": "2026-04-01T06:56:56.000Z",
+  "upstream": [
+    "CVE-2026-34585"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0927"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505612"
+    }
+  ]
+}

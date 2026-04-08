@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1009",
+  "summary": "Podman Desktop WebView Server Exposed",
+  "published": "2026-04-08T12:22:36.000Z",
+  "modified": "2026-04-08T12:22:36.000Z",
+  "upstream": [
+    "CVE-2026-34045"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "podman-desktop"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1009"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507930"
+    }
+  ]
+}

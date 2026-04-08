@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0964",
+  "summary": "Dgraph Affected by Pre-Auth Database Overwrite + SSRF + File Read via restoreTenant Missing Authorization",
+  "published": "2026-04-08T12:13:30.000Z",
+  "modified": "2026-04-08T12:13:30.000Z",
+  "upstream": [
+    "CVE-2026-34976"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dgraph"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0964"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507884"
+    }
+  ]
+}

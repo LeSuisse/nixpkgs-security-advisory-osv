@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1003",
+  "summary": "File Browser discloses text file content via /api/resources endpoint bypassing Perm.Download check",
+  "published": "2026-04-08T12:22:28.000Z",
+  "modified": "2026-04-08T12:22:28.000Z",
+  "upstream": [
+    "CVE-2026-35606"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "filebrowser"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1003"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507924"
+    }
+  ]
+}

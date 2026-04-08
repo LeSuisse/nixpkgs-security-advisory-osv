@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0990",
+  "summary": "Out-of-bounds Write in Firecracker virtio-pci Transport",
+  "published": "2026-04-08T12:21:41.000Z",
+  "modified": "2026-04-08T12:21:41.000Z",
+  "upstream": [
+    "CVE-2026-5747"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "firecracker"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0990"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507910"
+    }
+  ]
+}

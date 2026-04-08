@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0920",
+  "summary": "Dolibarr Core Discloses Sensitive Data via Authenticated Local File Inclusion in selectobject.php",
+  "published": "2026-04-01T06:56:50.000Z",
+  "modified": "2026-04-01T06:56:50.000Z",
+  "upstream": [
+    "CVE-2026-34036"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dolibarr"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0920"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505605"
+    }
+  ]
+}

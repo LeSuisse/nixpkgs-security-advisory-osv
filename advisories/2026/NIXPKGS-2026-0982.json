@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0982",
+  "summary": "File Browser: Proxy auth auto-provisioned users inherit Execute permission and Commands",
+  "published": "2026-04-08T12:21:00.000Z",
+  "modified": "2026-04-08T12:21:00.000Z",
+  "upstream": [
+    "CVE-2026-35607"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "filebrowser"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0982"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507902"
+    }
+  ]
+}

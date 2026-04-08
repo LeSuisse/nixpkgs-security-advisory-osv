@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1012",
+  "summary": "Papra Does Not Reject Expired API Keys",
+  "published": "2026-04-08T12:22:49.000Z",
+  "modified": "2026-04-08T12:22:49.000Z",
+  "upstream": [
+    "CVE-2026-35462"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "papra"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1012"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507933"
+    }
+  ]
+}

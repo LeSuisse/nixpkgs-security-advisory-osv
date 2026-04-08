@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0974",
+  "summary": "openFPGALoader has a heap buffer overflow in POFParser::parseSection() via crafted .pof file",
+  "published": "2026-04-08T12:19:17.000Z",
+  "modified": "2026-04-08T12:19:17.000Z",
+  "upstream": [
+    "CVE-2026-35176"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openfpgaloader"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0974"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507894"
+    }
+  ]
+}

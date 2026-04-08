@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0954",
+  "summary": "Flatpak has a complete sandbox escape leading to host file access and code execution in the host context",
+  "published": "2026-04-08T11:44:46.000Z",
+  "modified": "2026-04-08T11:44:46.000Z",
+  "upstream": [
+    "CVE-2026-34078"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "flatpak"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0954"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507871"
+    }
+  ]
+}

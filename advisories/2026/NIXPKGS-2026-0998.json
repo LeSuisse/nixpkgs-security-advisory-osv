@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0998",
+  "summary": "An integer overflow vulnerability exists in the deflate_dng_load_raw functionality of …",
+  "published": "2026-04-08T12:22:11.000Z",
+  "modified": "2026-04-08T12:22:11.000Z",
+  "upstream": [
+    "CVE-2026-20884"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libraw"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0998"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507919"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1011",
+  "summary": "SiYuan affected by Remote Code Execution in the Electron desktop client via stored XSS in synced table captions",
+  "published": "2026-04-08T12:22:39.000Z",
+  "modified": "2026-04-08T12:22:39.000Z",
+  "upstream": [
+    "CVE-2026-39846"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1011"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507932"
+    }
+  ]
+}

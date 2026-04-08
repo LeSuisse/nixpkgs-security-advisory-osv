@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0992",
+  "summary": "Pi-hole FTL affected by Remote Code Execution (RCE) via dns.cnameRecords Newline Injection",
+  "published": "2026-04-08T12:21:45.000Z",
+  "modified": "2026-04-08T12:21:45.000Z",
+  "upstream": [
+    "CVE-2026-35518"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pihole-ftl"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0992"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507912"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0987",
+  "summary": "pyLoad has an incomplete fix for CVE-2026-33509: unprotected storage_folder enables arbitrary file write to Flask session store and code execution",
+  "published": "2026-04-08T12:21:36.000Z",
+  "modified": "2026-04-08T12:21:36.000Z",
+  "upstream": [
+    "CVE-2026-35464"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pyload-ng"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0987"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507907"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0965",
+  "summary": "File Browser has an access rule bypass via HasPrefix without trailing separator in path matching",
+  "published": "2026-04-08T12:18:59.000Z",
+  "modified": "2026-04-08T12:18:59.000Z",
+  "upstream": [
+    "CVE-2026-35605"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "filebrowser"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0965"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507885"
+    }
+  ]
+}

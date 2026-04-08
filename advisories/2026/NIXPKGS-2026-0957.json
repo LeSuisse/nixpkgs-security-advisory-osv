@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0957",
+  "summary": "Tandoor Recipes — `amount`/`unit` bypass serializer in `food/{id}/shopping/`",
+  "published": "2026-04-08T11:55:22.000Z",
+  "modified": "2026-04-08T11:55:22.000Z",
+  "upstream": [
+    "CVE-2026-35489"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tandoor-recipes"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0957"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507877"
+    }
+  ]
+}

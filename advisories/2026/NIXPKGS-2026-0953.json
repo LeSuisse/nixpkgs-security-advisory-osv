@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0953",
+  "summary": "Cosign's verify-blob-attestation reports false positive when payload parsing fails",
+  "published": "2026-04-08T11:29:41.000Z",
+  "modified": "2026-04-08T11:29:41.000Z",
+  "upstream": [
+    "CVE-2026-39395"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cosign"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0953"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507866"
+    }
+  ]
+}

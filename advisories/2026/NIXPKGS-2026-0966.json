@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0966",
+  "summary": "Authentication bypass in strawberry-graphql via legacy graphql-ws WebSocket subprotocol",
+  "published": "2026-04-08T12:19:02.000Z",
+  "modified": "2026-04-08T12:19:02.000Z",
+  "upstream": [
+    "CVE-2026-35523"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.strawberry-graphql"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.strawberry-graphql"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.strawberry-graphql"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0966"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507886"
+    }
+  ]
+}

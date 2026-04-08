@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1002",
+  "summary": "A heap-based buffer overflow vulnerability exists in the x3f_thumb_loader functionality …",
+  "published": "2026-04-08T12:22:20.000Z",
+  "modified": "2026-04-08T12:22:20.000Z",
+  "upstream": [
+    "CVE-2026-20889"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libraw"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1002"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/507923"
+    }
+  ]
+}
