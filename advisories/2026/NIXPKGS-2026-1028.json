@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1028",
+  "summary": "Sleuth Kit ISO9660 SUSP Extension Reference Out-of-Bounds Read",
+  "published": "2026-04-09T07:44:38.000Z",
+  "modified": "2026-04-09T07:44:38.000Z",
+  "upstream": [
+    "CVE-2026-40026"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sleuthkit"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1028"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508230"
+    }
+  ]
+}

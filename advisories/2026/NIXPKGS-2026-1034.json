@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1034",
+  "summary": "Kamailio Auth: Processing Vulnerability For Additional Authenticated User Identity Checks",
+  "published": "2026-04-09T07:45:25.000Z",
+  "modified": "2026-04-09T07:45:25.000Z",
+  "upstream": [
+    "CVE-2026-39864"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kamailio"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1034"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508236"
+    }
+  ]
+}

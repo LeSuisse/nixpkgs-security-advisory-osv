@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1026",
+  "summary": "Zammad improperly neutralizes of script-related HTML tags in ticket articles",
+  "published": "2026-04-09T07:44:21.000Z",
+  "modified": "2026-04-09T07:44:21.000Z",
+  "upstream": [
+    "CVE-2026-34718"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zammad"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1026"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508228"
+    }
+  ]
+}

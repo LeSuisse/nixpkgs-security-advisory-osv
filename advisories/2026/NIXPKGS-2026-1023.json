@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1023",
+  "summary": "Sleuth Kit tsk_recover Path Traversal",
+  "published": "2026-04-09T07:44:18.000Z",
+  "modified": "2026-04-09T07:44:18.000Z",
+  "upstream": [
+    "CVE-2026-40024"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sleuthkit"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1023"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508225"
+    }
+  ]
+}

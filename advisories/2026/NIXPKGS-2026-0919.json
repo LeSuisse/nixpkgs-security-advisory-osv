@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-0919",
+  "summary": "Axiomatic Bento4 DSI v1 Ap4Dac4Atom.cpp SkipBits heap-based overflow",
+  "published": "2026-04-01T06:56:48.000Z",
+  "modified": "2026-04-01T06:56:48.000Z",
+  "upstream": [
+    "CVE-2026-5236"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bento4"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-0919"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/505604"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1022",
+  "summary": "Zammad has an origin validation error in SSO mechanism",
+  "published": "2026-04-09T07:44:20.000Z",
+  "modified": "2026-04-09T07:44:20.000Z",
+  "upstream": [
+    "CVE-2026-34720"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zammad"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1022"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508224"
+    }
+  ]
+}

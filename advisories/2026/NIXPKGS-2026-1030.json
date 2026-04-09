@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1030",
+  "summary": "Zammad has a server-side template injection leading to RCE via AI Agent",
+  "published": "2026-04-09T07:45:19.000Z",
+  "modified": "2026-04-09T07:45:19.000Z",
+  "upstream": [
+    "CVE-2026-34724"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zammad"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1030"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508232"
+    }
+  ]
+}

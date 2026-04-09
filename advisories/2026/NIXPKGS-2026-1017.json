@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1017",
+  "summary": "immich has Stored XSS via OCR Text in 360° Panorama Viewer",
+  "published": "2026-04-09T07:38:35.000Z",
+  "modified": "2026-04-09T07:38:35.000Z",
+  "upstream": [
+    "CVE-2026-35455"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "immich"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1017"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508218"
+    }
+  ]
+}
