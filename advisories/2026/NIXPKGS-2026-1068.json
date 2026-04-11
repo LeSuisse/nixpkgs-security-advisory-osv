@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1068",
+  "summary": "Vikunja's Scoped API tokens with projects.background permission can delete project backgrounds",
+  "published": "2026-04-11T08:52:17.000Z",
+  "modified": "2026-04-11T08:52:17.000Z",
+  "upstream": [
+    "CVE-2026-40103"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vikunja"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1068"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508898"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1048",
+  "summary": "Net::CIDR::Lite versions before 0.23 for Perl mishandles IPv4 mapped IPv6 addresses, which may allow IP ACL bypass",
+  "published": "2026-04-11T08:50:48.000Z",
+  "modified": "2026-04-11T08:50:48.000Z",
+  "upstream": [
+    "CVE-2026-40199"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.NetCIDRLite"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.NetCIDRLite"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.NetCIDRLite"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.NetCIDRLite"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1048"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508878"
+    }
+  ]
+}

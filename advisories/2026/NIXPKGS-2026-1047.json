@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1047",
+  "summary": "Vikunja Link Share JWT tokens remain valid for 72 hours after share deletion or permission downgrade",
+  "published": "2026-04-11T08:50:45.000Z",
+  "modified": "2026-04-11T08:50:45.000Z",
+  "upstream": [
+    "CVE-2026-35594"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vikunja"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vikunja-desktop"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1047"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508877"
+    }
+  ]
+}

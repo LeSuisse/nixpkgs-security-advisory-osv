@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1052",
+  "summary": "Vikunja Affected by TOTP Brute-Force Due to Non-Functional Account Lockout",
+  "published": "2026-04-11T08:51:00.000Z",
+  "modified": "2026-04-11T08:51:00.000Z",
+  "upstream": [
+    "CVE-2026-35597"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vikunja"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1052"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508882"
+    }
+  ]
+}

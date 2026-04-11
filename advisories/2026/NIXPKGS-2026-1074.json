@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1074",
+  "summary": "Juju API Server Denial of Service and Authentication Replay via Unsynchronized Token Map",
+  "published": "2026-04-11T08:52:43.000Z",
+  "modified": "2026-04-11T08:52:43.000Z",
+  "upstream": [
+    "CVE-2026-5774"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "juju"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1074"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508904"
+    }
+  ]
+}

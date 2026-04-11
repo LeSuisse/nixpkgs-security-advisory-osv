@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1049",
+  "summary": "Juju CloudSpec API could leak senstive information",
+  "published": "2026-04-11T08:50:50.000Z",
+  "modified": "2026-04-11T08:50:50.000Z",
+  "upstream": [
+    "CVE-2026-5412"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "juju"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1049"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508879"
+    }
+  ]
+}

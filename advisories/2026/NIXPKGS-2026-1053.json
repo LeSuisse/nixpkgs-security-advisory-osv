@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1053",
+  "summary": "Tandoor Recipes Affected by Denial of Service via Recipe Import",
+  "published": "2026-04-11T08:51:07.000Z",
+  "modified": "2026-04-11T08:51:07.000Z",
+  "upstream": [
+    "CVE-2026-27460"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tandoor-recipes"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1053"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508883"
+    }
+  ]
+}

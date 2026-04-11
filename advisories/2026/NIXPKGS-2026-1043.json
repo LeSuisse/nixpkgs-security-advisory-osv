@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1043",
+  "summary": "Lychee has Broken Access Control in SharingController::listAll() leaks private album sharing metadata to unauthorized users",
+  "published": "2026-04-11T08:50:38.000Z",
+  "modified": "2026-04-11T08:50:38.000Z",
+  "upstream": [
+    "CVE-2026-39957"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "LycheeSlicer"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lycheeslicer"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1043"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508873"
+    }
+  ]
+}

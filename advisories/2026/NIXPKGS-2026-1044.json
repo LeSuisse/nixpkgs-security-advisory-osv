@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1044",
+  "summary": "pyLoad WebUI JSON permission mismatch lets ADD/DELETE users invoke MODIFY-only actions",
+  "published": "2026-04-11T08:50:40.000Z",
+  "modified": "2026-04-11T08:50:40.000Z",
+  "upstream": [
+    "CVE-2026-40071"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pyload-ng"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1044"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508874"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1060",
+  "summary": "wc_VerifyEccsiHash missing sanity check",
+  "published": "2026-04-11T08:51:33.000Z",
+  "modified": "2026-04-11T08:51:33.000Z",
+  "upstream": [
+    "CVE-2026-5466"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wolfssl"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1060"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/508890"
+    }
+  ]
+}
