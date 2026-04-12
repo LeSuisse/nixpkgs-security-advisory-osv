@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1075",
+  "summary": "Improper Path Validation in Git Dependency Handling Allows Arbitrary File System Modification",
+  "published": "2026-04-12T15:42:39.000Z",
+  "modified": "2026-04-12T15:42:39.000Z",
+  "upstream": [
+    "CVE-2026-32146"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gleam"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1075"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/509292"
+    }
+  ]
+}
