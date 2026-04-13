@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1077",
+  "summary": "In libexif through 0.6.25, an integer underflow in size checking …",
+  "published": "2026-04-13T10:49:11.000Z",
+  "modified": "2026-04-13T10:49:11.000Z",
+  "upstream": [
+    "CVE-2026-40386"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libexif"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1077"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/509518"
+    }
+  ]
+}

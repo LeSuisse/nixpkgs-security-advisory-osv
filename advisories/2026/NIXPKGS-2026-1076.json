@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1076",
+  "summary": "In libexif through 0.6.25, an unsigned 32bit integer overflow in …",
+  "published": "2026-04-13T10:49:10.000Z",
+  "modified": "2026-04-13T10:49:10.000Z",
+  "upstream": [
+    "CVE-2026-40385"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libexif"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1076"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/509517"
+    }
+  ]
+}
