@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1080",
+  "summary": "LibreNMS versions before 26.3.0 are affected by an authenticated Cross-site …",
+  "published": "2026-04-14T11:23:19.000Z",
+  "modified": "2026-04-14T11:23:19.000Z",
+  "upstream": [
+    "CVE-2026-2728"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "librenms"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1080"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/509901"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1090",
+  "summary": "jq: Integer overflow in jvp_string_append() allows Heap-based Buffer Overflow",
+  "published": "2026-04-14T11:24:08.000Z",
+  "modified": "2026-04-14T11:24:08.000Z",
+  "upstream": [
+    "CVE-2026-32316"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jq"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1090"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/509911"
+    }
+  ]
+}

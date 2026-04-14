@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1095",
+  "summary": "uclouvain openjpeg pi.c opj_pi_initialise_encode integer overflow",
+  "published": "2026-04-14T11:24:15.000Z",
+  "modified": "2026-04-14T11:24:15.000Z",
+  "upstream": [
+    "CVE-2026-6192"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openjpeg"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1095"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/509916"
+    }
+  ]
+}

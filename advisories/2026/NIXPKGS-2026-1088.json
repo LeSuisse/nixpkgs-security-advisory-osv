@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1088",
+  "summary": "Apache Airflow: Secrets from Airflow config file logged in plain text in DAG run logs UI",
+  "published": "2026-04-14T11:23:36.000Z",
+  "modified": "2026-04-14T11:23:36.000Z",
+  "upstream": [
+    "CVE-2025-66236"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apache-airflow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1088"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/509909"
+    }
+  ]
+}

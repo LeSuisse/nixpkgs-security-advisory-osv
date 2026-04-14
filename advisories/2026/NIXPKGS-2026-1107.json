@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1107",
+  "summary": "jq: Algorithmic complexity DoS via hardcoded MurmurHash3 seed",
+  "published": "2026-04-14T11:24:51.000Z",
+  "modified": "2026-04-14T11:24:51.000Z",
+  "upstream": [
+    "CVE-2026-40164"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jq"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1107"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/509929"
+    }
+  ]
+}
