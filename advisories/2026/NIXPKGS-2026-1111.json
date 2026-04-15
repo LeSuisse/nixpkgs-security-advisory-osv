@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1111",
+  "summary": "Jellyfin: Potential SSRF + Arbitrary file read via stream argument injection",
+  "published": "2026-04-15T06:35:41.000Z",
+  "modified": "2026-04-15T06:35:41.000Z",
+  "upstream": [
+    "CVE-2026-35033"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jellyfin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1111"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/510192"
+    }
+  ]
+}

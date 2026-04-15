@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1117",
+  "summary": "An issue was discovered in HAProxy before 3.3.6. The HTTP/3 …",
+  "published": "2026-04-15T06:52:01.000Z",
+  "modified": "2026-04-15T06:52:01.000Z",
+  "upstream": [
+    "CVE-2026-33555"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "haproxy"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1117"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/510202"
+    }
+  ]
+}

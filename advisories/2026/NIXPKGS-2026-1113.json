@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1113",
+  "summary": "Jellyfin: Potential Application DoS from excessively large SyncPlay group names",
+  "published": "2026-04-15T06:35:44.000Z",
+  "modified": "2026-04-15T06:35:44.000Z",
+  "upstream": [
+    "CVE-2026-35034"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jellyfin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/510194"
+    }
+  ]
+}

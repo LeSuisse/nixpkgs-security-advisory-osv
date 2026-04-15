@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1114",
+  "summary": "OAuth2 Proxy: Health Check User-Agent Matching Bypasses Authentication in auth_request Mode",
+  "published": "2026-04-15T06:39:46.000Z",
+  "modified": "2026-04-15T06:39:46.000Z",
+  "upstream": [
+    "CVE-2026-34457"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "oauth2-proxy"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1114"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/510196"
+    }
+  ]
+}

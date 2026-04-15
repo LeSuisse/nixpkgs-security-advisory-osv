@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1116",
+  "summary": "Zarf has a Path Traversal via Malicious Package Metadata.Name — Arbitrary File Write",
+  "published": "2026-04-15T06:50:13.000Z",
+  "modified": "2026-04-15T06:50:13.000Z",
+  "upstream": [
+    "CVE-2026-40090"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zarf"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1116"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/510201"
+    }
+  ]
+}
