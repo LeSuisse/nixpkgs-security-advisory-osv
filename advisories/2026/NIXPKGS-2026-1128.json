@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1128",
+  "summary": "Weblate has an argument injection in management console",
+  "published": "2026-04-16T07:48:45.000Z",
+  "modified": "2026-04-16T07:48:45.000Z",
+  "upstream": [
+    "CVE-2026-24126"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weblate"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1128"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/510510"
+    }
+  ]
+}

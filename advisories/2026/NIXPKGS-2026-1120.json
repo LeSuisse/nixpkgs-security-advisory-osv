@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1120",
+  "summary": "radare2 < 6.1.4 Command Injection via PDB Parser print_gvars()",
+  "published": "2026-04-16T07:37:11.000Z",
+  "modified": "2026-04-16T07:37:11.000Z",
+  "upstream": [
+    "CVE-2026-40499"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "radare2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/510500"
+    }
+  ]
+}

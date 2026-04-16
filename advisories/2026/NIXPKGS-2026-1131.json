@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1131",
+  "summary": "Weblate: Privilege escalation in the user API endpoint",
+  "published": "2026-04-16T07:48:50.000Z",
+  "modified": "2026-04-16T07:48:50.000Z",
+  "upstream": [
+    "CVE-2026-34393"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weblate"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1131"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/510513"
+    }
+  ]
+}

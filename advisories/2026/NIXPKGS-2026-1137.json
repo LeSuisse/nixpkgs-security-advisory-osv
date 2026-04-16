@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1137",
+  "summary": "Weblate has improper access control for the translation memory API",
+  "published": "2026-04-16T07:49:01.000Z",
+  "modified": "2026-04-16T07:49:01.000Z",
+  "upstream": [
+    "CVE-2026-33214"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weblate"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1137"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/510520"
+    }
+  ]
+}

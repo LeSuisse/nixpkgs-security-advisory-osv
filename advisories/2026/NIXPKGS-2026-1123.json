@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1123",
+  "summary": "SpiceDB: SPICEDB_DATASTORE_CONN_URI is leaked on startup logs",
+  "published": "2026-04-16T07:37:23.000Z",
+  "modified": "2026-04-16T07:37:23.000Z",
+  "upstream": [
+    "CVE-2026-40091"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "spicedb"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1123"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/510503"
+    }
+  ]
+}

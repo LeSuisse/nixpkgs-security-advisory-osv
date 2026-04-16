@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1136",
+  "summary": "Weblate: JavaScript localization CDN add-on allows arbitrary local file read outside the repository",
+  "published": "2026-04-16T07:48:59.000Z",
+  "modified": "2026-04-16T07:48:59.000Z",
+  "upstream": [
+    "CVE-2026-33220"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weblate"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1136"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/510519"
+    }
+  ]
+}
