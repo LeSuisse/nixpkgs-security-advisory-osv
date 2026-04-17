@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1138",
+  "summary": "Luanti 5 before 5.15.2 sometimes allows unintended access to an …",
+  "published": "2026-04-17T12:10:25.000Z",
+  "modified": "2026-04-17T12:10:25.000Z",
+  "upstream": [
+    "CVE-2026-40960"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "luanti"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1138"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/510868"
+    }
+  ]
+}

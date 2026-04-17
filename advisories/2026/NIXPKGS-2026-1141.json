@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1141",
+  "summary": "SiYuan: Incomplete sanitization of bazaar README allows stored XSS via iframe srcdoc (incomplete fix for CVE-2026-33066)",
+  "published": "2026-04-17T12:17:01.000Z",
+  "modified": "2026-04-17T12:17:01.000Z",
+  "upstream": [
+    "CVE-2026-40922"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1141"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/510872"
+    }
+  ]
+}
