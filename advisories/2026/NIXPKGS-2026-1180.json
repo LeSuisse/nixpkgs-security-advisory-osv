@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1180",
+  "summary": "radare2 Command Injection via DWARF Parameter Names",
+  "published": "2026-04-19T15:25:54.000Z",
+  "modified": "2026-04-19T15:25:54.000Z",
+  "upstream": [
+    "CVE-2026-40527"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "radare2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1180"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/511449"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1181",
+  "summary": "libgphoto2 missing null termination in ptp_unpack_Canon_FE() filename buffer in ptp-pack.c",
+  "published": "2026-04-19T15:25:55.000Z",
+  "modified": "2026-04-19T15:25:55.000Z",
+  "upstream": [
+    "CVE-2026-40334"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libgphoto2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1181"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/511450"
+    }
+  ]
+}

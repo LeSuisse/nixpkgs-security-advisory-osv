@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1195",
+  "summary": "Apache Airflow: Users with asset materialization permisssions could trigger Dags they had no access to",
+  "published": "2026-04-19T15:26:51.000Z",
+  "modified": "2026-04-19T15:26:51.000Z",
+  "upstream": [
+    "CVE-2026-32228"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apache-airflow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1195"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/511464"
+    }
+  ]
+}

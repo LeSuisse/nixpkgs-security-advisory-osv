@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1161",
+  "summary": "libgphoto2 has OOB read in ptp_unpack_DPV() UINT128/INT128 handling in ptp-pack.c",
+  "published": "2026-04-19T15:24:46.000Z",
+  "modified": "2026-04-19T15:24:46.000Z",
+  "upstream": [
+    "CVE-2026-40335"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libgphoto2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1161"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/511430"
+    }
+  ]
+}

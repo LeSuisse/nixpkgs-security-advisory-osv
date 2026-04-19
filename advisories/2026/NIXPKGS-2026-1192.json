@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1192",
+  "summary": "Apache Airflow: Bad example of BashOperator shell injection via dag_run.conf",
+  "published": "2026-04-19T15:26:45.000Z",
+  "modified": "2026-04-19T15:26:45.000Z",
+  "upstream": [
+    "CVE-2026-30898"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apache-airflow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1192"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/511461"
+    }
+  ]
+}

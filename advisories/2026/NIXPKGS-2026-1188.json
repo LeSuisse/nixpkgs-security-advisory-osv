@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1188",
+  "summary": "Firebird: Information leak vulnerability in firebird3 client when used with newer server",
+  "published": "2026-04-19T15:26:32.000Z",
+  "modified": "2026-04-19T15:26:32.000Z",
+  "upstream": [
+    "CVE-2025-65104"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "firebird_3"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1188"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/511457"
+    }
+  ]
+}

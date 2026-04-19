@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1158",
+  "summary": "Kimai: Stored XSS via Incomplete HTML Attribute Escaping in Team Member Widget",
+  "published": "2026-04-19T15:24:41.000Z",
+  "modified": "2026-04-19T15:24:41.000Z",
+  "upstream": [
+    "CVE-2026-40479"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kimai"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1158"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/511427"
+    }
+  ]
+}

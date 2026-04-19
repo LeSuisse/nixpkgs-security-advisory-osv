@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1185",
+  "summary": "xrdp: Fail-open privilege drop in sesexec — child processes may execute as root if setuid fails",
+  "published": "2026-04-19T15:26:04.000Z",
+  "modified": "2026-04-19T15:26:04.000Z",
+  "upstream": [
+    "CVE-2026-32107"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "xrdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1185"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/511454"
+    }
+  ]
+}

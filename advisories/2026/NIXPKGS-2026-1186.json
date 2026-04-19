@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1186",
+  "summary": "In JetBrains YouTrack before 2025.3.131383 high privileged user can achieve …",
+  "published": "2026-04-19T15:26:05.000Z",
+  "modified": "2026-04-19T15:26:05.000Z",
+  "upstream": [
+    "CVE-2026-33392"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "youtrack"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1186"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/511455"
+    }
+  ]
+}
