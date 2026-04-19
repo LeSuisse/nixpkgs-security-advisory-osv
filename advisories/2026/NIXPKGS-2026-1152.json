@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1152",
+  "summary": "editorconfig-core-c has incomplete fix for CVE-2023-0341",
+  "published": "2026-04-19T15:02:58.000Z",
+  "modified": "2026-04-19T15:02:58.000Z",
+  "upstream": [
+    "CVE-2026-40489"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "editorconfig-core-c"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1152"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/511414"
+    }
+  ]
+}

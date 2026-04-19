@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1154",
+  "summary": "zrok has reflected XSS in GitHub OAuth callback via unsanitized refreshInterval error rendering",
+  "published": "2026-04-19T15:11:08.000Z",
+  "modified": "2026-04-19T15:11:08.000Z",
+  "upstream": [
+    "CVE-2026-40302"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zrok"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1154"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/511417"
+    }
+  ]
+}
