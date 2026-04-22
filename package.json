@@ -20,7 +20,7 @@
     "transform_advisories": "node ./transform_advisories.ts"
   },
   "dependencies": {
-    "@actions/core": "^3.0.0",
+    "@actions/core": "^3.0.1",
     "cheerio": "^1.2.0"
   }
 }
