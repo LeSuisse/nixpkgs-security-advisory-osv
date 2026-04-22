@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1222",
+  "summary": "Glances Vulnerable to Cross-Origin Information Disclosure via Unauthenticated REST API (/api/4) due to Permissive CORS",
+  "published": "2026-04-22T14:51:54.000Z",
+  "modified": "2026-04-22T14:51:54.000Z",
+  "upstream": [
+    "CVE-2026-34839"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "glances"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1222"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512426"
+    }
+  ]
+}

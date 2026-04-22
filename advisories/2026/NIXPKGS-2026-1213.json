@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1213",
+  "summary": "pyLoad: Session Cookie Security Downgrade via Untrusted X-Forwarded-Proto Header Spoofing (Global State Race Condition)",
+  "published": "2026-04-22T14:51:24.000Z",
+  "modified": "2026-04-22T14:51:24.000Z",
+  "upstream": [
+    "CVE-2026-40594"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pyload-ng"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1213"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512416"
+    }
+  ]
+}

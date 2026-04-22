@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1216",
+  "summary": "pyLoad has Stale Session Privilege After Role/Permission Change (Privilege Revocation Bypass)",
+  "published": "2026-04-22T14:51:21.000Z",
+  "modified": "2026-04-22T14:51:21.000Z",
+  "upstream": [
+    "CVE-2026-41133"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pyload-ng"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1216"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512419"
+    }
+  ]
+}

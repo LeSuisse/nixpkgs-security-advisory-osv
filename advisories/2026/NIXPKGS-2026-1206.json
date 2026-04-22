@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1206",
+  "summary": "scanf %mc off-by-one heap buffer overflow",
+  "published": "2026-04-22T14:50:55.000Z",
+  "modified": "2026-04-22T14:50:55.000Z",
+  "upstream": [
+    "CVE-2026-5450"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "glibc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1206"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512409"
+    }
+  ]
+}

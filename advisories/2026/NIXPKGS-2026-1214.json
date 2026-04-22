@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1214",
+  "summary": "SFTP root escape via prefix-based path validation in goshs",
+  "published": "2026-04-22T14:51:26.000Z",
+  "modified": "2026-04-22T14:51:26.000Z",
+  "upstream": [
+    "CVE-2026-40876"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "goshs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1214"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512417"
+    }
+  ]
+}

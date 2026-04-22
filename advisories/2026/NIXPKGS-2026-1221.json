@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1221",
+  "summary": "OpenBao has Decompression Bomb via Unbounded Copy in OCI Plugin Extraction (DoS)",
+  "published": "2026-04-22T14:51:52.000Z",
+  "modified": "2026-04-22T14:51:52.000Z",
+  "upstream": [
+    "CVE-2026-39396"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openbao"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1221"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512425"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1210",
+  "summary": "Search path without quotes in CivetWeb",
+  "published": "2026-04-22T14:51:20.000Z",
+  "modified": "2026-04-22T14:51:20.000Z",
+  "upstream": [
+    "CVE-2026-5789"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "civetweb"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1210"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512413"
+    }
+  ]
+}

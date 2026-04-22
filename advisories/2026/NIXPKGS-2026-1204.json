@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1204",
+  "summary": "Static buffer overflow in deprecated nis_local_principal",
+  "published": "2026-04-22T14:50:58.000Z",
+  "modified": "2026-04-22T14:50:58.000Z",
+  "upstream": [
+    "CVE-2026-5358"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "glibc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1204"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512407"
+    }
+  ]
+}

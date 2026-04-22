@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1199",
+  "summary": "Glances IP Plugin has SSRF via public_api that leads to credential leakage",
+  "published": "2026-04-22T14:50:49.000Z",
+  "modified": "2026-04-22T14:50:49.000Z",
+  "upstream": [
+    "CVE-2026-35587"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "glances"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1199"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512402"
+    }
+  ]
+}
