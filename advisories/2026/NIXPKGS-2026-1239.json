@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1239",
+  "summary": "Emacs: emacs: memory corruption vulnerability when processing svg css",
+  "published": "2026-04-23T09:34:21.000Z",
+  "modified": "2026-04-23T09:34:21.000Z",
+  "upstream": [
+    "CVE-2026-6861"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "emacs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1239"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512710"
+    }
+  ]
+}

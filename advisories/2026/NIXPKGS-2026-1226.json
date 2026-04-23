@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1226",
+  "summary": "Efivar: efivar: denial of service due to stack overflow in device path node parsing",
+  "published": "2026-04-23T09:33:30.000Z",
+  "modified": "2026-04-23T09:33:30.000Z",
+  "upstream": [
+    "CVE-2026-6862"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "efivar"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1226"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512697"
+    }
+  ]
+}

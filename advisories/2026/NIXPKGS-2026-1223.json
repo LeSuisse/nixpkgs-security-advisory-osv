@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1223",
+  "summary": "MinIO has an Unauthenticated Object Write via Missing Signature Verification in Unsigned-Trailer Uploads",
+  "published": "2026-04-23T07:46:58.000Z",
+  "modified": "2026-04-23T07:46:58.000Z",
+  "upstream": [
+    "CVE-2026-40344"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "minio"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1223"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512663"
+    }
+  ]
+}

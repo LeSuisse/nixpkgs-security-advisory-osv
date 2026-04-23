@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1228",
+  "summary": "Out-of-bounds read in service discovery",
+  "published": "2026-04-23T09:33:32.000Z",
+  "modified": "2026-04-23T09:33:32.000Z",
+  "upstream": [
+    "CVE-2026-33599"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dnsdist"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1228"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512699"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1241",
+  "summary": "Insufficient validation of zonemd record",
+  "published": "2026-04-23T09:34:25.000Z",
+  "modified": "2026-04-23T09:34:25.000Z",
+  "upstream": [
+    "CVE-2026-33601"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pdns-recursor"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1241"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512712"
+    }
+  ]
+}

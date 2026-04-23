@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1255",
+  "summary": "radare2 < 6.1.4 Command Injection via PDB Parser Symbol Names",
+  "published": "2026-04-23T09:34:56.000Z",
+  "modified": "2026-04-23T09:34:56.000Z",
+  "upstream": [
+    "CVE-2026-40517"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "radare2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1255"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512726"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1253",
+  "summary": "Incomplete domain name sanitization during",
+  "published": "2026-04-23T09:34:48.000Z",
+  "modified": "2026-04-23T09:34:48.000Z",
+  "upstream": [
+    "CVE-2026-33608"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pdns"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1253"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512724"
+    }
+  ]
+}

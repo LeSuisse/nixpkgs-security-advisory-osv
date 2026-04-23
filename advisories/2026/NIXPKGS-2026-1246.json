@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1246",
+  "summary": "Null pointer accces in aggressive NSEC(3) cache",
+  "published": "2026-04-23T09:34:41.000Z",
+  "modified": "2026-04-23T09:34:41.000Z",
+  "upstream": [
+    "CVE-2026-33261"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pdns-recursor"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1246"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512717"
+    }
+  ]
+}

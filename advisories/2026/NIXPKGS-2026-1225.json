@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1225",
+  "summary": "PackageKit vulnerable to TOCTOU Race on Transaction Flags leads to arbitrary package installation as root",
+  "published": "2026-04-23T09:26:50.000Z",
+  "modified": "2026-04-23T09:26:50.000Z",
+  "upstream": [
+    "CVE-2026-41651"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "packagekit"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1225"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/512694"
+    }
+  ]
+}
