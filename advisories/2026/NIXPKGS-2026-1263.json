@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1263",
+  "summary": "Apache Airflow: Dags endpoint might provide access to otherwise inaccessible entities",
+  "published": "2026-04-27T08:36:24.000Z",
+  "modified": "2026-04-27T08:36:24.000Z",
+  "upstream": [
+    "CVE-2026-38743"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apache-airflow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1263"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/513916"
+    }
+  ]
+}

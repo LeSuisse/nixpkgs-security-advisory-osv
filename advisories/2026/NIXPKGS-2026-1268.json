@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1268",
+  "summary": "melange has Path Traversal via .PKGINFO in --persist-lint-results",
+  "published": "2026-04-27T08:37:08.000Z",
+  "modified": "2026-04-27T08:37:08.000Z",
+  "upstream": [
+    "CVE-2026-29051"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "melange"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1268"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/513922"
+    }
+  ]
+}
