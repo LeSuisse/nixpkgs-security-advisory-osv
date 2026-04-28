@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1281",
+  "summary": "GPAC MP4Box box_code_base.c elng_box_read out-of-bounds",
+  "published": "2026-04-28T13:01:11.000Z",
+  "modified": "2026-04-28T13:01:11.000Z",
+  "upstream": [
+    "CVE-2026-7135"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gpac"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1281"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/514412"
+    }
+  ]
+}
