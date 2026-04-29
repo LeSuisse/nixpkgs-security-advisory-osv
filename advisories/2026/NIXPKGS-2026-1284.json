@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1284",
+  "summary": "Outline has IDOR in document share creation that allows unauthorized access to private documents across workspaces",
+  "published": "2026-04-29T08:32:31.000Z",
+  "modified": "2026-04-29T08:32:31.000Z",
+  "upstream": [
+    "CVE-2026-41649"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "outline"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1284"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/514677"
+    }
+  ]
+}

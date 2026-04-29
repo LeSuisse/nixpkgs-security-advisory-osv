@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1288",
+  "summary": "KDE Dolphin before 25.12.3 allows applications in a Flatpak (or …",
+  "published": "2026-04-29T08:38:23.000Z",
+  "modified": "2026-04-29T08:38:23.000Z",
+  "upstream": [
+    "CVE-2026-41525"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kdePackages.dolphin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1288"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/514681"
+    }
+  ]
+}
