@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1455",
+  "summary": "apko `DiscoverKeys` has a panic on non-rsa jwks key that causes crash during key discovery",
+  "published": "2026-05-10T16:16:31.000Z",
+  "modified": "2026-05-10T16:16:31.000Z",
+  "upstream": [
+    "CVE-2026-42576"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apko"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1455"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/518751"
+    }
+  ]
+}

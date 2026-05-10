@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1457",
+  "summary": "Open5GS NF client.c ogs_sbi_client_send_via_scp_or_sepp out-of-bounds",
+  "published": "2026-05-10T16:16:47.000Z",
+  "modified": "2026-05-10T16:16:47.000Z",
+  "upstream": [
+    "CVE-2026-8186"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1457"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/518753"
+    }
+  ]
+}

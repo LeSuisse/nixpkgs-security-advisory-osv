@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1435",
+  "summary": "OpenEXR is Vulnerable to Integer overflow in ImageChannel::resize leads to heap OOB write via OpenEXRUtil public API",
+  "published": "2026-05-08T10:35:39.000Z",
+  "modified": "2026-05-08T10:35:39.000Z",
+  "upstream": [
+    "CVE-2026-41142"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openexr"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1435"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/518011"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1417",
+  "summary": "CoreDNS TSIG authentication bypass on encrypted DNS transports",
+  "published": "2026-05-06T07:51:04.000Z",
+  "modified": "2026-05-06T07:51:04.000Z",
+  "upstream": [
+    "CVE-2026-33190"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "coredns"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1417"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/517207"
+    }
+  ]
+}

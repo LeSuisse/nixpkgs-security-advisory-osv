@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1411",
+  "summary": "Open5GS amf-3gpp-access Endpoint nudm-handler.c udm_nudm_uecm_handle_amf_registration_update denial of service",
+  "published": "2026-05-06T07:50:55.000Z",
+  "modified": "2026-05-06T07:50:55.000Z",
+  "upstream": [
+    "CVE-2026-7781"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1411"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/517201"
+    }
+  ]
+}

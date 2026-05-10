@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1431",
+  "summary": "Weblate's API Token Not Invalidated on Password Change",
+  "published": "2026-05-08T10:35:09.000Z",
+  "modified": "2026-05-08T10:35:09.000Z",
+  "upstream": [
+    "CVE-2026-41519"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weblate"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1431"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/518006"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1462",
+  "summary": "PgBouncer buffer overflow in SCRAM",
+  "published": "2026-05-10T16:17:28.000Z",
+  "modified": "2026-05-10T16:17:28.000Z",
+  "upstream": [
+    "CVE-2026-6665"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pgbouncer"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1462"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/518758"
+    }
+  ]
+}

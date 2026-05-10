@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1293",
+  "summary": "wget2 Improper Certificate Validation",
+  "published": "2026-04-30T08:03:59.000Z",
+  "modified": "2026-04-30T08:03:59.000Z",
+  "upstream": [
+    "CVE-2026-1858"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wget2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1293"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/514993"
+    }
+  ]
+}

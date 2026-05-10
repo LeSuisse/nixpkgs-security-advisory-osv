@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1376",
+  "summary": "mutt before 2.3.2 sometimes truncates the hash_passwd by one byte …",
+  "published": "2026-05-06T06:29:02.000Z",
+  "modified": "2026-05-06T06:29:02.000Z",
+  "upstream": [
+    "CVE-2026-43860"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mutt"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1376"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/517151"
+    }
+  ]
+}

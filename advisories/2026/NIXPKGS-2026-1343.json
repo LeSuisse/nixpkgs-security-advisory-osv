@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1343",
+  "summary": "Traefik: StripPrefixRegex auth bypass via Path/RawPath desync",
+  "published": "2026-05-01T12:41:14.000Z",
+  "modified": "2026-05-01T12:41:14.000Z",
+  "upstream": [
+    "CVE-2026-40912"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traefik"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1343"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/515457"
+    }
+  ]
+}

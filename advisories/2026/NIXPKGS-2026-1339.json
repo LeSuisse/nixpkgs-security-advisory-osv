@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1339",
+  "summary": "Gnutls: gnutls: security bypass allows acceptance of revoked server certificates via crafted ocsp response",
+  "published": "2026-05-01T12:38:38.000Z",
+  "modified": "2026-05-01T12:38:38.000Z",
+  "upstream": [
+    "CVE-2026-3832"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gnutls"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1339"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/515450"
+    }
+  ]
+}

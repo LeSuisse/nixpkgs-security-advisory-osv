@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1456",
+  "summary": "PgBouncer missing authorization check in KILL_CLIENT admin command",
+  "published": "2026-05-10T16:16:34.000Z",
+  "modified": "2026-05-10T16:16:34.000Z",
+  "upstream": [
+    "CVE-2026-6667"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pgbouncer"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1456"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/518752"
+    }
+  ]
+}

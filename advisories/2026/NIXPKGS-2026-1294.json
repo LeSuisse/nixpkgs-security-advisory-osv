@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1294",
+  "summary": "GCHQ CyberChef before 11.0.0 allows XSS via Show Base64 offsets, …",
+  "published": "2026-04-30T08:04:01.000Z",
+  "modified": "2026-04-30T08:04:01.000Z",
+  "upstream": [
+    "CVE-2026-42615"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cyberchef"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1294"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/514994"
+    }
+  ]
+}

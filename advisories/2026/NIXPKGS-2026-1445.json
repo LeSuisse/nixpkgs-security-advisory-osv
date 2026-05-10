@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1445",
+  "summary": "OpenEXR: Shift exponent overflow in `readVariableLengthInteger()` (`ImfIDManifest.cpp`)",
+  "published": "2026-05-09T10:10:39.000Z",
+  "modified": "2026-05-09T10:10:39.000Z",
+  "upstream": [
+    "CVE-2026-42217"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openexr"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1445"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/518345"
+    }
+  ]
+}

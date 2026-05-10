@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1420",
+  "summary": "Agent 2 Oracle plugin TNS connection string injection via the 'service' parameter",
+  "published": "2026-05-07T12:19:42.000Z",
+  "modified": "2026-05-07T12:19:42.000Z",
+  "upstream": [
+    "CVE-2026-23927"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zabbix60.agent2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zabbix70.agent2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zabbix72.agent2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zabbix74.agent2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1420"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/517656"
+    }
+  ]
+}

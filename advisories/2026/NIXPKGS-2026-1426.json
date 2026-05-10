@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1426",
+  "summary": "Stored XSS vulnerability in Host navigator widget maintenance tooltip",
+  "published": "2026-05-07T12:20:12.000Z",
+  "modified": "2026-05-07T12:20:12.000Z",
+  "upstream": [
+    "CVE-2026-23926"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zabbix70.web"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zabbix72.web"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1426"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/517662"
+    }
+  ]
+}

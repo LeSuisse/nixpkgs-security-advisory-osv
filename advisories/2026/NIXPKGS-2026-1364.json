@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1364",
+  "summary": "Open5GS AMF nudm-handler.c amf_nudm_sdm_handle_provisioned denial of service",
+  "published": "2026-05-02T11:29:48.000Z",
+  "modified": "2026-05-02T11:29:48.000Z",
+  "upstream": [
+    "CVE-2026-7585"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1364"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/515846"
+    }
+  ]
+}

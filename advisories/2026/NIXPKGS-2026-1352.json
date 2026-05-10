@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1352",
+  "summary": "In Exim before 4.99.2, when utf8 operators are enabled, there …",
+  "published": "2026-05-01T12:48:48.000Z",
+  "modified": "2026-05-01T12:48:48.000Z",
+  "upstream": [
+    "CVE-2026-40686"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "exim"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1352"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/515467"
+    }
+  ]
+}

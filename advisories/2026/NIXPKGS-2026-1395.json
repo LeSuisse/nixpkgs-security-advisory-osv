@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1395",
+  "summary": "Boundary Workers Vulnerable to Denial of Service During TLS Handshake",
+  "published": "2026-05-06T07:49:52.000Z",
+  "modified": "2026-05-06T07:49:52.000Z",
+  "upstream": [
+    "CVE-2026-7776"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "boundary"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1395"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/517184"
+    }
+  ]
+}

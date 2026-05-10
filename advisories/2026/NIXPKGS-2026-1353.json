@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1353",
+  "summary": "In Exim before 4.99.2, when JSON lookup is enabled, an …",
+  "published": "2026-05-01T12:48:49.000Z",
+  "modified": "2026-05-01T12:48:49.000Z",
+  "upstream": [
+    "CVE-2026-40685"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "exim"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1353"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/515468"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1433",
+  "summary": "Weblate: Private Translation Enumeration via Screenshot API",
+  "published": "2026-05-08T10:35:15.000Z",
+  "modified": "2026-05-08T10:35:15.000Z",
+  "upstream": [
+    "CVE-2026-44263"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weblate"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1433"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/518008"
+    }
+  ]
+}

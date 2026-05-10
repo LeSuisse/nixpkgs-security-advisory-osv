@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1371",
+  "summary": "Open5GS UDR subscription.c ogs_dbi_subscription_data denial of service",
+  "published": "2026-05-04T11:11:11.000Z",
+  "modified": "2026-05-04T11:11:11.000Z",
+  "upstream": [
+    "CVE-2026-7708"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1371"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/516456"
+    }
+  ]
+}

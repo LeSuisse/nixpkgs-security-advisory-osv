@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1377",
+  "summary": "In mutt before 2.3.2, the imap_auth_gss security level is mishandled.",
+  "published": "2026-05-06T06:55:48.000Z",
+  "modified": "2026-05-06T06:55:48.000Z",
+  "upstream": [
+    "CVE-2026-43862"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mutt"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1377"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/517155"
+    }
+  ]
+}

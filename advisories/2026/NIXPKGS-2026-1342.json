@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1342",
+  "summary": "Gnutls: gnutls: remote denial of service via crafted clienthello with invalid psk binder",
+  "published": "2026-05-01T12:40:50.000Z",
+  "modified": "2026-05-01T12:40:50.000Z",
+  "upstream": [
+    "CVE-2026-1584"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gnutls"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1342"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/515455"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1398",
+  "summary": "n8n: Prototype Pollution in XML Webhook Body Parser Leads to RCE",
+  "published": "2026-05-06T07:49:55.000Z",
+  "modified": "2026-05-06T07:49:55.000Z",
+  "upstream": [
+    "CVE-2026-42231"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1398"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/517187"
+    }
+  ]
+}

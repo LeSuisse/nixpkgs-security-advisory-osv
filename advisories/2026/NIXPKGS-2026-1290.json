@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1290",
+  "summary": "Text::CSV_XS versions before 1.62 for Perl have a use-after-free when registered callbacks extend the Perl argument stack, which may enable type confusion or memory corruption",
+  "published": "2026-04-30T07:38:06.000Z",
+  "modified": "2026-04-30T07:38:06.000Z",
+  "upstream": [
+    "CVE-2026-7111"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.TextCSV_XS"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.TextCSV_XS"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.TextCSV_XS"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.TextCSV_XS"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1290"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/514986"
+    }
+  ]
+}

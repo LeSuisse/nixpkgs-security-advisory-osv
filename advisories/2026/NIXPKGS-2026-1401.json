@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1401",
+  "summary": "n8n: Public API Variables IDOR Allows Cross-Project Secret Disclosure",
+  "published": "2026-05-06T07:50:07.000Z",
+  "modified": "2026-05-06T07:50:07.000Z",
+  "upstream": [
+    "CVE-2026-42227"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1401"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/517190"
+    }
+  ]
+}

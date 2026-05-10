@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1385",
+  "summary": "n8n: Unauthenticated Denial of Service via MCP Client Registration",
+  "published": "2026-05-06T07:48:37.000Z",
+  "modified": "2026-05-06T07:48:37.000Z",
+  "upstream": [
+    "CVE-2026-42236"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1385"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/517174"
+    }
+  ]
+}

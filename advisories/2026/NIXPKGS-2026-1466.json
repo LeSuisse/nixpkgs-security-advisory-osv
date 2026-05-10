@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1466",
+  "summary": "Kdenlive before 26.04.1 allows dangerous proxy parameters when an attacker-controlled …",
+  "published": "2026-05-10T16:17:59.000Z",
+  "modified": "2026-05-10T16:17:59.000Z",
+  "upstream": [
+    "CVE-2026-45184"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kdePackages.kdenlive"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.kdePackages.kdenlive"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1466"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/518762"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1359",
+  "summary": "An issue was discovered in Prosody before 0.12.6 and 1.0.0 …",
+  "published": "2026-05-02T11:29:31.000Z",
+  "modified": "2026-05-02T11:29:31.000Z",
+  "upstream": [
+    "CVE-2026-43507"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "prosody"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1359"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/515841"
+    }
+  ]
+}

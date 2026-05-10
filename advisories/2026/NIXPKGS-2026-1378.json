@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1378",
+  "summary": "Gnutls: gnutls: denial of service via heap buffer overflow in dtls handshake fragment reassembly",
+  "published": "2026-05-06T06:58:06.000Z",
+  "modified": "2026-05-06T06:58:06.000Z",
+  "upstream": [
+    "CVE-2026-33846"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gnutls"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1378"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/517157"
+    }
+  ]
+}

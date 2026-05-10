@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1380",
+  "summary": "mutt before 2.3.2 does not check for '\\0' in url_pct_decode.",
+  "published": "2026-05-06T07:07:15.000Z",
+  "modified": "2026-05-06T07:07:15.000Z",
+  "upstream": [
+    "CVE-2026-43861"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mutt"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1380"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/517164"
+    }
+  ]
+}

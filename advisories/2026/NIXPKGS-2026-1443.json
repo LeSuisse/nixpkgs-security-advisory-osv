@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1443",
+  "summary": "Weblate is Vulnerable to Authenticated SSRF via Project Backup Import bypassing validate_repo_url",
+  "published": "2026-05-09T10:10:34.000Z",
+  "modified": "2026-05-09T10:10:34.000Z",
+  "upstream": [
+    "CVE-2026-41654"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weblate"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1443"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/518343"
+    }
+  ]
+}

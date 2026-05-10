@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1450",
+  "summary": "apko dirFS has a symlink-following path traversal that allows multiple entry points to escape the build root",
+  "published": "2026-05-10T16:16:16.000Z",
+  "modified": "2026-05-10T16:16:16.000Z",
+  "upstream": [
+    "CVE-2026-42574"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apko"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1450"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/518746"
+    }
+  ]
+}

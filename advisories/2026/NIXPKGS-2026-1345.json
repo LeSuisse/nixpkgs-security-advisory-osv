@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1345",
+  "summary": "Traefik: BasicAuth middleware: timing side-channel vulnerability",
+  "published": "2026-05-01T12:41:17.000Z",
+  "modified": "2026-05-01T12:41:17.000Z",
+  "upstream": [
+    "CVE-2026-41263"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traefik"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1345"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/515459"
+    }
+  ]
+}

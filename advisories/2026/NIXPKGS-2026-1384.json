@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1384",
+  "summary": "CImg Library: Uncontrolled memory allocation via nb_colors field in _load_bmp",
+  "published": "2026-05-06T07:48:14.000Z",
+  "modified": "2026-05-06T07:48:14.000Z",
+  "upstream": [
+    "CVE-2026-42146"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cimg"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1384"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/517173"
+    }
+  ]
+}

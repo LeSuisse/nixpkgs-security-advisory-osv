@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1340",
+  "summary": "Gnutls: stack-based buffer overflow in gnutls_pkcs11_token_init() function",
+  "published": "2026-05-01T12:38:50.000Z",
+  "modified": "2026-05-01T12:38:50.000Z",
+  "upstream": [
+    "CVE-2025-9820"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gnutls"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1340"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/515451"
+    }
+  ]
+}
