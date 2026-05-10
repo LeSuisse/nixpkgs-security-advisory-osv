@@ -83,7 +83,7 @@ async function fetchAndParseIssues(
     const github_issue_link = github_issue_link_elements[0]?.attribs.href ?? "";
 
     const cve_id_reference = $issue_element
-      .find('a[href^="https://nvd.nist.gov/vuln/detail/CVE-"]')
+      .find('a[href^="https://nvd.nist.gov/vuln/detail/CVE-"]:first')
       .text()
       .trim();
     const nb_cve_id_references_found = (cve_id_reference.match(/CVE-/g) || [])
