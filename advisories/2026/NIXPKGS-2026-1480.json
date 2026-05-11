@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1480",
+  "summary": "Open5GS SMF smf_nsmf_handle_create_data_in_hsmf null pointer dereference",
+  "published": "2026-05-11T17:54:55.000Z",
+  "modified": "2026-05-11T17:54:55.000Z",
+  "upstream": [
+    "CVE-2026-8252"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1480"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519100"
+    }
+  ]
+}

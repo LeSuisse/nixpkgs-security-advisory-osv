@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1478",
+  "summary": "Open5GS delete Endpoint sm-sm.c pcf_npcf_smpolicycontrol_handle_delete denial of service",
+  "published": "2026-05-11T17:54:51.000Z",
+  "modified": "2026-05-11T17:54:51.000Z",
+  "upstream": [
+    "CVE-2026-8225"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1478"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519098"
+    }
+  ]
+}

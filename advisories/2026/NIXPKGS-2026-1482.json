@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1482",
+  "summary": "Open5GS SMF npcf-handler.c update_authorized_pcc_rule_and_qos denial of service",
+  "published": "2026-05-11T17:55:00.000Z",
+  "modified": "2026-05-11T17:55:00.000Z",
+  "upstream": [
+    "CVE-2026-8249"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1482"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519102"
+    }
+  ]
+}

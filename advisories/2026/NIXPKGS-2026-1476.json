@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1476",
+  "summary": "Open5GS PCF context.c pcf_sess_set_ipv6prefix denial of service",
+  "published": "2026-05-11T17:54:45.000Z",
+  "modified": "2026-05-11T17:54:45.000Z",
+  "upstream": [
+    "CVE-2026-8224"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1476"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519096"
+    }
+  ]
+}
