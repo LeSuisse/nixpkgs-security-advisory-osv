@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1471",
+  "summary": "yard: Possible arbitrary path traversal and file access via yard server",
+  "published": "2026-05-10T22:41:44.000Z",
+  "modified": "2026-05-10T22:41:44.000Z",
+  "upstream": [
+    "CVE-2026-41493"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages.yard"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_3.yard"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_4.yard"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_4_0.yard"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1471"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/518870"
+    }
+  ]
+}
