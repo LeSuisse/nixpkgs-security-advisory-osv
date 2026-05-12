@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1517",
+  "summary": "pyLoad: Unauthenticated traceback disclosure via global exception handler in WebUI",
+  "published": "2026-05-12T11:46:12.000Z",
+  "modified": "2026-05-12T11:46:12.000Z",
+  "upstream": [
+    "CVE-2026-44226"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pyload-ng"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1517"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519376"
+    }
+  ]
+}

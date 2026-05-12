@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1494",
+  "summary": "Open5GS SMF gsm-build.c gsm_build_pdu_session_establishment_accept denial of service",
+  "published": "2026-05-12T11:45:12.000Z",
+  "modified": "2026-05-12T11:45:12.000Z",
+  "upstream": [
+    "CVE-2026-8266"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1494"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519353"
+    }
+  ]
+}

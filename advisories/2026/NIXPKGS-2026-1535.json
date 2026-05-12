@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1535",
+  "summary": "Open5GS NRF conv.c yuarel_parse denial of service",
+  "published": "2026-05-12T11:47:02.000Z",
+  "modified": "2026-05-12T11:47:02.000Z",
+  "upstream": [
+    "CVE-2026-8292"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1535"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519394"
+    }
+  ]
+}

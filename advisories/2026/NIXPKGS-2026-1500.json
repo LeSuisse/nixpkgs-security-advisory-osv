@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1500",
+  "summary": "Neat VNC: Buffer overflow due to oversized RSA public keys",
+  "published": "2026-05-12T11:45:21.000Z",
+  "modified": "2026-05-12T11:45:21.000Z",
+  "upstream": [
+    "CVE-2026-42859"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "neatvnc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1500"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519359"
+    }
+  ]
+}

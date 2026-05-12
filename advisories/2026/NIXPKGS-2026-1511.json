@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1511",
+  "summary": "Grav: Privilege Escalation via Missing Server-Side Validation of groups/access",
+  "published": "2026-05-12T11:45:48.000Z",
+  "modified": "2026-05-12T11:45:48.000Z",
+  "upstream": [
+    "CVE-2026-42613"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "grav"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1511"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519370"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1540",
+  "summary": "pyload-ng: non-admin SETTINGS users can redirect all outbound traffic through an attacker-controlled proxy",
+  "published": "2026-05-12T11:47:10.000Z",
+  "modified": "2026-05-12T11:47:10.000Z",
+  "upstream": [
+    "CVE-2026-42313"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pyload-ng"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1540"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519399"
+    }
+  ]
+}

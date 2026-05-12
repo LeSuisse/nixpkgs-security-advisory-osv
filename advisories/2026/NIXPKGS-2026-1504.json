@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1504",
+  "summary": "Audiobookshelf: Memory amplification DoS via oversized compressed details entry in backup upload",
+  "published": "2026-05-12T11:45:40.000Z",
+  "modified": "2026-05-12T11:45:40.000Z",
+  "upstream": [
+    "CVE-2026-42886"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "audiobookshelf"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1504"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519363"
+    }
+  ]
+}

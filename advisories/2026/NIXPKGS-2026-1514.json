@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1514",
+  "summary": "Open5GS SMF nsmf-handler.c smf_nsmf_handle_update_data_in_vsmf denial of service",
+  "published": "2026-05-12T11:46:06.000Z",
+  "modified": "2026-05-12T11:46:06.000Z",
+  "upstream": [
+    "CVE-2026-8290"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1514"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519373"
+    }
+  ]
+}

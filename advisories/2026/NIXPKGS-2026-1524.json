@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1524",
+  "summary": "jq: Stack Overflow in Recursive Object Merge",
+  "published": "2026-05-12T11:46:33.000Z",
+  "modified": "2026-05-12T11:46:33.000Z",
+  "upstream": [
+    "CVE-2026-43896"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jq"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1524"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519383"
+    }
+  ]
+}

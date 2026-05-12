@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1532",
+  "summary": "Corteza 2024.9.8 - SQL Injection in MSSQL JSON-path meta filter via incorrect T-SQL string escaping",
+  "published": "2026-05-12T11:46:44.000Z",
+  "modified": "2026-05-12T11:46:44.000Z",
+  "upstream": [
+    "CVE-2026-6093"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "corteza"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1532"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519391"
+    }
+  ]
+}

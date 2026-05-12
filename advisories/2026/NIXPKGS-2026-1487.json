@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1487",
+  "summary": "CVE-2026-4891",
+  "published": "2026-05-12T11:42:07.000Z",
+  "modified": "2026-05-12T11:42:07.000Z",
+  "upstream": [
+    "CVE-2026-4891"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dnsmasq"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1487"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519344"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1526",
+  "summary": "Squirrel sqobject.cpp Load heap-based overflow",
+  "published": "2026-05-12T11:46:36.000Z",
+  "modified": "2026-05-12T11:46:36.000Z",
+  "upstream": [
+    "CVE-2026-8261"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "squirrel-sql"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1526"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519385"
+    }
+  ]
+}

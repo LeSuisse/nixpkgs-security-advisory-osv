@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1533",
+  "summary": "Grav: Unauthenticated Path Traversal & Arbitrary File Write in FormFlash component.",
+  "published": "2026-05-12T11:46:45.000Z",
+  "modified": "2026-05-12T11:46:45.000Z",
+  "upstream": [
+    "CVE-2026-42608"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "grav"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1533"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519392"
+    }
+  ]
+}
