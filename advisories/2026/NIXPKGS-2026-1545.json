@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1545",
+  "summary": "Warpgate: SSO CSRF -- State Token Not Validated on Return",
+  "published": "2026-05-13T09:07:08.000Z",
+  "modified": "2026-05-13T09:07:08.000Z",
+  "upstream": [
+    "CVE-2026-44347"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "warpgate"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1545"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519708"
+    }
+  ]
+}

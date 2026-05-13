@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1554",
+  "summary": "Pocketbase: Account pre-hijacking via OAuth2 unverfied->verified autolinking upgrade",
+  "published": "2026-05-13T09:07:31.000Z",
+  "modified": "2026-05-13T09:07:31.000Z",
+  "upstream": [
+    "CVE-2026-44166"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pocketbase"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1554"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519717"
+    }
+  ]
+}

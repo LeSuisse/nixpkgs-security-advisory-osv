@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1542",
+  "summary": "Hugo: Node tool execution allows file system access outside the project directory",
+  "published": "2026-05-13T09:06:58.000Z",
+  "modified": "2026-05-13T09:06:58.000Z",
+  "upstream": [
+    "CVE-2026-44301"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hugo"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1542"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/519705"
+    }
+  ]
+}
