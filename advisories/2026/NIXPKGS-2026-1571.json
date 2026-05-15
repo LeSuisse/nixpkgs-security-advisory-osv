@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1571",
+  "summary": "OpenImageIO: SGI RLE decoder heap buffer overflow OIIO_DASSERT bounds checks are no-ops in release builds",
+  "published": "2026-05-15T14:02:21.000Z",
+  "modified": "2026-05-15T14:02:21.000Z",
+  "upstream": [
+    "CVE-2026-43903"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openimageio"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1571"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520468"
+    }
+  ]
+}

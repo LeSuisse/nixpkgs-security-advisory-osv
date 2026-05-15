@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1591",
+  "summary": "jupyterlab: Extension Manager API/GUI Policy Discrepancy allowing 3rd party (malicious) extensions install via POST request.",
+  "published": "2026-05-15T14:49:00.000Z",
+  "modified": "2026-05-15T14:49:00.000Z",
+  "upstream": [
+    "CVE-2026-42266"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.jupyterlab"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.jupyterlab"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.jupyterlab"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1591"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520497"
+    }
+  ]
+}

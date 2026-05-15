@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1598",
+  "summary": "LookyLoo - PlaywrightCapture permits access to local files and internal network resources during page capture",
+  "published": "2026-05-15T14:49:09.000Z",
+  "modified": "2026-05-15T14:49:09.000Z",
+  "upstream": [
+    "CVE-2026-44439"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.playwrightcapture"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.playwrightcapture"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.playwrightcapture"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1598"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520504"
+    }
+  ]
+}

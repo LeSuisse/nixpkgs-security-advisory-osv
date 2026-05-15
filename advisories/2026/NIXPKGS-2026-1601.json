@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1601",
+  "summary": "Integer overflow in simdjson",
+  "published": "2026-05-15T14:49:24.000Z",
+  "modified": "2026-05-15T14:49:24.000Z",
+  "upstream": [
+    "CVE-2026-8295"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "simdjson"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1601"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520507"
+    }
+  ]
+}

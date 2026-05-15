@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1597",
+  "summary": "Twisted: Denial of Service (DoS) in twisted.names via Crafted DNS Compression Pointer Chains",
+  "published": "2026-05-15T14:49:11.000Z",
+  "modified": "2026-05-15T14:49:11.000Z",
+  "upstream": [
+    "CVE-2026-42304"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.twisted"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.twisted"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.twisted"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1597"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520503"
+    }
+  ]
+}

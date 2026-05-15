@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1559",
+  "summary": "Fleet vulnerable to OS command injection in software packages",
+  "published": "2026-05-15T13:45:55.000Z",
+  "modified": "2026-05-15T13:45:55.000Z",
+  "upstream": [
+    "CVE-2026-26191"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fleet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1559"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520450"
+    }
+  ]
+}

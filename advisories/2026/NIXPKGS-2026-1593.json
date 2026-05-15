@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1593",
+  "summary": "Crypt::Argon2 versions from 0.017 before 0.031 for Perl perform a heap out-of-bounds read in argon2_verify on empty encoded input",
+  "published": "2026-05-15T14:49:03.000Z",
+  "modified": "2026-05-15T14:49:03.000Z",
+  "upstream": [
+    "CVE-2026-8463"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.CryptArgon2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.CryptArgon2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.CryptArgon2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.CryptArgon2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1593"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520499"
+    }
+  ]
+}

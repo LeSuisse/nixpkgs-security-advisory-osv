@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1581",
+  "summary": "OpenImageIO: Integer overflow in QueryRGBBufferSizeInternal leads to heap out-of-bounds write in DPX decoder (kCbYCr and kABGR)",
+  "published": "2026-05-15T14:20:06.000Z",
+  "modified": "2026-05-15T14:20:06.000Z",
+  "upstream": [
+    "CVE-2026-43907"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openimageio"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1581"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520483"
+    }
+  ]
+}

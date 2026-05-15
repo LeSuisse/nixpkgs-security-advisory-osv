@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1608",
+  "summary": "ZITADEL: LDAP Filter Injection in Login Flow",
+  "published": "2026-05-15T14:49:35.000Z",
+  "modified": "2026-05-15T14:49:35.000Z",
+  "upstream": [
+    "CVE-2026-44671"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zitadel"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1608"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520514"
+    }
+  ]
+}

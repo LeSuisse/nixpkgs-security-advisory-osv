@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1590",
+  "summary": "libyang: lyb_read_string() integer overflow → heap buffer overflow",
+  "published": "2026-05-15T14:48:58.000Z",
+  "modified": "2026-05-15T14:48:58.000Z",
+  "upstream": [
+    "CVE-2026-44673"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libyang"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1590"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520496"
+    }
+  ]
+}

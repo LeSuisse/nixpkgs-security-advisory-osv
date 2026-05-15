@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1560",
+  "summary": "Fleet has a Windows MDM management endpoint authentication bypass",
+  "published": "2026-05-15T13:46:00.000Z",
+  "modified": "2026-05-15T13:46:00.000Z",
+  "upstream": [
+    "CVE-2026-23998"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fleet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1560"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520451"
+    }
+  ]
+}

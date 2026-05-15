@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1583",
+  "summary": "OpenImageIO: Signed integer overflow in ConvertCbYCrYToRGB leads to heap out-of-bounds write in DPX 4:2:2 decoder",
+  "published": "2026-05-15T14:25:50.000Z",
+  "modified": "2026-05-15T14:25:50.000Z",
+  "upstream": [
+    "CVE-2026-43908"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openimageio"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1583"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520486"
+    }
+  ]
+}

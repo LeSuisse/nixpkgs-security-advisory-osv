@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1609",
+  "summary": "SiYuan: Stored XSS via Attribute View name to Electron renderer RCE in SiYuan",
+  "published": "2026-05-15T14:49:47.000Z",
+  "modified": "2026-05-15T14:49:47.000Z",
+  "upstream": [
+    "CVE-2026-44670"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1609"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520515"
+    }
+  ]
+}

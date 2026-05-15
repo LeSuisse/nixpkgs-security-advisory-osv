@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1567",
+  "summary": "OpenImageIO: Integer wraparound in bounds check of decode_pixel leads to out-of-bounds read in TGA paletted image decoder",
+  "published": "2026-05-15T13:57:22.000Z",
+  "modified": "2026-05-15T13:57:22.000Z",
+  "upstream": [
+    "CVE-2026-43996"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openimageio"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1567"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520462"
+    }
+  ]
+}

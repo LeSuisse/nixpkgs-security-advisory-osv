@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1589",
+  "summary": "SiYuan: SiYuan publish-mode Reader can mutate Conf and SQL index via 8 ungated APIs",
+  "published": "2026-05-15T14:48:57.000Z",
+  "modified": "2026-05-15T14:48:57.000Z",
+  "upstream": [
+    "CVE-2026-45371"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1589"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520495"
+    }
+  ]
+}

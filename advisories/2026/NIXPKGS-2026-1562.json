@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1562",
+  "summary": "Fleet has a rate limiting bypass via untrusted client IP headers",
+  "published": "2026-05-15T13:46:10.000Z",
+  "modified": "2026-05-15T13:46:10.000Z",
+  "upstream": [
+    "CVE-2026-24000"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fleet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1562"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520453"
+    }
+  ]
+}

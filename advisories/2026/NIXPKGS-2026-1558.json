@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1558",
+  "summary": "Fleet: IP spoofing allows bypassing API rate limiting",
+  "published": "2026-05-15T13:45:53.000Z",
+  "modified": "2026-05-15T13:45:53.000Z",
+  "upstream": [
+    "CVE-2026-46356"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fleet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1558"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520449"
+    }
+  ]
+}

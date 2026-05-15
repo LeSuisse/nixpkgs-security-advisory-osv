@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1565",
+  "summary": "SOGo before 5.12.7, when PostgreSQL is used, allows SQL injection.",
+  "published": "2026-05-15T13:52:26.000Z",
+  "modified": "2026-05-15T13:52:26.000Z",
+  "upstream": [
+    "CVE-2026-46445"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sogo"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1565"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520458"
+    }
+  ]
+}
