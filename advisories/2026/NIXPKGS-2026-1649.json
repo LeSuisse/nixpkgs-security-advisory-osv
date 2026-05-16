@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1649",
+  "summary": "Traefik: Errors middleware forwards Authorization and Cookie headers to separate error page service",
+  "published": "2026-05-16T10:59:08.000Z",
+  "modified": "2026-05-16T10:59:08.000Z",
+  "upstream": [
+    "CVE-2026-41181"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traefik"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1649"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520846"
+    }
+  ]
+}

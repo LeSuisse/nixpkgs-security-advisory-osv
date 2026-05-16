@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1634",
+  "summary": "Open WebUI: Unauthorized File and Knowledge Base Content Access via RAG Vector Search",
+  "published": "2026-05-16T10:57:16.000Z",
+  "modified": "2026-05-16T10:57:16.000Z",
+  "upstream": [
+    "CVE-2026-44560"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open-webui"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1634"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520829"
+    }
+  ]
+}

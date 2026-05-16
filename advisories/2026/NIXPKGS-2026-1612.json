@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1612",
+  "summary": "gitsign --verify panics on empty-certificate PKCS7 and exits 0, bypassing exit-code callers",
+  "published": "2026-05-16T10:40:11.000Z",
+  "modified": "2026-05-16T10:40:11.000Z",
+  "upstream": [
+    "CVE-2026-44310"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gitsign"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1612"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520805"
+    }
+  ]
+}

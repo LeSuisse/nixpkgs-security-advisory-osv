@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1638",
+  "summary": "Open WebUI: An IDOR vulnerability exists in the update_message_by_id API endpoint",
+  "published": "2026-05-16T10:57:23.000Z",
+  "modified": "2026-05-16T10:57:23.000Z",
+  "upstream": [
+    "CVE-2026-45385"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open-webui"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1638"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520833"
+    }
+  ]
+}

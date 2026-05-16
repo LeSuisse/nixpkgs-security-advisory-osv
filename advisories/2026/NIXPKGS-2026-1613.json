@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1613",
+  "summary": "gitsign verify accepts signatures over go-git-normalized bytes, enabling trust confusion on malformed commits",
+  "published": "2026-05-16T10:40:17.000Z",
+  "modified": "2026-05-16T10:40:17.000Z",
+  "upstream": [
+    "CVE-2026-44309"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gitsign"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1613"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520806"
+    }
+  ]
+}

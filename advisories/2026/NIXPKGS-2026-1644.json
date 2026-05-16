@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1644",
+  "summary": "Open WebUI: Read-Only Users Can Modify Collaborative Documents via Socket.IO",
+  "published": "2026-05-16T10:58:58.000Z",
+  "modified": "2026-05-16T10:58:58.000Z",
+  "upstream": [
+    "CVE-2026-44564"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open-webui"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1644"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520841"
+    }
+  ]
+}

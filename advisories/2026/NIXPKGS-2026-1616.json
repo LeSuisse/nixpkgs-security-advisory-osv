@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1616",
+  "summary": "Open WebUI: Mass Assignment via Pydantic extra='allow' Allows Creating Folders in Other Users' Accounts",
+  "published": "2026-05-16T10:56:17.000Z",
+  "modified": "2026-05-16T10:56:17.000Z",
+  "upstream": [
+    "CVE-2026-44550"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open-webui"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1616"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520811"
+    }
+  ]
+}

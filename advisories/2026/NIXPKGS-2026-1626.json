@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1626",
+  "summary": "Open WebUI: responses passthrough endpoint lacks access control authorization",
+  "published": "2026-05-16T10:56:55.000Z",
+  "modified": "2026-05-16T10:56:55.000Z",
+  "upstream": [
+    "CVE-2026-44556"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open-webui"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1626"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520821"
+    }
+  ]
+}

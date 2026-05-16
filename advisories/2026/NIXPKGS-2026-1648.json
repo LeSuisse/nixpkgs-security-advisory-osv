@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1648",
+  "summary": "Open WebUI: Stored XSS via attacker-controlled file extension in /api/v1/audio/transcriptions",
+  "published": "2026-05-16T10:59:05.000Z",
+  "modified": "2026-05-16T10:59:05.000Z",
+  "upstream": [
+    "CVE-2026-45315"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open-webui"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1648"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520845"
+    }
+  ]
+}

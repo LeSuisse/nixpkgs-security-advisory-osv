@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1629",
+  "summary": "Open WebUI: Ollama Model Access Control Bypass via /api/generate, /api/embed, /api/embeddings, and /api/show",
+  "published": "2026-05-16T10:56:59.000Z",
+  "modified": "2026-05-16T10:56:59.000Z",
+  "upstream": [
+    "CVE-2026-44563"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open-webui"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1629"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520824"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1623",
+  "summary": "Open WebUI: Cross-Site Request Forgery (CSRF) via Image URL Manipulation",
+  "published": "2026-05-16T10:56:28.000Z",
+  "modified": "2026-05-16T10:56:28.000Z",
+  "upstream": [
+    "CVE-2026-45317"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open-webui"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1623"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520818"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1619",
+  "summary": "Open WebUI: Low-privilege authenticated users can enumerate and stop global background tasks, causing system-wide chat disruption",
+  "published": "2026-05-16T10:56:21.000Z",
+  "modified": "2026-05-16T10:56:21.000Z",
+  "upstream": [
+    "CVE-2026-45399"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open-webui"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1619"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/520814"
+    }
+  ]
+}
