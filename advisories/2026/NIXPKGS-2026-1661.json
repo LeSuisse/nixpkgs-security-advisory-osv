@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1661",
+  "summary": "Open5GS NRF nghttp2-server.c discover_handler use after free",
+  "published": "2026-05-18T08:26:37.000Z",
+  "modified": "2026-05-18T08:26:37.000Z",
+  "upstream": [
+    "CVE-2026-8746"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1661"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/521485"
+    }
+  ]
+}

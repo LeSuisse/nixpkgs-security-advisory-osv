@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1667",
+  "summary": "Kilo-Org kilocode Environment Variable config.ts load information disclosure",
+  "published": "2026-05-18T08:26:49.000Z",
+  "modified": "2026-05-18T08:26:49.000Z",
+  "upstream": [
+    "CVE-2026-8766"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kilocode-cli"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1667"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/521491"
+    }
+  ]
+}
