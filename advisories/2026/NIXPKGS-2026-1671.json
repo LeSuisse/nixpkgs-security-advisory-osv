@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1671",
+  "summary": "Joplin: Path traversal in OneNote importer allows overwriting arbitrary files",
+  "published": "2026-05-19T09:44:39.000Z",
+  "modified": "2026-05-19T09:44:39.000Z",
+  "upstream": [
+    "CVE-2026-22810"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "joplin-desktop"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1671"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/521887"
+    }
+  ]
+}
