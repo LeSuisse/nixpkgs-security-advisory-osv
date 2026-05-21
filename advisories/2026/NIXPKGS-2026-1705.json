@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1705",
+  "summary": "NVIDIA TensorRT contains a vulnerability where an attacker could cause …",
+  "published": "2026-05-21T08:28:04.000Z",
+  "modified": "2026-05-21T08:28:04.000Z",
+  "upstream": [
+    "CVE-2026-24188"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cudaPackages.tensorrt"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1705"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/522570"
+    }
+  ]
+}

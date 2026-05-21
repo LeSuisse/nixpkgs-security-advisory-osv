@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1694",
+  "summary": "Joplin has Denial of Service (DoS) via Uncontrolled Resource Allocation through Title Input",
+  "published": "2026-05-21T08:26:42.000Z",
+  "modified": "2026-05-21T08:26:42.000Z",
+  "upstream": [
+    "CVE-2025-57798"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "joplin-desktop"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1694"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/522559"
+    }
+  ]
+}

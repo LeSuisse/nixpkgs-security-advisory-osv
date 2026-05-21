@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1693",
+  "summary": "Kitty has a Heap Buffer Overflow in its Graphics Protocol Handler",
+  "published": "2026-05-21T08:26:44.000Z",
+  "modified": "2026-05-21T08:26:44.000Z",
+  "upstream": [
+    "CVE-2026-33633"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kitty"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1693"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/522558"
+    }
+  ]
+}

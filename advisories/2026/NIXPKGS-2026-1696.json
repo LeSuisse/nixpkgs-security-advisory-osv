@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1696",
+  "summary": "libheif has a Heap OOB Read/SEGV Crash via Zero samples_per_chunk",
+  "published": "2026-05-21T08:26:47.000Z",
+  "modified": "2026-05-21T08:26:47.000Z",
+  "upstream": [
+    "CVE-2026-32738"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libheif"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1696"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/522561"
+    }
+  ]
+}
