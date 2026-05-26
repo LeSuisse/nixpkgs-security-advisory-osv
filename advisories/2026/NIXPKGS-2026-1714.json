@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1714",
+  "summary": "PuTTY 0.71 before 0.84 has an assertion failure in ECDSA …",
+  "published": "2026-05-26T09:40:22.000Z",
+  "modified": "2026-05-26T09:40:22.000Z",
+  "upstream": [
+    "CVE-2026-48852"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "putty"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1714"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/524386"
+    }
+  ]
+}
