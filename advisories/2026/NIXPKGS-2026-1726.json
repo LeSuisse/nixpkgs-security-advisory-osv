@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1726",
+  "summary": "libyang - Heap Use-After-Free Write in XML Metadata Parsing",
+  "published": "2026-05-27T10:05:04.000Z",
+  "modified": "2026-05-27T10:05:04.000Z",
+  "upstream": [
+    "CVE-2026-41401"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libyang"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1726"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/524779"
+    }
+  ]
+}

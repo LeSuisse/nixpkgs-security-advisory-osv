@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1716",
+  "summary": "Traccar: Missing edit authorization on device image upload allows read-only users to write files",
+  "published": "2026-05-27T09:40:20.000Z",
+  "modified": "2026-05-27T09:40:20.000Z",
+  "upstream": [
+    "CVE-2026-44314"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traccar"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1716"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/524762"
+    }
+  ]
+}

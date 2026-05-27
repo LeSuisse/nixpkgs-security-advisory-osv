@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1717",
+  "summary": "FreeRDP - Heap-buffer-overflow in gdi_CacheToSurface via rectangle validation bypass",
+  "published": "2026-05-27T10:04:50.000Z",
+  "modified": "2026-05-27T10:04:50.000Z",
+  "upstream": [
+    "CVE-2026-40033"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1717"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/524770"
+    }
+  ]
+}
