@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1767",
+  "summary": "libusb < 1.0.30 NULL Pointer Dereference in parse_interface()",
+  "published": "2026-05-28T18:10:36.000Z",
+  "modified": "2026-05-28T18:10:36.000Z",
+  "upstream": [
+    "CVE-2026-23679"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libusb1"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1767"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525303"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1746",
+  "summary": "Dalfox: Unauthenticated Arbitrary File Create/Append via `output` Option in Dalfox Server Mode",
+  "published": "2026-05-28T18:03:32.000Z",
+  "modified": "2026-05-28T18:03:32.000Z",
+  "upstream": [
+    "CVE-2026-45089"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dalfox"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1746"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525280"
+    }
+  ]
+}

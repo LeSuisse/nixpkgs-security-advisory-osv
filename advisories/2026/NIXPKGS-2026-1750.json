@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1750",
+  "summary": "MapServer: NULL pointer dereference in SLD `<ElseFilter>` rule parsing reachable via WMS `SLD_BODY`",
+  "published": "2026-05-28T18:07:29.000Z",
+  "modified": "2026-05-28T18:07:29.000Z",
+  "upstream": [
+    "CVE-2026-45104"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mapserver"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1750"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525285"
+    }
+  ]
+}

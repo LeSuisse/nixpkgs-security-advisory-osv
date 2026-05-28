@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1759",
+  "summary": "Tauri: Origin Confusion Allows Remote Pages to Invoke Local-Only IPC Commands",
+  "published": "2026-05-28T18:10:08.000Z",
+  "modified": "2026-05-28T18:10:08.000Z",
+  "upstream": [
+    "CVE-2026-42184"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cargo-tauri"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1759"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525295"
+    }
+  ]
+}

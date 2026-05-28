@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1747",
+  "summary": "Dalfox: Unauthenticated Arbitrary File Read with Out-of-Band Exfiltration via `custom-payload-file` in Dalfox Server Mode",
+  "published": "2026-05-28T18:03:34.000Z",
+  "modified": "2026-05-28T18:03:34.000Z",
+  "upstream": [
+    "CVE-2026-45088"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dalfox"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1747"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525281"
+    }
+  ]
+}

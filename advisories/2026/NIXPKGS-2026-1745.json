@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1745",
+  "summary": "RabbitMQ MQTT Topic Permission Authorization Bypass",
+  "published": "2026-05-28T17:57:03.000Z",
+  "modified": "2026-05-28T17:57:03.000Z",
+  "upstream": [
+    "CVE-2026-44838"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rabbitmq-server"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1745"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525274"
+    }
+  ]
+}
