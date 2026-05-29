@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1769",
+  "summary": "Zed: Zed IDE Arbitrary Code Execution via untrusted repository with poisoned .git/config",
+  "published": "2026-05-29T09:10:38.000Z",
+  "modified": "2026-05-29T09:10:38.000Z",
+  "upstream": [
+    "CVE-2026-44465"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zed-editor"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1769"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525488"
+    }
+  ]
+}

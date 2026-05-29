@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1778",
+  "summary": "Samba: remote code execution in samr",
+  "published": "2026-05-29T09:44:05.000Z",
+  "modified": "2026-05-29T09:44:05.000Z",
+  "upstream": [
+    "CVE-2026-4408"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "samba"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "samba4"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sambaFull"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "samba4Full"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1778"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525510"
+    }
+  ]
+}

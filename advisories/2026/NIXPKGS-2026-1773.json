@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1773",
+  "summary": "Zed: Allowlist Bypass via Bash Arithmetic Expansion in Terminal Tool Permissions",
+  "published": "2026-05-29T09:21:03.000Z",
+  "modified": "2026-05-29T09:21:03.000Z",
+  "upstream": [
+    "CVE-2026-44466"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zed-editor"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1773"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525495"
+    }
+  ]
+}

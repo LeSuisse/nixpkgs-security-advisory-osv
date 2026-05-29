@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1772",
+  "summary": "Zed: Allowlist Bypass via Bash Variable Expansion Chain in Terminal Tool Permissions",
+  "published": "2026-05-29T09:21:02.000Z",
+  "modified": "2026-05-29T09:21:02.000Z",
+  "upstream": [
+    "CVE-2026-44462"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zed-editor"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1772"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525494"
+    }
+  ]
+}

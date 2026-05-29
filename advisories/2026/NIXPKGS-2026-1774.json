@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1774",
+  "summary": "Zed: Allowlist Bypass via Environment Variable Injection in Terminal Tool Permissions",
+  "published": "2026-05-29T09:21:13.000Z",
+  "modified": "2026-05-29T09:21:13.000Z",
+  "upstream": [
+    "CVE-2026-44463"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zed-editor"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1774"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525496"
+    }
+  ]
+}

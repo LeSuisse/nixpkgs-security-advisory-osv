@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1771",
+  "summary": "Zed: Remote Command Injection via Unquoted Environment Variable Keys (SSH / WSL Remote)",
+  "published": "2026-05-29T09:21:01.000Z",
+  "modified": "2026-05-29T09:21:01.000Z",
+  "upstream": [
+    "CVE-2026-44461"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zed-editor"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1771"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525493"
+    }
+  ]
+}

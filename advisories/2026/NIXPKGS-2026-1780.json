@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1780",
+  "summary": "Streamlink: Arbitrary local file read via file:// URI in HLS and DASH",
+  "published": "2026-05-29T09:53:42.000Z",
+  "modified": "2026-05-29T09:53:42.000Z",
+  "upstream": [
+    "CVE-2026-44353"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "streamlink"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1780"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525513"
+    }
+  ]
+}

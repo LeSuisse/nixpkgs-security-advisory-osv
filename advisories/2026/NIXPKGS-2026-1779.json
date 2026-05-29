@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1779",
+  "summary": "GitButler: Link injection via forge integration enables arbitrary script execution",
+  "published": "2026-05-29T09:46:53.000Z",
+  "modified": "2026-05-29T09:46:53.000Z",
+  "upstream": [
+    "CVE-2026-45261"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gitbutler"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1779"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/525511"
+    }
+  ]
+}
