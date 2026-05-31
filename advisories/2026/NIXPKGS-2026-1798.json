@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1798",
+  "summary": "pyLoad: SSRF via HTTP Redirect Bypass in parse_urls API",
+  "published": "2026-05-31T12:53:28.000Z",
+  "modified": "2026-05-31T12:53:28.000Z",
+  "upstream": [
+    "CVE-2026-46561"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pyload-ng"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1798"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/526348"
+    }
+  ]
+}

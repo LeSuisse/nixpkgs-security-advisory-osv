@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1800",
+  "summary": "CryptX versions before 0.088_001 for Perl have a stack buffer overflow in four AEAD decrypt_verify helpers",
+  "published": "2026-05-31T12:53:34.000Z",
+  "modified": "2026-05-31T12:53:34.000Z",
+  "upstream": [
+    "CVE-2026-41565"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.CryptX"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.CryptX"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.CryptX"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.CryptX"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1800"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/526350"
+    }
+  ]
+}

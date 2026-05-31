@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1792",
+  "summary": "ServiceAccount token disclosure via install-cni container logs",
+  "published": "2026-05-31T12:53:17.000Z",
+  "modified": "2026-05-31T12:53:17.000Z",
+  "upstream": [
+    "CVE-2026-41184"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "calico-cni-plugin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1792"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/526342"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1785",
+  "summary": "Open5GS Shared NF-profile nnrf-handler.c denial of service",
+  "published": "2026-05-31T12:52:37.000Z",
+  "modified": "2026-05-31T12:52:37.000Z",
+  "upstream": [
+    "CVE-2026-10115"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1785"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/526335"
+    }
+  ]
+}

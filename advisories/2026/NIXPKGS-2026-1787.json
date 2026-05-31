@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1787",
+  "summary": "Open5GS nghttp2-server.c ogs_pool_id_calloc denial of service",
+  "published": "2026-05-31T12:52:45.000Z",
+  "modified": "2026-05-31T12:52:45.000Z",
+  "upstream": [
+    "CVE-2026-10117"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1787"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/526337"
+    }
+  ]
+}

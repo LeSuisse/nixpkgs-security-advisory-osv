@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1783",
+  "summary": "Open5GS ue-authentications Endpoint ogs-timer.c ogs_sbi_xact_add denial of service",
+  "published": "2026-05-31T12:52:33.000Z",
+  "modified": "2026-05-31T12:52:33.000Z",
+  "upstream": [
+    "CVE-2026-10116"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1783"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/526333"
+    }
+  ]
+}

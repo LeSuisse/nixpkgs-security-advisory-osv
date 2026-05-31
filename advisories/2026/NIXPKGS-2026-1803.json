@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1803",
+  "summary": "PyJWT: Unauthenticated DoS via unbounded Base64URL decoding of unused payload segment in b64=false detached JWS",
+  "published": "2026-05-31T12:53:43.000Z",
+  "modified": "2026-05-31T12:53:43.000Z",
+  "upstream": [
+    "CVE-2026-48525"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.pyjwt"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pyjwt"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pyjwt"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1803"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/526353"
+    }
+  ]
+}

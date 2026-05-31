@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1781",
+  "summary": "Text::LineFold versions through 2019.001 for Perl duplicate the output based on the number of special break characters",
+  "published": "2026-05-31T12:52:30.000Z",
+  "modified": "2026-05-31T12:52:30.000Z",
+  "upstream": [
+    "CVE-2026-8594"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.UnicodeLineBreak"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.UnicodeLineBreak"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.UnicodeLineBreak"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.UnicodeLineBreak"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1781"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/526331"
+    }
+  ]
+}

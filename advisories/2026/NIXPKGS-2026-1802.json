@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1802",
+  "summary": "pyLoad: Incomplete Fix for CVE-2026-33509 -storage_folder Bypass via Session Directory",
+  "published": "2026-05-31T12:53:41.000Z",
+  "modified": "2026-05-31T12:53:41.000Z",
+  "upstream": [
+    "CVE-2026-45306"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pyload-ng"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1802"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/526352"
+    }
+  ]
+}

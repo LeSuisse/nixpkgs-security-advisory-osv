@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1790",
+  "summary": "Glib-networking: infinite loop in glib-networking gnutls backend allows remote denial of service via circular certificate chain",
+  "published": "2026-05-31T12:53:09.000Z",
+  "modified": "2026-05-31T12:53:09.000Z",
+  "upstream": [
+    "CVE-2026-10028"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "glib-networking"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1790"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/526340"
+    }
+  ]
+}
