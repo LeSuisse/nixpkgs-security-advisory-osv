@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1806",
+  "summary": "Aider-AI Aider Architect Mode auth.py editor_coder.run code injection",
+  "published": "2026-06-01T09:38:23.000Z",
+  "modified": "2026-06-01T09:38:23.000Z",
+  "upstream": [
+    "CVE-2026-10175"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "aider-chat"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "aider-chat-full"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.aider-chat"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "aider-chat-with-help"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "aider-chat-with-bedrock"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "aider-chat-with-browser"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.aider-chat-full"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "aider-chat-with-playwright"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.aider-chat-with-help"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.aider-chat-with-bedrock"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.aider-chat-with-browser"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.aider-chat-with-playwright"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1806"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/526678"
+    }
+  ]
+}

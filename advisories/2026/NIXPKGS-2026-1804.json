@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1804",
+  "summary": "Exim 4.88 before 4.99.4, in some proxy configurations, mishandles certain …",
+  "published": "2026-06-01T09:37:49.000Z",
+  "modified": "2026-06-01T09:37:49.000Z",
+  "upstream": [
+    "CVE-2026-48840"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "exim"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1804"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/526676"
+    }
+  ]
+}
