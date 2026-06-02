@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1829",
+  "summary": "Assimp Half-Life 1 MDL Loader HL1MDLLoader.cpp read_meshes heap-based overflow",
+  "published": "2026-06-02T07:01:17.000Z",
+  "modified": "2026-06-02T07:01:17.000Z",
+  "upstream": [
+    "CVE-2026-10229"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "assimp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1829"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527013"
+    }
+  ]
+}

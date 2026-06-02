@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1819",
+  "summary": "Rrdtool: rrdtool: stack buffer overflow allows local code execution or denial of service",
+  "published": "2026-06-02T07:00:37.000Z",
+  "modified": "2026-06-02T07:00:37.000Z",
+  "upstream": [
+    "CVE-2026-43958"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rrdtool"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1819"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527003"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1825",
+  "summary": "Apache Airflow: BashOperator Jinja2 injection via dag_run.conf — low-privilege user pattern",
+  "published": "2026-06-02T07:00:45.000Z",
+  "modified": "2026-06-02T07:00:45.000Z",
+  "upstream": [
+    "CVE-2026-42252"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apache-airflow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1825"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527009"
+    }
+  ]
+}

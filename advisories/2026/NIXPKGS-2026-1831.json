@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1831",
+  "summary": "Poppler: integer overflow in poppler splashoutputdev::tilingpatternfill leads to heap buffer overflow via unchecked dimension multiplication",
+  "published": "2026-06-02T07:01:20.000Z",
+  "modified": "2026-06-02T07:01:20.000Z",
+  "upstream": [
+    "CVE-2026-10118"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler_gi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler_min"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler-utils"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1831"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527015"
+    }
+  ]
+}

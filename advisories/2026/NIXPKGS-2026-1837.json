@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1837",
+  "summary": "Assimp ASE File scene.cpp ~aiNode use after free",
+  "published": "2026-06-02T07:01:51.000Z",
+  "modified": "2026-06-02T07:01:51.000Z",
+  "upstream": [
+    "CVE-2026-10232"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "assimp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1837"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527021"
+    }
+  ]
+}

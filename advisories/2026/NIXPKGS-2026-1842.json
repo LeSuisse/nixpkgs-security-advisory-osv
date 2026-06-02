@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1842",
+  "summary": "Assimp Half-Life 1 MDL Loader HL1MDLLoader.cpp read_sequence_infos out-of-bounds",
+  "published": "2026-06-02T07:01:59.000Z",
+  "modified": "2026-06-02T07:01:59.000Z",
+  "upstream": [
+    "CVE-2026-10233"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "assimp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1842"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527026"
+    }
+  ]
+}

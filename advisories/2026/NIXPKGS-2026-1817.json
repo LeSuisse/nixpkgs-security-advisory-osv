@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1817",
+  "summary": "OpenSC pkcs11-tool Key Generation pkcs11-tool.c test_kpgen_certwrite buffer overflow",
+  "published": "2026-06-02T07:00:34.000Z",
+  "modified": "2026-06-02T07:00:34.000Z",
+  "upstream": [
+    "CVE-2026-10275"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opensc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1817"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527001"
+    }
+  ]
+}

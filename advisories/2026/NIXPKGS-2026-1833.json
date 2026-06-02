@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1833",
+  "summary": "Apache Airflow: No certificate validation on SMTP STARTTLS connections",
+  "published": "2026-06-02T07:01:24.000Z",
+  "modified": "2026-06-02T07:01:24.000Z",
+  "upstream": [
+    "CVE-2026-49267"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apache-airflow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1833"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527017"
+    }
+  ]
+}

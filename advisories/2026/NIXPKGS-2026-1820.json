@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1820",
+  "summary": "Apache Airflow: JWT Token Exposure in KubernetesExecutor Command-Line Arguments",
+  "published": "2026-06-02T07:00:38.000Z",
+  "modified": "2026-06-02T07:00:38.000Z",
+  "upstream": [
+    "CVE-2026-49298"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apache-airflow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1820"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527004"
+    }
+  ]
+}

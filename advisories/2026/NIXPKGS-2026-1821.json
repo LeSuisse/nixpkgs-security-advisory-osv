@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1821",
+  "summary": "Apache Airflow: Log server JWT authorization bypass via Python lstrip() character stripping allows cross-Dag log access",
+  "published": "2026-06-02T07:00:41.000Z",
+  "modified": "2026-06-02T07:00:41.000Z",
+  "upstream": [
+    "CVE-2026-45426"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apache-airflow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1821"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527005"
+    }
+  ]
+}

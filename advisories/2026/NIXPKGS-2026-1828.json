@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1828",
+  "summary": "Apache Airflow: Arbitrary import in custom deadline-reference deserialization",
+  "published": "2026-06-02T07:01:15.000Z",
+  "modified": "2026-06-02T07:01:15.000Z",
+  "upstream": [
+    "CVE-2026-45360"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apache-airflow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1828"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527012"
+    }
+  ]
+}

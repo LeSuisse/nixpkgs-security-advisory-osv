@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1838",
+  "summary": "Open5GS NGAP PathSwitchRequest Message ngap-handler.c improper authentication",
+  "published": "2026-06-02T07:01:53.000Z",
+  "modified": "2026-06-02T07:01:53.000Z",
+  "upstream": [
+    "CVE-2026-10157"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1838"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527022"
+    }
+  ]
+}

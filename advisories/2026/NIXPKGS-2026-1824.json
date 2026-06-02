@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1824",
+  "summary": "Apache Airflow: Arbitrary File Read via Log Symlink following in FileTaskHandler",
+  "published": "2026-06-02T07:00:44.000Z",
+  "modified": "2026-06-02T07:00:44.000Z",
+  "upstream": [
+    "CVE-2026-40861"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apache-airflow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1824"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527008"
+    }
+  ]
+}

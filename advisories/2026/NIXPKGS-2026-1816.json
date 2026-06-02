@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1816",
+  "summary": "PackageKit API pk-transaction.c g_file_test improper authorization",
+  "published": "2026-06-02T07:00:31.000Z",
+  "modified": "2026-06-02T07:00:31.000Z",
+  "upstream": [
+    "CVE-2026-10294"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "packagekit"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1816"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527000"
+    }
+  ]
+}
