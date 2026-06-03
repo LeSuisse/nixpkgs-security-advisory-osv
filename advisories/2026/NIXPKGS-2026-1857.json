@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1857",
+  "summary": "authentik: SourceStage bypass via empty POST",
+  "published": "2026-06-03T06:23:33.000Z",
+  "modified": "2026-06-03T06:23:33.000Z",
+  "upstream": [
+    "CVE-2026-49448"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "authentik"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1857"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527437"
+    }
+  ]
+}

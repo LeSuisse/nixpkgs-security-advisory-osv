@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1849",
+  "summary": "authentik: `UserSourceConnection.user` and `GroupSourceConnection.group` are changeable through the API",
+  "published": "2026-06-03T06:23:21.000Z",
+  "modified": "2026-06-03T06:23:21.000Z",
+  "upstream": [
+    "CVE-2026-49443"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "authentik"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1849"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527428"
+    }
+  ]
+}

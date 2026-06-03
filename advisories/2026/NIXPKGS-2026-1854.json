@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1854",
+  "summary": "Path Traversal in gleam docs build via documentation.pages Allows Arbitrary File Read and Write",
+  "published": "2026-06-03T06:23:29.000Z",
+  "modified": "2026-06-03T06:23:29.000Z",
+  "upstream": [
+    "CVE-2026-32685"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gleam"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1854"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527434"
+    }
+  ]
+}

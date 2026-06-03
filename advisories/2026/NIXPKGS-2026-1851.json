@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1851",
+  "summary": "NiceGUI: Unauthenticated log-flood DoS via trailing slash on ESM and per-component resource routes",
+  "published": "2026-06-03T06:23:24.000Z",
+  "modified": "2026-06-03T06:23:24.000Z",
+  "upstream": [
+    "CVE-2026-45554"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.nicegui"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.nicegui"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.nicegui"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1851"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527431"
+    }
+  ]
+}

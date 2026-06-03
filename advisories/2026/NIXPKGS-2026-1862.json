@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1862",
+  "summary": "Open-Seachest/Seachest show SCSI Defect List Vulnerability",
+  "published": "2026-06-03T06:34:12.000Z",
+  "modified": "2026-06-03T06:34:12.000Z",
+  "upstream": [
+    "CVE-2026-10717"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openseachest"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1862"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/527443"
+    }
+  ]
+}
