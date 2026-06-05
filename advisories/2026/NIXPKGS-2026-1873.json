@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1873",
+  "summary": "HTML::Entities versions before 3.84 for Perl read freed heap memory in _decode_entities",
+  "published": "2026-06-05T08:17:38.000Z",
+  "modified": "2026-06-05T08:17:38.000Z",
+  "upstream": [
+    "CVE-2026-8829"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1873"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/528283"
+    }
+  ]
+}

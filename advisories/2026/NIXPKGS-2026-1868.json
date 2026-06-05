@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1868",
+  "summary": "ipmi-oem in FreeIPMI before 1.6.18 has exploitable buffer overflows on …",
+  "published": "2026-06-05T08:17:19.000Z",
+  "modified": "2026-06-05T08:17:19.000Z",
+  "upstream": [
+    "CVE-2026-50031"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1868"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/528278"
+    }
+  ]
+}

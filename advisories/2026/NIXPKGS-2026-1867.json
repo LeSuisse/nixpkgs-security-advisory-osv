@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1867",
+  "summary": "gradio-app gradio Audio Cache Key save_audio_to_cache weak hash",
+  "published": "2026-06-05T08:17:15.000Z",
+  "modified": "2026-06-05T08:17:15.000Z",
+  "upstream": [
+    "CVE-2026-10783"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1867"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/528277"
+    }
+  ]
+}

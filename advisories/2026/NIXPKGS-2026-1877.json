@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1877",
+  "summary": "Strawberry GraphQL's Bypass of MaxAliasesLimiter via Fragment Spreads leading to GraphQL Alias Amplification",
+  "published": "2026-06-05T08:20:22.000Z",
+  "modified": "2026-06-05T08:20:22.000Z",
+  "upstream": [
+    "CVE-2026-47707"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1877"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/528289"
+    }
+  ]
+}

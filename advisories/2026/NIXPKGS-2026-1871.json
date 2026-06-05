@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1871",
+  "summary": "Net::Statsd versions before 0.13 for Perl allow metric injections",
+  "published": "2026-06-05T08:17:28.000Z",
+  "modified": "2026-06-05T08:17:28.000Z",
+  "upstream": [
+    "CVE-2026-46739"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1871"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/528281"
+    }
+  ]
+}

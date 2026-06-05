@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1875",
+  "summary": "In libinput before 1.30.4 and 1.31.x before 1.31.3, libinput-device-group unescaped …",
+  "published": "2026-06-05T08:19:03.000Z",
+  "modified": "2026-06-05T08:19:03.000Z",
+  "upstream": [
+    "CVE-2026-50292"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1875"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/528287"
+    }
+  ]
+}
