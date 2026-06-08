@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1881",
+  "summary": "USCiLab Cereal Shared Pointer type confusion",
+  "published": "2026-06-08T11:38:57.000Z",
+  "modified": "2026-06-08T11:38:57.000Z",
+  "upstream": [
+    "CVE-2026-11463"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1881"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/529489"
+    }
+  ]
+}
