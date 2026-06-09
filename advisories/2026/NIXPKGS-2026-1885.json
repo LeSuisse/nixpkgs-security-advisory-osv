@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1885",
+  "summary": "OfflineIMAP before 8.0.3 trusts the server with their STARTTLS capability …",
+  "published": "2026-06-09T08:06:19.000Z",
+  "modified": "2026-06-09T08:06:19.000Z",
+  "upstream": [
+    "CVE-2020-37248"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1885"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/529811"
+    }
+  ]
+}

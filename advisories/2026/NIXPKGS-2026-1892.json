@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1892",
+  "summary": "389-ds-base: 389-ds-base: content sync plugin unbounded queue growth and race conditions",
+  "published": "2026-06-09T08:09:31.000Z",
+  "modified": "2026-06-09T08:09:31.000Z",
+  "upstream": [
+    "CVE-2026-11611"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1892"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/529819"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1882",
+  "summary": "A race condition in OpenVPN 2.6.0 through 2.6.19 and 2.7_alpha1 …",
+  "published": "2026-06-09T07:57:28.000Z",
+  "modified": "2026-06-09T07:57:28.000Z",
+  "upstream": [
+    "CVE-2026-40215"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1882"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/529803"
+    }
+  ]
+}

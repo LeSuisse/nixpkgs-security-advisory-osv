@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1888",
+  "summary": "Weaviate Static API Key client.go validateConfig authorization",
+  "published": "2026-06-09T08:09:23.000Z",
+  "modified": "2026-06-09T08:09:23.000Z",
+  "upstream": [
+    "CVE-2026-11500"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1888"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/529815"
+    }
+  ]
+}

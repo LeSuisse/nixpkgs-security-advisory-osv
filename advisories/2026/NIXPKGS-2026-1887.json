@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1887",
+  "summary": "Headplane: Path Traversal + RBAC Bypass in renameNode allows authenticated OIDC users to expire or rename any node/user",
+  "published": "2026-06-09T08:09:21.000Z",
+  "modified": "2026-06-09T08:09:21.000Z",
+  "upstream": [
+    "CVE-2026-46484"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1887"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/529814"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1886",
+  "summary": "Snipe-IT: Bulk editing users allowed `ldap_import` and `activated_in` bulk editing users",
+  "published": "2026-06-09T08:09:19.000Z",
+  "modified": "2026-06-09T08:09:19.000Z",
+  "upstream": [
+    "CVE-2026-48507"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1886"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/529813"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1889",
+  "summary": "YesWiki has Unsafe eval() in Formula Calculator - Remote Code Execution (RCE) & Denial of Service (DoS)",
+  "published": "2026-06-09T08:09:25.000Z",
+  "modified": "2026-06-09T08:09:25.000Z",
+  "upstream": [
+    "CVE-2026-52778"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1889"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/529816"
+    }
+  ]
+}
