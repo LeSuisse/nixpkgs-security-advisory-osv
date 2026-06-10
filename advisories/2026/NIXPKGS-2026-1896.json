@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1896",
+  "summary": "Catalyst::Plugin::Authentication versions before 0.10_027 for Perl is susceptible to session fixation attacks",
+  "published": "2026-06-10T12:06:50.000Z",
+  "modified": "2026-06-10T12:06:50.000Z",
+  "upstream": [
+    "CVE-2009-10007"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1896"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/530327"
+    }
+  ]
+}

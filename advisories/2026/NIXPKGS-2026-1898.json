@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1898",
+  "summary": "FreeSWITCH: Stack overflow in bundled cJSON parser via deeply nested JSON",
+  "published": "2026-06-10T12:08:22.000Z",
+  "modified": "2026-06-10T12:08:22.000Z",
+  "upstream": [
+    "CVE-2026-49847"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1898"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/530329"
+    }
+  ]
+}

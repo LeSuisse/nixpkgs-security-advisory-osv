@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1894",
+  "summary": "Versions of the package degit before 2.8.6, from 3.0.0 and …",
+  "published": "2026-06-10T12:04:05.000Z",
+  "modified": "2026-06-10T12:04:05.000Z",
+  "upstream": [
+    "CVE-2026-11572"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1894"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/530325"
+    }
+  ]
+}
