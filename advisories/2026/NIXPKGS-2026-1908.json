@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1908",
+  "summary": "OpenFGA: Cache-key delimiter injection in openfga/openfga shared-iterator and v2 iterator caches enables intra-store authorization-decision poisoning",
+  "published": "2026-06-11T09:20:59.000Z",
+  "modified": "2026-06-11T09:20:59.000Z",
+  "upstream": [
+    "CVE-2026-48096"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1908"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/530663"
+    }
+  ]
+}

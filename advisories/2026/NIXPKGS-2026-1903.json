@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1903",
+  "summary": "kafka-python prior to 2.3.2 Denial of Service via Protocol Parser Frame Length",
+  "published": "2026-06-11T09:14:52.000Z",
+  "modified": "2026-06-11T09:14:52.000Z",
+  "upstream": [
+    "CVE-2026-10142"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1903"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/530656"
+    }
+  ]
+}

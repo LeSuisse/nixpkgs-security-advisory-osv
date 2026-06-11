@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1907",
+  "summary": "libnfs through 6.0.2 before 55c18ea does not validate a string …",
+  "published": "2026-06-11T09:20:57.000Z",
+  "modified": "2026-06-11T09:20:57.000Z",
+  "upstream": [
+    "CVE-2026-53689"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1907"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/530662"
+    }
+  ]
+}

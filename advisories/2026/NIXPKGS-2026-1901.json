@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1901",
+  "summary": "Jenkins 2.567 and earlier, LTS 2.555.2 and earlier improperly determines …",
+  "published": "2026-06-11T09:09:22.000Z",
+  "modified": "2026-06-11T09:09:22.000Z",
+  "upstream": [
+    "CVE-2026-53436"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1901"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/530651"
+    }
+  ]
+}

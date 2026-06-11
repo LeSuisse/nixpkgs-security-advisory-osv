@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1899",
+  "summary": "ImageMagick: Heap Buffer Over-Write in MAT decoder on 32-bit systems",
+  "published": "2026-06-11T08:16:56.000Z",
+  "modified": "2026-06-11T08:16:56.000Z",
+  "upstream": [
+    "CVE-2026-48994"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1899"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/530641"
+    }
+  ]
+}

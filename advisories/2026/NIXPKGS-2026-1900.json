@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1900",
+  "summary": "ImageMagick: Memory Leak in wand option parser when providing invalid arguments",
+  "published": "2026-06-11T08:22:19.000Z",
+  "modified": "2026-06-11T08:22:19.000Z",
+  "upstream": [
+    "CVE-2026-53464"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1900"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/530642"
+    }
+  ]
+}
