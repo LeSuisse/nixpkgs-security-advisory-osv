@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1911",
+  "summary": "Krb5: krb5: integer underflow in berval2tl_data() leads to heap out-of-bounds read",
+  "published": "2026-06-12T08:56:28.000Z",
+  "modified": "2026-06-12T08:56:28.000Z",
+  "upstream": [
+    "CVE-2026-11850"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1911"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/530994"
+    }
+  ]
+}
