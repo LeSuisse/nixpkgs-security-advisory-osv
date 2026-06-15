@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1922",
+  "summary": "Linux-PAM through 1.7.2 contains an observable timing discrepancy (CWE-208) in …",
+  "published": "2026-06-15T08:13:08.000Z",
+  "modified": "2026-06-15T08:13:08.000Z",
+  "upstream": [
+    "CVE-2026-54411"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1922"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/531920"
+    }
+  ]
+}
