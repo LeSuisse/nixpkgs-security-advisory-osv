@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1928",
+  "summary": "Valhalla has reflected XSS via unsanitized JSONP callback parameter",
+  "published": "2026-06-16T09:42:22.000Z",
+  "modified": "2026-06-16T09:42:22.000Z",
+  "upstream": [
+    "CVE-2026-49294"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1928"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/532254"
+    }
+  ]
+}

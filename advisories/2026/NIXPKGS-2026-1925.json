@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1925",
+  "summary": "Crypt::DSA versions before 1.21 for Perl reused the nonce across signatures, leading to private-key recovery",
+  "published": "2026-06-16T09:42:08.000Z",
+  "modified": "2026-06-16T09:42:08.000Z",
+  "upstream": [
+    "CVE-2026-12205"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1925"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/532251"
+    }
+  ]
+}
