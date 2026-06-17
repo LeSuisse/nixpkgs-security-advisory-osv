@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1932",
+  "summary": "Gnutls: fix use-after-free in gnutls_pkcs11_token_set_pin",
+  "published": "2026-06-17T07:10:26.000Z",
+  "modified": "2026-06-17T07:10:26.000Z",
+  "upstream": [
+    "CVE-2026-42014"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1932"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/532552"
+    }
+  ]
+}

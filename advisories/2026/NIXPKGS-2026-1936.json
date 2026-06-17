@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1936",
+  "summary": "Remark42: Cross-Site Scripting (XSS) on /api/v1/img via content-type spoofing",
+  "published": "2026-06-17T07:13:42.000Z",
+  "modified": "2026-06-17T07:13:42.000Z",
+  "upstream": [
+    "CVE-2026-48788"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1936"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/532558"
+    }
+  ]
+}

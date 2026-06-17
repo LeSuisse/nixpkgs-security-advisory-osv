@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1934",
+  "summary": "WordPress ProfilePress plugin <= 4.16.13 - Cross Site Scripting (XSS) vulnerability",
+  "published": "2026-06-17T07:13:36.000Z",
+  "modified": "2026-06-17T07:13:36.000Z",
+  "upstream": [
+    "CVE-2026-41556"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1934"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/532556"
+    }
+  ]
+}
