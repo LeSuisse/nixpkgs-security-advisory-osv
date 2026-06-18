@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1947",
+  "summary": "Python StateMachine 3.0.0 < 3.2.0 RCE via SCXML eval() Injection",
+  "published": "2026-06-18T08:25:34.000Z",
+  "modified": "2026-06-18T08:25:34.000Z",
+  "upstream": [
+    "CVE-2026-47103"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/532929"
+    }
+  ]
+}

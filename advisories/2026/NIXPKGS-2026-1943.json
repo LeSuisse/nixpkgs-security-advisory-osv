@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1943",
+  "summary": "Path Traversal (Zip-Slip) in unarchive module",
+  "published": "2026-06-18T08:24:00.000Z",
+  "modified": "2026-06-18T08:24:00.000Z",
+  "upstream": [
+    "CVE-2026-12565"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1943"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/532925"
+    }
+  ]
+}

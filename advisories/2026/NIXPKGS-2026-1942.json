@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1942",
+  "summary": "Tinyproxy - HTTP Request Smuggling via Duplicate Content-Length Headers",
+  "published": "2026-06-18T08:19:05.000Z",
+  "modified": "2026-06-18T08:19:05.000Z",
+  "upstream": [
+    "CVE-2026-54388"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1942"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/532923"
+    }
+  ]
+}

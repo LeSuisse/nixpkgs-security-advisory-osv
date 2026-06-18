@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1945",
+  "summary": "marimo < 0.23.9 XSS via file Query Parameter in assets.py",
+  "published": "2026-06-18T08:25:29.000Z",
+  "modified": "2026-06-18T08:25:29.000Z",
+  "upstream": [
+    "CVE-2026-54386"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1945"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/532927"
+    }
+  ]
+}
