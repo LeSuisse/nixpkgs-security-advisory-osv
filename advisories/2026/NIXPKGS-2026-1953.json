@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1953",
+  "summary": "libssh2 - Heap Buffer Over-read via sftp_symlink() in sftp.c",
+  "published": "2026-06-19T08:27:59.000Z",
+  "modified": "2026-06-19T08:27:59.000Z",
+  "upstream": [
+    "CVE-2025-15661"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1953"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/533226"
+    }
+  ]
+}
