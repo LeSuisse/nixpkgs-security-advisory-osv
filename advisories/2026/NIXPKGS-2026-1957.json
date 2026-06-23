@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1957",
+  "summary": "Starlette: Unvalidated request path concatenated into authority poisons request.url.hostname",
+  "published": "2026-06-23T06:21:36.000Z",
+  "modified": "2026-06-23T06:21:36.000Z",
+  "upstream": [
+    "CVE-2026-54282"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1957"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/534485"
+    }
+  ]
+}

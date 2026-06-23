@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1958",
+  "summary": "vLLM: OpenAI auth bypass",
+  "published": "2026-06-23T06:23:23.000Z",
+  "modified": "2026-06-23T06:23:23.000Z",
+  "upstream": [
+    "CVE-2026-48746"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1958"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/534486"
+    }
+  ]
+}
