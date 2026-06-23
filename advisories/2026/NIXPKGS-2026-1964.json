@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1964",
+  "summary": "pypdf: Possible infinite loop when processing threads/articles in writer",
+  "published": "2026-06-23T06:30:22.000Z",
+  "modified": "2026-06-23T06:30:22.000Z",
+  "upstream": [
+    "CVE-2026-54651"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1964"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/534493"
+    }
+  ]
+}

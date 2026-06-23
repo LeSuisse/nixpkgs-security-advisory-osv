@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1959",
+  "summary": "Net::IMAP: Command Injection via ID command argument",
+  "published": "2026-06-23T06:27:00.000Z",
+  "modified": "2026-06-23T06:27:00.000Z",
+  "upstream": [
+    "CVE-2026-47242"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1959"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/534487"
+    }
+  ]
+}
