@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1973",
+  "summary": "GNU libidn before 1.44 is prone to out-of-bounds reads of …",
+  "published": "2026-06-24T12:58:28.000Z",
+  "modified": "2026-06-24T12:58:28.000Z",
+  "upstream": [
+    "CVE-2026-57053"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1973"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/534935"
+    }
+  ]
+}

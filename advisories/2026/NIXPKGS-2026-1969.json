@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1969",
+  "summary": "n8n: Git Node Clone and Push Operations Bypass File Sandbox",
+  "published": "2026-06-24T12:19:25.000Z",
+  "modified": "2026-06-24T12:19:25.000Z",
+  "upstream": [
+    "CVE-2026-49465"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1969"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/534917"
+    }
+  ]
+}

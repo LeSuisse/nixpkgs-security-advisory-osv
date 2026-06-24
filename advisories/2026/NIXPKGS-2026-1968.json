@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1968",
+  "summary": "Deno: Miller-Rabin Primality Test Allows Zero Rounds",
+  "published": "2026-06-24T12:10:06.000Z",
+  "modified": "2026-06-24T12:10:06.000Z",
+  "upstream": [
+    "CVE-2026-49440"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1968"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/534913"
+    }
+  ]
+}
