@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1979",
+  "summary": "SiYuan: Path Traversal via Double URL Encoding in /assets/*path (publish mode arbitrary file─read)",
+  "published": "2026-06-25T09:08:55.000Z",
+  "modified": "2026-06-25T09:08:55.000Z",
+  "upstream": [
+    "CVE-2026-54066"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1979"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535200"
+    }
+  ]
+}

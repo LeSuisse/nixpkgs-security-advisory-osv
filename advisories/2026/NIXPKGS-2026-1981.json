@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1981",
+  "summary": "Warp branch selector command injection via Git branch names",
+  "published": "2026-06-25T09:17:38.000Z",
+  "modified": "2026-06-25T09:17:38.000Z",
+  "upstream": [
+    "CVE-2026-48719"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1981"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535203"
+    }
+  ]
+}

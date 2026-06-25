@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1980",
+  "summary": "Mistune: Potential DoS via quadratic-time parsing in parse_link_text",
+  "published": "2026-06-25T09:11:29.000Z",
+  "modified": "2026-06-25T09:11:29.000Z",
+  "upstream": [
+    "CVE-2026-49851"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1980"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535202"
+    }
+  ]
+}
