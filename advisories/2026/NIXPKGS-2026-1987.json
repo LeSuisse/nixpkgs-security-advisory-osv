@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1987",
+  "summary": "File Browser: DoS Vulnerability on Public Login API",
+  "published": "2026-06-26T09:33:58.000Z",
+  "modified": "2026-06-26T09:33:58.000Z",
+  "upstream": [
+    "CVE-2026-54092"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1987"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535564"
+    }
+  ]
+}

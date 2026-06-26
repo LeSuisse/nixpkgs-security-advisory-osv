@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2002",
+  "summary": "SeaweedFS: Path traversal in the S3 and Iceberg REST gateways allows cross-bucket access",
+  "published": "2026-06-26T10:55:36.000Z",
+  "modified": "2026-06-26T10:55:36.000Z",
+  "upstream": [
+    "CVE-2026-54917"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2002"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535590"
+    }
+  ]
+}

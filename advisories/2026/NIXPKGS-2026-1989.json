@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1989",
+  "summary": "Out of bounds stack write with crafted APL RR",
+  "published": "2026-06-26T09:38:57.000Z",
+  "modified": "2026-06-26T09:38:57.000Z",
+  "upstream": [
+    "CVE-2026-12246"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1989"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535566"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-1993",
+  "summary": "pnpm: Integrity Check Bypass via Missing Lockfile Integrity Field",
+  "published": "2026-06-26T10:38:42.000Z",
+  "modified": "2026-06-26T10:38:42.000Z",
+  "upstream": [
+    "CVE-2026-50021"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-1993"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535578"
+    }
+  ]
+}

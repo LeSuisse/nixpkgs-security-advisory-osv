@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2004",
+  "summary": "Authorization Bypass in API Key/OAuth Scopes via Path Parsing Discrepancy",
+  "published": "2026-06-26T10:55:40.000Z",
+  "modified": "2026-06-26T10:55:40.000Z",
+  "upstream": [
+    "CVE-2026-54573"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2004"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535592"
+    }
+  ]
+}
