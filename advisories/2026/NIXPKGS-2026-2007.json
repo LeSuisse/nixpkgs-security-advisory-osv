@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2007",
+  "summary": "Envoy HTTP: OAuth2 filter late async token completion after stream teardown (UAF / crash risk)",
+  "published": "2026-06-27T08:26:01.000Z",
+  "modified": "2026-06-27T08:26:01.000Z",
+  "upstream": [
+    "CVE-2026-48090"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2007"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535937"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2013",
+  "summary": "Podman: Malformed Image can trick podman run into leaking host environment variables into the container",
+  "published": "2026-06-27T09:24:37.000Z",
+  "modified": "2026-06-27T09:24:37.000Z",
+  "upstream": [
+    "CVE-2026-57231"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2013"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535959"
+    }
+  ]
+}

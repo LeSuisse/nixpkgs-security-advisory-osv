@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2012",
+  "summary": "Kestra task inputFiles accepts traversal filenames for worker file writes",
+  "published": "2026-06-27T09:04:56.000Z",
+  "modified": "2026-06-27T09:04:56.000Z",
+  "upstream": [
+    "CVE-2026-48129"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2012"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535958"
+    }
+  ]
+}

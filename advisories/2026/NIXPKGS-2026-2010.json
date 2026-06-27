@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2010",
+  "summary": "In JetBrains YouTrack before 2026.1.13162 information disclosure was possible on …",
+  "published": "2026-06-27T08:37:57.000Z",
+  "modified": "2026-06-27T08:37:57.000Z",
+  "upstream": [
+    "CVE-2026-49370"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2010"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535945"
+    }
+  ]
+}

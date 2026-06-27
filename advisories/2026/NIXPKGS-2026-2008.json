@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2008",
+  "summary": "Envoy: Segmentation fault when using %REQUESTED_SERVER_NAME% in log format",
+  "published": "2026-06-27T08:26:21.000Z",
+  "modified": "2026-06-27T08:26:21.000Z",
+  "upstream": [
+    "CVE-2026-47220"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2008"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535938"
+    }
+  ]
+}

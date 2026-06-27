@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2018",
+  "summary": "Bytes::Random::Secure::Tiny versions through 1.011 for Perl share internal state across forked processes",
+  "published": "2026-06-27T09:25:05.000Z",
+  "modified": "2026-06-27T09:25:05.000Z",
+  "upstream": [
+    "CVE-2026-11702"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2018"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/535964"
+    }
+  ]
+}
