@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2027",
+  "summary": "Yelp: yelp-xsl: overly permissive content security policy in yelp allows host file disclosure from flatpak applications",
+  "published": "2026-06-30T11:09:41.000Z",
+  "modified": "2026-06-30T11:09:41.000Z",
+  "upstream": [
+    "CVE-2026-13601"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2027"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/537005"
+    }
+  ]
+}

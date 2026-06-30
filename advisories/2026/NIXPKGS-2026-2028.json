@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2028",
+  "summary": "CSS::Minifier::XS versions before 0.14 for Perl have a memory leak when the entire document is minified away",
+  "published": "2026-06-30T11:09:42.000Z",
+  "modified": "2026-06-30T11:09:42.000Z",
+  "upstream": [
+    "CVE-2026-13593"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2028"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/537006"
+    }
+  ]
+}

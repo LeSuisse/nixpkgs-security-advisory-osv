@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2032",
+  "summary": "nghttp2 nghttpx - HTTP Request/Response Smuggling via Upgrade Request with Content-Length",
+  "published": "2026-06-30T11:09:51.000Z",
+  "modified": "2026-06-30T11:09:51.000Z",
+  "upstream": [
+    "CVE-2026-58055"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2032"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/537010"
+    }
+  ]
+}

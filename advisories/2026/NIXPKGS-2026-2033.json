@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2033",
+  "summary": "P11-kit: stack exhaustion via unbounded recursion in rpc attribute parsing",
+  "published": "2026-06-30T11:09:52.000Z",
+  "modified": "2026-06-30T11:09:52.000Z",
+  "upstream": [
+    "CVE-2026-13757"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2033"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/537011"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2034",
+  "summary": "Claude Code: Sandbox Escape via Git Worktree Path Confusion Allows Unsandboxed Code Execution",
+  "published": "2026-06-30T11:09:54.000Z",
+  "modified": "2026-06-30T11:09:54.000Z",
+  "upstream": [
+    "CVE-2026-55607"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2034"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/537012"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2021",
+  "summary": "CherryHQ cherry-studio CherryIN Preload API MemoryService.ts sha256 authorization",
+  "published": "2026-06-30T11:08:19.000Z",
+  "modified": "2026-06-30T11:08:19.000Z",
+  "upstream": [
+    "CVE-2026-13534"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2021"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/536999"
+    }
+  ]
+}

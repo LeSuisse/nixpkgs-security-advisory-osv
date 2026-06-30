@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2020",
+  "summary": "Global Buffer Overflow in GNU gzip",
+  "published": "2026-06-30T11:04:48.000Z",
+  "modified": "2026-06-30T11:04:48.000Z",
+  "upstream": [
+    "CVE-2026-41992"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2020"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/536998"
+    }
+  ]
+}
