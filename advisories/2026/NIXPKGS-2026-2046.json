@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2046",
+  "summary": "Rancher Privilege Escalation from Project Owner to Host",
+  "published": "2026-07-01T10:27:55.000Z",
+  "modified": "2026-07-01T10:27:55.000Z",
+  "upstream": [
+    "CVE-2026-41052"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2046"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/537363"
+    }
+  ]
+}

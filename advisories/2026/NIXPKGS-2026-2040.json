@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2040",
+  "summary": "Dolibarr - SQL Injection via sqlfilters Parameter in Multiple REST API List Endpoints",
+  "published": "2026-07-01T10:27:43.000Z",
+  "modified": "2026-07-01T10:27:43.000Z",
+  "upstream": [
+    "CVE-2026-58376"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2040"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/537357"
+    }
+  ]
+}

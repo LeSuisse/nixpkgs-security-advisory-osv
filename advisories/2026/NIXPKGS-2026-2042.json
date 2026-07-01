@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2042",
+  "summary": "Libarchive: double-free vulnerability in rar5 decompression logic via dangling filtered_buf pointer in init_unpack()",
+  "published": "2026-07-01T10:27:48.000Z",
+  "modified": "2026-07-01T10:27:48.000Z",
+  "upstream": [
+    "CVE-2026-14164"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2042"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/537359"
+    }
+  ]
+}

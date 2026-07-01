@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2043",
+  "summary": "Nmap - Integer Underflow in IPv6 Extension Header Parsing",
+  "published": "2026-07-01T10:27:50.000Z",
+  "modified": "2026-07-01T10:27:50.000Z",
+  "upstream": [
+    "CVE-2026-58058"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2043"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/537360"
+    }
+  ]
+}
