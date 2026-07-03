@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2058",
+  "summary": "CGI::Session::ID::md5 versions before 4.49 for Perl generate predictable session ids from low-entropy sources",
+  "published": "2026-07-03T19:59:16.000Z",
+  "modified": "2026-07-03T19:59:16.000Z",
+  "upstream": [
+    "CVE-2026-56016"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2058"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/538209"
+    }
+  ]
+}

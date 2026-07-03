@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2053",
+  "summary": "Wagtail: Reflected XSS in dynamic image URL generator view",
+  "published": "2026-07-03T19:51:08.000Z",
+  "modified": "2026-07-03T19:51:08.000Z",
+  "upstream": [
+    "CVE-2026-54263"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2053"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/538203"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2056",
+  "summary": "Gradio < 6.16.0 Path Traversal via FileExplorer.preprocess()",
+  "published": "2026-07-03T19:59:09.000Z",
+  "modified": "2026-07-03T19:59:09.000Z",
+  "upstream": [
+    "CVE-2026-49119"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2056"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/538207"
+    }
+  ]
+}
