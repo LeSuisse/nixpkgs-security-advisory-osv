@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2067",
+  "summary": "Hplip: incomplete fix for cve-2026-8631",
+  "published": "2026-07-04T09:05:37.000Z",
+  "modified": "2026-07-04T09:05:37.000Z",
+  "upstream": [
+    "CVE-2026-14544"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2067"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/538330"
+    }
+  ]
+}
