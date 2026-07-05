@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2069",
+  "summary": "Fickling MLAllowlist analysis pass rendered inoperative by shared mutable state in AnalysisContext.shorten_code()",
+  "published": "2026-07-05T15:46:56.000Z",
+  "modified": "2026-07-05T15:46:56.000Z",
+  "upstream": [
+    "CVE-2026-14535"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2069"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/538712"
+    }
+  ]
+}

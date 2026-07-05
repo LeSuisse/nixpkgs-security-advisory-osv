@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2070",
+  "summary": "Open5GS AMF nnrf-handler.c amf_nnrf_handle_nf_discover denial of service",
+  "published": "2026-07-05T15:46:58.000Z",
+  "modified": "2026-07-05T15:46:58.000Z",
+  "upstream": [
+    "CVE-2026-14618"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2070"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/538713"
+    }
+  ]
+}
