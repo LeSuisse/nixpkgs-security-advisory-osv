@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2071",
+  "summary": "exo-explore exo Vision Feature Cache vision.py _image_cache_key weak hash",
+  "published": "2026-07-06T06:43:15.000Z",
+  "modified": "2026-07-06T06:43:15.000Z",
+  "upstream": [
+    "CVE-2026-14738"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2071"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/538886"
+    }
+  ]
+}
