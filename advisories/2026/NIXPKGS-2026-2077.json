@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2077",
+  "summary": "vLLM: ReDoS via structured_outputs.regex compiled without timeout in xgrammar and outlines backends",
+  "published": "2026-07-07T06:15:23.000Z",
+  "modified": "2026-07-07T06:15:23.000Z",
+  "upstream": [
+    "CVE-2026-55574"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2077"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/539165"
+    }
+  ]
+}
