@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2090",
+  "summary": "calibre: Arbitrary Code Execution in Template Formatter via Book Metadata",
+  "published": "2026-07-08T08:46:50.000Z",
+  "modified": "2026-07-08T08:46:50.000Z",
+  "upstream": [
+    "CVE-2026-53511"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2090"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/539510"
+    }
+  ]
+}

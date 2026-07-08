@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2088",
+  "summary": "Apache Airflow: Per-DAG read bypass discloses co-located DAGs' source via GET /api/v2/dagSources/{dag_id}",
+  "published": "2026-07-08T08:43:35.000Z",
+  "modified": "2026-07-08T08:43:35.000Z",
+  "upstream": [
+    "CVE-2026-49296"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2088"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/539508"
+    }
+  ]
+}

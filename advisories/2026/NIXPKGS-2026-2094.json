@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2094",
+  "summary": "GNU Wget 1.25.0 Heap Buffer Overflow via HTML Attribute Encoding",
+  "published": "2026-07-08T08:49:06.000Z",
+  "modified": "2026-07-08T08:49:06.000Z",
+  "upstream": [
+    "CVE-2026-58472"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2094"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/539514"
+    }
+  ]
+}
