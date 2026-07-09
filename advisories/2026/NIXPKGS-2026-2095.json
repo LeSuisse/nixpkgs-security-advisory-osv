@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2095",
+  "summary": "n8n - Improper Authorization in Workflow Assignment to Folders",
+  "published": "2026-07-09T08:34:35.000Z",
+  "modified": "2026-07-09T08:34:35.000Z",
+  "upstream": [
+    "CVE-2026-59253"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2095"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/539861"
+    }
+  ]
+}

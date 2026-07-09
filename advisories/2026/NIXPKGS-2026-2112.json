@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2112",
+  "summary": "Snipe-IT's S3 signature image retrieval lacks authorization before temporary URL",
+  "published": "2026-07-09T09:17:59.000Z",
+  "modified": "2026-07-09T09:17:59.000Z",
+  "upstream": [
+    "CVE-2026-55542"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2112"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/539888"
+    }
+  ]
+}

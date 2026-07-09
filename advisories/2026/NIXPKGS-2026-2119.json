@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2119",
+  "summary": "LiteLLM: MCP Authentication Bypass via OAuth2 Passthrough Fallback",
+  "published": "2026-07-09T09:18:26.000Z",
+  "modified": "2026-07-09T09:18:26.000Z",
+  "upstream": [
+    "CVE-2026-59822"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2119"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/539896"
+    }
+  ]
+}

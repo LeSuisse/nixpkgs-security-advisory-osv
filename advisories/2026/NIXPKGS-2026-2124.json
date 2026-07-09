@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2124",
+  "summary": "httplib2: Decompression Bomb Denial of Service via Unbounded gzip/deflate Response Handling",
+  "published": "2026-07-09T09:18:44.000Z",
+  "modified": "2026-07-09T09:18:44.000Z",
+  "upstream": [
+    "CVE-2026-59939"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2124"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/539901"
+    }
+  ]
+}

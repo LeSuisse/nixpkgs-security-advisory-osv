@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2126",
+  "summary": "bentoml OpenLLM Model Repository Directory Name common.py async_run_command command injection",
+  "published": "2026-07-09T09:18:48.000Z",
+  "modified": "2026-07-09T09:18:48.000Z",
+  "upstream": [
+    "CVE-2026-15035"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2126"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/539903"
+    }
+  ]
+}

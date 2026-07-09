@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2106",
+  "summary": "jupyterlab-git excluded_paths Case-Sensitivity Bypass Allows Reading Excluded Directories",
+  "published": "2026-07-09T09:13:36.000Z",
+  "modified": "2026-07-09T09:13:36.000Z",
+  "upstream": [
+    "CVE-2026-54528"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2106"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/539881"
+    }
+  ]
+}

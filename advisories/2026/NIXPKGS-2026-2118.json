@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2118",
+  "summary": "RestrictedPython guard hooks can be shadowed via positional-only arguments",
+  "published": "2026-07-09T09:18:25.000Z",
+  "modified": "2026-07-09T09:18:25.000Z",
+  "upstream": [
+    "CVE-2026-55830"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2118"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/539895"
+    }
+  ]
+}

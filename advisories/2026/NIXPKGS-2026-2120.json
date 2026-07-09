@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2120",
+  "summary": "Imager versions before 1.033 for Perl treat unsigned EXIF IFD entry counts as signed",
+  "published": "2026-07-09T09:18:28.000Z",
+  "modified": "2026-07-09T09:18:28.000Z",
+  "upstream": [
+    "CVE-2026-14454"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/539897"
+    }
+  ]
+}
