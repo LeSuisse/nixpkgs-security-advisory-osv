@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2135",
+  "summary": "Zeek < 8.0.9 Uncontrolled Memory Consumption DoS via FTP Analyzer",
+  "published": "2026-07-10T12:42:10.000Z",
+  "modified": "2026-07-10T12:42:10.000Z",
+  "upstream": [
+    "CVE-2026-60108"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2135"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/540321"
+    }
+  ]
+}

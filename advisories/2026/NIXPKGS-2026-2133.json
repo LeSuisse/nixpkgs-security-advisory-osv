@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2133",
+  "summary": "OpenFGA: OIDC audience validation skipped when --authn-oidc-audience is unset",
+  "published": "2026-07-10T11:12:58.000Z",
+  "modified": "2026-07-10T11:12:58.000Z",
+  "upstream": [
+    "CVE-2026-55689"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2133"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/540290"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2136",
+  "summary": "Metabase: Arbitrary Code Execution via Database Connection Detail Bypass",
+  "published": "2026-07-10T12:42:33.000Z",
+  "modified": "2026-07-10T12:42:33.000Z",
+  "upstream": [
+    "CVE-2026-59826"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2136"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/540322"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2130",
+  "summary": "GNU LibreDWG BMP Image dwg.c dwg_bmp heap-based overflow",
+  "published": "2026-07-10T11:03:07.000Z",
+  "modified": "2026-07-10T11:03:07.000Z",
+  "upstream": [
+    "CVE-2026-15182"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2130"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/540285"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2132",
+  "summary": "Hoppscotch: Admin RCE via MAILER_SMTP_URL nodemailer sendmail-transport injection",
+  "published": "2026-07-10T11:11:34.000Z",
+  "modified": "2026-07-10T11:11:34.000Z",
+  "upstream": [
+    "CVE-2026-59721"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2132"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/540289"
+    }
+  ]
+}
