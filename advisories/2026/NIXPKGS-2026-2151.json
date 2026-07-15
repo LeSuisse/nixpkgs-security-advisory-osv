@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2151",
+  "summary": "ModSecurity: Transformation utf8toUnicode produces wrong output on i386 architecture",
+  "published": "2026-07-15T07:02:22.000Z",
+  "modified": "2026-07-15T07:02:22.000Z",
+  "upstream": [
+    "CVE-2026-52761"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2151"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/542113"
+    }
+  ]
+}

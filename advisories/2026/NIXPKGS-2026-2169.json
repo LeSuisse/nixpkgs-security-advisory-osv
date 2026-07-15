@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2169",
+  "summary": "Blender 3.0.0 - 5.1.2 Out-of-Bounds Read via crafted .blend SDNA block",
+  "published": "2026-07-15T07:09:46.000Z",
+  "modified": "2026-07-15T07:09:46.000Z",
+  "upstream": [
+    "CVE-2026-60103"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2169"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/542132"
+    }
+  ]
+}

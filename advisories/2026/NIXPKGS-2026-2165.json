@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2165",
+  "summary": "filebrowser before 2.63.17 Stale Public Share via Trailing-Slash Delete",
+  "published": "2026-07-15T07:08:56.000Z",
+  "modified": "2026-07-15T07:08:56.000Z",
+  "upstream": [
+    "CVE-2026-61874"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2165"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/542128"
+    }
+  ]
+}

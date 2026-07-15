@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2161",
+  "summary": "RustDesk before 1.4.9 Missing Session Scope Enforcement Allows Out-of-Scope Control Message Injection",
+  "published": "2026-07-15T07:08:42.000Z",
+  "modified": "2026-07-15T07:08:42.000Z",
+  "upstream": [
+    "CVE-2026-57850"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2161"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/542124"
+    }
+  ]
+}

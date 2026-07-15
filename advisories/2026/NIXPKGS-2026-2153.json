@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2153",
+  "summary": "In JetBrains YouTrack before 2026.2.17394 stored XSS via article titles …",
+  "published": "2026-07-15T07:05:52.000Z",
+  "modified": "2026-07-15T07:05:52.000Z",
+  "upstream": [
+    "CVE-2026-61492"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2153"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/542116"
+    }
+  ]
+}

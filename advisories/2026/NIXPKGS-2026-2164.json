@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2164",
+  "summary": "Grav before 2.0.4 Information Disclosure via __GRAV_CONFIG__",
+  "published": "2026-07-15T07:08:49.000Z",
+  "modified": "2026-07-15T07:08:49.000Z",
+  "upstream": [
+    "CVE-2026-61454"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2164"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/542127"
+    }
+  ]
+}
