@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2187",
+  "summary": "Buffer underflow in `H5Iget_name `/`H5G_get_name` if size is zero",
+  "published": "2026-07-21T10:37:13.000Z",
+  "modified": "2026-07-21T10:37:13.000Z",
+  "upstream": [
+    "CVE-2026-26199"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2187"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544134"
+    }
+  ]
+}

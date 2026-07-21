@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2175",
+  "summary": "SurrealDB before 3.2.0 Denial of Service via malformed SurrealML import",
+  "published": "2026-07-21T10:14:12.000Z",
+  "modified": "2026-07-21T10:14:12.000Z",
+  "upstream": [
+    "CVE-2026-63734"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2175"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544120"
+    }
+  ]
+}

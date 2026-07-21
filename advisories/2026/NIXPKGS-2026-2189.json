@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2189",
+  "summary": "OpenClaw < 2026.6.9 Authentication Bypass via Moderation Actions",
+  "published": "2026-07-21T10:39:58.000Z",
+  "modified": "2026-07-21T10:39:58.000Z",
+  "upstream": [
+    "CVE-2026-62206"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2189"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544137"
+    }
+  ]
+}

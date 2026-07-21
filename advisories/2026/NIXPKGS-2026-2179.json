@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2179",
+  "summary": "NanoMQ Incorrectly Accepts a Malformed SUBSCRIBE and Can Be Driven into an ASAN-Detectable Out-of-Bounds Read",
+  "published": "2026-07-21T10:21:30.000Z",
+  "modified": "2026-07-21T10:21:30.000Z",
+  "upstream": [
+    "CVE-2026-35217"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2179"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544124"
+    }
+  ]
+}

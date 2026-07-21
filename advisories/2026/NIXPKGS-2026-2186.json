@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2186",
+  "summary": "Kronosnet: kronosnet: memory corruption and out-of-bounds access via malformed network packet defragmentation",
+  "published": "2026-07-21T10:36:38.000Z",
+  "modified": "2026-07-21T10:36:38.000Z",
+  "upstream": [
+    "CVE-2026-15813"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2186"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544133"
+    }
+  ]
+}

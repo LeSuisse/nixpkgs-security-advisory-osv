@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2182",
+  "summary": "Net::DNS versions through 1.55 for Perl allow remote execution injection via EDNS EXTENDED ERROR",
+  "published": "2026-07-21T10:30:02.000Z",
+  "modified": "2026-07-21T10:30:02.000Z",
+  "upstream": [
+    "CVE-2026-64193"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2182"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544128"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2176",
+  "summary": "SurrealDB 3.1.0 before 3.1.5 Field Permission Bypass via Traversal",
+  "published": "2026-07-21T10:14:55.000Z",
+  "modified": "2026-07-21T10:14:55.000Z",
+  "upstream": [
+    "CVE-2026-63738"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2176"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544121"
+    }
+  ]
+}
