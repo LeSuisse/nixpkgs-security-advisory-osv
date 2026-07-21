@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2201",
+  "summary": "PeerTube: Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS)",
+  "published": "2026-07-21T11:25:19.000Z",
+  "modified": "2026-07-21T11:25:19.000Z",
+  "upstream": [
+    "CVE-2026-57167"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2201"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544157"
+    }
+  ]
+}

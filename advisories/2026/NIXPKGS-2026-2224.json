@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2224",
+  "summary": "HTTP::Date versions before 6.08 for Perl allow CPU exhaustion via polynomial regex backtracking in parse_date",
+  "published": "2026-07-21T11:28:55.000Z",
+  "modified": "2026-07-21T11:28:55.000Z",
+  "upstream": [
+    "CVE-2026-14741"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2224"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544181"
+    }
+  ]
+}

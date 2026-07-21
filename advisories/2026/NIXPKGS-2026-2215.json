@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2215",
+  "summary": "immich < 3.0.3 Shared Album Editor Ownership Takeover via updateUser",
+  "published": "2026-07-21T11:26:05.000Z",
+  "modified": "2026-07-21T11:26:05.000Z",
+  "upstream": [
+    "CVE-2026-59258"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2215"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544172"
+    }
+  ]
+}

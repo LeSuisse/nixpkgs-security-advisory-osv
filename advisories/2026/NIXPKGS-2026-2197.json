@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2197",
+  "summary": "pyasn1: Uncontrolled resource consumption when converting decoded REAL values",
+  "published": "2026-07-21T11:12:39.000Z",
+  "modified": "2026-07-21T11:12:39.000Z",
+  "upstream": [
+    "CVE-2026-59886"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2197"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544150"
+    }
+  ]
+}

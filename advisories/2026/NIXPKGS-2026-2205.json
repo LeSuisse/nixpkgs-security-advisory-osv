@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2205",
+  "summary": "Libsoup: soupcache: libsoup: http/2 frame window exhaustion remote denial of service via memory leak",
+  "published": "2026-07-21T11:25:29.000Z",
+  "modified": "2026-07-21T11:25:29.000Z",
+  "upstream": [
+    "CVE-2026-15713"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2205"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544161"
+    }
+  ]
+}

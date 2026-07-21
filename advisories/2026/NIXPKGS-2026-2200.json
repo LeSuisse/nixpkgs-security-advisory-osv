@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2200",
+  "summary": "Puma PROXY Protocol v1 Accepts Repeated Protocol Headers on Persistent Connections",
+  "published": "2026-07-21T11:20:34.000Z",
+  "modified": "2026-07-21T11:20:34.000Z",
+  "upstream": [
+    "CVE-2026-47737"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2200"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544155"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2229",
+  "summary": "Libcupsfilters: cups-filters: libcupsfilters: cups image filter process abort via malformed png",
+  "published": "2026-07-21T11:29:02.000Z",
+  "modified": "2026-07-21T11:29:02.000Z",
+  "upstream": [
+    "CVE-2026-64612"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2229"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544186"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2226",
+  "summary": "GD::SecurityImage versions through 1.75 for Perl use rand to generate secrets",
+  "published": "2026-07-21T11:28:58.000Z",
+  "modified": "2026-07-21T11:28:58.000Z",
+  "upstream": [
+    "CVE-2026-13082"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2226"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544183"
+    }
+  ]
+}

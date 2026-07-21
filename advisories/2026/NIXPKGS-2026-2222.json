@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2222",
+  "summary": "zrok copy writes attacker-controlled WebDAV paths outside the destination root",
+  "published": "2026-07-21T11:28:52.000Z",
+  "modified": "2026-07-21T11:28:52.000Z",
+  "upstream": [
+    "CVE-2026-45576"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2222"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544179"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2221",
+  "summary": "Libsolv: stack-based buffer overflow in libsolv eddsa pgp signature verification allows denial of service",
+  "published": "2026-07-21T11:28:50.000Z",
+  "modified": "2026-07-21T11:28:50.000Z",
+  "upstream": [
+    "CVE-2026-48863"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2221"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544178"
+    }
+  ]
+}

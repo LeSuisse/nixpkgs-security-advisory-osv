@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2199",
+  "summary": "jadx: XAPK archive entries with absolute paths can plant drop-in plugins and achieve code execution on the next jadx run",
+  "published": "2026-07-21T11:18:05.000Z",
+  "modified": "2026-07-21T11:18:05.000Z",
+  "upstream": [
+    "CVE-2026-54684"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2199"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544153"
+    }
+  ]
+}

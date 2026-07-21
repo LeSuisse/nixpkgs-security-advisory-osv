@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2192",
+  "summary": "Centrifugo: Dynamic JWKS key cache keyed only by `kid` allows cross-issuer JWT authentication bypass",
+  "published": "2026-07-21T10:51:20.000Z",
+  "modified": "2026-07-21T10:51:20.000Z",
+  "upstream": [
+    "CVE-2026-49998"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2192"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544142"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2198",
+  "summary": "Tornado: Out-of-bounds memory access in C extension",
+  "published": "2026-07-21T11:16:18.000Z",
+  "modified": "2026-07-21T11:16:18.000Z",
+  "upstream": [
+    "CVE-2026-49854"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2198"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544151"
+    }
+  ]
+}

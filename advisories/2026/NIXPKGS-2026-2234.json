@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2234",
+  "summary": "Insecure PRNG and Information Exposure in urwid Web Display Backend",
+  "published": "2026-07-21T11:29:28.000Z",
+  "modified": "2026-07-21T11:29:28.000Z",
+  "upstream": [
+    "CVE-2026-9323"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2234"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544191"
+    }
+  ]
+}

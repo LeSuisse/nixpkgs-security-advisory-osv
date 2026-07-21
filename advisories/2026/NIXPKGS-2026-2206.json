@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2206",
+  "summary": "Libsoup: soupwebsocketconnection: libsoup: websocket remote denial of service via oversized control frame protocol violation",
+  "published": "2026-07-21T11:25:32.000Z",
+  "modified": "2026-07-21T11:25:32.000Z",
+  "upstream": [
+    "CVE-2026-15711"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2206"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544163"
+    }
+  ]
+}
