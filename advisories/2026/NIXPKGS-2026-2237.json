@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2237",
+  "summary": "OpenClaw 2026.2.12 < 2026.5.26 Authorization Bypass via Blank Agent IDs",
+  "published": "2026-07-22T17:35:49.000Z",
+  "modified": "2026-07-22T17:35:49.000Z",
+  "upstream": [
+    "CVE-2026-62219"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2237"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544620"
+    }
+  ]
+}

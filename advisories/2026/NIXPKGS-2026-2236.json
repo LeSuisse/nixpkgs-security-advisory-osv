@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2236",
+  "summary": "Libssh: libssh: denial of service via zero advertised channel packet size",
+  "published": "2026-07-22T17:33:18.000Z",
+  "modified": "2026-07-22T17:33:18.000Z",
+  "upstream": [
+    "CVE-2026-59843"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2236"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544618"
+    }
+  ]
+}

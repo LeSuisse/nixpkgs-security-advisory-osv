@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2238",
+  "summary": "Kronosnet: kronosnet: encryption key exposure in memory after cryptographic configuration changes",
+  "published": "2026-07-22T17:44:31.000Z",
+  "modified": "2026-07-22T17:44:31.000Z",
+  "upstream": [
+    "CVE-2026-15811"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2238"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544623"
+    }
+  ]
+}
