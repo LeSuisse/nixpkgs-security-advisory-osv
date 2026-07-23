@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2242",
+  "summary": "Traefik before 3.6.23 IngressRouteTCP ServersTransport Namespace Bypass",
+  "published": "2026-07-23T19:04:29.000Z",
+  "modified": "2026-07-23T19:04:29.000Z",
+  "upstream": [
+    "CVE-2026-65602"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2242"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544968"
+    }
+  ]
+}

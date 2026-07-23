@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2249",
+  "summary": "CImg Library: Uncontrolled Memory Allocation and Memory Leak in `_load_analyze()` via Crafted NIfTI/Analyze Header",
+  "published": "2026-07-23T19:13:36.000Z",
+  "modified": "2026-07-23T19:13:36.000Z",
+  "upstream": [
+    "CVE-2026-47667"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2249"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544979"
+    }
+  ]
+}

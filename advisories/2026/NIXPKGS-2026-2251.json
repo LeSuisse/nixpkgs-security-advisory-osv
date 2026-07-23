@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2251",
+  "summary": "Capstone has a NULL Pointer Dereference with 3DNow! opcodes",
+  "published": "2026-07-23T19:13:46.000Z",
+  "modified": "2026-07-23T19:13:46.000Z",
+  "upstream": [
+    "CVE-2026-47143"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2251"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544981"
+    }
+  ]
+}

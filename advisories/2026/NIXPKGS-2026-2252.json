@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2252",
+  "summary": "Ollama Remote Denial of Service via Attacker-Controlled Allocation in GGUF Metadata Parser",
+  "published": "2026-07-23T19:13:48.000Z",
+  "modified": "2026-07-23T19:13:48.000Z",
+  "upstream": [
+    "CVE-2026-65315"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2252"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544982"
+    }
+  ]
+}

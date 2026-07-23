@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2241",
+  "summary": "DNS Cookie bypass when combined with proxy-protocol use",
+  "published": "2026-07-23T19:00:16.000Z",
+  "modified": "2026-07-23T19:00:16.000Z",
+  "upstream": [
+    "CVE-2026-54478"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2241"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/544964"
+    }
+  ]
+}
