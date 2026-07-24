@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2266",
+  "summary": "OpenClaw 2026.4.20 < 2026.5.28 Policy Bypass via Media Upload",
+  "published": "2026-07-24T18:07:58.000Z",
+  "modified": "2026-07-24T18:07:58.000Z",
+  "upstream": [
+    "CVE-2026-62216"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2266"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/545329"
+    }
+  ]
+}

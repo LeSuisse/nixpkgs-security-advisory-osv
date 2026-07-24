@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2264",
+  "summary": "Prefetch Feature Allows Persistent Ghost Domain Cache Poisoning Attack",
+  "published": "2026-07-24T18:07:21.000Z",
+  "modified": "2026-07-24T18:07:21.000Z",
+  "upstream": [
+    "CVE-2026-52684"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2264"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/545327"
+    }
+  ]
+}

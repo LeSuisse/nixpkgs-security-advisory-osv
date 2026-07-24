@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2256",
+  "summary": "SiYuan before v3.7.2 Cross-Site Scripting to RCE",
+  "published": "2026-07-24T17:41:58.000Z",
+  "modified": "2026-07-24T17:41:58.000Z",
+  "upstream": [
+    "CVE-2026-65606"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2256"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/545310"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2268",
+  "summary": "Overseerr 1.35.0 Authorization Bypass via pushSubscriptions API",
+  "published": "2026-07-24T18:08:14.000Z",
+  "modified": "2026-07-24T18:08:14.000Z",
+  "upstream": [
+    "CVE-2026-65696"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2268"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/545331"
+    }
+  ]
+}
