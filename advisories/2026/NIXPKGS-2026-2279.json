@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2279",
+  "summary": "Libsoup: libsoup: http request smuggling via permissive chunk-size parsing in soup_body_input_stream_read_chunked()",
+  "published": "2026-07-25T16:50:38.000Z",
+  "modified": "2026-07-25T16:50:38.000Z",
+  "upstream": [
+    "CVE-2026-66338"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2279"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/545683"
+    }
+  ]
+}

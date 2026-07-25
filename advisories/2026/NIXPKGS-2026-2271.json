@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2271",
+  "summary": "Heap-based Buffer Overflow in GNU coreutils",
+  "published": "2026-07-25T16:32:11.000Z",
+  "modified": "2026-07-25T16:32:11.000Z",
+  "upstream": [
+    "CVE-2026-56392"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2271"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/545665"
+    }
+  ]
+}

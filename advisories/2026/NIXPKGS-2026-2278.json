@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2278",
+  "summary": "Datasets Path Traversal via Unsanitized file_name Metadata",
+  "published": "2026-07-25T16:50:36.000Z",
+  "modified": "2026-07-25T16:50:36.000Z",
+  "upstream": [
+    "CVE-2026-66007"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2278"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/545682"
+    }
+  ]
+}
