@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2288",
+  "summary": "Gimp: out-of-bounds read in file-icns plugin causes information disclosure or crash on crafted icns images",
+  "published": "2026-07-28T13:02:16.000Z",
+  "modified": "2026-07-28T13:02:16.000Z",
+  "upstream": [
+    "CVE-2026-66759"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2288"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/546672"
+    }
+  ]
+}

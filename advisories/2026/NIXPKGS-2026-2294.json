@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2294",
+  "summary": "SiYuan Desktop before v3.7.2 Reflected XSS to RCE via siyuan Protocol",
+  "published": "2026-07-28T13:02:39.000Z",
+  "modified": "2026-07-28T13:02:39.000Z",
+  "upstream": [
+    "CVE-2026-66395"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2294"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/546678"
+    }
+  ]
+}

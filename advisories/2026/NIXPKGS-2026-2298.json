@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2298",
+  "summary": "MCP Python SDK: Experimental task handlers allow any client to access and cancel other clients' tasks",
+  "published": "2026-07-28T15:11:00.000Z",
+  "modified": "2026-07-28T15:11:00.000Z",
+  "upstream": [
+    "CVE-2026-52870"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2298"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/546724"
+    }
+  ]
+}

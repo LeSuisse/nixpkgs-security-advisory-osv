@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2290",
+  "summary": "XMLRPC-C Library versions 1.07 through 1.67.01 are vulnerable to a …",
+  "published": "2026-07-28T13:02:21.000Z",
+  "modified": "2026-07-28T13:02:21.000Z",
+  "upstream": [
+    "CVE-2026-15928"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2290"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/546674"
+    }
+  ]
+}
