@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2301",
+  "summary": "datamodel-code-generator vulnerable to SSRF via --url: no host/IP validation, follows redirects",
+  "published": "2026-07-29T07:04:16.000Z",
+  "modified": "2026-07-29T07:04:16.000Z",
+  "upstream": [
+    "CVE-2026-54691"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2301"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/546984"
+    }
+  ]
+}

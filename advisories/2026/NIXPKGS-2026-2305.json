@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2305",
+  "summary": "goshs: File-based .goshs ACL authorization bypass via the ?bulk zip-download route (unauthenticated read; residual of CVE-2026-40189)",
+  "published": "2026-07-29T07:33:14.000Z",
+  "modified": "2026-07-29T07:33:14.000Z",
+  "upstream": [
+    "CVE-2026-54719"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2305"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/547000"
+    }
+  ]
+}

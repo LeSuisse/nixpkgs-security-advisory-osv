@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2302",
+  "summary": "Criu: criu: container escape via rseq critical section hijack during checkpoint/restore",
+  "published": "2026-07-29T07:19:19.000Z",
+  "modified": "2026-07-29T07:19:19.000Z",
+  "upstream": [
+    "CVE-2026-18107"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2302"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/546991"
+    }
+  ]
+}

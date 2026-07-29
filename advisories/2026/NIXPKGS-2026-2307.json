@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2307",
+  "summary": "Sg3_utils: sg3_utils: arbitrary command execution via udev property injection in sg_inq --export",
+  "published": "2026-07-29T07:36:10.000Z",
+  "modified": "2026-07-29T07:36:10.000Z",
+  "upstream": [
+    "CVE-2026-16313"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2307"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/547002"
+    }
+  ]
+}
