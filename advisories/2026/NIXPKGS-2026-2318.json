@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2318",
+  "summary": "Insufficient verification of Hex package metadata in Gleam",
+  "published": "2026-07-30T21:18:55.000Z",
+  "modified": "2026-07-30T21:18:55.000Z",
+  "upstream": [
+    "CVE-2026-59247"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2318"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/547549"
+    }
+  ]
+}

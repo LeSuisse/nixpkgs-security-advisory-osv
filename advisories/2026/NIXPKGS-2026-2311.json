@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2311",
+  "summary": "swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in fetch http-client template",
+  "published": "2026-07-30T21:09:24.000Z",
+  "modified": "2026-07-30T21:09:24.000Z",
+  "upstream": [
+    "CVE-2026-54662"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2311"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/547537"
+    }
+  ]
+}
