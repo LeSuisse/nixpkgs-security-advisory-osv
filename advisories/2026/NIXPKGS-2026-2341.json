@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2341",
+  "summary": "GitPython before 3.1.50 Newline Injection via config_writer section",
+  "published": "2026-08-02T20:05:23.000Z",
+  "modified": "2026-08-02T20:05:23.000Z",
+  "upstream": [
+    "CVE-2026-67326"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2341"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/548549"
+    }
+  ]
+}

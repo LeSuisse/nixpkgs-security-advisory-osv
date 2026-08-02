@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2336",
+  "summary": "FreeRDP 3.28.0 Heap Buffer Overflow via RAIL orderLength Underflow",
+  "published": "2026-08-02T19:58:13.000Z",
+  "modified": "2026-08-02T19:58:13.000Z",
+  "upstream": [
+    "CVE-2026-67298"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2336"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/548541"
+    }
+  ]
+}

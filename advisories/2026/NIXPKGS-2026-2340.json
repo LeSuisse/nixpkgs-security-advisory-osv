@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2340",
+  "summary": "GitPython 3.1.50 Authentication Bypass via Joined Short Options",
+  "published": "2026-08-02T20:03:45.000Z",
+  "modified": "2026-08-02T20:03:45.000Z",
+  "upstream": [
+    "CVE-2026-67324"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2340"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/548548"
+    }
+  ]
+}

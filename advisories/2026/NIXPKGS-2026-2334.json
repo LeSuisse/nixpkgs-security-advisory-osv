@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2334",
+  "summary": "LibVNCServer httpd proxy NULL Pointer Dereference",
+  "published": "2026-08-02T17:18:16.000Z",
+  "modified": "2026-08-02T17:18:16.000Z",
+  "upstream": [
+    "CVE-2026-32854"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2334"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/548484"
+    }
+  ]
+}
