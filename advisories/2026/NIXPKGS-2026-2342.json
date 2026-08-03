@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2342",
+  "summary": "PyAthena 3.35.4 SQL Injection via DefaultParameterFormatter DELETE/CTAS",
+  "published": "2026-08-03T13:14:58.000Z",
+  "modified": "2026-08-03T13:14:58.000Z",
+  "upstream": [
+    "CVE-2026-65321"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2342"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/548818"
+    }
+  ]
+}
