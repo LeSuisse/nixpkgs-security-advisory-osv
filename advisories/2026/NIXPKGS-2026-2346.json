@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2346",
+  "summary": "PostCSS: incomplete fix of CVE-2026-45623 — attacker-controlled sourceMappingURL reads arbitrary .map files when `from` is unset",
+  "published": "2026-08-04T11:10:38.000Z",
+  "modified": "2026-08-04T11:10:38.000Z",
+  "upstream": [
+    "CVE-2026-69153"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2346"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/549107"
+    }
+  ]
+}

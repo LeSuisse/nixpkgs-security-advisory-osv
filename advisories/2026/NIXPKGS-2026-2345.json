@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2345",
+  "summary": "Litestar: AllowedHostsMiddleware bypasses host validation via client-controlled X-Forwarded-Host header",
+  "published": "2026-08-04T11:10:36.000Z",
+  "modified": "2026-08-04T11:10:36.000Z",
+  "upstream": [
+    "CVE-2026-48061"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2345"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/549106"
+    }
+  ]
+}

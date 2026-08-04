@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2344",
+  "summary": "GitPython before 3.1.53 Config Injection via Submodule Names",
+  "published": "2026-08-04T11:10:35.000Z",
+  "modified": "2026-08-04T11:10:35.000Z",
+  "upstream": [
+    "CVE-2026-69097"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2344"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/549105"
+    }
+  ]
+}

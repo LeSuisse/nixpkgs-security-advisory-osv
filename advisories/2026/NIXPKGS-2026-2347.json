@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2347",
+  "summary": "Sssd: sssd: nss responder out-of-bounds read via unchecked addrlen in gethostbyaddr",
+  "published": "2026-08-04T11:10:41.000Z",
+  "modified": "2026-08-04T11:10:41.000Z",
+  "upstream": [
+    "CVE-2026-68742"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2347"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/549108"
+    }
+  ]
+}
