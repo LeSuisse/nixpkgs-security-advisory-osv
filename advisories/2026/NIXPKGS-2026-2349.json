@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2349",
+  "summary": "Improper input validation vulnerability in Samsung Open Source rlottie allows …",
+  "published": "2026-08-05T14:06:05.000Z",
+  "modified": "2026-08-05T14:06:05.000Z",
+  "upstream": [
+    "CVE-2026-18772"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2349"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/549545"
+    }
+  ]
+}
