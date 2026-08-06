@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2354",
+  "summary": "Unescaped deployment environment variables in generated setup commands",
+  "published": "2026-08-06T06:51:45.000Z",
+  "modified": "2026-08-06T06:51:45.000Z",
+  "upstream": [
+    "CVE-2026-66297"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2354"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/549775"
+    }
+  ]
+}

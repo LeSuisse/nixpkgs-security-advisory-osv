@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2356",
+  "summary": "mlflow: Unvalidated Gateway Secret api_base Enables SSRF via Gateway Proxy Endpoint",
+  "published": "2026-08-06T07:01:05.000Z",
+  "modified": "2026-08-06T07:01:05.000Z",
+  "upstream": [
+    "CVE-2026-71211"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2356"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/549781"
+    }
+  ]
+}

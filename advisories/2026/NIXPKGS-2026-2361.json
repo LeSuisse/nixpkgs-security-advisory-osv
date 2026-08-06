@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2361",
+  "summary": "Electron: ProtocolResponse.url reuses the default session cache instead of the registering session",
+  "published": "2026-08-06T07:01:18.000Z",
+  "modified": "2026-08-06T07:01:18.000Z",
+  "upstream": [
+    "CVE-2026-70606"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2361"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/549786"
+    }
+  ]
+}
