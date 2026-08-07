@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2367",
+  "summary": "pymdown-extensions: Exponential-backtracking ReDoS in caret, tilde, betterem, and magiclink inline processors",
+  "published": "2026-08-07T15:12:18.000Z",
+  "modified": "2026-08-07T15:12:18.000Z",
+  "upstream": [
+    "CVE-2026-67422"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2367"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/550210"
+    }
+  ]
+}

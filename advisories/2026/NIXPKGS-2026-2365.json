@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2365",
+  "summary": "Traefik: BasicAuth singleflight key collision allows authenticated identity spoofing",
+  "published": "2026-08-07T15:01:26.000Z",
+  "modified": "2026-08-07T15:01:26.000Z",
+  "upstream": [
+    "CVE-2026-71326"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2365"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/550204"
+    }
+  ]
+}
