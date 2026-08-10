@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2381",
+  "summary": "Dracut: dracut: root code execution via unescaped error message written to sourced emergency hook script in die()",
+  "published": "2026-08-10T12:24:46.000Z",
+  "modified": "2026-08-10T12:24:46.000Z",
+  "upstream": [
+    "CVE-2026-15816"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2381"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/551122"
+    }
+  ]
+}

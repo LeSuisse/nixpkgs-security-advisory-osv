@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2378",
+  "summary": "Imager versions from 0.45_02 before 1.034 for Perl may expose adjacent heap bytes via strlen() over-read from zero-count ASCII EXIF entries in copy_string_tags",
+  "published": "2026-08-10T12:24:39.000Z",
+  "modified": "2026-08-10T12:24:39.000Z",
+  "upstream": [
+    "CVE-2026-19082"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2378"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/551119"
+    }
+  ]
+}

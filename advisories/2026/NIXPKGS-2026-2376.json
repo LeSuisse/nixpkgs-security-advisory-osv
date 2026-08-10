@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2376",
+  "summary": "Policycoreutils: policycoreutils: toctou race condition in fixfiles allows arbitrary selinux label manipulation",
+  "published": "2026-08-10T12:24:36.000Z",
+  "modified": "2026-08-10T12:24:36.000Z",
+  "upstream": [
+    "CVE-2026-19079"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2376"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/551117"
+    }
+  ]
+}

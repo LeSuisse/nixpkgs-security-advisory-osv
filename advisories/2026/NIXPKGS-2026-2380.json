@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2380",
+  "summary": "Domoticz Mobile Dashboard versions prior to 2026.3 Stored XSS via Text/Alert Device Rendering",
+  "published": "2026-08-10T12:24:43.000Z",
+  "modified": "2026-08-10T12:24:43.000Z",
+  "upstream": [
+    "CVE-2026-11425"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2380"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/551121"
+    }
+  ]
+}

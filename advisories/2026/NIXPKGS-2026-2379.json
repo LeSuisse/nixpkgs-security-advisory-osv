@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2379",
+  "summary": "Consul vulnerable to partial arbitrary file read via Vault Connect CA provider",
+  "published": "2026-08-10T12:24:41.000Z",
+  "modified": "2026-08-10T12:24:41.000Z",
+  "upstream": [
+    "CVE-2026-19017"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2379"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/551120"
+    }
+  ]
+}

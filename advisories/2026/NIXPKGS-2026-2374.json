@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2374",
+  "summary": "lakeFS vulnerable to stored XSS in rendered markdown previews via raw HTML",
+  "published": "2026-08-10T12:24:29.000Z",
+  "modified": "2026-08-10T12:24:29.000Z",
+  "upstream": [
+    "CVE-2026-48026"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2374"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/551115"
+    }
+  ]
+}
