@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2391",
+  "summary": "Kitty: Command injection into the child shell via chained @kitty-echo + @kitty-ssh DCS escape sequences",
+  "published": "2026-08-11T08:32:19.000Z",
+  "modified": "2026-08-11T08:32:19.000Z",
+  "upstream": [
+    "CVE-2026-72913"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2391"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/551405"
+    }
+  ]
+}

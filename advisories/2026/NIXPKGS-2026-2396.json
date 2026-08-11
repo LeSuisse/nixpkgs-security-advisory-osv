@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2396",
+  "summary": "npm-check-updates 23.0.2 Terminal Injection via Unsanitized Escape Sequences",
+  "published": "2026-08-11T08:32:33.000Z",
+  "modified": "2026-08-11T08:32:33.000Z",
+  "upstream": [
+    "CVE-2026-73035"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2396"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/551410"
+    }
+  ]
+}

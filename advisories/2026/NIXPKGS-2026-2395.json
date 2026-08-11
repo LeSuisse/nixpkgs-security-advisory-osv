@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2395",
+  "summary": "goose: Arbitrary command execution in goose CLI via `goose review` via git core.fsmonitor",
+  "published": "2026-08-11T08:32:31.000Z",
+  "modified": "2026-08-11T08:32:31.000Z",
+  "upstream": [
+    "CVE-2026-72718"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2395"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/551409"
+    }
+  ]
+}

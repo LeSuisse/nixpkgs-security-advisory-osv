@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2385",
+  "summary": "Potential stack-based buffer clash during tilde expansion in wordexp",
+  "published": "2026-08-11T08:21:42.000Z",
+  "modified": "2026-08-11T08:21:42.000Z",
+  "upstream": [
+    "CVE-2026-6791"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2385"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/551398"
+    }
+  ]
+}
