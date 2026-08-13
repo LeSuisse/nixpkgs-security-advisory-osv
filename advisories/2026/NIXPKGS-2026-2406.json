@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2406",
+  "summary": "FreeCAD: XXE file read and SSRF via external entity injection in Document.xml SAX parser",
+  "published": "2026-08-13T08:00:07.000Z",
+  "modified": "2026-08-13T08:00:07.000Z",
+  "upstream": [
+    "CVE-2026-73235"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2406"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/552170"
+    }
+  ]
+}

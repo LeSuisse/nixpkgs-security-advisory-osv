@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2400",
+  "summary": "Prowler: Server-Side Request Forgery (SSRF) in Lighthouse Provider",
+  "published": "2026-08-13T07:12:13.000Z",
+  "modified": "2026-08-13T07:12:13.000Z",
+  "upstream": [
+    "CVE-2026-73264"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2400"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/552156"
+    }
+  ]
+}

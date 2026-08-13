@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2408",
+  "summary": "python-engineio has possible denial of service due to maximum payload size sometimes not being enforced",
+  "published": "2026-08-13T08:02:40.000Z",
+  "modified": "2026-08-13T08:02:40.000Z",
+  "upstream": [
+    "CVE-2026-48809"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2408"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/552172"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2409",
+  "summary": "In sshd in OpenSSH before 10.5, the restrict keyword (in …",
+  "published": "2026-08-13T08:05:21.000Z",
+  "modified": "2026-08-13T08:05:21.000Z",
+  "upstream": [
+    "CVE-2026-73283"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2409"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/552175"
+    }
+  ]
+}

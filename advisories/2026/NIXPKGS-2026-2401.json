@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2401",
+  "summary": "Loofah `allowed_uri?` does not detect `javascript:` URIs split by named whitespace character references",
+  "published": "2026-08-13T07:25:03.000Z",
+  "modified": "2026-08-13T07:25:03.000Z",
+  "upstream": [
+    "CVE-2026-73491"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2401"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/552158"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2398",
+  "summary": "Apache Airflow: Unguarded import_string() of airflow_exc_ser / base_exc_ser exception nodes in BaseSerialization.deserialize enables DAG-author RCE on Scheduler / API Server",
+  "published": "2026-08-13T07:08:40.000Z",
+  "modified": "2026-08-13T07:08:40.000Z",
+  "upstream": [
+    "CVE-2026-58076"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2398"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/552152"
+    }
+  ]
+}

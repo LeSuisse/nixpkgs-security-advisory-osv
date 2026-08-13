@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2428",
+  "summary": "RustFS: Object Lock (WORM) protections are treated as absent when bucket metadata cannot be read, allowing retained objects to be deleted",
+  "published": "2026-08-13T08:08:48.000Z",
+  "modified": "2026-08-13T08:08:48.000Z",
+  "upstream": [
+    "CVE-2026-73288"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2428"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/552195"
+    }
+  ]
+}

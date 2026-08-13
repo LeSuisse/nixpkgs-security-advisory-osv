@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2399",
+  "summary": "Prowler: Stored XSS in HTML reports through unescaped cloud resource tags",
+  "published": "2026-08-13T07:11:41.000Z",
+  "modified": "2026-08-13T07:11:41.000Z",
+  "upstream": [
+    "CVE-2026-73262"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2399"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/552155"
+    }
+  ]
+}

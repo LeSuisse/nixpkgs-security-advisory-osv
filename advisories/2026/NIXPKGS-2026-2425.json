@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2425",
+  "summary": "jupyterlab: Image viewer in JupyterLab allows XSS when opening malicious image in new browser tab",
+  "published": "2026-08-13T08:08:38.000Z",
+  "modified": "2026-08-13T08:08:38.000Z",
+  "upstream": [
+    "CVE-2026-73415"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2425"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/552192"
+    }
+  ]
+}
