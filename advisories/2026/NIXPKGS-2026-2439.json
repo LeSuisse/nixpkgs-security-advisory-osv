@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2439",
+  "summary": "crun follows rootfs /dev symlink while creating default devices",
+  "published": "2026-08-15T15:13:40.000Z",
+  "modified": "2026-08-15T15:13:40.000Z",
+  "upstream": [
+    "CVE-2026-47766"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2439"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/553011"
+    }
+  ]
+}

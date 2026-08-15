@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2437",
+  "summary": "SiYuan before v3.7.4 Information Disclosure via getBookmarkLabels",
+  "published": "2026-08-15T15:10:19.000Z",
+  "modified": "2026-08-15T15:10:19.000Z",
+  "upstream": [
+    "CVE-2026-73609"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2437"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/553008"
+    }
+  ]
+}

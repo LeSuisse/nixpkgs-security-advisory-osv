@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2438",
+  "summary": "kas checks out SHA-like git branches as valid commits",
+  "published": "2026-08-15T15:11:29.000Z",
+  "modified": "2026-08-15T15:11:29.000Z",
+  "upstream": [
+    "CVE-2026-47191"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2438"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/553010"
+    }
+  ]
+}
