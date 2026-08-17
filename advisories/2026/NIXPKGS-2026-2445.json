@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2445",
+  "summary": "Net::OAuth::Client versions before 0.32 for Perl allow the service provider to silently downgrade OAuth 1.0a to OAuth 1.0 in get_request_token",
+  "published": "2026-08-17T10:06:36.000Z",
+  "modified": "2026-08-17T10:06:36.000Z",
+  "upstream": [
+    "CVE-2026-72887"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2445"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/553595"
+    }
+  ]
+}
