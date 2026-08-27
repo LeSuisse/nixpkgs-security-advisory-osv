@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2449",
+  "summary": "Weblate: Object-scoped RSS feeds disclose private change history to unauthorized users",
+  "published": "2026-08-27T10:11:29.000Z",
+  "modified": "2026-08-27T10:11:29.000Z",
+  "upstream": [
+    "CVE-2026-77507"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2449"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/556998"
+    }
+  ]
+}

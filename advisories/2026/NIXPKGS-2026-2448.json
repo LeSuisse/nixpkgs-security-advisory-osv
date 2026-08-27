@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2448",
+  "summary": "Weblate: Team-enforced 2FA is bypassed for global permissions",
+  "published": "2026-08-27T10:09:34.000Z",
+  "modified": "2026-08-27T10:09:34.000Z",
+  "upstream": [
+    "CVE-2026-61790"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2448"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/556997"
+    }
+  ]
+}
