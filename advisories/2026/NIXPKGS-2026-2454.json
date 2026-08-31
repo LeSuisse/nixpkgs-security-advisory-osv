@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2454",
+  "summary": "Readest: unsanitized iframe srcdoc attribute in the EPUB sanitizer can lead to arbitrary code execution",
+  "published": "2026-08-31T10:04:43.000Z",
+  "modified": "2026-08-31T10:04:43.000Z",
+  "upstream": [
+    "CVE-2026-82642"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2454"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/558334"
+    }
+  ]
+}
