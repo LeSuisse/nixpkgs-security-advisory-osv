@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2459",
+  "summary": "Pangolin < 1.22.0 Authentication Bypass via Share-Link Endpoint",
+  "published": "2026-09-01T14:01:35.000Z",
+  "modified": "2026-09-01T14:01:35.000Z",
+  "upstream": [
+    "CVE-2026-72001"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2459"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/558808"
+    }
+  ]
+}

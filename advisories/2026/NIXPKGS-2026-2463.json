@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2463",
+  "summary": "Typora Mermaid Rendering cross site scripting",
+  "published": "2026-09-01T14:01:44.000Z",
+  "modified": "2026-09-01T14:01:44.000Z",
+  "upstream": [
+    "CVE-2026-82805"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2463"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/558812"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2464",
+  "summary": "Smarty: SSRF via redirect bypass of trusted_uri using {fetch}",
+  "published": "2026-09-01T14:02:05.000Z",
+  "modified": "2026-09-01T14:02:05.000Z",
+  "upstream": [
+    "CVE-2026-62993"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2464"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/558814"
+    }
+  ]
+}

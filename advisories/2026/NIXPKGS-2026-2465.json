@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2465",
+  "summary": "open62541 History Backend ua_history_data_backend_memory.c UA_DataValue_backend_copyRange use after free",
+  "published": "2026-09-01T14:02:07.000Z",
+  "modified": "2026-09-01T14:02:07.000Z",
+  "upstream": [
+    "CVE-2026-82623"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2465"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/558815"
+    }
+  ]
+}
