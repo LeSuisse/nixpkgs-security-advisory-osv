@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2479",
+  "summary": "Memos 0.26.0 through 0.30.0 Insufficient Session Expiration on Password Change",
+  "published": "2026-09-02T10:05:22.000Z",
+  "modified": "2026-09-02T10:05:22.000Z",
+  "upstream": [
+    "CVE-2026-84203"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2479"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559078"
+    }
+  ]
+}

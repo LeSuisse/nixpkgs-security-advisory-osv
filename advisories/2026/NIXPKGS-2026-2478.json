@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2478",
+  "summary": "Hugging Face Transformers library writes remote code to disk prior to consent check",
+  "published": "2026-09-02T10:05:20.000Z",
+  "modified": "2026-09-02T10:05:20.000Z",
+  "upstream": [
+    "CVE-2026-80047"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2478"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559077"
+    }
+  ]
+}

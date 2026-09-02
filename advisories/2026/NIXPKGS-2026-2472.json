@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2472",
+  "summary": "Gvfs: afp: heap-based buffer overflow in dsi read path",
+  "published": "2026-09-02T10:03:57.000Z",
+  "modified": "2026-09-02T10:03:57.000Z",
+  "upstream": [
+    "CVE-2026-84269"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2472"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559071"
+    }
+  ]
+}

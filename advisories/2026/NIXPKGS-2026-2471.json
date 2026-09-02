@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2471",
+  "summary": "LibreNMS before 26.7.0 Stored XSS via Oxidized API",
+  "published": "2026-09-02T09:50:56.000Z",
+  "modified": "2026-09-02T09:50:56.000Z",
+  "upstream": [
+    "CVE-2026-84189"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2471"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559069"
+    }
+  ]
+}
