@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2481",
+  "summary": "In Jenkins 2.579 and earlier, LTS 2.568.2 and earlier, objects …",
+  "published": "2026-09-03T09:51:05.000Z",
+  "modified": "2026-09-03T09:51:05.000Z",
+  "upstream": [
+    "CVE-2026-84645"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2481"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559474"
+    }
+  ]
+}
