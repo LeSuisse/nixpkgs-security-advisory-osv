@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2488",
+  "summary": "Rpm: command injection in `rpmbuild -t*` (`gettarspec`) via unescaped tarball path",
+  "published": "2026-09-03T11:45:47.000Z",
+  "modified": "2026-09-03T11:45:47.000Z",
+  "upstream": [
+    "CVE-2026-84837"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2488"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559506"
+    }
+  ]
+}

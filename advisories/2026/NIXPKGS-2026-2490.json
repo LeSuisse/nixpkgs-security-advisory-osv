@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2490",
+  "summary": "LiteLLM: Authenticated SSRF and provider-credential exfiltration via unvalidated request-body routing parameters",
+  "published": "2026-09-03T11:48:03.000Z",
+  "modified": "2026-09-03T11:48:03.000Z",
+  "upstream": [
+    "CVE-2026-84377"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2490"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559509"
+    }
+  ]
+}

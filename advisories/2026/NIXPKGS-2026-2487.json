@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2487",
+  "summary": "BookStack before 26.05.4 Stored XSS via Drawing Upload",
+  "published": "2026-09-03T11:45:05.000Z",
+  "modified": "2026-09-03T11:45:05.000Z",
+  "upstream": [
+    "CVE-2026-84695"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2487"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559505"
+    }
+  ]
+}

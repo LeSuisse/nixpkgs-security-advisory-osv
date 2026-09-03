@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2489",
+  "summary": "libjxl < 0.12.0 Container Box Parser Integer Underflow via 32-bit Size Truncation",
+  "published": "2026-09-03T11:46:09.000Z",
+  "modified": "2026-09-03T11:46:09.000Z",
+  "upstream": [
+    "CVE-2026-82522"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2489"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559508"
+    }
+  ]
+}

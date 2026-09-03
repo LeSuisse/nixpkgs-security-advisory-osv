@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2485",
+  "summary": "Util-linux: util-linux: x-mount.subdir detached-tree resolution can escape via intermediate symlinks",
+  "published": "2026-09-03T11:42:44.000Z",
+  "modified": "2026-09-03T11:42:44.000Z",
+  "upstream": [
+    "CVE-2026-78409"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2485"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559501"
+    }
+  ]
+}
