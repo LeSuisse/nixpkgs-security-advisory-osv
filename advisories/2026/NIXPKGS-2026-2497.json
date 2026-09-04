@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2497",
+  "summary": "Divide-by-zero in Xpdf 4.06 due to zero-height Type 3 glyph",
+  "published": "2026-09-04T08:57:40.000Z",
+  "modified": "2026-09-04T08:57:40.000Z",
+  "upstream": [
+    "CVE-2026-85458"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2497"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559812"
+    }
+  ]
+}

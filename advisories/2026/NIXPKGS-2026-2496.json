@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2496",
+  "summary": "Cross-tenant database retargeting via dot/NUL injection in namespace strings in libmongocrypt",
+  "published": "2026-09-04T08:56:57.000Z",
+  "modified": "2026-09-04T08:56:57.000Z",
+  "upstream": [
+    "CVE-2026-81523"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2496"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559810"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2503",
+  "summary": "Server-Side Request Forgery via Favicon Redirect to Local Network Resources in PlaywrightCapture",
+  "published": "2026-09-04T08:57:55.000Z",
+  "modified": "2026-09-04T08:57:55.000Z",
+  "upstream": [
+    "CVE-2026-85242"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2503"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559818"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2495",
+  "summary": "parsedmarc 9.0.6 < 11.0.1 Path Traversal via Forensic Report Subject",
+  "published": "2026-09-04T06:32:17.000Z",
+  "modified": "2026-09-04T06:32:17.000Z",
+  "upstream": [
+    "CVE-2026-82521"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2495"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559762"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2494",
+  "summary": "FreeRDP before 3.31.0 Information Disclosure via uninitialized heap memory",
+  "published": "2026-09-04T06:30:17.000Z",
+  "modified": "2026-09-04T06:30:17.000Z",
+  "upstream": [
+    "CVE-2026-85089"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2494"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559760"
+    }
+  ]
+}

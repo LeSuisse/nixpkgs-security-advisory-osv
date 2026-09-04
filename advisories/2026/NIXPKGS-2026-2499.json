@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2499",
+  "summary": "SpecterOps BloodHound Graph Write Endpoint v2.go NewV2API improper authorization",
+  "published": "2026-09-04T08:57:46.000Z",
+  "modified": "2026-09-04T08:57:46.000Z",
+  "upstream": [
+    "CVE-2026-85241"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2499"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559814"
+    }
+  ]
+}

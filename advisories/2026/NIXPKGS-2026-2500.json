@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2500",
+  "summary": "Rancher: ext.cattle.io/v1 Token store: cross-user token disclosure via label-selector scoping bypass",
+  "published": "2026-09-04T08:57:48.000Z",
+  "modified": "2026-09-04T08:57:48.000Z",
+  "upstream": [
+    "CVE-2026-75035"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2500"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/559815"
+    }
+  ]
+}
