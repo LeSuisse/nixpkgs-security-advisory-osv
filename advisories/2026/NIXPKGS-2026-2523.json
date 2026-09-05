@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2523",
+  "summary": "Ceph Monitor subscription handler improperly authorizes config-key store reads, exposing cluster secrets to read-only users",
+  "published": "2026-09-05T15:30:07.000Z",
+  "modified": "2026-09-05T15:30:07.000Z",
+  "upstream": [
+    "CVE-2026-50152"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2523"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/560235"
+    }
+  ]
+}
