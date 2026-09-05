@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2510",
+  "summary": "ntopng before 6.7.260717 Missing Authorization on the Notification Endpoint and Recipient Delete Handlers",
+  "published": "2026-09-05T11:14:43.000Z",
+  "modified": "2026-09-05T11:14:43.000Z",
+  "upstream": [
+    "CVE-2026-86090"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2510"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/560167"
+    }
+  ]
+}

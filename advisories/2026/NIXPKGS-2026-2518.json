@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2518",
+  "summary": "Documenso 2.17.0 PDF Route Ignores Document Visibility",
+  "published": "2026-09-05T11:20:54.000Z",
+  "modified": "2026-09-05T11:20:54.000Z",
+  "upstream": [
+    "CVE-2026-85697"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2518"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/560180"
+    }
+  ]
+}

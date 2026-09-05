@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2515",
+  "summary": "aider 0.86.2 Remote Code Execution via .aider.conf.yml",
+  "published": "2026-09-05T11:20:29.000Z",
+  "modified": "2026-09-05T11:20:29.000Z",
+  "upstream": [
+    "CVE-2026-85674"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2515"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/560177"
+    }
+  ]
+}

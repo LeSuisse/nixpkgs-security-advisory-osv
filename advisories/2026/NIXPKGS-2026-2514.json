@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2514",
+  "summary": "Grav before 2.0.19 Remote Code Execution via sort filter",
+  "published": "2026-09-05T11:20:26.000Z",
+  "modified": "2026-09-05T11:20:26.000Z",
+  "upstream": [
+    "CVE-2026-85604"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2514"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/560176"
+    }
+  ]
+}

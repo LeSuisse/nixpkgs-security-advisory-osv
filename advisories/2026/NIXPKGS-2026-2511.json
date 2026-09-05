@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2511",
+  "summary": "Libsoup: libsoup: heap use-after-free in libsoup http/2 client on_data_read() via goaway during body upload",
+  "published": "2026-09-05T11:20:19.000Z",
+  "modified": "2026-09-05T11:20:19.000Z",
+  "upstream": [
+    "CVE-2026-85197"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2511"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/560171"
+    }
+  ]
+}

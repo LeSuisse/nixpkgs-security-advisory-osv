@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2512",
+  "summary": "Snipe-IT before 8.6.2 Authorization Bypass via Checkout-Acceptance",
+  "published": "2026-09-05T11:20:22.000Z",
+  "modified": "2026-09-05T11:20:22.000Z",
+  "upstream": [
+    "CVE-2026-85616"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2512"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/560172"
+    }
+  ]
+}
