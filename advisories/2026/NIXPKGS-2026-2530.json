@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2530",
+  "summary": "NetBox through 4.7.0 Credential Disclosure via REST and GraphQL APIs",
+  "published": "2026-09-06T22:15:43.000Z",
+  "modified": "2026-09-06T22:15:43.000Z",
+  "upstream": [
+    "CVE-2026-86175"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2530"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/560707"
+    }
+  ]
+}

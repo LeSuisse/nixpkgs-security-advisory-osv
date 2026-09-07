@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2529",
+  "summary": "Pixelfed through 0.12.9 Unauthorized Story Access via API",
+  "published": "2026-09-06T22:15:41.000Z",
+  "modified": "2026-09-06T22:15:41.000Z",
+  "upstream": [
+    "CVE-2026-86178"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2529"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/560706"
+    }
+  ]
+}

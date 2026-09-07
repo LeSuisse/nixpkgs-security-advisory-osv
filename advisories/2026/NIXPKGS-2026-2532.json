@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2532",
+  "summary": "SiYuan before v3.8.2 Private Attribute View Key Enumeration",
+  "published": "2026-09-06T22:15:57.000Z",
+  "modified": "2026-09-06T22:15:57.000Z",
+  "upstream": [
+    "CVE-2026-86191"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2532"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/560709"
+    }
+  ]
+}
