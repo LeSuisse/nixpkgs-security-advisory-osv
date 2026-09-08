@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2537",
+  "summary": "Protocol::HTTP2 versions before 1.14 for Perl allow memory exhaustion via closed streams that stream_state never removes from the connection stream table",
+  "published": "2026-09-08T06:27:49.000Z",
+  "modified": "2026-09-08T06:27:49.000Z",
+  "upstream": [
+    "CVE-2026-16028"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2537"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/561158"
+    }
+  ]
+}

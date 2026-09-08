@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2536",
+  "summary": "In JetBrains YouTrack before 2026.2.18112 an authenticated user could enumerate …",
+  "published": "2026-09-08T06:26:25.000Z",
+  "modified": "2026-09-08T06:26:25.000Z",
+  "upstream": [
+    "CVE-2026-75046"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2536"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/561157"
+    }
+  ]
+}
