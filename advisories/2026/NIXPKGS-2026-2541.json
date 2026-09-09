@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2541",
+  "summary": "OpenIDC/cjose uses all-zero Content Encryption Key for AES-CBC-HMAC JWE encryption",
+  "published": "2026-09-09T13:02:27.000Z",
+  "modified": "2026-09-09T13:02:27.000Z",
+  "upstream": [
+    "CVE-2026-53939"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2541"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/561602"
+    }
+  ]
+}

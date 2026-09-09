@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2542",
+  "summary": "vgmstream txth-txtp txth.c sscanf stack-based overflow",
+  "published": "2026-09-09T13:02:29.000Z",
+  "modified": "2026-09-09T13:02:29.000Z",
+  "upstream": [
+    "CVE-2026-86514"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2542"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/561603"
+    }
+  ]
+}
