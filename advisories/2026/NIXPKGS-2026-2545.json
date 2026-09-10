@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2545",
+  "summary": "GitPython before 3.1.60 Remote Code Execution via Git Directory Impersonation",
+  "published": "2026-09-10T13:34:30.000Z",
+  "modified": "2026-09-10T13:34:30.000Z",
+  "upstream": [
+    "CVE-2026-87817"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2545"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/561915"
+    }
+  ]
+}

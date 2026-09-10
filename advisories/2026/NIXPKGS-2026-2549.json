@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2549",
+  "summary": "Bubblewrap: bubblewrap: symlink traversal via /oldroot allows writing files outside sandbox during setup",
+  "published": "2026-09-10T13:43:45.000Z",
+  "modified": "2026-09-10T13:43:45.000Z",
+  "upstream": [
+    "CVE-2026-87766"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2549"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/561922"
+    }
+  ]
+}

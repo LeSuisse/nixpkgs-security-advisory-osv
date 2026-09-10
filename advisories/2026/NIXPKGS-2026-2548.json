@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2548",
+  "summary": "Cups: openprinting cups: heap out-of-bounds read in cupsutf32toutf8() via missing source-length bound",
+  "published": "2026-09-10T13:43:40.000Z",
+  "modified": "2026-09-10T13:43:40.000Z",
+  "upstream": [
+    "CVE-2026-87875"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2548"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/561921"
+    }
+  ]
+}
