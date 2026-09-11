@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2552",
+  "summary": "Forgejo before 16.0.4 allows remote code execution via a crafted …",
+  "published": "2026-09-11T06:14:05.000Z",
+  "modified": "2026-09-11T06:14:05.000Z",
+  "upstream": [
+    "CVE-2026-89094"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2552"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/562159"
+    }
+  ]
+}

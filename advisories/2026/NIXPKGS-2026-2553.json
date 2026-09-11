@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2553",
+  "summary": "Renovate before 44.14.7 Command Injection via depName",
+  "published": "2026-09-11T06:18:54.000Z",
+  "modified": "2026-09-11T06:18:54.000Z",
+  "upstream": [
+    "CVE-2026-88885"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2553"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/562160"
+    }
+  ]
+}

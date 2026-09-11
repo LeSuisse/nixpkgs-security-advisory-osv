@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2558",
+  "summary": "GoBGP confederation validation panics on empty AS_PATH attribute",
+  "published": "2026-09-11T06:56:45.000Z",
+  "modified": "2026-09-11T06:56:45.000Z",
+  "upstream": [
+    "CVE-2026-49838"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2558"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/562176"
+    }
+  ]
+}
