@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2563",
+  "summary": "Dolibarr 24.0.0 < 24.0.1 SQL Filter Denylist Bypass via sqlfilters Parameter",
+  "published": "2026-09-12T08:37:49.000Z",
+  "modified": "2026-09-12T08:37:49.000Z",
+  "upstream": [
+    "CVE-2026-89012"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2563"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/562529"
+    }
+  ]
+}
