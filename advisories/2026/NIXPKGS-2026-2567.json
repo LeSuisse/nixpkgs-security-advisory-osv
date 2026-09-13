@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2567",
+  "summary": "sngrep through 1.8.4 Stack Buffer Overflow via SIP Headers",
+  "published": "2026-09-13T13:07:43.000Z",
+  "modified": "2026-09-13T13:07:43.000Z",
+  "upstream": [
+    "CVE-2026-90558"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2567"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/562879"
+    }
+  ]
+}

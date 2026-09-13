@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2565",
+  "summary": "vLLM: Cross-User Data Leak Vulnerability",
+  "published": "2026-09-13T10:20:36.000Z",
+  "modified": "2026-09-13T10:20:36.000Z",
+  "upstream": [
+    "CVE-2026-73558"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2565"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/562846"
+    }
+  ]
+}
