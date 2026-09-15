@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2570",
+  "summary": "filebrowser through 2.63.23 Stale Share Link via File Rename",
+  "published": "2026-09-15T06:34:55.000Z",
+  "modified": "2026-09-15T06:34:55.000Z",
+  "upstream": [
+    "CVE-2026-82237"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2570"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/563460"
+    }
+  ]
+}

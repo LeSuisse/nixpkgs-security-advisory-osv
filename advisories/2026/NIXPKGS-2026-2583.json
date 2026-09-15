@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2583",
+  "summary": "WeasyPrint restrictive URL fetcher bypass allows local file read and SSRF",
+  "published": "2026-09-15T07:07:51.000Z",
+  "modified": "2026-09-15T07:07:51.000Z",
+  "upstream": [
+    "CVE-2026-55073"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2583"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/563482"
+    }
+  ]
+}

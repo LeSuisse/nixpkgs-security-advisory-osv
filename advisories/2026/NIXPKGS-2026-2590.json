@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2590",
+  "summary": "MKVToolNix through 101.0 Heap Buffer Overflow via avilib ODML Superindex Integer Wraparound",
+  "published": "2026-09-15T07:09:30.000Z",
+  "modified": "2026-09-15T07:09:30.000Z",
+  "upstream": [
+    "CVE-2026-90783"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2590"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/563489"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2588",
+  "summary": "alsa-lib through 1.2.16.1 Off-by-One Stack Buffer Overflow in __snd_ctl_ascii_elem_id_parse()",
+  "published": "2026-09-15T07:09:24.000Z",
+  "modified": "2026-09-15T07:09:24.000Z",
+  "upstream": [
+    "CVE-2026-90781"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2588"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/563487"
+    }
+  ]
+}

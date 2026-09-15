@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2592",
+  "summary": "An issue was discovered in HAProxy 3.3.0 through 3.4.4 and …",
+  "published": "2026-09-15T07:09:40.000Z",
+  "modified": "2026-09-15T07:09:40.000Z",
+  "upstream": [
+    "CVE-2026-90678"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2592"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/563491"
+    }
+  ]
+}

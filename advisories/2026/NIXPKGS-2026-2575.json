@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2575",
+  "summary": "PocketSphinx: Buffer overflows in language and acoustic model loading code",
+  "published": "2026-09-15T07:07:31.000Z",
+  "modified": "2026-09-15T07:07:31.000Z",
+  "upstream": [
+    "CVE-2026-54559"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2575"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/563474"
+    }
+  ]
+}
