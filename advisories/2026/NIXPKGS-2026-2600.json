@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2600",
+  "summary": "Soft Serve 0.7.1 through 0.11.6 Information Disclosure via LFS Locks",
+  "published": "2026-09-16T11:42:00.000Z",
+  "modified": "2026-09-16T11:42:00.000Z",
+  "upstream": [
+    "CVE-2026-91773"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2600"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/563859"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2601",
+  "summary": "ToolHive: SSRF in remote MCP server authentication discovery (host-side, bypasses container isolation)",
+  "published": "2026-09-16T11:42:02.000Z",
+  "modified": "2026-09-16T11:42:02.000Z",
+  "upstream": [
+    "CVE-2026-58196"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2601"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/563860"
+    }
+  ]
+}

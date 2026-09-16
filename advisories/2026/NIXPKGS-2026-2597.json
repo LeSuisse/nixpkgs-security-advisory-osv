@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2597",
+  "summary": "Tornado before 6.5.7 Credential Leak via Handle Reuse",
+  "published": "2026-09-16T11:34:18.000Z",
+  "modified": "2026-09-16T11:34:18.000Z",
+  "upstream": [
+    "CVE-2026-91992"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2597"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/563855"
+    }
+  ]
+}

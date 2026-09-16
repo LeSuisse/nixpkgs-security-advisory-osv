@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2599",
+  "summary": "free5GC: UDR Improper ueId validation in free5GC EE subscription handlers allows arbitrary identifier persistence",
+  "published": "2026-09-16T11:41:58.000Z",
+  "modified": "2026-09-16T11:41:58.000Z",
+  "upstream": [
+    "CVE-2026-47780"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2599"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/563858"
+    }
+  ]
+}
