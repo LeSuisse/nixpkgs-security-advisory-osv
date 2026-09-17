@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2616",
+  "summary": "Open5GS PFCP Session Report Request n4-handler.c smf_n4_handle_session_report_request assertion",
+  "published": "2026-09-17T14:29:44.000Z",
+  "modified": "2026-09-17T14:29:44.000Z",
+  "upstream": [
+    "CVE-2026-92416"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2616"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564226"
+    }
+  ]
+}

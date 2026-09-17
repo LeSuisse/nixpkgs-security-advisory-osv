@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2624",
+  "summary": "Metabase through 0.63.18 SSRF via GeoJSON URL validation bypass",
+  "published": "2026-09-17T14:29:55.000Z",
+  "modified": "2026-09-17T14:29:55.000Z",
+  "upstream": [
+    "CVE-2026-92813"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2624"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564234"
+    }
+  ]
+}

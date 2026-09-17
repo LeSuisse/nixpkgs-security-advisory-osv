@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2623",
+  "summary": "OpenFGA: ListUsers returns a deliberately-excluded user (authorization-decision over-inclusion) when a `but not` exclusion under a type-bound wildcard is intersected (`and`) with another relation that also grants that user",
+  "published": "2026-09-17T14:29:59.000Z",
+  "modified": "2026-09-17T14:29:59.000Z",
+  "upstream": [
+    "CVE-2026-61709"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2623"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564233"
+    }
+  ]
+}

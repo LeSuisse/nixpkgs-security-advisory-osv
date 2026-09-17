@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2628",
+  "summary": "Open5GS PFCP types.c ogs_pfcp_parse_volume_measurement null pointer dereference",
+  "published": "2026-09-17T14:30:23.000Z",
+  "modified": "2026-09-17T14:30:23.000Z",
+  "upstream": [
+    "CVE-2026-92417"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2628"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564238"
+    }
+  ]
+}
