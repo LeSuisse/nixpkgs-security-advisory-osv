@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2653",
+  "summary": "MariaDB Connector/J does not enforce allowLocalInfile=false  on server-initiated LOCAL INFILE requests",
+  "published": "2026-09-18T09:44:00.000Z",
+  "modified": "2026-09-18T09:44:00.000Z",
+  "upstream": [
+    "CVE-2026-61700"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2653"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564524"
+    }
+  ]
+}

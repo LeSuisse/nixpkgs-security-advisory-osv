@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2648",
+  "summary": "Libxml2: libxml2: null pointer dereference parsing nextcatalog without catalog attribute",
+  "published": "2026-09-18T09:39:18.000Z",
+  "modified": "2026-09-18T09:39:18.000Z",
+  "upstream": [
+    "CVE-2026-76781"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2648"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564518"
+    }
+  ]
+}

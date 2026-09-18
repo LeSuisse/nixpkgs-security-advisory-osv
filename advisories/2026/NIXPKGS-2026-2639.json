@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2639",
+  "summary": "ansi2html 1.7.0a0 through 1.9.3 Cross-Site Scripting via OSC 8",
+  "published": "2026-09-18T09:36:33.000Z",
+  "modified": "2026-09-18T09:36:33.000Z",
+  "upstream": [
+    "CVE-2026-92973"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2639"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564508"
+    }
+  ]
+}

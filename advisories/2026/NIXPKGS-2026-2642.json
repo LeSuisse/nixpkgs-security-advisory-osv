@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2642",
+  "summary": "Flatpak-builder: host code execution via `git am` hook execution in patch source extraction (`use-git-am`)",
+  "published": "2026-09-18T09:38:16.000Z",
+  "modified": "2026-09-18T09:38:16.000Z",
+  "upstream": [
+    "CVE-2026-86320"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2642"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564512"
+    }
+  ]
+}

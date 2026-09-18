@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2636",
+  "summary": "Improper Input Validation in Snowflake CLI Versions Allow Unsanitized User-Controlled Values to be Interpolated into SQL Strings",
+  "published": "2026-09-18T09:36:26.000Z",
+  "modified": "2026-09-18T09:36:26.000Z",
+  "upstream": [
+    "CVE-2026-92903"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2636"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564505"
+    }
+  ]
+}

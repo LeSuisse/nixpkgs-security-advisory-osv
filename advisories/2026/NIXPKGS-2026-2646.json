@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2646",
+  "summary": "Hamlib: rigctld `send_raw` Stack Out-of-Bounds Write and Uninitialized Memory Disclosure",
+  "published": "2026-09-18T09:39:16.000Z",
+  "modified": "2026-09-18T09:39:16.000Z",
+  "upstream": [
+    "CVE-2026-54634"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2646"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564516"
+    }
+  ]
+}

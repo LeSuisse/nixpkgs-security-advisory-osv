@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2649",
+  "summary": "SOGo before 5.12.11 Password Reset Token Interception via Origin Header",
+  "published": "2026-09-18T09:39:22.000Z",
+  "modified": "2026-09-18T09:39:22.000Z",
+  "upstream": [
+    "CVE-2026-93453"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2649"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564519"
+    }
+  ]
+}
