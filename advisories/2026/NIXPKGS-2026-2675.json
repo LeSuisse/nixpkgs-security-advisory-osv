@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2675",
+  "summary": "Process Compose: Browser DNS rebinding lets websites control local process-compose MCP tools",
+  "published": "2026-09-19T10:46:04.000Z",
+  "modified": "2026-09-19T10:46:04.000Z",
+  "upstream": [
+    "CVE-2026-77339"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2675"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564880"
+    }
+  ]
+}

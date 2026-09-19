@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2680",
+  "summary": "PPPD buffer overflow in PEAP response code",
+  "published": "2026-09-19T10:49:01.000Z",
+  "modified": "2026-09-19T10:49:01.000Z",
+  "upstream": [
+    "CVE-2026-75883"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2680"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564885"
+    }
+  ]
+}

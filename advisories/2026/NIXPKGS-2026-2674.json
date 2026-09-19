@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2674",
+  "summary": "Reachable assertion at ranap_handle_co_dt()",
+  "published": "2026-09-19T10:45:45.000Z",
+  "modified": "2026-09-19T10:45:45.000Z",
+  "upstream": [
+    "CVE-2026-75894"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2674"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564879"
+    }
+  ]
+}

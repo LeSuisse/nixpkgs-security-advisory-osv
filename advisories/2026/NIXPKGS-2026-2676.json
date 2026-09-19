@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2676",
+  "summary": "Xdg-dbus-proxy: xdg-dbus-proxy: filtering for broadcast messages bypasses path/interface/member checks",
+  "published": "2026-09-19T10:46:09.000Z",
+  "modified": "2026-09-19T10:46:09.000Z",
+  "upstream": [
+    "CVE-2026-93676"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2676"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564881"
+    }
+  ]
+}
