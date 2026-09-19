@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2665",
+  "summary": "pg_partman privilege escalation via SQL injection when inheriting template properties",
+  "published": "2026-09-19T09:50:19.000Z",
+  "modified": "2026-09-19T09:50:19.000Z",
+  "upstream": [
+    "CVE-2026-61820"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2665"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564862"
+    }
+  ]
+}

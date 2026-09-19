@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2666",
+  "summary": "Suricata swf: heap buffer overflow in SWF decompression depth handling",
+  "published": "2026-09-19T10:00:03.000Z",
+  "modified": "2026-09-19T10:00:03.000Z",
+  "upstream": [
+    "CVE-2026-57226"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2666"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564865"
+    }
+  ]
+}

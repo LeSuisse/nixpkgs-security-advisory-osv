@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2664",
+  "summary": "NanoMQ: O(N²) Denial of Service in MQTT v5 Property Parsing",
+  "published": "2026-09-19T09:46:33.000Z",
+  "modified": "2026-09-19T09:46:33.000Z",
+  "upstream": [
+    "CVE-2026-44639"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2664"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564861"
+    }
+  ]
+}

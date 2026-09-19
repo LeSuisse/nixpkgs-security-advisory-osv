@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2662",
+  "summary": "vLLM through 0.29.0 Adjacent-Request Sampler State Corruption via Unvalidated Prompt Token IDs",
+  "published": "2026-09-19T09:38:18.000Z",
+  "modified": "2026-09-19T09:38:18.000Z",
+  "upstream": [
+    "CVE-2026-93841"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2662"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/564857"
+    }
+  ]
+}
