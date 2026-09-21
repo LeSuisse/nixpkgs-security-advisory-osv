@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2696",
+  "summary": "Cockpit-files: cockpit-files: arbitrary file ownership and permission modification via symlink race condition",
+  "published": "2026-09-21T12:55:45.000Z",
+  "modified": "2026-09-21T12:55:45.000Z",
+  "upstream": [
+    "CVE-2026-91203"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2696"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/565540"
+    }
+  ]
+}

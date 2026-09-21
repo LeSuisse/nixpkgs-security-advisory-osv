@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2685",
+  "summary": "Suricata before 8.0.7 has an Http2ThreadMultiBuf use-after-free when a transaction …",
+  "published": "2026-09-21T12:50:52.000Z",
+  "modified": "2026-09-21T12:50:52.000Z",
+  "upstream": [
+    "CVE-2026-94084"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2685"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/565528"
+    }
+  ]
+}

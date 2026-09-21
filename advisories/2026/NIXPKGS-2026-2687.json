@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2687",
+  "summary": "DLR-RM stable-baselines3 save_util.py VecNormalize.load deserialization",
+  "published": "2026-09-21T12:55:15.000Z",
+  "modified": "2026-09-21T12:55:15.000Z",
+  "upstream": [
+    "CVE-2026-94093"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2687"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/565531"
+    }
+  ]
+}

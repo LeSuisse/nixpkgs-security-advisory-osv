@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2691",
+  "summary": "Mistral Vibe before 2.25.5 Remote Code Execution via git post-checkout",
+  "published": "2026-09-21T12:55:25.000Z",
+  "modified": "2026-09-21T12:55:25.000Z",
+  "upstream": [
+    "CVE-2026-93993"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2691"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/565535"
+    }
+  ]
+}
