@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2715",
+  "summary": "ntopng: Missing Authorization Check in REST API Allows Non-Admin Users to Tamper Threat Intelligence Blacklist URLs",
+  "published": "2026-09-22T06:30:10.000Z",
+  "modified": "2026-09-22T06:30:10.000Z",
+  "upstream": [
+    "CVE-2026-83621"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2715"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/565751"
+    }
+  ]
+}

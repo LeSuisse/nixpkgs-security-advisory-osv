@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2706",
+  "summary": "libX11 XkbGetMap Reply Heap-based Buffer Overflow",
+  "published": "2026-09-22T06:28:28.000Z",
+  "modified": "2026-09-22T06:28:28.000Z",
+  "upstream": [
+    "CVE-2026-88806"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2706"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/565742"
+    }
+  ]
+}

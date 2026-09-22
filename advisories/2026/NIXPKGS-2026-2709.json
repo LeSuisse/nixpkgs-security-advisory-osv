@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2709",
+  "summary": "Cri-o: cri-o checkpoint restore bypasses destination security context",
+  "published": "2026-09-22T06:28:51.000Z",
+  "modified": "2026-09-22T06:28:51.000Z",
+  "upstream": [
+    "CVE-2026-92574"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2709"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/565745"
+    }
+  ]
+}

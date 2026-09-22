@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2711",
+  "summary": "drogonframework drogon ORM Criteria.cc makeCriteria sql injection",
+  "published": "2026-09-22T06:29:05.000Z",
+  "modified": "2026-09-22T06:29:05.000Z",
+  "upstream": [
+    "CVE-2026-94144"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2711"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/565747"
+    }
+  ]
+}

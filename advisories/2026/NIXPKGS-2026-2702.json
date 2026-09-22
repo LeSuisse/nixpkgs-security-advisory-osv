@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2702",
+  "summary": "Taultulli has CSRF in /configUpdate via missing anti-CSRF and method restriction that allows admin credential takeover",
+  "published": "2026-09-22T06:22:53.000Z",
+  "modified": "2026-09-22T06:22:53.000Z",
+  "upstream": [
+    "CVE-2026-43985"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2702"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/565738"
+    }
+  ]
+}

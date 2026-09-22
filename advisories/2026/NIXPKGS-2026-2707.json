@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2707",
+  "summary": "Fluent Bit: Remote stack buffer overflow in Fluent Bit `out_forward` Secure-Forward `PONG` handler",
+  "published": "2026-09-22T06:28:32.000Z",
+  "modified": "2026-09-22T06:28:32.000Z",
+  "upstream": [
+    "CVE-2026-61674"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2707"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/565743"
+    }
+  ]
+}

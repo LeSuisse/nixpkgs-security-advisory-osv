@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2698",
+  "summary": "Apache Airflow: Logout ignores a presented Authorization bearer token, leaving it revocable only by expiry",
+  "published": "2026-09-22T05:46:45.000Z",
+  "modified": "2026-09-22T05:46:45.000Z",
+  "upstream": [
+    "CVE-2026-86473"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2698"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/565730"
+    }
+  ]
+}
