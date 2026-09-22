@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2697",
+  "summary": "Envoy: oghttp2 upstream trailers incorrect handling",
+  "published": "2026-09-22T03:11:53.000Z",
+  "modified": "2026-09-22T03:11:53.000Z",
+  "upstream": [
+    "CVE-2026-73513"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2697"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/565708"
+    }
+  ]
+}
