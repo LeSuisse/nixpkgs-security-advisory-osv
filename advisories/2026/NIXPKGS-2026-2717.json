@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2717",
+  "summary": "Net::IDN::Punycode versions from 2.302 before 2.590 for Perl leak the output buffer on every rejected label in decode_punycode",
+  "published": "2026-09-23T13:04:57.000Z",
+  "modified": "2026-09-23T13:04:57.000Z",
+  "upstream": [
+    "CVE-2026-87078"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2717"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/566186"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2724",
+  "summary": "AT_SECURE program buffer overflow via $ORIGIN processing",
+  "published": "2026-09-23T13:20:41.000Z",
+  "modified": "2026-09-23T13:20:41.000Z",
+  "upstream": [
+    "CVE-2026-95818"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2724"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/566198"
+    }
+  ]
+}

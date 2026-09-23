@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2716",
+  "summary": "An unauthenticated attacker can make `get_page_template()` page-template resolution include a …",
+  "published": "2026-09-23T13:01:25.000Z",
+  "modified": "2026-09-23T13:01:25.000Z",
+  "upstream": [
+    "CVE-2026-87902"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2716"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/566185"
+    }
+  ]
+}
