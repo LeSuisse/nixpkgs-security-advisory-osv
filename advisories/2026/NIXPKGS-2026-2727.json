@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2727",
+  "summary": "In Flatpak before 1.18.1, the revokefs writer, used by the …",
+  "published": "2026-09-24T06:49:08.000Z",
+  "modified": "2026-09-24T06:49:08.000Z",
+  "upstream": [
+    "CVE-2026-96808"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2727"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/566406"
+    }
+  ]
+}
