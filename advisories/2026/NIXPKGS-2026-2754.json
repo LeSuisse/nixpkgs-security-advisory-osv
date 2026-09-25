@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2754",
+  "summary": "DCMTK through 3.7.0 Heap Over-read via NumberOfFrames",
+  "published": "2026-09-25T09:45:44.000Z",
+  "modified": "2026-09-25T09:45:44.000Z",
+  "upstream": [
+    "CVE-2026-97059"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2754"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/566788"
+    }
+  ]
+}
