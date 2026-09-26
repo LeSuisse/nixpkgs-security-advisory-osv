@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2765",
+  "summary": "Zoraxy 3.2.3 through 3.3.4 Client IP Spoofing via X-Forwarded-For IPv6",
+  "published": "2026-09-26T09:44:52.000Z",
+  "modified": "2026-09-26T09:44:52.000Z",
+  "upstream": [
+    "CVE-2026-100390"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2765"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/567122"
+    }
+  ]
+}

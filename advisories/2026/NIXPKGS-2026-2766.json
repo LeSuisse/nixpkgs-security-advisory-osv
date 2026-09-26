@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2766",
+  "summary": "BerriAI LiteLLM < 1.101.0-rc.1 Tenant Isolation Bypass via Semantic Cache Layer",
+  "published": "2026-09-26T09:46:22.000Z",
+  "modified": "2026-09-26T09:46:22.000Z",
+  "upstream": [
+    "CVE-2026-89032"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2766"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/567123"
+    }
+  ]
+}
