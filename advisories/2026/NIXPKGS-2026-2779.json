@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2779",
+  "summary": "vLLM before 0.29.0 Denial of Service via out-of-range stop_token_ids",
+  "published": "2026-09-27T21:21:07.000Z",
+  "modified": "2026-09-27T21:21:07.000Z",
+  "upstream": [
+    "CVE-2026-100654"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2779"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/567655"
+    }
+  ]
+}

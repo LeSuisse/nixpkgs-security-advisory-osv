@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2772",
+  "summary": "OpenClaw before 2026.8.1 Denial of Service via Rate Limit",
+  "published": "2026-09-27T21:14:11.000Z",
+  "modified": "2026-09-27T21:14:11.000Z",
+  "upstream": [
+    "CVE-2026-100572"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2772"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/567648"
+    }
+  ]
+}
