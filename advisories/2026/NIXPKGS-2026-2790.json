@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2790",
+  "summary": "spaceship-prompt through 4.22.5 Terminal Escape Sequence Injection",
+  "published": "2026-09-28T10:42:50.000Z",
+  "modified": "2026-09-28T10:42:50.000Z",
+  "upstream": [
+    "CVE-2026-100867"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2790"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/567825"
+    }
+  ]
+}
