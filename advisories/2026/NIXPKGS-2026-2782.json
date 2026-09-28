@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2782",
+  "summary": "Flatpak: flatpak: arbitrary read-access to files in the system-helper context via oci symlink following",
+  "published": "2026-09-28T09:18:42.000Z",
+  "modified": "2026-09-28T09:18:42.000Z",
+  "upstream": [
+    "CVE-2026-96284"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2782"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/567794"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2785",
+  "summary": "Flatpak: flatpak: buffer overflow in oci delta stream path names on 32-bit systems",
+  "published": "2026-09-28T09:21:43.000Z",
+  "modified": "2026-09-28T09:21:43.000Z",
+  "upstream": [
+    "CVE-2026-96280"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2785"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/567800"
+    }
+  ]
+}

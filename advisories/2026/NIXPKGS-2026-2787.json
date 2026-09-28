@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2787",
+  "summary": "MONAI through 1.6.0 _get_fake_spatial_shape eval() Sandbox Bypass via Attribute Chains",
+  "published": "2026-09-28T09:29:45.000Z",
+  "modified": "2026-09-28T09:29:45.000Z",
+  "upstream": [
+    "CVE-2026-100842"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2787"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/567805"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2786",
+  "summary": "MONAI before 1.6.0 Remote Code Execution via algo_from_pickle",
+  "published": "2026-09-28T09:28:02.000Z",
+  "modified": "2026-09-28T09:28:02.000Z",
+  "upstream": [
+    "CVE-2026-100843"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2786"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/567804"
+    }
+  ]
+}
