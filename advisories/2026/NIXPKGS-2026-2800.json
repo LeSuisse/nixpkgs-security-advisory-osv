@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2800",
+  "summary": "WPForms Lite 1.5.0.1 - 2.0.2 - Unauthenticated Arbitrary Shortcode Execution via Form Field Repopulation",
+  "published": "2026-09-29T06:16:11.000Z",
+  "modified": "2026-09-29T06:16:11.000Z",
+  "upstream": [
+    "CVE-2026-84744"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2800"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568130"
+    }
+  ]
+}

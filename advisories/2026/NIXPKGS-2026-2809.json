@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2809",
+  "summary": "SiYuan before v3.8.4 Information Disclosure via getCurrentAttrViewImages",
+  "published": "2026-09-29T06:16:49.000Z",
+  "modified": "2026-09-29T06:16:49.000Z",
+  "upstream": [
+    "CVE-2026-101092"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2809"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568140"
+    }
+  ]
+}

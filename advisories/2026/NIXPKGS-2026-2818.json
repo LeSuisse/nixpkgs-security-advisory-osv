@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2818",
+  "summary": "InvoicePlane: Primary Administrator Privilege Downgrade via `Users::form()` (Missing Object-Level Authorization)",
+  "published": "2026-09-29T06:17:35.000Z",
+  "modified": "2026-09-29T06:17:35.000Z",
+  "upstream": [
+    "CVE-2026-100392"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2818"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568149"
+    }
+  ]
+}

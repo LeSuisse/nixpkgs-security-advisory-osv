@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2807",
+  "summary": "XS::Parse::Infix versions from 0.40 through 0.49 for Perl treat a number as an array reference",
+  "published": "2026-09-29T06:16:42.000Z",
+  "modified": "2026-09-29T06:16:42.000Z",
+  "upstream": [
+    "CVE-2026-85644"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2807"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568138"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2816",
+  "summary": "LiteLLM Weak JWT Authentication via Email-Based User Lookup",
+  "published": "2026-09-29T06:17:31.000Z",
+  "modified": "2026-09-29T06:17:31.000Z",
+  "upstream": [
+    "CVE-2026-93355"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2816"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568147"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2811",
+  "summary": "aligungr UERANSIM nr-gnb handler.cpp ULInformationTransfer memory corruption",
+  "published": "2026-09-29T06:17:20.000Z",
+  "modified": "2026-09-29T06:17:20.000Z",
+  "upstream": [
+    "CVE-2026-100892"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2811"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568142"
+    }
+  ]
+}
