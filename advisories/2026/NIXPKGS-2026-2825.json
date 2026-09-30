@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2825",
+  "summary": "Use-After-Free in X.509 Extension Cache Under Concurrent Use",
+  "published": "2026-09-30T10:07:47.000Z",
+  "modified": "2026-09-30T10:07:47.000Z",
+  "upstream": [
+    "CVE-2026-84783"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2825"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568559"
+    }
+  ]
+}
