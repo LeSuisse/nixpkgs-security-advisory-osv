@@ -1,13 +1,35 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2669",
-  "summary": "Freedesktop Poppler FoFiTrueType.cc mapCodeToGID integer overflow",
+  "summary": "poppler: security issues < 26.08.0",
   "published": "2026-09-19T10:19:50.000Z",
   "modified": "2026-09-19T10:19:50.000Z",
   "upstream": [
-    "CVE-2026-93314"
+    "CVE-2026-93314",
+    "CVE-2026-93311",
+    "CVE-2026-93312",
+    "CVE-2026-93313"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler_gi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler_min"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

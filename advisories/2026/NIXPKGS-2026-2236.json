@@ -1,13 +1,36 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2236",
-  "summary": "Libssh: libssh: denial of service via zero advertised channel packet size",
+  "summary": "libssh: security issues < 0.12.1",
   "published": "2026-07-22T17:33:18.000Z",
   "modified": "2026-07-22T17:33:18.000Z",
   "upstream": [
-    "CVE-2026-59843"
+    "CVE-2026-59843",
+    "CVE-2026-59850",
+    "CVE-2026-59846",
+    "CVE-2026-59851",
+    "CVE-2026-59845",
+    "CVE-2026-59848",
+    "CVE-2026-15370",
+    "CVE-2026-59842",
+    "CVE-2026-59847",
+    "CVE-2026-59849",
+    "CVE-2026-59844"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libssh"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsshWithGssapi"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,28 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2770",
-  "summary": "Hugo before 0.166.0 Stored XSS via lineAnchors code block option",
+  "summary": "hugo: security issues < 0.166.0 (backport needed)",
   "published": "2026-09-27T21:04:39.000Z",
   "modified": "2026-09-27T21:04:39.000Z",
   "upstream": [
-    "CVE-2026-100691"
+    "CVE-2026-100691",
+    "CVE-2026-89258",
+    "CVE-2026-100693",
+    "CVE-2026-100692",
+    "CVE-2026-100694",
+    "CVE-2026-10618",
+    "CVE-2026-89259",
+    "CVE-2026-75926",
+    "CVE-2026-100690"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hugo"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

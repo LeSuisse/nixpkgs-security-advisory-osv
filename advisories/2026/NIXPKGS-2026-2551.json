@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-87735"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ocamlPackages.mirage-crypto-pk"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ocamlPackages_latest.mirage-crypto-pk"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

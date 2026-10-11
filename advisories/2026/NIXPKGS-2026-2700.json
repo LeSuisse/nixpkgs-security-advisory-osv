@@ -1,13 +1,24 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2700",
-  "summary": "HomeBox: Forced Group Membership Without Consent in Homebox AddMember Handler",
+  "summary": "homebox: security issues < 0.26.0 (needs port to stable)",
   "published": "2026-09-22T05:53:22.000Z",
   "modified": "2026-09-22T05:53:22.000Z",
   "upstream": [
-    "CVE-2026-48974"
+    "CVE-2026-48974",
+    "CVE-2026-48826",
+    "CVE-2026-55473",
+    "CVE-2026-48976",
+    "CVE-2026-48975"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "homebox"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

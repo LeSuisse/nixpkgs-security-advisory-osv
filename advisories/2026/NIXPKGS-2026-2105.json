@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2105",
-  "summary": "Symlink guard bypass in unarchive module allows planting symlinks during extraction",
+  "summary": "bbot: security issues < 2.8.6",
   "published": "2026-07-09T09:09:45.000Z",
   "modified": "2026-07-09T09:09:45.000Z",
   "upstream": [
-    "CVE-2026-14966"
+    "CVE-2026-14966",
+    "CVE-2026-14967"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bbot"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

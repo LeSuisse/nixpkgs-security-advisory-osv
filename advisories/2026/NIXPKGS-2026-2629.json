@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-59974"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.stanza"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.stanza"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.stanza"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

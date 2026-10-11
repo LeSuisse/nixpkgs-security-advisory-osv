@@ -7,7 +7,32 @@
   "upstream": [
     "CVE-2026-13593"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.CSSMinifierXS"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.CSSMinifierXS"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.CSSMinifierXS"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.CSSMinifierXS"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

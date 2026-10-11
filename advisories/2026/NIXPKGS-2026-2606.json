@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-52724"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kuma-dp"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

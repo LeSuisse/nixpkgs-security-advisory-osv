@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-46378"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dasel"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

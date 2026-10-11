@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-95519"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rpm"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-72718"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "goose-cli"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

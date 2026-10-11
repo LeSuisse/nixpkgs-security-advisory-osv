@@ -1,13 +1,28 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1979",
-  "summary": "SiYuan: Path Traversal via Double URL Encoding in /assets/*path (publish mode arbitrary file─read)",
+  "summary": "SiYuan: security issues < 3.7.0",
   "published": "2026-06-25T09:08:55.000Z",
   "modified": "2026-06-25T09:08:55.000Z",
   "upstream": [
-    "CVE-2026-54066"
+    "CVE-2026-54066",
+    "CVE-2026-54069",
+    "CVE-2026-50551",
+    "CVE-2026-54158",
+    "CVE-2026-54070",
+    "CVE-2026-55570",
+    "CVE-2026-54067",
+    "CVE-2026-54068",
+    "CVE-2026-54759"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

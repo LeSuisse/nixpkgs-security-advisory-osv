@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-8712"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.wyoming"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.wyoming"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-32853"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libvncserver"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,24 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2771",
-  "summary": "Kyverno before 1.19.1 Cross-Namespace Data Access via globalcontext.Lib",
+  "summary": "kyverno: security issues < 1.19.1 (backport needed)",
   "published": "2026-09-27T21:07:48.000Z",
   "modified": "2026-09-27T21:07:48.000Z",
   "upstream": [
-    "CVE-2026-100703"
+    "CVE-2026-100703",
+    "CVE-2026-100704",
+    "CVE-2026-100706",
+    "CVE-2026-100705",
+    "CVE-2026-100707"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kyverno"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

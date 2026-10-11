@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1914",
-  "summary": "Improper Search Cache Isolation for Scoped Search API Keys in Typesense",
+  "summary": "Typesense: security issues < 29.1",
   "published": "2026-06-13T08:51:51.000Z",
   "modified": "2026-06-13T08:51:51.000Z",
   "upstream": [
-    "CVE-2026-47225"
+    "CVE-2026-47225",
+    "CVE-2026-47216"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "typesense"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

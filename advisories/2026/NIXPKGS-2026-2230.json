@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-63770"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "glance"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

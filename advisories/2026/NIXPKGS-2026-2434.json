@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-49478"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fulcio"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

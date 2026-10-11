@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2242",
-  "summary": "Traefik before 3.6.23 IngressRouteTCP ServersTransport Namespace Bypass",
+  "summary": "traefik: security issues < 3.7.7",
   "published": "2026-07-23T19:04:29.000Z",
   "modified": "2026-07-23T19:04:29.000Z",
   "upstream": [
-    "CVE-2026-65602"
+    "CVE-2026-65602",
+    "CVE-2026-65601",
+    "CVE-2026-65600"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traefik"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

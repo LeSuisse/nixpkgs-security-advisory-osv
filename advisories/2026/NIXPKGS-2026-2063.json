@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-59093"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weaviate"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

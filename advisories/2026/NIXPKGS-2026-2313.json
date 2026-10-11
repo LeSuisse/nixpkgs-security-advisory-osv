@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2313",
-  "summary": "iscsiuio control-socket authentication bypass in open-iscsi",
+  "summary": "openiscsi: security issues < 2.1.12",
   "published": "2026-07-30T21:13:34.000Z",
   "modified": "2026-07-30T21:13:34.000Z",
   "upstream": [
-    "CVE-2026-44944"
+    "CVE-2026-44944",
+    "CVE-2026-44943"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openiscsi"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

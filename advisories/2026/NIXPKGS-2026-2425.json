@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-73415"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.jupyterlab"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.jupyterlab"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

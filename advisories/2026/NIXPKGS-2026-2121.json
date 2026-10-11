@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-44512"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "onnx"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

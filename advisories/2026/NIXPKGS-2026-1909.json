@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-46642"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "drawio"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "drawio-headless"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

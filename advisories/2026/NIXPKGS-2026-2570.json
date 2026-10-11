@@ -1,13 +1,26 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2570",
-  "summary": "filebrowser through 2.63.23 Stale Share Link via File Rename",
+  "summary": "filebrowser: security issues =<2.63.23 (upstream archived)",
   "published": "2026-09-15T06:34:55.000Z",
   "modified": "2026-09-15T06:34:55.000Z",
   "upstream": [
-    "CVE-2026-82237"
+    "CVE-2026-82237",
+    "CVE-2026-82236",
+    "CVE-2026-90930",
+    "CVE-2026-90927",
+    "CVE-2026-82235",
+    "CVE-2026-90928",
+    "CVE-2026-90929"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "filebrowser"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

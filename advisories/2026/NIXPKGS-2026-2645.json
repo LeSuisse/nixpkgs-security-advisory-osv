@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-90997"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "keycloak"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

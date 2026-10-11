@@ -1,13 +1,32 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2596",
-  "summary": "vikunja before 2.6.0 Team Enumeration via Project Share",
+  "summary": "vikunja: security issues < 2.6.0",
   "published": "2026-09-16T11:22:27.000Z",
   "modified": "2026-09-16T11:22:27.000Z",
   "upstream": [
-    "CVE-2026-91980"
+    "CVE-2026-91980",
+    "CVE-2026-91969",
+    "CVE-2026-91972",
+    "CVE-2026-91979",
+    "CVE-2026-91982",
+    "CVE-2026-91968",
+    "CVE-2026-91984",
+    "CVE-2026-91971",
+    "CVE-2026-91973",
+    "CVE-2026-91983",
+    "CVE-2026-91981",
+    "CVE-2026-91970",
+    "CVE-2026-91985"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vikunja"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

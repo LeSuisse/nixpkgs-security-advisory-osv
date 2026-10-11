@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-13757"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "p11-kit"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

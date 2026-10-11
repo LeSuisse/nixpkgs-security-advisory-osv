@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1952",
-  "summary": "HAProxy - NULL Pointer Dereference in hpack_dht_insert Function",
+  "summary": "HAProxy: security issues 3.4.0",
   "published": "2026-06-19T08:27:09.000Z",
   "modified": "2026-06-19T08:27:09.000Z",
   "upstream": [
-    "CVE-2026-55204"
+    "CVE-2026-55204",
+    "CVE-2026-55203"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "haproxy"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

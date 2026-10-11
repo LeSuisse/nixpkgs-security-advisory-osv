@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-8829"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.HTMLParser"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.HTMLParser"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

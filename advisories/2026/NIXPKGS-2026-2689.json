@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-94028"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mealie"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

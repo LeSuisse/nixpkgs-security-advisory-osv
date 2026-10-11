@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-48051"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "papra"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,28 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1918",
-  "summary": "Crypt::PBKDF2 versions before 0.261630 for Perl have a weak default algorithm and number of iterations",
+  "summary": "Perl Crypt::PBKDF2: cryptography weaknesses",
   "published": "2026-06-13T08:58:14.000Z",
   "modified": "2026-06-13T08:58:14.000Z",
   "upstream": [
-    "CVE-2026-9641"
+    "CVE-2026-9641",
+    "CVE-2026-9638",
+    "CVE-2017-20240"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.CryptPBKDF2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.CryptPBKDF2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2366",
-  "summary": "Apache Portable Runtime Utility: apr_password_validate() vulnerable to timing attack",
+  "summary": "aprutil: security issues < 1.6.4",
   "published": "2026-08-07T15:02:51.000Z",
   "modified": "2026-08-07T15:02:51.000Z",
   "upstream": [
-    "CVE-2025-49506"
+    "CVE-2025-49506",
+    "CVE-2026-32327"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "aprutil"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

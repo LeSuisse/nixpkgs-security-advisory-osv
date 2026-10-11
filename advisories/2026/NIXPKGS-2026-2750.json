@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-97226"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dbgate"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

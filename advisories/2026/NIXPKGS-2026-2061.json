@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-58036"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mediawiki"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

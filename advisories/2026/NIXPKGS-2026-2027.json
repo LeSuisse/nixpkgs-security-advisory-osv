@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-13601"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "yelp-xsl"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

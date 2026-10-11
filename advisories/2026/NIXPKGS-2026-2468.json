@@ -1,13 +1,28 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2468",
-  "summary": "pypdf: Possible long runtimes/large memory usage when extracting XForm objects",
+  "summary": "python3Packages.pypdf: security issues < 6.16.1",
   "published": "2026-09-02T09:42:49.000Z",
   "modified": "2026-09-02T09:42:49.000Z",
   "upstream": [
-    "CVE-2026-84311"
+    "CVE-2026-84311",
+    "CVE-2026-84310",
+    "CVE-2026-84309"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pypdf"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pypdf"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

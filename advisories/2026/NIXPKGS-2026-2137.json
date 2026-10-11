@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-59149"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mockoon"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

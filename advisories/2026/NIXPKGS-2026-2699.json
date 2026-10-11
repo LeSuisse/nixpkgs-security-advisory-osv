@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2699",
-  "summary": "GoCD is vulnerable to pipeline template view API authorization bypass",
+  "summary": "gocd-server: security issues < 26.1.0",
   "published": "2026-09-22T05:51:07.000Z",
   "modified": "2026-09-22T05:51:07.000Z",
   "upstream": [
-    "CVE-2026-52740"
+    "CVE-2026-52740",
+    "CVE-2026-55060",
+    "CVE-2026-52742",
+    "CVE-2026-52743",
+    "CVE-2026-52741",
+    "CVE-2026-68919",
+    "CVE-2026-55870",
+    "CVE-2026-55625"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gocd-server"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

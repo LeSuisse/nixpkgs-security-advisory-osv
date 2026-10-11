@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-97875"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rojo"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-6368"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libc"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "glibc"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,40 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2401",
-  "summary": "Loofah `allowed_uri?` does not detect `javascript:` URIs split by named whitespace character references",
+  "summary": "rubyPackages.loofah: security issues < 2.25.2",
   "published": "2026-08-13T07:25:03.000Z",
   "modified": "2026-08-13T07:25:03.000Z",
   "upstream": [
-    "CVE-2026-73491"
+    "CVE-2026-73491",
+    "CVE-2026-73490",
+    "CVE-2026-73492"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages.loofah"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_3.loofah"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_4.loofah"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_4_0.loofah"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

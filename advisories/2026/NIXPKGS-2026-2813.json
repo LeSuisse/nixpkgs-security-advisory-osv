@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-100371"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "invoiceplane"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

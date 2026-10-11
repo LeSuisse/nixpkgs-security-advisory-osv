@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-96673"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "photoview"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

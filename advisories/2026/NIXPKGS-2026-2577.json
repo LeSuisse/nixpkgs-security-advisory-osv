@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-82035"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pymupdf"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pymupdf"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

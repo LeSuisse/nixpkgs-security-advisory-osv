@@ -8,6 +8,9 @@
 
     "target": "ES2022",
 
+    // Node.js type definitions
+    "types": ["node"],
+
     // Allow JSON modules to be imported
     "resolveJsonModule": true,
 

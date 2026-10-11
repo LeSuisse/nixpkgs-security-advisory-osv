@@ -1,13 +1,29 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2553",
-  "summary": "Renovate before 44.14.7 Command Injection via depName",
+  "summary": "renovate: security issues < 44.14.7 (needs backport to stable)",
   "published": "2026-09-11T06:18:54.000Z",
   "modified": "2026-09-11T06:18:54.000Z",
   "upstream": [
-    "CVE-2026-88885"
+    "CVE-2026-88885",
+    "CVE-2026-88882",
+    "CVE-2026-88884",
+    "CVE-2026-88889",
+    "CVE-2026-88880",
+    "CVE-2026-88881",
+    "CVE-2026-88886",
+    "CVE-2026-88887",
+    "CVE-2026-88883",
+    "CVE-2026-88888"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "renovate"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

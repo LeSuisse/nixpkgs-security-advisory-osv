@@ -2,7 +2,7 @@
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1027",
   "summary": "NiceGUI has a Path Traversal in NiceGUI Upload Filename on Windows via Backslash Bypass of PurePosixPath Sanitization",
-  "published": "2026-04-09T07:44:32.000Z",
+  "published": "2026-04-09T07:44:28.000Z",
   "modified": "2026-04-09T07:44:32.000Z",
   "upstream": [
     "CVE-2026-39844"

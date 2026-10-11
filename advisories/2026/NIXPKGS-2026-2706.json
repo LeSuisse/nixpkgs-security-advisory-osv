@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-88806"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libX11"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libx11"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

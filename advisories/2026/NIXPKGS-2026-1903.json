@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1903",
-  "summary": "kafka-python prior to 2.3.2 Denial of Service via Protocol Parser Frame Length",
+  "summary": "python3Packages.kafka-python-ng: DoS issues < 2.3.2",
   "published": "2026-06-11T09:14:52.000Z",
   "modified": "2026-06-11T09:14:52.000Z",
   "upstream": [
-    "CVE-2026-10142"
+    "CVE-2026-10142",
+    "CVE-2026-10143"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.kafka-python-ng"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.kafka-python-ng"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

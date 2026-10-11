@@ -1,13 +1,73 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2824",
-  "summary": "Non-Constant-Time SM2 Scalar Multiplication on ARM64 and RISC-V",
+  "summary": "OpenSSL: security updates 2029-09-29",
   "published": "2026-09-30T10:05:47.000Z",
   "modified": "2026-09-30T10:05:47.000Z",
   "upstream": [
-    "CVE-2026-54875"
+    "CVE-2026-54875",
+    "CVE-2026-75806",
+    "CVE-2026-54872",
+    "CVE-2026-75805",
+    "CVE-2026-54873",
+    "CVE-2026-84782",
+    "CVE-2026-75804",
+    "CVE-2026-42772",
+    "CVE-2026-35189",
+    "CVE-2026-84784",
+    "CVE-2026-35191",
+    "CVE-2026-77696"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_3_5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_3_6"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_4_0"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_oqs"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_legacy"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_1_1"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

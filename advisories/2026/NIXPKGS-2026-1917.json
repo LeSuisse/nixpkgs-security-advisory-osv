@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-48914"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "qemu_kvm"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

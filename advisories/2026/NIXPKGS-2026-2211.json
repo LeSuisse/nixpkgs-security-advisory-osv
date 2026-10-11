@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-50144"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ncnn"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

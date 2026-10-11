@@ -1,13 +1,34 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2779",
-  "summary": "vLLM before 0.29.0 Denial of Service via out-of-range stop_token_ids",
+  "summary": "vllm: security issues < 0.29.0",
   "published": "2026-09-27T21:21:07.000Z",
   "modified": "2026-09-27T21:21:07.000Z",
   "upstream": [
-    "CVE-2026-100654"
+    "CVE-2026-100654",
+    "CVE-2026-100651",
+    "CVE-2026-100648"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.vllm"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

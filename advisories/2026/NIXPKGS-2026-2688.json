@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-93960"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pixelfed"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

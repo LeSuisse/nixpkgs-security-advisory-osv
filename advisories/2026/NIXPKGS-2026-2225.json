@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-45309"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.asyncssh"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.asyncssh"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

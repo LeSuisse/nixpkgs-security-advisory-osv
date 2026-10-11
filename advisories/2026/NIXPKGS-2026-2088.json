@@ -1,13 +1,25 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2088",
-  "summary": "Apache Airflow: Per-DAG read bypass discloses co-located DAGs' source via GET /api/v2/dagSources/{dag_id}",
+  "summary": "apache-airflow: security issues < 3.3.0",
   "published": "2026-07-08T08:43:35.000Z",
   "modified": "2026-07-08T08:43:35.000Z",
   "upstream": [
-    "CVE-2026-49296"
+    "CVE-2026-49296",
+    "CVE-2026-48892",
+    "CVE-2026-33264",
+    "CVE-2026-48828",
+    "CVE-2026-48891",
+    "CVE-2026-49487"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apache-airflow"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

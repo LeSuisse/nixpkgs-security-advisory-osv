@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-71281"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.peft"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.peft"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.peft"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

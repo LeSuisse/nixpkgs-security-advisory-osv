@@ -1,13 +1,37 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2146",
-  "summary": "ImageMagick before 7.1.2-26 Use-After-Free in FormatMagickCaption",
+  "summary": "imagemagick: security issues < 7.1.2-26",
   "published": "2026-07-15T06:33:45.000Z",
   "modified": "2026-07-15T06:33:45.000Z",
   "upstream": [
-    "CVE-2026-61861"
+    "CVE-2026-61861",
+    "CVE-2026-56372",
+    "CVE-2026-61857",
+    "CVE-2026-61465",
+    "CVE-2026-61858",
+    "CVE-2026-61870"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagickBig"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick_light"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

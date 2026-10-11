@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-54017"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open-webui"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

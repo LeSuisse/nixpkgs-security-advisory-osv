@@ -1,13 +1,45 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1998",
-  "summary": "Nokogiri: Possible Use-After-Free when setting an attribute value via `Nokogiri::XML::Attr#value=` or `#content=`",
+  "summary": "rubyPackages.nokogiri: security issues <  1.19.4",
   "published": "2026-06-26T10:51:13.000Z",
   "modified": "2026-06-26T10:51:13.000Z",
   "upstream": [
-    "CVE-2026-57435"
+    "CVE-2026-57435",
+    "CVE-2026-57434",
+    "CVE-2026-57437",
+    "CVE-2026-57236",
+    "CVE-2026-57235",
+    "CVE-2026-57436",
+    "CVE-2026-57438",
+    "CVE-2026-57234"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages.nokogiri"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_3.nokogiri"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_4.nokogiri"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_4_0.nokogiri"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

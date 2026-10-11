@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-91772"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "halo"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

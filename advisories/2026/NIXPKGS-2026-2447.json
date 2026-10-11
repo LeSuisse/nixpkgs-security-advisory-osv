@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-55588"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "oras"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

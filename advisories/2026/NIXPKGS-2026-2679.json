@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-75157"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apache-airflow"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

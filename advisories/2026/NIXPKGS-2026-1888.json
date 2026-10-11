@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-11500"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weaviate"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

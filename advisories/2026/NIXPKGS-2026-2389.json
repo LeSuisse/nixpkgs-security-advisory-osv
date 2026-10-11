@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-69112"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.accelerate"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.accelerate"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.accelerate"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,24 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2073",
-  "summary": "radareorg radare2 str.c r_str_append integer overflow",
+  "summary": "radare2: security issues < 6.1.8",
   "published": "2026-07-06T06:44:18.000Z",
   "modified": "2026-07-06T06:44:18.000Z",
   "upstream": [
-    "CVE-2026-14761"
+    "CVE-2026-14761",
+    "CVE-2026-14757",
+    "CVE-2026-14758",
+    "CVE-2026-14759",
+    "CVE-2026-14760"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "radare2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

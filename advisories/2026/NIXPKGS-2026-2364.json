@@ -1,13 +1,46 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2364",
-  "summary": "TimescaleDB 2.29.1 Out-of-Bounds Read DoS via Gorilla Compression Reverse Iterator",
+  "summary": "postgresqlPackages.timescaledb: security issues <= 2.29.1",
   "published": "2026-08-07T15:00:03.000Z",
   "modified": "2026-08-07T15:00:03.000Z",
   "upstream": [
-    "CVE-2026-70633"
+    "CVE-2026-70633",
+    "CVE-2026-70634",
+    "CVE-2026-70635"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresqlPackages.timescaledb"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql15Packages.timescaledb"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql16Packages.timescaledb"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql17Packages.timescaledb"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql18Packages.timescaledb"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

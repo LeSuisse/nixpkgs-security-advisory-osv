@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-89267"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.starlette-admin"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.starlette-admin"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

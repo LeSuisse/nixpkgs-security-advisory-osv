@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-59258"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "immich"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,32 @@
   "upstream": [
     "CVE-2025-15646"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.HTMLGumbo"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.HTMLGumbo"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.HTMLGumbo"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.HTMLGumbo"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

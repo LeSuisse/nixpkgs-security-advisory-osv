@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-65696"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "overseerr"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

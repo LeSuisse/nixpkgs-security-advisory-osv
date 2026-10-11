@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-54386"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "marimo"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.marimo"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.marimo"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

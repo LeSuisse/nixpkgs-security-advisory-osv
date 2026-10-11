@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-11979"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libxml2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libxml2_13"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

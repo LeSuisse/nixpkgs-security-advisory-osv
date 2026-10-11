@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-16002"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lib60870"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

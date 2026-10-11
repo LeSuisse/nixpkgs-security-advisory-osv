@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-48096"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openfga"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

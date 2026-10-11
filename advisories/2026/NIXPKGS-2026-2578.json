@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-55244"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.asteval"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.asteval"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

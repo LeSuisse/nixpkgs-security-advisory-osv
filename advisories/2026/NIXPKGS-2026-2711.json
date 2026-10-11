@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-94144"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "drogon"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

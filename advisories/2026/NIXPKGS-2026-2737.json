@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-96541"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gnome-remote-desktop"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

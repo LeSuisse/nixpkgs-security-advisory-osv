@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-91924"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pgweb"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

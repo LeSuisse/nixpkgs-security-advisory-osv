@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-73210"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.playwrightcapture"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.playwrightcapture"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

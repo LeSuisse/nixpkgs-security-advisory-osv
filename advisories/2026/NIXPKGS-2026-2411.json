@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-72556"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zoneminder"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

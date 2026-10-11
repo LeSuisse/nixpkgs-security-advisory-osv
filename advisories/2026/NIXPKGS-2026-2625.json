@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-92718"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nuclei"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

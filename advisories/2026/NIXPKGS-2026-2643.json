@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-92943"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.awsiotpythonsdk"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.awsiotpythonsdk"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

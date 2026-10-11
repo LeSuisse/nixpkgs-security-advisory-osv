@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2154",
-  "summary": "Tilt: Cross-site WebSocket hijacking of the Tilt HUD stream",
+  "summary": "tilt: security issues < 0.37.4",
   "published": "2026-07-15T07:07:02.000Z",
   "modified": "2026-07-15T07:07:02.000Z",
   "upstream": [
-    "CVE-2026-55883"
+    "CVE-2026-55883",
+    "CVE-2026-55884",
+    "CVE-2026-55882"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tilt"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

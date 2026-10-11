@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-15194"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

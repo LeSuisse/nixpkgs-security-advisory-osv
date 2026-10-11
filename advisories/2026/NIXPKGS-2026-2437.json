@@ -1,13 +1,31 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2437",
-  "summary": "SiYuan before v3.7.4 Information Disclosure via getBookmarkLabels",
+  "summary": "siyuan: security issues < 3.7.4",
   "published": "2026-08-15T15:10:19.000Z",
   "modified": "2026-08-15T15:10:19.000Z",
   "upstream": [
-    "CVE-2026-73609"
+    "CVE-2026-73609",
+    "CVE-2026-73049",
+    "CVE-2026-73048",
+    "CVE-2026-73630",
+    "CVE-2026-72810",
+    "CVE-2026-72812",
+    "CVE-2026-72811",
+    "CVE-2026-73608",
+    "CVE-2026-73607",
+    "CVE-2026-73610",
+    "CVE-2026-73606",
+    "CVE-2026-73605"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

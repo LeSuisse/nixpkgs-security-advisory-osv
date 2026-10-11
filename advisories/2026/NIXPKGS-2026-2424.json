@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-73291"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "seerr"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

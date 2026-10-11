@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-90773"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "procs"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

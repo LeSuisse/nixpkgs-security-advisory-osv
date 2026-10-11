@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-56766"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "thc-hydra"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-62314"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "anubis"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,34 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2786",
-  "summary": "MONAI before 1.6.0 Remote Code Execution via algo_from_pickle",
+  "summary": "python3Packages.monai: security issues < 1.6.0",
   "published": "2026-09-28T09:28:02.000Z",
   "modified": "2026-09-28T09:28:02.000Z",
   "upstream": [
-    "CVE-2026-100843"
+    "CVE-2026-100843",
+    "CVE-2026-100844",
+    "CVE-2026-100845"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.monai"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.monai"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.monai"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

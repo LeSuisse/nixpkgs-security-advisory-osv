@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-87723"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fuse-archive"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

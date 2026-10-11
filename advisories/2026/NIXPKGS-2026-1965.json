@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-12549"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsoup_3"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-58659"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pytorch-lightning"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pytorch-lightning"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.pytorch-lightning"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

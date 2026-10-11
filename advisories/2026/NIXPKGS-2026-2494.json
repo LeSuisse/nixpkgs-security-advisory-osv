@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-85089"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

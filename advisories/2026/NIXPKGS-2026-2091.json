@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-55592"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dashy-ui"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

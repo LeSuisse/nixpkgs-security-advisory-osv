@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2025-9486"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gitlab"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gitlab-ee"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

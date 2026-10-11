@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2237",
-  "summary": "OpenClaw 2026.2.12 < 2026.5.26 Authorization Bypass via Blank Agent IDs",
+  "summary": "openclaw: security issues < 2026.5.26 (backport needed)",
   "published": "2026-07-22T17:35:49.000Z",
   "modified": "2026-07-22T17:35:49.000Z",
   "upstream": [
-    "CVE-2026-62219"
+    "CVE-2026-62219",
+    "CVE-2026-62225"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openclaw"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

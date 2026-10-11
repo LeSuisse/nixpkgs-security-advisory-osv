@@ -1,13 +1,36 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2539",
-  "summary": "n8n: Instance AI Credential Setup Accepts Unvalidated Probe URL from Fetched Content",
+  "summary": "n8n: security issues < 2.37.7",
   "published": "2026-09-09T12:55:14.000Z",
   "modified": "2026-09-09T12:55:14.000Z",
   "upstream": [
-    "CVE-2026-86074"
+    "CVE-2026-86074",
+    "CVE-2026-86082",
+    "CVE-2026-86993",
+    "CVE-2026-86083",
+    "CVE-2026-86084",
+    "CVE-2026-86081",
+    "CVE-2026-86085",
+    "CVE-2026-86995",
+    "CVE-2026-86994",
+    "CVE-2026-86076",
+    "CVE-2026-86078",
+    "CVE-2026-86079",
+    "CVE-2026-86080",
+    "CVE-2026-86075",
+    "CVE-2026-86996",
+    "CVE-2026-86073",
+    "CVE-2026-86077"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

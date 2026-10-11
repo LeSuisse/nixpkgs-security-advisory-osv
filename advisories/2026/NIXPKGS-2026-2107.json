@@ -1,13 +1,23 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2107",
-  "summary": "Fluentd: Server-Side Request Forgery (SSRF) via Placeholder Expansion in `out_http`",
+  "summary": "fluentd: security issues < 1.19.3",
   "published": "2026-07-09T09:14:21.000Z",
   "modified": "2026-07-09T09:14:21.000Z",
   "upstream": [
-    "CVE-2026-44161"
+    "CVE-2026-44161",
+    "CVE-2026-44160",
+    "CVE-2026-44025",
+    "CVE-2026-44024"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fluentd"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

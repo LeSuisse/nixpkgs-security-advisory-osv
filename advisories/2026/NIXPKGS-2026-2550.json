@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-87876"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cups"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

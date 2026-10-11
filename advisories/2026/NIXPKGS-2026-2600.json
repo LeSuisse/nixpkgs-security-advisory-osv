@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-91773"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "soft-serve"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

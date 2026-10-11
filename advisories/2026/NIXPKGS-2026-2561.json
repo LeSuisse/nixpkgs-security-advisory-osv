@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-89087"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ocamlPackages.cstruct"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ocamlPackages_latest.cstruct"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

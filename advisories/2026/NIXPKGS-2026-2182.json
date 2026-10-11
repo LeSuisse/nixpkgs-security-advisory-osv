@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2182",
-  "summary": "Net::DNS versions through 1.55 for Perl allow remote execution injection via EDNS EXTENDED ERROR",
+  "summary": "perlPackages.NetDNS: security issues < 1.56",
   "published": "2026-07-21T10:30:02.000Z",
   "modified": "2026-07-21T10:30:02.000Z",
   "upstream": [
-    "CVE-2026-64193"
+    "CVE-2026-64193",
+    "CVE-2026-64194"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.NetDNS"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.NetDNS"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

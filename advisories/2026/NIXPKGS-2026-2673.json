@@ -1,13 +1,23 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2673",
-  "summary": "SiYuan through 3.8.4 Access Control Bypass via Dynamic Icon Endpoint",
+  "summary": "siyuan: security issues < 3.8.5",
   "published": "2026-09-19T10:41:03.000Z",
   "modified": "2026-09-19T10:41:03.000Z",
   "upstream": [
-    "CVE-2026-93921"
+    "CVE-2026-93921",
+    "CVE-2026-93923",
+    "CVE-2026-93591",
+    "CVE-2026-93922"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

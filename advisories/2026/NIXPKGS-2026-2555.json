@@ -1,13 +1,23 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2555",
-  "summary": "Consul vulnerable to an authorization bypass in the catalog node-write path",
+  "summary": "consul: security issues < 2.0.4",
   "published": "2026-09-11T06:31:44.000Z",
   "modified": "2026-09-11T06:31:44.000Z",
   "upstream": [
-    "CVE-2026-87090"
+    "CVE-2026-87090",
+    "CVE-2026-88021",
+    "CVE-2026-87106",
+    "CVE-2026-87107"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "consul"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1920",
-  "summary": "Nezha Monitoring: OAuth2 Redirect URL — Host Header Injection",
+  "summary": "Nezha: security issues < 2.2.0",
   "published": "2026-06-13T09:01:35.000Z",
   "modified": "2026-06-13T09:01:35.000Z",
   "upstream": [
-    "CVE-2026-53523"
+    "CVE-2026-53523",
+    "CVE-2026-53520",
+    "CVE-2026-53522"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nezha"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1950",
-  "summary": "Coturn: Stored Cross-Site Scripting (XSS) in web-admin interface via TURN username",
+  "summary": "Coturn: security issues < 4.11.0",
   "published": "2026-06-19T08:19:35.000Z",
   "modified": "2026-06-19T08:19:35.000Z",
   "upstream": [
-    "CVE-2026-43915"
+    "CVE-2026-43915",
+    "CVE-2026-43994"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "coturn"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

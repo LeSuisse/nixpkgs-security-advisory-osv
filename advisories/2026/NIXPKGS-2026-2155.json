@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-55233"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openresty"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

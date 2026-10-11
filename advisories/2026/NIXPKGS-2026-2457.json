@@ -1,13 +1,33 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2457",
-  "summary": "Open5GS S6a Authentication-Information-Request hss-s6a-path.c hss_ogs_diam_s6a_air_cb heap-based overflow",
+  "summary": "Multiple security issues fixed in open5gs 2.8.0",
   "published": "2026-08-31T15:20:39.000Z",
   "modified": "2026-08-31T15:20:39.000Z",
   "upstream": [
-    "CVE-2026-78156"
+    "CVE-2026-78156",
+    "CVE-2026-82589",
+    "CVE-2026-82587",
+    "CVE-2026-82590",
+    "CVE-2026-1522",
+    "CVE-2026-1586",
+    "CVE-2026-1738",
+    "CVE-2026-4240",
+    "CVE-2025-15685",
+    "CVE-2025-15687",
+    "CVE-2026-78186",
+    "CVE-2026-78157",
+    "CVE-2026-78158",
+    "CVE-2026-82588"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

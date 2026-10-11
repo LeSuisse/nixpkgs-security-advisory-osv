@@ -1,13 +1,23 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2508",
-  "summary": "Traefik before v2.11.55 Authentication Bypass via digestAuth",
+  "summary": "traefik: security issues  < 3.7.12 (backport needed)",
   "published": "2026-09-05T11:07:47.000Z",
   "modified": "2026-09-05T11:07:47.000Z",
   "upstream": [
-    "CVE-2026-85595"
+    "CVE-2026-85595",
+    "CVE-2026-85596",
+    "CVE-2026-85597",
+    "CVE-2026-85594"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traefik"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

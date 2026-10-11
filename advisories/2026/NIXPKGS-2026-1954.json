@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-55392"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nilfs-utils"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

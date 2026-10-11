@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-47220"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "envoy-bin"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

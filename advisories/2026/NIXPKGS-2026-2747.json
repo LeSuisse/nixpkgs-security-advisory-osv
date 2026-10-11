@@ -1,13 +1,40 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2747",
-  "summary": "Incorrect Authorization via Stale ProjectCache Eviction and Repeated .git Suffixes in Gerrit Code Review",
+  "summary": "gerrit: security issues < 3.14.3, < 3.13.9",
   "published": "2026-09-25T09:30:39.000Z",
   "modified": "2026-09-25T09:30:39.000Z",
   "upstream": [
-    "CVE-2026-87720"
+    "CVE-2026-87720",
+    "CVE-2026-87721",
+    "CVE-2026-87722"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gerrit"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gerrit_3_12"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gerrit_3_13"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gerrit_3_14"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

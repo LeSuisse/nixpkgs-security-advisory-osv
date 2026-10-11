@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-72538"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "prefect"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.prefect"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.prefect"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-10804"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "streamlit"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.streamlit"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.streamlit"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

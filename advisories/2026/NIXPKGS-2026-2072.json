@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-14570"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.CryptDSA"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.CryptDSA"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

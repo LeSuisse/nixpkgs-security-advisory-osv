@@ -1,13 +1,33 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2775",
-  "summary": "SiYuan before v3.8.4 Cross-Site Scripting via Kramdown IAL",
+  "summary": "siyuan: security issues < 3.8.4",
   "published": "2026-09-27T21:19:13.000Z",
   "modified": "2026-09-27T21:19:13.000Z",
   "upstream": [
-    "CVE-2026-100639"
+    "CVE-2026-100639",
+    "CVE-2026-100638",
+    "CVE-2026-100635",
+    "CVE-2026-100636",
+    "CVE-2026-100645",
+    "CVE-2026-100640",
+    "CVE-2026-100643",
+    "CVE-2026-100637",
+    "CVE-2026-100634",
+    "CVE-2026-100641",
+    "CVE-2026-100644",
+    "CVE-2026-100633",
+    "CVE-2026-100646",
+    "CVE-2026-100642"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

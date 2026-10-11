@@ -1,13 +1,26 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1992",
-  "summary": "Reject more queries with invalid header values",
+  "summary": "pdns-recursor: security issues < 5.4.3",
   "published": "2026-06-26T10:34:19.000Z",
   "modified": "2026-06-26T10:34:19.000Z",
   "upstream": [
-    "CVE-2026-42389"
+    "CVE-2026-42389",
+    "CVE-2026-33612",
+    "CVE-2026-40012",
+    "CVE-2026-42387",
+    "CVE-2026-42388",
+    "CVE-2026-42390",
+    "CVE-2026-52690"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pdns-recursor"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

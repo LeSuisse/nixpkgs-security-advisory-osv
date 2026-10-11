@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-15146"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wget"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

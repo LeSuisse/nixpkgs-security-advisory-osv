@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-14741"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.HTTPDate"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.HTTPDate"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

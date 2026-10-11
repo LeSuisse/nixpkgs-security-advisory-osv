@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2793",
-  "summary": "PyJWT: Unauthenticated RecursionError DoS in pre-verification payload parse (PyJWKClient.get_signing_key_from_jwt / verify_signature=False)",
+  "summary": "python3Packages.pyjwt: security issues < 2.15.0",
   "published": "2026-09-29T05:58:00.000Z",
   "modified": "2026-09-29T05:58:00.000Z",
   "upstream": [
-    "CVE-2026-101918"
+    "CVE-2026-101918",
+    "CVE-2026-102275"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pyjwt"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pyjwt"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

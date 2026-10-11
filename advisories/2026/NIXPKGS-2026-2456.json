@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2456",
-  "summary": "OctoPrint: File exfiltration possible via query parameters on upload endpoints",
+  "summary": "OctoPrint: Security fixes in 1.11.8",
   "published": "2026-08-31T11:03:00.000Z",
   "modified": "2026-08-31T11:03:00.000Z",
   "upstream": [
-    "CVE-2026-54134"
+    "CVE-2026-54134",
+    "CVE-2026-35163"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "octoprint"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

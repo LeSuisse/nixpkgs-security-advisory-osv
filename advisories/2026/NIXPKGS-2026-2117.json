@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-59261"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openclaw"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,46 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2099",
-  "summary": "Composer: URL-embedded HTTP-Basic username leaks to verbose logs (GitHub PAT exposure)",
+  "summary": "phpPackages.composer: security issues < 2.10.2",
   "published": "2026-07-09T08:56:06.000Z",
   "modified": "2026-07-09T08:56:06.000Z",
   "upstream": [
-    "CVE-2026-59947"
+    "CVE-2026-59947",
+    "CVE-2026-59948",
+    "CVE-2026-59946"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "phpPackages.composer"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "php82Packages.composer"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "php83Packages.composer"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "php84Packages.composer"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "php85Packages.composer"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,45 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1958",
-  "summary": "vLLM: OpenAI auth bypass",
+  "summary": "vLLM: security issues < 0.23.1rc0",
   "published": "2026-06-23T06:23:23.000Z",
   "modified": "2026-06-23T06:23:23.000Z",
   "upstream": [
-    "CVE-2026-48746"
+    "CVE-2026-48746",
+    "CVE-2026-53923",
+    "CVE-2026-41523",
+    "CVE-2026-54233",
+    "CVE-2026-54232",
+    "CVE-2026-54235",
+    "CVE-2026-47155",
+    "CVE-2026-54236"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.vllm"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

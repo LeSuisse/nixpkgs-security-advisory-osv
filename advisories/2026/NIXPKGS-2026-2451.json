@@ -1,13 +1,42 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2451",
-  "summary": "SiYuan before v3.7.4 XSS-to-RCE via pathName.ts",
+  "summary": "siyuan: security issues < 3.8.1",
   "published": "2026-08-31T10:00:32.000Z",
   "modified": "2026-08-31T10:00:32.000Z",
   "upstream": [
-    "CVE-2026-75917"
+    "CVE-2026-75917",
+    "CVE-2026-77086",
+    "CVE-2026-60083",
+    "CVE-2026-59809",
+    "CVE-2026-82234",
+    "CVE-2026-82233",
+    "CVE-2026-82649",
+    "CVE-2026-82654",
+    "CVE-2026-82650",
+    "CVE-2026-82651",
+    "CVE-2026-82653",
+    "CVE-2026-74799",
+    "CVE-2026-74798",
+    "CVE-2026-74867",
+    "CVE-2026-74868",
+    "CVE-2026-74904",
+    "CVE-2026-74902",
+    "CVE-2026-74903",
+    "CVE-2026-74905",
+    "CVE-2026-74906",
+    "CVE-2026-62204",
+    "CVE-2026-60084",
+    "CVE-2026-82652"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

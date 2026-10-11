@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-85618"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "convertx"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.convertx"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

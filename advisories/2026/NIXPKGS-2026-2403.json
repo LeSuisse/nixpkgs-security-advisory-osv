@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-19654"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rsyslog"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rsyslog-light"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

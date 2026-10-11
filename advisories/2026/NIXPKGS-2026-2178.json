@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-16277"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rpcbind"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,33 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1969",
-  "summary": "n8n: Git Node Clone and Push Operations Bypass File Sandbox",
+  "summary": "n8n: security issues < 2.25.7",
   "published": "2026-06-24T12:19:25.000Z",
   "modified": "2026-06-24T12:19:25.000Z",
   "upstream": [
-    "CVE-2026-49465"
+    "CVE-2026-49465",
+    "CVE-2026-54313",
+    "CVE-2026-54308",
+    "CVE-2026-54306",
+    "CVE-2026-54302",
+    "CVE-2026-54309",
+    "CVE-2026-54304",
+    "CVE-2026-54303",
+    "CVE-2026-54307",
+    "CVE-2026-54301",
+    "CVE-2026-54314",
+    "CVE-2026-54312",
+    "CVE-2026-54311",
+    "CVE-2026-54310"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

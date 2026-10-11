@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2449",
-  "summary": "Weblate: Object-scoped RSS feeds disclose private change history to unauthorized users",
+  "summary": "Weblate security issues fixed in 2026.8",
   "published": "2026-08-27T10:11:29.000Z",
   "modified": "2026-08-27T10:11:29.000Z",
   "upstream": [
-    "CVE-2026-77507"
+    "CVE-2026-77507",
+    "CVE-2026-77508",
+    "CVE-2026-77573"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weblate"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

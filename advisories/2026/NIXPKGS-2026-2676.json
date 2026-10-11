@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-93676"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "xdg-dbus-proxy"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

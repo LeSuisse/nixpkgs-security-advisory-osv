@@ -1,13 +1,29 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1981",
-  "summary": "Warp branch selector command injection via Git branch names",
+  "summary": "warp-terminal: security issues < 0.2026.05.13.09.15.stable_01",
   "published": "2026-06-25T09:17:38.000Z",
   "modified": "2026-06-25T09:17:38.000Z",
   "upstream": [
-    "CVE-2026-48719"
+    "CVE-2026-48719",
+    "CVE-2026-48732",
+    "CVE-2026-48731",
+    "CVE-2026-54686",
+    "CVE-2026-54699",
+    "CVE-2026-48725",
+    "CVE-2026-48704",
+    "CVE-2026-48703",
+    "CVE-2026-48721",
+    "CVE-2026-48720"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "warp-terminal"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

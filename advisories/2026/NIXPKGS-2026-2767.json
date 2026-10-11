@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-91837"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "networkmanager-iodine"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

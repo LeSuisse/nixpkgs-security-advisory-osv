@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1957",
-  "summary": "Starlette: Unvalidated request path concatenated into authority poisons request.url.hostname",
+  "summary": "python3Packages.starlette: security issues < 1.3.1",
   "published": "2026-06-23T06:21:36.000Z",
   "modified": "2026-06-23T06:21:36.000Z",
   "upstream": [
-    "CVE-2026-54282"
+    "CVE-2026-54282",
+    "CVE-2026-54283"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.starlette"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.starlette"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

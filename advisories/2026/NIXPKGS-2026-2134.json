@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2134",
-  "summary": "Missing TLS Certificate Verification in BOSH CLI Allows Root Code Execution via Man-in-the-Middle Credential Replay",
+  "summary": "bosh-cli: security issues < 7.10.4",
   "published": "2026-07-10T11:13:58.000Z",
   "modified": "2026-07-10T11:13:58.000Z",
   "upstream": [
-    "CVE-2026-47828"
+    "CVE-2026-47828",
+    "CVE-2026-47829"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bosh-cli"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

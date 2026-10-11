@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-18487"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "epiphany"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pantheon.epiphany"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

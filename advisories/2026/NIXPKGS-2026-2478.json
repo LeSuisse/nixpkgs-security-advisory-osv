@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-80047"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.transformers"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.transformers"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

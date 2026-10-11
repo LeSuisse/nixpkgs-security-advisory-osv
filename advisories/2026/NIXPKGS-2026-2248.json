@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-16493"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ansible"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.ansible-core"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.ansible-core"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

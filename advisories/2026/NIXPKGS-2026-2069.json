@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-14535"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.fickling"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.fickling"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.fickling"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

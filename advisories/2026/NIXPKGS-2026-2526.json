@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-86145"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pcre2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,28 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2152",
-  "summary": "ZITADEL: Missing Token Expiration (`exp`) Validation in JWT IdP Provider",
+  "summary": "zitadel: security issues < 4.15.3",
   "published": "2026-07-15T07:04:50.000Z",
   "modified": "2026-07-15T07:04:50.000Z",
   "upstream": [
-    "CVE-2026-56665"
+    "CVE-2026-56665",
+    "CVE-2026-56667",
+    "CVE-2026-55672",
+    "CVE-2026-55671",
+    "CVE-2026-56668",
+    "CVE-2026-56664",
+    "CVE-2026-55669",
+    "CVE-2026-55670",
+    "CVE-2026-56666"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zitadel"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

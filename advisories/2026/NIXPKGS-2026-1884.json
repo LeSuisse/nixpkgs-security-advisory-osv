@@ -7,7 +7,32 @@
   "upstream": [
     "CVE-2026-3238"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "samba"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "samba4"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sambaFull"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "samba4Full"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

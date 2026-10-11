@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-11850"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "krb5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libkrb5"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

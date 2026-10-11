@@ -1,13 +1,24 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1996",
-  "summary": "Glances: Insecure Pickle Deserialization in Version Cache Leads to Arbitrary Code Execution",
+  "summary": "glances: security issues < 4.5.5",
   "published": "2026-06-26T10:44:34.000Z",
   "modified": "2026-06-26T10:44:34.000Z",
   "upstream": [
-    "CVE-2026-46607"
+    "CVE-2026-46607",
+    "CVE-2026-46608",
+    "CVE-2026-46606",
+    "CVE-2026-46611",
+    "CVE-2026-53925"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "glances"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

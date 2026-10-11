@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-65321"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pyathena"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pyathena"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

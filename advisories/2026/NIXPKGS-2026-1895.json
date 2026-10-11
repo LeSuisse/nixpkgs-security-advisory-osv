@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1895",
-  "summary": "LimeSurvey RemoteControl invite_participants/remind_participants SQL Injection",
+  "summary": "Limesurvey: SQL injection and password reset hijack",
   "published": "2026-06-10T12:05:59.000Z",
   "modified": "2026-06-10T12:05:59.000Z",
   "upstream": [
-    "CVE-2026-50636"
+    "CVE-2026-50636",
+    "CVE-2026-50635"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "limesurvey"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

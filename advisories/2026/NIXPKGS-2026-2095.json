@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-59253"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

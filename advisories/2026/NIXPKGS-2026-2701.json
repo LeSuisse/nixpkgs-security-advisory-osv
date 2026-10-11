@@ -1,13 +1,25 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2701",
-  "summary": "InvenTree: Barcode-scan API (`POST /api/barcode/`) returns full serialized object data without enforcing the model's view role",
+  "summary": "inventree: security issues < 1.4.0",
   "published": "2026-09-22T05:54:59.000Z",
   "modified": "2026-09-22T05:54:59.000Z",
   "upstream": [
-    "CVE-2026-61744"
+    "CVE-2026-61744",
+    "CVE-2026-61745",
+    "CVE-2026-61746",
+    "CVE-2026-61748",
+    "CVE-2026-61747",
+    "CVE-2026-61749"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "inventree"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-55542"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "snipe-it"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

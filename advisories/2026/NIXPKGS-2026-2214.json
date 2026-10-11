@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-62361"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "listmonk"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

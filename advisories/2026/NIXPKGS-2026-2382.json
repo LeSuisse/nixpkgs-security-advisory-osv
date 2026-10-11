@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2382",
-  "summary": "Improper Output Encoding in GNU cpio",
+  "summary": "cpio: security issues (CVE-2026-66484, CVE-2026-66485, CVE-2026-66486)",
   "published": "2026-08-11T08:10:24.000Z",
   "modified": "2026-08-11T08:10:24.000Z",
   "upstream": [
-    "CVE-2026-66486"
+    "CVE-2026-66486",
+    "CVE-2026-66485",
+    "CVE-2026-66484"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cpio"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

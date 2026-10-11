@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-14454"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.Imager"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.Imager"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

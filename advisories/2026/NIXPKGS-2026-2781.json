@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2781",
-  "summary": "Fleet before 4.89.0 SQL Injection via ORDER BY Activity Endpoints",
+  "summary": "fleet: security issues < 4.89.0",
   "published": "2026-09-28T09:14:46.000Z",
   "modified": "2026-09-28T09:14:46.000Z",
   "upstream": [
-    "CVE-2026-101046"
+    "CVE-2026-101046",
+    "CVE-2026-101047"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fleet"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

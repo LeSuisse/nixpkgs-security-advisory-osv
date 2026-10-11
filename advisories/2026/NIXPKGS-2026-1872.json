@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-10812"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.gptcache"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.gptcache"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2728",
-  "summary": "GoCD is vulnerable to authorization bypass via fetch artifact autosuggestion API",
+  "summary": "gocd-server: security issues < 26.1.0",
   "published": "2026-09-24T08:40:09.000Z",
   "modified": "2026-09-24T08:40:09.000Z",
   "upstream": [
-    "CVE-2026-52744"
+    "CVE-2026-52744",
+    "CVE-2026-55632"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gocd-server"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

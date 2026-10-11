@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-92903"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "snowflake-cli"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

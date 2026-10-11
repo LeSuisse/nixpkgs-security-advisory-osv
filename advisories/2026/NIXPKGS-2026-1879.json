@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-50593"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "graphite2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

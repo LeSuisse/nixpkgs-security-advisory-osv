@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-59939"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.httplib2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.httplib2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

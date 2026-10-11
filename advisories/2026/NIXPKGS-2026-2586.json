@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-90774"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rustypaste"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-48785"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apptainer"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apptainer-overriden-nixos"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

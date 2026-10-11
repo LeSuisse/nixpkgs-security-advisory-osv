@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-54249"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pydantic-ai-slim"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pydantic-ai-slim"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

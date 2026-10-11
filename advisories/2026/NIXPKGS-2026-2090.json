@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-53511"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "calibre"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.calibre"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

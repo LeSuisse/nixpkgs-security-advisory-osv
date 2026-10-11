@@ -1,13 +1,29 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2175",
-  "summary": "SurrealDB before 3.2.0 Denial of Service via malformed SurrealML import",
+  "summary": "surrealdb: security issues < 3.2.0",
   "published": "2026-07-21T10:14:12.000Z",
   "modified": "2026-07-21T10:14:12.000Z",
   "upstream": [
-    "CVE-2026-63734"
+    "CVE-2026-63734",
+    "CVE-2026-63735",
+    "CVE-2026-63733",
+    "CVE-2026-63736"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "surrealdb"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "surrealdb-surrealkv"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,29 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2540",
-  "summary": "HTML::FormHandler versions before 0.410002 for Perl render some error messages into HTML without escaping",
+  "summary": "perlPackages.HTMLFormHandler: security issues < 0.410002",
   "published": "2026-09-09T13:02:13.000Z",
   "modified": "2026-09-09T13:02:13.000Z",
   "upstream": [
-    "CVE-2026-85485"
+    "CVE-2026-85485",
+    "CVE-2026-85630",
+    "CVE-2026-19872",
+    "CVE-2026-85484"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.HTMLFormHandler"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.HTMLFormHandler"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

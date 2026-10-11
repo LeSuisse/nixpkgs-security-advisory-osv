@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-58058"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nmap"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

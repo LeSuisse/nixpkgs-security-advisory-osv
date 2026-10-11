@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2025-15661"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libssh2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

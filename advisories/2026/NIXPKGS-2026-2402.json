@@ -1,13 +1,57 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2402",
-  "summary": "Out-of-bounds write in the Base64 decoder in Amazon aws-sdk-cpp",
+  "summary": "aws-sdk-cpp: security issues < 1.11.861",
   "published": "2026-08-13T07:26:44.000Z",
   "modified": "2026-08-13T07:26:44.000Z",
   "upstream": [
-    "CVE-2026-19642"
+    "CVE-2026-19642",
+    "CVE-2026-19643"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "aws-sdk-cpp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nixDependencies.aws-sdk-cpp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lixPackageSets.git.aws-sdk-cpp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lixPackageSets.latest.aws-sdk-cpp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lixPackageSets.stable.aws-sdk-cpp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lixPackageSets.lix_2_94.aws-sdk-cpp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lixPackageSets.lix_2_95.aws-sdk-cpp"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

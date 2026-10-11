@@ -1,13 +1,30 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2353",
-  "summary": "rclone: FTP Command Arguments Permit CRLF Injection When Custom Encoding Preserves Newlines",
+  "summary": "rclone: security issues < 1.75.0",
   "published": "2026-08-06T06:49:49.000Z",
   "modified": "2026-08-06T06:49:49.000Z",
   "upstream": [
-    "CVE-2026-71311"
+    "CVE-2026-71311",
+    "CVE-2026-71310",
+    "CVE-2026-71312",
+    "CVE-2026-71309",
+    "CVE-2026-71313"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rclone"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "librclone"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

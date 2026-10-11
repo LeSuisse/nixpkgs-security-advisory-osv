@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-55201"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "evil-winrm"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2408",
-  "summary": "python-engineio has possible denial of service due to maximum payload size sometimes not being enforced",
+  "summary": "python313Packages.python-engineio: security issues < 4.13.2",
   "published": "2026-08-13T08:02:40.000Z",
   "modified": "2026-08-13T08:02:40.000Z",
   "upstream": [
-    "CVE-2026-48809"
+    "CVE-2026-48809",
+    "CVE-2026-48802"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.python-engineio"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.python-engineio"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

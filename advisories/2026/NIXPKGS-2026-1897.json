@@ -7,7 +7,32 @@
   "upstream": [
     "CVE-2026-49762"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "elixir"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "elixir_1_17"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "elixir_1_18"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "elixir_1_19"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

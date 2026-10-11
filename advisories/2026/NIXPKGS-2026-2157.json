@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-15319"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "picoclaw"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

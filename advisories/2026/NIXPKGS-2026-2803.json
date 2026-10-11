@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-96760"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.authlib"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.authlib"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

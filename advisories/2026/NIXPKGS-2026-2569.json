@@ -1,13 +1,35 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2569",
-  "summary": "Gimp: integer overflow in pcx loader (planes=4) leads to heap overflow on 32-bit",
+  "summary": "gimp: security issues < 3.3.2",
   "published": "2026-09-15T06:30:52.000Z",
   "modified": "2026-09-15T06:30:52.000Z",
   "upstream": [
-    "CVE-2026-78465"
+    "CVE-2026-78465",
+    "CVE-2026-80101",
+    "CVE-2026-79902",
+    "CVE-2026-82328",
+    "CVE-2026-82343",
+    "CVE-2026-82324",
+    "CVE-2026-82330",
+    "CVE-2026-90948",
+    "CVE-2026-90947",
+    "CVE-2026-90949"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gimp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gimp3"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

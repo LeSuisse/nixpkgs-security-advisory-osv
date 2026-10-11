@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-11487"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "neovim-unwrapped"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

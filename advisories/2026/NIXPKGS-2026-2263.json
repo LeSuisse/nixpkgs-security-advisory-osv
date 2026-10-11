@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-65920"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.diffusers"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.diffusers"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.diffusers"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

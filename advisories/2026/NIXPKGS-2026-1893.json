@@ -1,13 +1,23 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1893",
-  "summary": "Shell command injection in Logseq",
+  "summary": "Logseq security issues in 0.10.15",
   "published": "2026-06-10T11:53:48.000Z",
   "modified": "2026-06-10T11:53:48.000Z",
   "upstream": [
-    "CVE-2026-9279"
+    "CVE-2026-9279",
+    "CVE-2026-47899",
+    "CVE-2026-47901",
+    "CVE-2026-47900"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "logseq"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

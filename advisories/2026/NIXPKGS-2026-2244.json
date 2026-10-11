@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-16208"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.django-tastypie"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.django-tastypie"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

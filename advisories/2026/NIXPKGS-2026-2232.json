@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-15788"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "buildkit"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-13082"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.GDSecurityImage"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.GDSecurityImage"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

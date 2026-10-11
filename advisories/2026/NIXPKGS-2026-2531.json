@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-86197"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "grav"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

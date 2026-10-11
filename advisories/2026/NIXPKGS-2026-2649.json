@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-93453"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sogo"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-76081"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zitadel"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

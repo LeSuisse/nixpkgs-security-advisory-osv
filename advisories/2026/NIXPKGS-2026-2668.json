@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-93653"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler_gi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler_min"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-50160"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hoppscotch"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

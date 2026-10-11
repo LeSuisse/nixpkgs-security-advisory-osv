@@ -1,13 +1,31 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2507",
-  "summary": "YesWiki: Unauthenticated arbitrary page deletion via `{{erasespamedcomments}}` action",
+  "summary": "yeswiki: security issues < 4.6.6",
   "published": "2026-09-05T11:04:16.000Z",
   "modified": "2026-09-05T11:04:16.000Z",
   "upstream": [
-    "CVE-2026-52766"
+    "CVE-2026-52766",
+    "CVE-2026-52771",
+    "CVE-2026-52769",
+    "CVE-2026-52774",
+    "CVE-2026-52777",
+    "CVE-2026-52763",
+    "CVE-2026-52770",
+    "CVE-2026-52775",
+    "CVE-2026-52762",
+    "CVE-2026-52773",
+    "CVE-2026-52767",
+    "CVE-2026-52772"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "yeswiki"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

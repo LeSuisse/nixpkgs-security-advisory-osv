@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-50021"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pnpm_10"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pnpm_10_29_2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

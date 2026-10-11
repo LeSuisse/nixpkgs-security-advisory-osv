@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-54411"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pam"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "linux-pam"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,37 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1910",
-  "summary": "Server-Side Request Forgery (SSRF) in GitLab",
+  "summary": "GitLab: security issues < 18.11.5",
   "published": "2026-06-12T08:51:18.000Z",
   "modified": "2026-06-12T08:51:18.000Z",
   "upstream": [
-    "CVE-2026-9204"
+    "CVE-2026-9204",
+    "CVE-2026-7250",
+    "CVE-2026-1500",
+    "CVE-2026-6976",
+    "CVE-2026-6269",
+    "CVE-2026-3553",
+    "CVE-2026-10733",
+    "CVE-2026-6552",
+    "CVE-2026-6277",
+    "CVE-2026-8589",
+    "CVE-2026-10087",
+    "CVE-2026-9694"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gitlab"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gitlab-ee"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

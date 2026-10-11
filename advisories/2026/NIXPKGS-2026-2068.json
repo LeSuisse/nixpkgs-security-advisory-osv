@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-12195"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vesta"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

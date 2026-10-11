@@ -1,13 +1,29 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2050",
-  "summary": "Core log entries for exceptions and XSS issues in log entry formatting code that may be caused by user-controlled input",
+  "summary": "MediaWiki: seucrity issues < 1.45.4",
   "published": "2026-07-03T19:37:54.000Z",
   "modified": "2026-07-03T19:37:54.000Z",
   "upstream": [
-    "CVE-2026-58037"
+    "CVE-2026-58037",
+    "CVE-2026-58028",
+    "CVE-2026-58024",
+    "CVE-2026-58029",
+    "CVE-2026-58033",
+    "CVE-2026-58035",
+    "CVE-2026-58031",
+    "CVE-2026-58025",
+    "CVE-2026-58026",
+    "CVE-2026-58032"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mediawiki"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

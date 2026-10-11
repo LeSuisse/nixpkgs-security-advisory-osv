@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1901",
-  "summary": "Jenkins 2.567 and earlier, LTS 2.555.2 and earlier improperly determines …",
+  "summary": "Jenkins: security issues < 2.555.3",
   "published": "2026-06-11T09:09:22.000Z",
   "modified": "2026-06-11T09:09:22.000Z",
   "upstream": [
-    "CVE-2026-53436"
+    "CVE-2026-53436",
+    "CVE-2026-53440",
+    "CVE-2026-53437",
+    "CVE-2026-53435",
+    "CVE-2026-53441",
+    "CVE-2026-53438",
+    "CVE-2026-53439",
+    "CVE-2026-53442"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jenkins"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

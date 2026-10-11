@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-54338"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.jupyterhub"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.jupyterhub"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

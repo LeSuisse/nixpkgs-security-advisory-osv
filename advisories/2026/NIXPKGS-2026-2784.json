@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-96279"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "flatpak"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

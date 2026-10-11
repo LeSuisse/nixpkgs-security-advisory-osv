@@ -1,13 +1,39 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2022",
-  "summary": "JavaScript::Minifier::XS versions before 0.16 for Perl leak memory on every call to minify(), allowing unbounded memory growth",
+  "summary": "perlPackages.JavaScriptMinifierXS: security issues < 0.16",
   "published": "2026-06-30T11:08:50.000Z",
   "modified": "2026-06-30T11:08:50.000Z",
   "upstream": [
-    "CVE-2026-56018"
+    "CVE-2026-56018",
+    "CVE-2026-56017"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.JavaScriptMinifierXS"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.JavaScriptMinifierXS"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.JavaScriptMinifierXS"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.JavaScriptMinifierXS"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

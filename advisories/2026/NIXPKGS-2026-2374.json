@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-48026"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lakefs"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

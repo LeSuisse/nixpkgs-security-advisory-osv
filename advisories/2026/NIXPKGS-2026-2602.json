@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-47215"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "singularity"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "singularity-overriden-nixos"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

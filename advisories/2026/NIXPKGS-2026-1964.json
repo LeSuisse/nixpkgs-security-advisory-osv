@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-54651"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pypdf"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pypdf"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

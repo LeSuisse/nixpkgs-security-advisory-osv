@@ -1,13 +1,23 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2235",
-  "summary": "Possible panic when incorrect parameters sent from frontend",
+  "summary": "buildkit: security issues < 0.31.2",
   "published": "2026-07-22T17:23:18.000Z",
   "modified": "2026-07-22T17:23:18.000Z",
   "upstream": [
-    "CVE-2026-15792"
+    "CVE-2026-15792",
+    "CVE-2026-15789",
+    "CVE-2026-15791",
+    "CVE-2026-15793"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "buildkit"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

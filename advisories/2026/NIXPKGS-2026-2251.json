@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-47143"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "capstone"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "capstone_4"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

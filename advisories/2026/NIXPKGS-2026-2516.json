@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-85670"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.tokenizers"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.tokenizers"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

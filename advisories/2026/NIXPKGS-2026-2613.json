@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-48722"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nextflow"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

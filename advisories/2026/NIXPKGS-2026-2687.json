@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-94093"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.stable-baselines3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.stable-baselines3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.stable-baselines3"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

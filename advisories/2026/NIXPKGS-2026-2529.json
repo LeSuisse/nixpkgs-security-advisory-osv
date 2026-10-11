@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-86178"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pixelfed"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

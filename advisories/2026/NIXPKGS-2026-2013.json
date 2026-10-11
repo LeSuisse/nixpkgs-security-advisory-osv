@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-57231"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "podman"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,28 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2796",
-  "summary": "Out-of-bounds read vulnerability in libX11's XIM trigger-keyregistration parser.registration parser",
+  "summary": "libX11: security issues < 1.8.14",
   "published": "2026-09-29T06:04:32.000Z",
   "modified": "2026-09-29T06:04:32.000Z",
   "upstream": [
-    "CVE-2026-94284"
+    "CVE-2026-94284",
+    "CVE-2026-94283",
+    "CVE-2026-94285"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libX11"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libx11"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

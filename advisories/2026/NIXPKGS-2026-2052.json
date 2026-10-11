@@ -1,13 +1,24 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2052",
-  "summary": "containerd: CRI checkpoint import allows local image tag poisoning",
+  "summary": "containerd: security issues < 2.3.2",
   "published": "2026-07-03T19:45:28.000Z",
   "modified": "2026-07-03T19:45:28.000Z",
   "upstream": [
-    "CVE-2026-50195"
+    "CVE-2026-50195",
+    "CVE-2026-47262",
+    "CVE-2026-53489",
+    "CVE-2026-53488",
+    "CVE-2026-53492"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "containerd"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

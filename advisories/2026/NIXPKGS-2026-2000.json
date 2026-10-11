@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-49980"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rclone"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

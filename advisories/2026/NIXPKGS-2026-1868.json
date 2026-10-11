@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-50031"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freeipmi"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

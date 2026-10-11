@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-85241"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bloodhound"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bloodhound-ce"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-10783"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.gradio"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.gradio"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-15928"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "xmlrpc_c"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

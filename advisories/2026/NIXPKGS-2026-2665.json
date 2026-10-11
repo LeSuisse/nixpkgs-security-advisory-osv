@@ -1,13 +1,62 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2665",
-  "summary": "pg_partman privilege escalation via SQL injection when inheriting template properties",
+  "summary": "postgresqlPackages.pg_partman: security issues < 5.5.0",
   "published": "2026-09-19T09:50:19.000Z",
   "modified": "2026-09-19T09:50:19.000Z",
   "upstream": [
-    "CVE-2026-61820"
+    "CVE-2026-61820",
+    "CVE-2026-61821",
+    "CVE-2026-61819",
+    "CVE-2026-61822",
+    "CVE-2026-61817",
+    "CVE-2026-61818",
+    "CVE-2026-61781"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresqlPackages.pg_partman"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql14Packages.pg_partman"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql15Packages.pg_partman"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql16Packages.pg_partman"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql17Packages.pg_partman"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql18Packages.pg_partman"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql19Packages.pg_partman"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

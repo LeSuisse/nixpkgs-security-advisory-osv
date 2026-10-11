@@ -1,13 +1,31 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2749",
-  "summary": "Out-of-bounds read in libXi's XI2 XIQueryDevice reply parsing",
+  "summary": "libXi: security issues < 1.8.4",
   "published": "2026-09-25T09:43:44.000Z",
   "modified": "2026-09-25T09:43:44.000Z",
   "upstream": [
-    "CVE-2026-93544"
+    "CVE-2026-93544",
+    "CVE-2026-94281",
+    "CVE-2026-93542",
+    "CVE-2026-93545",
+    "CVE-2026-93543",
+    "CVE-2026-93541"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libXi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libxi"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

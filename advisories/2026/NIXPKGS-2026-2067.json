@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-14544"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hplip"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hplipWithPlugin"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-100867"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "spaceship-prompt"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

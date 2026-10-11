@@ -1,13 +1,23 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2272",
-  "summary": "libssh2 Heap Out-of-Bounds Read via publickey subsystem",
+  "summary": "libssh2: security issues <= 1.11.1 (end of July 2026)",
   "published": "2026-07-25T16:35:16.000Z",
   "modified": "2026-07-25T16:35:16.000Z",
   "upstream": [
+    "CVE-2026-66035",
+    "CVE-2026-66033",
+    "CVE-2026-66032",
     "CVE-2026-66034"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libssh2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

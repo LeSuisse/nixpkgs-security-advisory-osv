@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-47261"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wasmtime"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

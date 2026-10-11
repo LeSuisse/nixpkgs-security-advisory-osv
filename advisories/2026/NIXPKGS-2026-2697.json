@@ -1,13 +1,38 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2697",
-  "summary": "Envoy: oghttp2 upstream trailers incorrect handling",
+  "summary": "Multiple Envoy security vulnerabilities (<1.36.10, <1.37.6, <1.38.4, <1.39.1)",
   "published": "2026-09-22T03:11:53.000Z",
   "modified": "2026-09-22T03:11:53.000Z",
   "upstream": [
-    "CVE-2026-73513"
+    "CVE-2026-73513",
+    "CVE-2026-73549",
+    "CVE-2026-73553",
+    "CVE-2026-48521",
+    "CVE-2026-73512",
+    "CVE-2026-73548",
+    "CVE-2026-73511",
+    "CVE-2026-50572",
+    "CVE-2026-73546",
+    "CVE-2026-73550",
+    "CVE-2026-73551",
+    "CVE-2026-73547",
+    "CVE-2026-73552"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "envoy"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "envoy-bin"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

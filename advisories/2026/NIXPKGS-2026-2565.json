@@ -1,13 +1,48 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2565",
-  "summary": "vLLM: Cross-User Data Leak Vulnerability",
+  "summary": "vllm: security issues < 0.28.0",
   "published": "2026-09-13T10:20:36.000Z",
   "modified": "2026-09-13T10:20:36.000Z",
   "upstream": [
-    "CVE-2026-73558"
+    "CVE-2026-73558",
+    "CVE-2026-73559",
+    "CVE-2026-73556",
+    "CVE-2026-73557",
+    "CVE-2026-71486",
+    "CVE-2026-78684",
+    "CVE-2026-90553",
+    "CVE-2026-90554",
+    "CVE-2026-90555",
+    "CVE-2026-73555",
+    "CVE-2026-73560"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.vllm"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

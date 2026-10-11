@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-71219"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gfs2-utils"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

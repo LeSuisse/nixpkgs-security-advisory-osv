@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-10805"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "networkmanager"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-64816"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rapidraw"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.rapidraw"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

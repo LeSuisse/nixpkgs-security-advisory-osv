@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-66824"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pylookyloo"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pylookyloo"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

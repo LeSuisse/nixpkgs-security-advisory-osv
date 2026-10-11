@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2150",
-  "summary": "RabbitMQ: Stream listener does not enforce configured frame-size limit during authentication, permitting unauth'd mem-exhaust DoS",
+  "summary": "rabbitmq-server: security issues < 4.2.6",
   "published": "2026-07-15T07:00:34.000Z",
   "modified": "2026-07-15T07:00:34.000Z",
   "upstream": [
-    "CVE-2026-57220"
+    "CVE-2026-57220",
+    "CVE-2026-57215",
+    "CVE-2026-57217",
+    "CVE-2026-57216",
+    "CVE-2026-57221",
+    "CVE-2026-57219",
+    "CVE-2026-57218",
+    "CVE-2026-57211"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rabbitmq-server"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

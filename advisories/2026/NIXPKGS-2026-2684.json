@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-77118"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "graphicsmagick"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "graphicsmagick_q16"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "graphicsmagick-imagemagick-compat"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

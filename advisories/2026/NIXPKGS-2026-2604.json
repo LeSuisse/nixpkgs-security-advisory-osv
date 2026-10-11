@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-91771"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.wandb"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.wandb"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.wandb"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

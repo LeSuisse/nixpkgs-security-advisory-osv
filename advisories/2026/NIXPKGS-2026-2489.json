@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-82522"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libjxl"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,25 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2509",
-  "summary": "ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow …",
+  "summary": "freeipmi: security issues < 1.6.19 (backport needed)",
   "published": "2026-09-05T11:11:46.000Z",
   "modified": "2026-09-05T11:11:46.000Z",
   "upstream": [
-    "CVE-2026-85508"
+    "CVE-2026-85508",
+    "CVE-2026-85509",
+    "CVE-2026-85506",
+    "CVE-2026-85507",
+    "CVE-2026-85505",
+    "CVE-2026-85504"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freeipmi"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

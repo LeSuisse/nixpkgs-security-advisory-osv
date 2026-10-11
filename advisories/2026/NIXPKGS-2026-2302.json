@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-18107"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "criu"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

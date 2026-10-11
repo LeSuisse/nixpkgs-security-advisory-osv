@@ -1,13 +1,26 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2729",
-  "summary": "Busybox: busybox: httpd silently fails open when ip deny rules contain invalid cidr prefix lengths",
+  "summary": "busybox: security issues 2026-09-24",
   "published": "2026-09-24T08:51:02.000Z",
   "modified": "2026-09-24T08:51:02.000Z",
   "upstream": [
-    "CVE-2026-88831"
+    "CVE-2026-88831",
+    "CVE-2026-88840",
+    "CVE-2026-88830",
+    "CVE-2026-88839",
+    "CVE-2026-88837",
+    "CVE-2026-88832",
+    "CVE-2026-88835"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "busybox"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

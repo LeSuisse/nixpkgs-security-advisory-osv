@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2400",
-  "summary": "Prowler: Server-Side Request Forgery (SSRF) in Lighthouse Provider",
+  "summary": "prowler: security issues < 5.36.0 (backport needed)",
   "published": "2026-08-13T07:12:13.000Z",
   "modified": "2026-08-13T07:12:13.000Z",
   "upstream": [
-    "CVE-2026-73264"
+    "CVE-2026-73264",
+    "CVE-2026-73263"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "prowler"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

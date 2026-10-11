@@ -1,13 +1,25 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2448",
-  "summary": "Weblate: Team-enforced 2FA is bypassed for global permissions",
+  "summary": "Weblate security issues fixed in 2026.7",
   "published": "2026-08-27T10:09:34.000Z",
   "modified": "2026-08-27T10:09:34.000Z",
   "upstream": [
-    "CVE-2026-61790"
+    "CVE-2026-61790",
+    "CVE-2026-62326",
+    "CVE-2026-55228",
+    "CVE-2026-62249",
+    "CVE-2026-61792",
+    "CVE-2026-55227"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weblate"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

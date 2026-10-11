@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-72558"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "civicrm"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
