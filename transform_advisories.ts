@@ -53,13 +53,29 @@ interface TrackerPaginatedIssueList {
 const USER_AGENT = "nixpkgs-security-advisory-osv-bot";
 
 const ISSUES_API_URL = "https://tracker.security.nixos.org/api/v1/issues";
-const ISSUE_CODE_PATTERN = /^NIXPKGS-([0-9]{4})-[0-9]{4,19}$/;
+const ISSUE_CODE_PATTERN = /^NIXPKGS-([0-9]{4})-[0-9]{4,19}$/u;
 const SUMMARY_FALLBACK_MAX_WORDS = 10;
 const MAX_FETCH_ATTEMPTS = 5;
 const DEFAULT_RETRY_DELAY_SECONDS = 60;
 const DEFAULT_SYNC_WINDOW_HOURS = 72;
 const BASE_DIR_ADVISORIES =
   process.env.ADVISORIES_DIR ?? `${import.meta.dirname}/advisories`;
+
+// Shallow check of the response shape, the tracker API is trusted for the rest
+function isTrackerPaginatedIssueList(
+  value: unknown,
+): value is TrackerPaginatedIssueList {
+  return (
+    typeof value === "object" &&
+    value !== null &&
+    "count" in value &&
+    typeof value.count === "number" &&
+    "next" in value &&
+    (value.next === null || typeof value.next === "string") &&
+    "results" in value &&
+    Array.isArray(value.results)
+  );
+}
 
 async function fetchIssuesPage(
   page: number,
@@ -77,15 +93,20 @@ async function fetchIssuesPage(
       },
     });
     if (response.ok) {
-      return (await response.json()) as TrackerPaginatedIssueList;
+      const body: unknown = await response.json();
+      if (!isTrackerPaginatedIssueList(body)) {
+        throw new TypeError(`Unexpected response body on ${url}`);
+      }
+      return body;
     }
     if (response.status !== 429 || attempt >= MAX_FETCH_ATTEMPTS) {
       throw new Error(`HTTP error on ${url}, status: ${response.status}`);
     }
-    const retry_after = parseInt(response.headers.get("Retry-After") ?? "", 10);
-    const retry_delay_seconds = isNaN(retry_after)
-      ? DEFAULT_RETRY_DELAY_SECONDS
-      : retry_after;
+    // Only the delay-seconds form of Retry-After is supported, not the HTTP-date one
+    const retry_after = response.headers.get("Retry-After")?.trim() ?? "";
+    const retry_delay_seconds = /^[0-9]+$/u.test(retry_after)
+      ? Number(retry_after)
+      : DEFAULT_RETRY_DELAY_SECONDS;
     info(`Rate limited, retrying in ${retry_delay_seconds}s`);
     await setTimeout(retry_delay_seconds * 1000);
   }
@@ -94,7 +115,7 @@ async function fetchIssuesPage(
 function toSecondPrecisionISOString(timestamp: number): string {
   const date = new Date(timestamp);
   if (isNaN(date.getTime())) {
-    throw new Error(`Invalid timestamp: ${timestamp}`);
+    throw new RangeError(`Invalid timestamp: ${timestamp}`);
   }
   // Keep a precision to the second, consistent with previously generated advisories
   date.setUTCMilliseconds(0);
@@ -136,7 +157,7 @@ function getSummary(issue: TrackerIssue): string {
   // Same fallback as the tracker web UI: the truncated CVE description
   const description_words = (first_suggestion.description ?? "")
     .trim()
-    .split(/\s+/)
+    .split(/\s+/u)
     .filter((word) => word !== "");
   if (description_words.length <= SUMMARY_FALLBACK_MAX_WORDS) {
     return description_words.join(" ");
@@ -214,7 +235,7 @@ function transformIssue(issue: TrackerIssue): void {
     ],
   };
 
-  if (issue.github_issue_url) {
+  if (issue.github_issue_url !== null && issue.github_issue_url !== "") {
     osv_advisory.references.push({ type: "WEB", url: issue.github_issue_url });
   }
 
@@ -276,6 +297,6 @@ try {
       : new Date(Date.now() - sync_window_hours * 60 * 60 * 1000);
   await fetchAndTransformIssues(created_after);
 } catch (e) {
-  setFailed(`Could not fetch and transform issues: ${e}`);
+  setFailed(`Could not fetch and transform issues: ${String(e)}`);
   throw e;
 }
