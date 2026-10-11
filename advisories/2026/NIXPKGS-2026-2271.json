@@ -1,13 +1,33 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2271",
-  "summary": "Heap-based Buffer Overflow in GNU coreutils",
+  "summary": "coreutils: security issues <= 9.11",
   "published": "2026-07-25T16:32:11.000Z",
   "modified": "2026-07-25T16:32:11.000Z",
   "upstream": [
-    "CVE-2026-56392"
+    "CVE-2026-56392",
+    "CVE-2026-56391"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "coreutils"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "coreutils-full"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "coreutils-prefixed"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

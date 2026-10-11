@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-48708"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "olivetin"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "olivetin-3k"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

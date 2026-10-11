@@ -1,13 +1,32 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2243",
-  "summary": "n8n before 1.123.64 Stored DOM XSS via cachedResultUrl",
+  "summary": "n8n: security issues < 2.29.8",
   "published": "2026-07-23T19:10:04.000Z",
   "modified": "2026-07-23T19:10:04.000Z",
   "upstream": [
-    "CVE-2026-65592"
+    "CVE-2026-65592",
+    "CVE-2026-65595",
+    "CVE-2026-65597",
+    "CVE-2026-65598",
+    "CVE-2026-65596",
+    "CVE-2026-65589",
+    "CVE-2026-65015",
+    "CVE-2026-65593",
+    "CVE-2026-65594",
+    "CVE-2026-65591",
+    "CVE-2026-65590",
+    "CVE-2026-65599",
+    "CVE-2026-65016"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2405",
-  "summary": "Windmill Labs Windmill - Missing Authorization",
+  "summary": "windmill: security issues < 1.783.0",
   "published": "2026-08-13T07:36:05.000Z",
   "modified": "2026-08-13T07:36:05.000Z",
   "upstream": [
-    "CVE-2026-72541"
+    "CVE-2026-72541",
+    "CVE-2026-72542",
+    "CVE-2026-72539"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "windmill"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

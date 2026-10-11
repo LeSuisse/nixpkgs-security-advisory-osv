@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-42450"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opencolorio"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

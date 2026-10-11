@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-58051"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libssh2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

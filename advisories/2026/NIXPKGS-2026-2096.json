@@ -1,13 +1,51 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2096",
-  "summary": "In sshd in OpenSSH before 10.4, DisableForwarding=yes was supposed to …",
+  "summary": "openssh: security issues < 10.4",
   "published": "2026-07-09T08:42:05.000Z",
   "modified": "2026-07-09T08:42:05.000Z",
   "upstream": [
-    "CVE-2026-59999"
+    "CVE-2026-59999",
+    "CVE-2026-60002",
+    "CVE-2026-59995",
+    "CVE-2026-59996",
+    "CVE-2026-60001",
+    "CVE-2026-60000",
+    "CVE-2026-59998",
+    "CVE-2026-59997"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssh"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssh_hpn"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssh_gssapi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opensshWithKerberos"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssh_hpnWithKerberos"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

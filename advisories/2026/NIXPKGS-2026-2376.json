@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-19079"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "policycoreutils"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "selinuxPackages.policycoreutils"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

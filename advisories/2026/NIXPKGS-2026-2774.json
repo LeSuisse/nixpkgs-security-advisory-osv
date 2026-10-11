@@ -1,13 +1,28 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2774",
-  "summary": "OpenClaw before 2026.7.1 Authentication Bypass via Memory Dreaming",
+  "summary": "openclaw: security issues < 2026.7.1",
   "published": "2026-09-27T21:15:31.000Z",
   "modified": "2026-09-27T21:15:31.000Z",
   "upstream": [
-    "CVE-2026-100592"
+    "CVE-2026-100592",
+    "CVE-2026-100587",
+    "CVE-2026-100586",
+    "CVE-2026-100597",
+    "CVE-2026-100580",
+    "CVE-2026-100590",
+    "CVE-2026-100599",
+    "CVE-2026-100591",
+    "CVE-2026-100589"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openclaw"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

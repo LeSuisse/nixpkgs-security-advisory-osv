@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-54761"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traefik"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

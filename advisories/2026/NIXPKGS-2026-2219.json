@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-63087"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "grafanaPlugins.grafana-oncall-app"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

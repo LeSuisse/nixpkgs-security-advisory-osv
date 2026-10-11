@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-14895"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.StringUtil"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.StringUtil"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

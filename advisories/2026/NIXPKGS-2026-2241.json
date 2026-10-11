@@ -1,13 +1,55 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2241",
-  "summary": "DNS Cookie bypass when combined with proxy-protocol use",
+  "summary": "unbound: security issues < 1.25.2",
   "published": "2026-07-23T19:00:16.000Z",
   "modified": "2026-07-23T19:00:16.000Z",
   "upstream": [
-    "CVE-2026-54478"
+    "CVE-2026-54478",
+    "CVE-2026-50251",
+    "CVE-2026-50045",
+    "CVE-2026-44690",
+    "CVE-2026-44621",
+    "CVE-2026-56416",
+    "CVE-2026-55991",
+    "CVE-2026-40691",
+    "CVE-2026-46582",
+    "CVE-2026-56444",
+    "CVE-2026-55717",
+    "CVE-2026-55708",
+    "CVE-2026-50248",
+    "CVE-2026-55990",
+    "CVE-2026-32665",
+    "CVE-2026-50252",
+    "CVE-2026-14586",
+    "CVE-2026-50243",
+    "CVE-2026-55973",
+    "CVE-2026-44687",
+    "CVE-2026-42955",
+    "CVE-2026-52863",
+    "CVE-2026-50046",
+    "CVE-2026-41637"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "unbound"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "unbound-full"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "unbound-with-systemd"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

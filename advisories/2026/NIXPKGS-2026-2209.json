@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-62294"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "flameshot"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

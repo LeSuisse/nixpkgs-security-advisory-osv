@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-19017"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "consul"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

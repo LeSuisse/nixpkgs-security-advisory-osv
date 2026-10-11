@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2153",
-  "summary": "In JetBrains YouTrack before 2026.2.17394 stored XSS via article titles …",
+  "summary": "youtrack: security issues < 2026.2.17394",
   "published": "2026-07-15T07:05:52.000Z",
   "modified": "2026-07-15T07:05:52.000Z",
   "upstream": [
-    "CVE-2026-61492"
+    "CVE-2026-61492",
+    "CVE-2026-59791"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "youtrack"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

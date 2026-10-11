@@ -1,13 +1,37 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2148",
-  "summary": "Snipe-IT: Incorrect permission for legacy license checkin API",
+  "summary": "snipe-it: security issues < 8.6.2",
   "published": "2026-07-15T06:56:21.000Z",
   "modified": "2026-07-15T06:56:21.000Z",
   "upstream": [
-    "CVE-2026-55479"
+    "CVE-2026-55479",
+    "CVE-2026-55476",
+    "CVE-2026-55516",
+    "CVE-2026-55466",
+    "CVE-2026-55481",
+    "CVE-2026-55843",
+    "CVE-2026-55515",
+    "CVE-2026-55464",
+    "CVE-2026-55461",
+    "CVE-2026-55452",
+    "CVE-2026-55474",
+    "CVE-2026-55460",
+    "CVE-2026-55475",
+    "CVE-2026-55478",
+    "CVE-2026-54329",
+    "CVE-2026-55469",
+    "CVE-2026-55472",
+    "CVE-2026-55462"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "snipe-it"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

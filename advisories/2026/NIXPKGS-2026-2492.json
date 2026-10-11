@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-84857"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "aichat"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

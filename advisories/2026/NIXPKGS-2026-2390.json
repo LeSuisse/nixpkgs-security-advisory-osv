@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-72564"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fosrl-pangolin"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

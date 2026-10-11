@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2672",
-  "summary": "Mojolicious: CSRF tokens are vulnerable to BREACH attacks",
+  "summary": "perlPackages.Mojolicious: security issues < 9.48",
   "published": "2026-09-19T10:37:58.000Z",
   "modified": "2026-09-19T10:37:58.000Z",
   "upstream": [
-    "CVE-2026-77568"
+    "CVE-2026-77568",
+    "CVE-2026-68914"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.Mojolicious"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.Mojolicious"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

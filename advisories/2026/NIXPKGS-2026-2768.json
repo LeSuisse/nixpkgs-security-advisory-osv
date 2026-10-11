@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2768",
-  "summary": "RustDesk before 1.5.0 One-Way File Transfer Bypass",
+  "summary": "rust desk: security issues < 1.5.0",
   "published": "2026-09-26T09:47:13.000Z",
   "modified": "2026-09-26T09:47:13.000Z",
   "upstream": [
-    "CVE-2026-100417"
+    "CVE-2026-100417",
+    "CVE-2026-100388"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rustdesk"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

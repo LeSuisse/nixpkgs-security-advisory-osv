@@ -1,13 +1,31 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2240",
-  "summary": "Uncontrolled Recursion in Elasticsearch Leading to Denial of Service",
+  "summary": "elasticsearch: security issues < 9.3.4",
   "published": "2026-07-22T21:03:43.000Z",
   "modified": "2026-07-22T21:03:43.000Z",
   "upstream": [
-    "CVE-2026-63144"
+    "CVE-2026-63144",
+    "CVE-2026-56145",
+    "CVE-2026-63263",
+    "CVE-2026-56144",
+    "CVE-2026-63140",
+    "CVE-2026-63136"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "elasticsearch"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "elasticsearch7"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

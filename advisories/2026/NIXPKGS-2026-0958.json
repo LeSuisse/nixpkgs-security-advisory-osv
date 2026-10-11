@@ -2,8 +2,8 @@
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-0958",
   "summary": "Tandoor Recipes Affected by Private Recipe Exposure and Unauthorized Modification",
-  "published": "2026-04-08T11:56:48.000Z",
-  "modified": "2026-04-08T11:56:48.000Z",
+  "published": "2026-04-08T11:56:11.000Z",
+  "modified": "2026-04-22T08:04:23.000Z",
   "upstream": [
     "CVE-2026-35045"
   ],

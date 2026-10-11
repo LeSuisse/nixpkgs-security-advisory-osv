@@ -1,13 +1,29 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2472",
-  "summary": "Gvfs: afp: heap-based buffer overflow in dsi read path",
+  "summary": "gvfs: security issues < 1.61.90",
   "published": "2026-09-02T10:03:57.000Z",
   "modified": "2026-09-02T10:03:57.000Z",
   "upstream": [
-    "CVE-2026-84269"
+    "CVE-2026-84269",
+    "CVE-2026-84268",
+    "CVE-2026-84267",
+    "CVE-2026-84270"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gvfs"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gnome.gvfs"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

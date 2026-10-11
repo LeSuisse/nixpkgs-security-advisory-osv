@@ -1,13 +1,54 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1994",
-  "summary": "pnpm: manifest identity spoof satisfies allowBuilds and runs attacker lifecycle",
+  "summary": "pnpm: security issues < 11.5.3, < 10.34.2",
   "published": "2026-06-26T10:40:47.000Z",
   "modified": "2026-06-26T10:40:47.000Z",
   "upstream": [
-    "CVE-2026-55487"
+    "CVE-2026-55487",
+    "CVE-2026-55700",
+    "CVE-2026-55698",
+    "CVE-2026-55180",
+    "CVE-2026-55697"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pnpm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pnpm_8"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pnpm_9"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pnpm_10"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pnpm_11"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pnpm_10_29_2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

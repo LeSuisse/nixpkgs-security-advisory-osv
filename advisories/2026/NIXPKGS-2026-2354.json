@@ -1,13 +1,60 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2354",
-  "summary": "Unescaped deployment environment variables in generated setup commands",
+  "summary": "livebook: security issues < 0.19.9",
   "published": "2026-08-06T06:51:45.000Z",
   "modified": "2026-08-06T06:51:45.000Z",
   "upstream": [
-    "CVE-2026-66297"
+    "CVE-2026-66297",
+    "CVE-2026-66885",
+    "CVE-2026-68746",
+    "CVE-2026-66881",
+    "CVE-2026-66298"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "livebook"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "beam27Packages.livebook"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "beam28Packages.livebook"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "beam29Packages.livebook"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "beamMinimal27Packages.livebook"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "beamMinimal28Packages.livebook"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "beamMinimal29Packages.livebook"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

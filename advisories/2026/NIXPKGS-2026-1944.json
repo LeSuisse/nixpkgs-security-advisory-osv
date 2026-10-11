@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-39199"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "snes9x"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "snes9x-gtk"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

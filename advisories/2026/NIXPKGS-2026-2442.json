@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-46439"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.compliance-trestle"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.compliance-trestle"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

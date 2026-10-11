@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-47667"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cimg"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

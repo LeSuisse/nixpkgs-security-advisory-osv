@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-59151"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "prowler"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-55668"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "filebrowser"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

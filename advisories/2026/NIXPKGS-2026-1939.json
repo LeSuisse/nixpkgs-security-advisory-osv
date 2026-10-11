@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1939",
-  "summary": "Starlette: SSRF and NTLM credential theft via UNC paths in StaticFiles on Windows",
+  "summary": "Python Starlette: security issues < 1.1.0",
   "published": "2026-06-18T08:12:07.000Z",
   "modified": "2026-06-18T08:12:07.000Z",
   "upstream": [
-    "CVE-2026-48818"
+    "CVE-2026-48818",
+    "CVE-2026-48817"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.starlette"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.starlette"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,29 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1956",
-  "summary": "Python-Multipart: Content-Disposition parameter smuggling via RFC 2231/5987 extended parameters",
+  "summary": "python-multipart: security issues < 0.0.31",
   "published": "2026-06-23T06:15:51.000Z",
   "modified": "2026-06-23T06:15:51.000Z",
   "upstream": [
-    "CVE-2026-53537"
+    "CVE-2026-53537",
+    "CVE-2026-53538",
+    "CVE-2026-53539",
+    "CVE-2026-53540"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.python-multipart"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.python-multipart"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

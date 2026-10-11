@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2327",
-  "summary": "Date::Manip versions through 6.99 for Perl allow CPU exhaustion via quadratic backtracking in the unanchored time substitution in _parse_time",
+  "summary": "perlPackages.DateManip: security issues <= 6.99",
   "published": "2026-07-31T12:04:40.000Z",
   "modified": "2026-07-31T12:04:40.000Z",
   "upstream": [
-    "CVE-2026-60075"
+    "CVE-2026-60075",
+    "CVE-2026-60074"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.DateManip"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.DateManip"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

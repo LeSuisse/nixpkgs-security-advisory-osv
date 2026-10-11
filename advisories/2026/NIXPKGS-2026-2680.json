@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-75883"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ppp"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

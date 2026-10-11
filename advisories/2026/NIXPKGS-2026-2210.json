@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-15714"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsoup_3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsoup_2_4"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

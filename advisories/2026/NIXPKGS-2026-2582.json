@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-55253"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.langgraph-store-mongodb"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.langgraph-store-mongodb"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

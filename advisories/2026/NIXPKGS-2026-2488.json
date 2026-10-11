@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-84837"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rpm"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

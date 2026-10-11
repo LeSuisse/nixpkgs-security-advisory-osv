@@ -1,13 +1,23 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1883",
-  "summary": "Routinator cache path traversal using rogue rsync URIs",
+  "summary": "Routinator: 0.15.2 security release",
   "published": "2026-06-09T08:00:08.000Z",
   "modified": "2026-06-09T08:00:08.000Z",
   "upstream": [
-    "CVE-2026-49233"
+    "CVE-2026-49234",
+    "CVE-2026-49233",
+    "CVE-2026-49232",
+    "CVE-2026-49235"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "routinator"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

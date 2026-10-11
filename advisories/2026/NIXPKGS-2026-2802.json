@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-19444"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kubernetes"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

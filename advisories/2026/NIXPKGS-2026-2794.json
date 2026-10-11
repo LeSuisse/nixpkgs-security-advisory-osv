@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2794",
-  "summary": "DBI versions before 1.654 for Perl incorrectly treat numeric values as strings in FetchHashKeyName",
+  "summary": "perlPackages.DBI: security issues < 1.654",
   "published": "2026-09-29T06:02:50.000Z",
   "modified": "2026-09-29T06:02:50.000Z",
   "upstream": [
-    "CVE-2026-88816"
+    "CVE-2026-88816",
+    "CVE-2026-88815"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.DBI"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.DBI"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-58459"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gpsd"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

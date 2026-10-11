@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-66007"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.datasets"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.datasets"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

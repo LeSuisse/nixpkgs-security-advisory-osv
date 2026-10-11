@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2407",
-  "summary": "Tesseract: Heap OOB read in the DAWG loader",
+  "summary": "tesseract: security issues < 5.5.3 (needs backport)",
   "published": "2026-08-13T08:00:56.000Z",
   "modified": "2026-08-13T08:00:56.000Z",
   "upstream": [
-    "CVE-2026-73067"
+    "CVE-2026-73067",
+    "CVE-2026-73066"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tesseract"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tesseract5"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

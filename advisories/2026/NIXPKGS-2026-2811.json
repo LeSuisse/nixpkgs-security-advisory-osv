@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-100892"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ueransim"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

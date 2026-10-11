@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-62364"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wlc"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

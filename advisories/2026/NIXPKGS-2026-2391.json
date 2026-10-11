@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-72913"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kitty"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kitty-bin"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

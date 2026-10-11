@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-82805"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "typora"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

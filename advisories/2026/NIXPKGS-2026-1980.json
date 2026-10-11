@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-49851"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.mistune"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.mistune"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.mistune"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

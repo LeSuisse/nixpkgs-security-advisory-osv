@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-56783"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "parseable"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

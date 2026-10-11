@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-47780"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "free5gc-udr"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

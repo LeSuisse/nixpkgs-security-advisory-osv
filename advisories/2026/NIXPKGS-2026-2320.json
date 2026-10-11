@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-55995"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openiscsi"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

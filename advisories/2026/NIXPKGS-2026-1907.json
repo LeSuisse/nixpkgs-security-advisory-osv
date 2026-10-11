@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-53689"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libnfs"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

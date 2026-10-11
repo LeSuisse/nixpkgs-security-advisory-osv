@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-16730"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dbus-broker"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

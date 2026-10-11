@@ -1,13 +1,26 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2525",
-  "summary": "abort() in libpcap before 1.10.7 on an invalid BPF opcode",
+  "summary": "libpcap: security issues < 1.10.7",
   "published": "2026-09-06T11:22:30.000Z",
   "modified": "2026-09-06T11:22:30.000Z",
   "upstream": [
-    "CVE-2026-31911"
+    "CVE-2026-31911",
+    "CVE-2026-0799",
+    "CVE-2026-18238",
+    "CVE-2026-6554",
+    "CVE-2026-31912",
+    "CVE-2026-6244",
+    "CVE-2026-18313"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libpcap"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

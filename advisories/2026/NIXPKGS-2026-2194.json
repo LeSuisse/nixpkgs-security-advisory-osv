@@ -1,13 +1,33 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2194",
-  "summary": "Docling Core has insufficient validation of image reference URIs",
+  "summary": "python3Packages.docling-core: security issues < 2.74.1",
   "published": "2026-07-21T10:53:35.000Z",
   "modified": "2026-07-21T10:53:35.000Z",
   "upstream": [
-    "CVE-2026-44019"
+    "CVE-2026-44019",
+    "CVE-2026-44023"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.docling-core"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.docling-core"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.docling-core"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

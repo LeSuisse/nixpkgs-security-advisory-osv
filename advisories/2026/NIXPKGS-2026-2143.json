@@ -1,13 +1,31 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2143",
-  "summary": "OpenClaw 2026.3.22 < 2026.6.6 Authorization Bypass via WhatsApp Group IDs",
+  "summary": "openclaw: security issues < 2026.6.9",
   "published": "2026-07-15T06:20:37.000Z",
   "modified": "2026-07-15T06:20:37.000Z",
   "upstream": [
-    "CVE-2026-62196"
+    "CVE-2026-62196",
+    "CVE-2026-62190",
+    "CVE-2026-62197",
+    "CVE-2026-62193",
+    "CVE-2026-62195",
+    "CVE-2026-62194",
+    "CVE-2026-62198",
+    "CVE-2026-62200",
+    "CVE-2026-62192",
+    "CVE-2026-62191",
+    "CVE-2026-62189",
+    "CVE-2026-62199"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openclaw"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

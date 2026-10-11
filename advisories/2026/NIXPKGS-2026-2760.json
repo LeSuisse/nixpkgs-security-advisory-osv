@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-97764"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.django-allauth"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.django-allauth"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

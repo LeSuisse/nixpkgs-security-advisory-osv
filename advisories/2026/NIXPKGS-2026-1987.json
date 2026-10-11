@@ -1,13 +1,26 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1987",
-  "summary": "File Browser: DoS Vulnerability on Public Login API",
+  "summary": "filebrowser: security issues < 2.63.14",
   "published": "2026-06-26T09:33:58.000Z",
   "modified": "2026-06-26T09:33:58.000Z",
   "upstream": [
-    "CVE-2026-54092"
+    "CVE-2026-54092",
+    "CVE-2026-54096",
+    "CVE-2026-54097",
+    "CVE-2026-54093",
+    "CVE-2026-54091",
+    "CVE-2026-54094",
+    "CVE-2026-54088"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "filebrowser"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

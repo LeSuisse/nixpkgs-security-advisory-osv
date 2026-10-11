@@ -7,7 +7,32 @@
   "upstream": [
     "CVE-2026-11702"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.BytesRandomSecureTiny"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.BytesRandomSecureTiny"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.BytesRandomSecureTiny"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.BytesRandomSecureTiny"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

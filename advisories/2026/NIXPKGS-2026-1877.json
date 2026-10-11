@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-47707"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.strawberry-graphql"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.strawberry-graphql"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

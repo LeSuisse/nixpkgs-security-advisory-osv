@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2009-10007"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.CatalystPluginAuthentication"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.CatalystPluginAuthentication"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

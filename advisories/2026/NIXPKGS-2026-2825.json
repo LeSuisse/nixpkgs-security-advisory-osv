@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-84783"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_4_0"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

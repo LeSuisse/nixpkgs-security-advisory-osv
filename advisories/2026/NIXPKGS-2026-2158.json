@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-15028"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libarchive"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,28 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2597",
-  "summary": "Tornado before 6.5.7 Credential Leak via Handle Reuse",
+  "summary": "python3Packages.tornado: security issues < 6.5.8",
   "published": "2026-09-16T11:34:18.000Z",
   "modified": "2026-09-16T11:34:18.000Z",
   "upstream": [
-    "CVE-2026-91992"
+    "CVE-2026-91992",
+    "CVE-2026-91990",
+    "CVE-2026-91991"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.tornado"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.tornado"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

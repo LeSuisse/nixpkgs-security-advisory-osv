@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-77399"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.icalendar"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.icalendar"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

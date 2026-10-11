@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-48777"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "filebrowser-quantum"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

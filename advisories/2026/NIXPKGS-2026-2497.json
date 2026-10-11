@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-85458"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "xpdf"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

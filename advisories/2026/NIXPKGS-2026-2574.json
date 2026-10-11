@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-19624"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "networkmanager-l2tp"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

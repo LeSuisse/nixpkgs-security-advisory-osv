@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-14790"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gpac"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gpac-unstable"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

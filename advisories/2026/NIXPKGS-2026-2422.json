@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-19516"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mcp-grafana"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

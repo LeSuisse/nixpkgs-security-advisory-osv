@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2670",
-  "summary": "Perses project query parameter authorization bypass exposes cross-project resources",
+  "summary": "perses: security issues < 0.54.0-rc.0",
   "published": "2026-09-19T10:24:16.000Z",
   "modified": "2026-09-19T10:24:16.000Z",
   "upstream": [
-    "CVE-2026-63458"
+    "CVE-2026-63458",
+    "CVE-2026-63199",
+    "CVE-2026-63445"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perses"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

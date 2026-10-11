@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-15520"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libredwg"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.libredwg"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.libredwg"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

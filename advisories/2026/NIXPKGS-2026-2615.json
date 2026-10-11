@@ -1,13 +1,40 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2615",
-  "summary": "'serve-expired' can bypass Unbound 'wait-limit'",
+  "summary": "unbound: security issues < 1.26.1",
   "published": "2026-09-17T09:38:31.000Z",
   "modified": "2026-09-17T09:38:31.000Z",
   "upstream": [
-    "CVE-2026-77860"
+    "CVE-2026-77860",
+    "CVE-2026-80225",
+    "CVE-2026-85501",
+    "CVE-2026-81642",
+    "CVE-2026-77955",
+    "CVE-2026-81634",
+    "CVE-2026-78227",
+    "CVE-2026-82720",
+    "CVE-2026-82717"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "unbound"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "unbound-full"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "unbound-with-systemd"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

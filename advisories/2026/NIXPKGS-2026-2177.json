@@ -1,13 +1,29 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2177",
-  "summary": "xrdp: Out-of-bounds read in GCC Conference Create Request CS_SECURITY processing (xrdp_sec_process_mcs_data_CS_SECURITY)",
+  "summary": "xrdp: security issues < 0.10.6.1",
   "published": "2026-07-21T10:17:28.000Z",
   "modified": "2026-07-21T10:17:28.000Z",
   "upstream": [
-    "CVE-2026-55639"
+    "CVE-2026-55639",
+    "CVE-2026-54538",
+    "CVE-2026-55645",
+    "CVE-2026-41521",
+    "CVE-2026-44178",
+    "CVE-2026-55626",
+    "CVE-2026-44978",
+    "CVE-2026-42218",
+    "CVE-2026-41252",
+    "CVE-2026-55238"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "xrdp"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-73232"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ffuf"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

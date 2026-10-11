@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-82623"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open62541"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

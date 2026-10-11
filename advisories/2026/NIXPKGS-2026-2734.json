@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-92730"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "limesurvey"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

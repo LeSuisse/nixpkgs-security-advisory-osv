@@ -7,7 +7,32 @@
   "upstream": [
     "CVE-2026-70606"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "electron"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "electron_40"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "electron-bin"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "electron_40-bin"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

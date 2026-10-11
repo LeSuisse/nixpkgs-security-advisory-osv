@@ -1,13 +1,23 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1989",
-  "summary": "Out of bounds stack write with crafted APL RR",
+  "summary": "nsd: security issues < 4.14.3",
   "published": "2026-06-26T09:38:57.000Z",
   "modified": "2026-06-26T09:38:57.000Z",
   "upstream": [
-    "CVE-2026-12246"
+    "CVE-2026-12246",
+    "CVE-2026-12244",
+    "CVE-2026-12490",
+    "CVE-2026-12245"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nsd"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

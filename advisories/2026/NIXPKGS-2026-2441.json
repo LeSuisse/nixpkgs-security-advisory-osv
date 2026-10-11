@@ -1,13 +1,31 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2441",
-  "summary": "rsync < 3.5.0 Path Confinement Bypass via /./ Boundary Marker in Chroot Mode",
+  "summary": "rsync: security issues < 3.5.0 (part 2)",
   "published": "2026-08-15T15:47:54.000Z",
   "modified": "2026-08-15T15:47:54.000Z",
   "upstream": [
-    "CVE-2026-53793"
+    "CVE-2026-53793",
+    "CVE-2026-70461",
+    "CVE-2026-53797",
+    "CVE-2026-53800",
+    "CVE-2026-70463",
+    "CVE-2026-53785",
+    "CVE-2026-53790",
+    "CVE-2026-53788",
+    "CVE-2026-53796",
+    "CVE-2026-53795",
+    "CVE-2026-70459",
+    "CVE-2026-53794"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rsync"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-68770"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.sentence-transformers"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.sentence-transformers"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.sentence-transformers"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

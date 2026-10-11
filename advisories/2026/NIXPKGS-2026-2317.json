@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-56389"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bison"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "minimal-bootstrap.bison"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2558",
-  "summary": "GoBGP confederation validation panics on empty AS_PATH attribute",
+  "summary": "gobgp: security issues < 4.7.0 (backport needed)",
   "published": "2026-09-11T06:56:45.000Z",
   "modified": "2026-09-11T06:56:45.000Z",
   "upstream": [
-    "CVE-2026-49838"
+    "CVE-2026-49838",
+    "CVE-2026-49837"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gobgp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gobgpd"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

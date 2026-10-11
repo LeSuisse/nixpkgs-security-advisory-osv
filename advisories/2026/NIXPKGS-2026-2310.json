@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-52791"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fuse-overlayfs"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

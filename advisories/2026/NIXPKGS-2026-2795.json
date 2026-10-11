@@ -1,13 +1,23 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2795",
-  "summary": "Flatpak: flatpak: arbitrary file deletion in root context via path traversal in deploy directory export/bin",
+  "summary": "flatpak: security issues < 1.18.4",
   "published": "2026-09-29T06:03:51.000Z",
   "modified": "2026-09-29T06:03:51.000Z",
   "upstream": [
-    "CVE-2026-97023"
+    "CVE-2026-97023",
+    "CVE-2026-97027",
+    "CVE-2026-97026",
+    "CVE-2026-97025"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "flatpak"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

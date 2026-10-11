@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-66006"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lakefs"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

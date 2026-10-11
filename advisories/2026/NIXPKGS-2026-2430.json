@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-49349"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "regclient"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

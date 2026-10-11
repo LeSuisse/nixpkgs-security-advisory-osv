@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-86320"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "flatpak-builder"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

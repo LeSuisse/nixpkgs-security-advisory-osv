@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-73030"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.unearth"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.unearth"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

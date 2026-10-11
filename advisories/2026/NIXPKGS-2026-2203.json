@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-49476"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.soupsieve"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.soupsieve"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

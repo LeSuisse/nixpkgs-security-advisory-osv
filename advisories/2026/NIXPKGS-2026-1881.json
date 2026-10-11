@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-11463"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cereal"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-55567"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bleachbit"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

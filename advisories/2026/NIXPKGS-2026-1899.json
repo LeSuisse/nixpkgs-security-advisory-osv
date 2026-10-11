@@ -1,13 +1,53 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1899",
-  "summary": "ImageMagick: Heap Buffer Over-Write in MAT decoder on 32-bit systems",
+  "summary": "ImageMagick: security issues < 7.1.2-24",
   "published": "2026-06-11T08:16:56.000Z",
   "modified": "2026-06-11T08:16:56.000Z",
   "upstream": [
-    "CVE-2026-48994"
+    "CVE-2026-48994",
+    "CVE-2026-48724",
+    "CVE-2026-47712",
+    "CVE-2026-48733",
+    "CVE-2026-49219",
+    "CVE-2026-42563",
+    "CVE-2026-49218",
+    "CVE-2026-48734",
+    "CVE-2026-47734",
+    "CVE-2026-52726"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagickBig"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "imagemagick_light"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.dulwich"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.dulwich"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

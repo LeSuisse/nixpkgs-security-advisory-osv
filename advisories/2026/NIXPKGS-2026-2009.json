@@ -1,13 +1,37 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2009",
-  "summary": "Envoy crashes if multiple unexpected ext_proc responses are packed into one gRPC message",
+  "summary": "envoy, envoy-bin: security issues < 1.36.9, < 1.38.3, < 1.37.5",
   "published": "2026-06-27T08:31:14.000Z",
   "modified": "2026-06-27T08:31:14.000Z",
   "upstream": [
-    "CVE-2026-47207"
+    "CVE-2026-47207",
+    "CVE-2026-47205",
+    "CVE-2026-47778",
+    "CVE-2026-48497",
+    "CVE-2026-48042",
+    "CVE-2026-48706",
+    "CVE-2026-48743",
+    "CVE-2026-47692",
+    "CVE-2026-47204",
+    "CVE-2026-47775",
+    "CVE-2026-48044",
+    "CVE-2026-47221"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "envoy"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "envoy-bin"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2387",
-  "summary": "Metabase information exposure",
+  "summary": "metabase: security issues < 0.59.21",
   "published": "2026-08-11T08:30:46.000Z",
   "modified": "2026-08-11T08:30:46.000Z",
   "upstream": [
-    "CVE-2026-72900"
+    "CVE-2026-72900",
+    "CVE-2026-72899",
+    "CVE-2026-72898"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "metabase"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

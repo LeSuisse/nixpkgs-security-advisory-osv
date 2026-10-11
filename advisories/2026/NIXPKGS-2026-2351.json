@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2351",
-  "summary": "pdm: Path traversal in wheel installation via overridden write_to_fs",
+  "summary": "pdm: security issues < 2.27.0 (needs a backport)",
   "published": "2026-08-05T14:06:43.000Z",
   "modified": "2026-08-05T14:06:43.000Z",
   "upstream": [
-    "CVE-2026-47764"
+    "CVE-2026-47764",
+    "CVE-2026-47781",
+    "CVE-2026-47763"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pdm"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

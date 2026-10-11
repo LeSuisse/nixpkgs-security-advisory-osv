@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2024-58386"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zoneminder"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

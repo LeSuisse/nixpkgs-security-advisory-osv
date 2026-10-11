@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2147",
-  "summary": "FreeRDP: Integer overflow leading to heap buffer overflow in Orders Delta Points parsing",
+  "summary": "freerdp: security issues < 3.28.0",
   "published": "2026-07-15T06:53:14.000Z",
   "modified": "2026-07-15T06:53:14.000Z",
   "upstream": [
-    "CVE-2026-57156"
+    "CVE-2026-57156",
+    "CVE-2026-57158",
+    "CVE-2026-57157"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

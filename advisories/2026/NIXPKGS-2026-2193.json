@@ -1,13 +1,29 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2193",
-  "summary": "YAML::Syck versions before 1.47 for Perl allow a use-after-free and double-free via an anchor node freed while still on the parser value stack",
+  "summary": "perlPackages.YAMLSyck: security issues < 1.47",
   "published": "2026-07-21T10:52:18.000Z",
   "modified": "2026-07-21T10:52:18.000Z",
   "upstream": [
-    "CVE-2026-13713"
+    "CVE-2026-13713",
+    "CVE-2026-57077",
+    "CVE-2026-57075",
+    "CVE-2026-57076"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.YAMLSyck"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.YAMLSyck"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

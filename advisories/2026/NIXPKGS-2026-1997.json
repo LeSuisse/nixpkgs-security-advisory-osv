@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1997",
-  "summary": "jq: stack overflow in deep structural equality",
+  "summary": "jq: security issues < 1.8.2",
   "published": "2026-06-26T10:49:03.000Z",
   "modified": "2026-06-26T10:49:03.000Z",
   "upstream": [
-    "CVE-2026-47770"
+    "CVE-2026-47770",
+    "CVE-2026-54679",
+    "CVE-2026-49839"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jq"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

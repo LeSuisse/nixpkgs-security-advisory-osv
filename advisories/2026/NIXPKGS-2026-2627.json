@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-92786"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lightgbm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.lightgbm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.lightgbm"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

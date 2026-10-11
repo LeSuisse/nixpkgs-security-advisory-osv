@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-10649"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pacemaker"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

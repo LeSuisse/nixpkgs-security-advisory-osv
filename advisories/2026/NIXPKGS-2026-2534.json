@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-86227"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "valkey"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

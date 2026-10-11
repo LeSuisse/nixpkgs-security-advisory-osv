@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-9537"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.MojoJWT"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.MojoJWT"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

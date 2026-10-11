@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-56285"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nitter"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

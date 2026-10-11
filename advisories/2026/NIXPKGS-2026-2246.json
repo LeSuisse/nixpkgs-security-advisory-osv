@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-53910"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "diffutils"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "minimal-bootstrap.diffutils"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "minimal-bootstrap.diffutils-static"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

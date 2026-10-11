@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-57965"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "spice-vdagent"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

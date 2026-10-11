@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-101091"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

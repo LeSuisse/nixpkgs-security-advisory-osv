@@ -1,13 +1,23 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2484",
-  "summary": "Kimai before 2.65.0 Authorization Bypass via API Timesheet",
+  "summary": "kimai: security issues < 2.65.0 (backport needed)",
   "published": "2026-09-03T11:40:19.000Z",
   "modified": "2026-09-03T11:40:19.000Z",
   "upstream": [
-    "CVE-2026-84808"
+    "CVE-2026-84808",
+    "CVE-2026-84807",
+    "CVE-2026-84804",
+    "CVE-2026-84806"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kimai"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

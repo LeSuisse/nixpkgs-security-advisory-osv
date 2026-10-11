@@ -1,13 +1,41 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2536",
-  "summary": "In JetBrains YouTrack before 2026.2.18112 an authenticated user could enumerate …",
+  "summary": "youtrack: security issues < 2026.2.18788",
   "published": "2026-09-08T06:26:25.000Z",
   "modified": "2026-09-08T06:26:25.000Z",
   "upstream": [
-    "CVE-2026-75046"
+    "CVE-2026-75046",
+    "CVE-2026-75045",
+    "CVE-2026-86493",
+    "CVE-2026-75048",
+    "CVE-2026-75044",
+    "CVE-2026-86488",
+    "CVE-2026-86484",
+    "CVE-2026-86495",
+    "CVE-2026-86487",
+    "CVE-2026-86479",
+    "CVE-2026-86491",
+    "CVE-2026-86486",
+    "CVE-2026-86483",
+    "CVE-2026-86496",
+    "CVE-2026-86490",
+    "CVE-2026-86482",
+    "CVE-2026-86497",
+    "CVE-2026-86485",
+    "CVE-2026-86481",
+    "CVE-2026-86492",
+    "CVE-2026-86494",
+    "CVE-2026-86489"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "youtrack"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

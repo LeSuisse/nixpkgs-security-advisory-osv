@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-56115"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dhcpcd"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

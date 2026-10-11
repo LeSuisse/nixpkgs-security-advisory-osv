@@ -1,13 +1,24 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2748",
-  "summary": "authentik: MFA Bypass via State Confusion / Parameter Injection in AuthenticatorEmailStage",
+  "summary": "authentik: security issues < 2026.5.7",
   "published": "2026-09-25T09:41:12.000Z",
   "modified": "2026-09-25T09:41:12.000Z",
   "upstream": [
-    "CVE-2026-94606"
+    "CVE-2026-94606",
+    "CVE-2026-94613",
+    "CVE-2026-94611",
+    "CVE-2026-94609",
+    "CVE-2026-94612"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "authentik"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

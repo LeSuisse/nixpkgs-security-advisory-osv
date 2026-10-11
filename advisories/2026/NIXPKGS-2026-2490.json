@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-84377"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "litellm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.litellm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.litellm"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

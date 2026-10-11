@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-15035"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.openllm"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

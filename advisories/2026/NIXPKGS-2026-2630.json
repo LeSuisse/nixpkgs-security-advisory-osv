@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2630",
-  "summary": "SiYuan before 3.8.4 Cross-Site Scripting via Document Title",
+  "summary": "siyuan: security issues < 3.8.4",
   "published": "2026-09-18T08:56:43.000Z",
   "modified": "2026-09-18T08:56:43.000Z",
   "upstream": [
-    "CVE-2026-92986"
+    "CVE-2026-92986",
+    "CVE-2026-92985"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

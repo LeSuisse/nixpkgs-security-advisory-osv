@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1898",
-  "summary": "FreeSWITCH: Stack overflow in bundled cJSON parser via deeply nested JSON",
+  "summary": "FreeSWITCH: security issues below 1.11.1",
   "published": "2026-06-10T12:08:22.000Z",
   "modified": "2026-06-10T12:08:22.000Z",
   "upstream": [
-    "CVE-2026-49847"
+    "CVE-2026-49848",
+    "CVE-2026-49475",
+    "CVE-2026-49840",
+    "CVE-2026-49842",
+    "CVE-2026-49847",
+    "CVE-2026-49472",
+    "CVE-2026-49841",
+    "CVE-2026-49843"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freeswitch"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

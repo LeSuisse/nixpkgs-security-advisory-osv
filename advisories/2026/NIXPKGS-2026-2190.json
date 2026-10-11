@@ -1,13 +1,30 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2190",
-  "summary": "OpenClaw < 2026.5.22 Untrusted Plugin Loading via Setup-mode",
+  "summary": "openclaw: security issues < 2026.6.5 (backprots needed)",
   "published": "2026-07-21T10:41:52.000Z",
   "modified": "2026-07-21T10:41:52.000Z",
   "upstream": [
-    "CVE-2026-62222"
+    "CVE-2026-62222",
+    "CVE-2026-62228",
+    "CVE-2026-62220",
+    "CVE-2026-62217",
+    "CVE-2026-62221",
+    "CVE-2026-62218",
+    "CVE-2026-62227",
+    "CVE-2026-62209",
+    "CVE-2026-62229",
+    "CVE-2026-62215",
+    "CVE-2026-62207"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openclaw"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

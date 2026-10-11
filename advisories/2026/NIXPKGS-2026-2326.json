@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2326",
-  "summary": "MZ Automation lib60870 Out-of-bounds Read",
+  "summary": "lib60870: security issues < 2.4.1",
   "published": "2026-07-31T12:03:51.000Z",
   "modified": "2026-07-31T12:03:51.000Z",
   "upstream": [
-    "CVE-2026-63033"
+    "CVE-2026-63033",
+    "CVE-2026-61893"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lib60870"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

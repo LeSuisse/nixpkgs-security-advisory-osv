@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-54559"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pocketsphinx"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pocketsphinx"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pocketsphinx"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

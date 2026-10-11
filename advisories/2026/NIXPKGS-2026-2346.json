@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-69153"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postcss"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

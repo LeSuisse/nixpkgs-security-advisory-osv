@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-54634"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hamlib"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hamlib_3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hamlib_4"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

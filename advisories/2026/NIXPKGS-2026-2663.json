@@ -1,13 +1,39 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2663",
-  "summary": "vLLM before 0.29.0 Cross-Request Logits Corruption via allowed_token_ids",
+  "summary": "vllm: CVE-2026-93592 and CVE-2026-93840",
   "published": "2026-09-19T09:39:59.000Z",
   "modified": "2026-09-19T09:39:59.000Z",
   "upstream": [
-    "CVE-2026-93840"
+    "CVE-2026-93840",
+    "CVE-2026-93592"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.vllm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.vllm"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

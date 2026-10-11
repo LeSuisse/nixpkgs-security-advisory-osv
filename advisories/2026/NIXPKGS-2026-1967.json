@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-44889"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.webob"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.webob"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

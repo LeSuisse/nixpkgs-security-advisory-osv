@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-85644"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.XSParseKeyword"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.XSParseKeyword"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

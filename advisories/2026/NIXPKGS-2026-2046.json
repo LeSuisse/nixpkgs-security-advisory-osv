@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-41052"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rancher"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

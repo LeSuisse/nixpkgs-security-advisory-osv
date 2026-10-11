@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-16206"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.django-oauth-toolkit"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.django-oauth-toolkit"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

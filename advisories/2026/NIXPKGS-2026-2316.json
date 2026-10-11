@@ -7,7 +7,50 @@
   "upstream": [
     "CVE-2026-18022"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresqlPackages.pgvector"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql14Packages.pgvector"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql15Packages.pgvector"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql16Packages.pgvector"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql17Packages.pgvector"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql18Packages.pgvector"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "postgresql19Packages.pgvector"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

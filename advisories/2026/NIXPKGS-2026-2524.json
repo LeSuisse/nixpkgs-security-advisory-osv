@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2524",
-  "summary": "In xmlIO in libxml2 before 2.15.4, an inconsistency in xmlOutputWriteCallback …",
+  "summary": "libxml2: security issues < 2.15.4",
   "published": "2026-09-06T11:18:51.000Z",
   "modified": "2026-09-06T11:18:51.000Z",
   "upstream": [
-    "CVE-2026-86143"
+    "CVE-2026-86143",
+    "CVE-2026-86142",
+    "CVE-2026-86138",
+    "CVE-2026-86144",
+    "CVE-2026-86139",
+    "CVE-2026-86141",
+    "CVE-2026-86137",
+    "CVE-2026-86140"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libxml2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

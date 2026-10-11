@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-62993"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "smarty3"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-94282"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libXi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libxi"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

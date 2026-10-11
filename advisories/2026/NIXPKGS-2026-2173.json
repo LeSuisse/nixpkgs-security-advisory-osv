@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-49997"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "surrealdb"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

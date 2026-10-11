@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1949",
-  "summary": "OpenEXR HTJ2K decoder heap buffer over-read in ht_undo_impl() (DoS)",
+  "summary": "OpenEXR: security issues < 3.4.12",
   "published": "2026-06-19T08:18:25.000Z",
   "modified": "2026-06-19T08:18:25.000Z",
   "upstream": [
-    "CVE-2026-45696"
+    "CVE-2026-45696",
+    "CVE-2026-44663"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openexr"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

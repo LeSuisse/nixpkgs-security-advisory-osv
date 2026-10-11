@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-82642"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "readest"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

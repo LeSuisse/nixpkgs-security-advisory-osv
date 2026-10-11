@@ -1,13 +1,28 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2197",
-  "summary": "pyasn1: Uncontrolled resource consumption when converting decoded REAL values",
+  "summary": "python3Packages.pyasn1: security issues < 0.6.4",
   "published": "2026-07-21T11:12:39.000Z",
   "modified": "2026-07-21T11:12:39.000Z",
   "upstream": [
-    "CVE-2026-59886"
+    "CVE-2026-59886",
+    "CVE-2026-59885",
+    "CVE-2026-59884"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pyasn1"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pyasn1"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2076",
-  "summary": "ForwardAuth middleware leaks X-Forwarded-Port spoofing via untrusted X-Forwarded-Proto when trustForwardHeader=false",
+  "summary": "traefik: security issues < 3.7.6",
   "published": "2026-07-07T06:11:39.000Z",
   "modified": "2026-07-07T06:11:39.000Z",
   "upstream": [
-    "CVE-2026-54764"
+    "CVE-2026-54764",
+    "CVE-2026-54765",
+    "CVE-2026-54763"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traefik"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

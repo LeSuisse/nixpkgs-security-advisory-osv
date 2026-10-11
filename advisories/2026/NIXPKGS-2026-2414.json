@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-73246"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.kestra"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.kestra"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

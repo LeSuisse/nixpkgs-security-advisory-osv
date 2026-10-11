@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-14461"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mtr"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

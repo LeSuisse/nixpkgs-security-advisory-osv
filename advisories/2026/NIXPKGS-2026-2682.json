@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-75892"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "osmo-ggsn"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-77339"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "process-compose"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

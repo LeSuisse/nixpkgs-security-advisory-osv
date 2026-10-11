@@ -1,13 +1,28 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2198",
-  "summary": "Tornado: Out-of-bounds memory access in C extension",
+  "summary": "python3Packages.tornado: security issues < 6.5.6",
   "published": "2026-07-21T11:16:18.000Z",
   "modified": "2026-07-21T11:16:18.000Z",
   "upstream": [
-    "CVE-2026-49854"
+    "CVE-2026-49854",
+    "CVE-2026-49855",
+    "CVE-2026-49853"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.tornado"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.tornado"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

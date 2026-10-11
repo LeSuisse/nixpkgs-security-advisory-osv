@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-47766"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "crun"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,28 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2340",
-  "summary": "GitPython 3.1.50 Authentication Bypass via Joined Short Options",
+  "summary": "gitpython: security issues < 3.1.51 (needs backport)",
   "published": "2026-08-02T20:03:45.000Z",
   "modified": "2026-08-02T20:03:45.000Z",
   "upstream": [
-    "CVE-2026-67324"
+    "CVE-2026-67324",
+    "CVE-2026-67323",
+    "CVE-2026-67325"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.gitpython"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.gitpython"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

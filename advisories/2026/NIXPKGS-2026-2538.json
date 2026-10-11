@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-86506"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.goland"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

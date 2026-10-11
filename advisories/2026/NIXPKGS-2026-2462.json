@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-83497"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opensearch"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

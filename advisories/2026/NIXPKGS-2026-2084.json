@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-58203"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pydantic-settings"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pydantic-settings"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

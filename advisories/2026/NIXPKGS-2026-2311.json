@@ -1,13 +1,25 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2311",
-  "summary": "swagger-typescript-api vulnerable to code injection via unescaped `servers[0].url` in fetch http-client template",
+  "summary": "swagger-typescript-api: security issues <= 13.12.1",
   "published": "2026-07-30T21:09:24.000Z",
   "modified": "2026-07-30T21:09:24.000Z",
   "upstream": [
-    "CVE-2026-54662"
+    "CVE-2026-54662",
+    "CVE-2026-54663",
+    "CVE-2026-54660",
+    "CVE-2026-54661",
+    "CVE-2026-54666",
+    "CVE-2026-54664"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "swagger-typescript-api"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

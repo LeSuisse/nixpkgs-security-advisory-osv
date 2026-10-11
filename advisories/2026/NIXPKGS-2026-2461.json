@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-19873"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.HTMLFormFu"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.HTMLFormFu"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

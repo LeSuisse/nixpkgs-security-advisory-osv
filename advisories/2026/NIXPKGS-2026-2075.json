@@ -1,13 +1,25 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2075",
-  "summary": "Hugo default code block renderer XSS via unescaped code-fence language",
+  "summary": "Hugo: security issues < 0.163.1",
   "published": "2026-07-07T06:07:40.000Z",
   "modified": "2026-07-07T06:07:40.000Z",
   "upstream": [
-    "CVE-2026-58402"
+    "CVE-2026-58402",
+    "CVE-2026-58404",
+    "CVE-2026-50134",
+    "CVE-2026-50135",
+    "CVE-2026-50133",
+    "CVE-2026-58403"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hugo"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

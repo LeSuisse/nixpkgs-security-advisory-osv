@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-10846"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ldns"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

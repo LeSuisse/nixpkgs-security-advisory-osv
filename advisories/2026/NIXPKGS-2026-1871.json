@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-46739"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.NetStatsd"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.NetStatsd"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2181",
-  "summary": "ProFTPD mod_sftp Heap Buffer Overflow via Unsigned Integer Underflow and Size Truncation",
+  "summary": "proftpd: security issues < 1.3.9c",
   "published": "2026-07-21T10:25:56.000Z",
   "modified": "2026-07-21T10:25:56.000Z",
   "upstream": [
-    "CVE-2026-53994"
+    "CVE-2026-53994",
+    "CVE-2026-63090",
+    "CVE-2026-63091"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "proftpd"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-90783"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mkvtoolnix"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

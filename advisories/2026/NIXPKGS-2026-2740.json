@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-96675"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "alsa-lib"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

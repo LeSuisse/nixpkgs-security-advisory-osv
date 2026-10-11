@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2104",
-  "summary": "repomix - Server-Side Request Forgery via Unvalidated Repository URLs in POST /api/pack",
+  "summary": "repomix: security issues < 1.14.1",
   "published": "2026-07-09T09:08:16.000Z",
   "modified": "2026-07-09T09:08:16.000Z",
   "upstream": [
-    "CVE-2026-59702"
+    "CVE-2026-59702",
+    "CVE-2026-59703"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "repomix"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

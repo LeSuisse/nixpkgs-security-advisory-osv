@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-15816"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dracut"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

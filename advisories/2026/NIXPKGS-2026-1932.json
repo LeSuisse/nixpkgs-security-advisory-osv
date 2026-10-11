@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-42014"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gnutls"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

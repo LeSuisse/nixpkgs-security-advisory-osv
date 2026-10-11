@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2196",
-  "summary": "CrowdSec LAPI: Denial of Service via Unbounded Gzip Decompression",
+  "summary": "crowdsec: security issues < 1.7.8",
   "published": "2026-07-21T10:55:31.000Z",
   "modified": "2026-07-21T10:55:31.000Z",
   "upstream": [
-    "CVE-2026-44981"
+    "CVE-2026-44981",
+    "CVE-2026-44982"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "crowdsec"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-71439"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mermaid-cli"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

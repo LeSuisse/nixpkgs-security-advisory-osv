@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-44640"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nanomq"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

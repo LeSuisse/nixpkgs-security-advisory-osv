@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-11933"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mongodb"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mongodb-ce"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mongodb-7_0"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

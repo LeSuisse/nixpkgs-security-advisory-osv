@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-14803"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.Mojolicious"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.Mojolicious"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

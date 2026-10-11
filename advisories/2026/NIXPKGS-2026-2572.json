@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2572",
-  "summary": "Dvidelabs flatcc semantics.c fb_clear_parser memory leak",
+  "summary": "flatcc: security issues <= 0.6.3",
   "published": "2026-09-15T07:06:57.000Z",
   "modified": "2026-09-15T07:06:57.000Z",
   "upstream": [
-    "CVE-2026-90784"
+    "CVE-2026-90784",
+    "CVE-2026-90785",
+    "CVE-2026-90786"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "flatcc"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

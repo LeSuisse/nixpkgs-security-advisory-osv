@@ -1,13 +1,47 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2098",
-  "summary": "Heap-based Buffer Overflow in Wireshark",
+  "summary": "wireshark: security issues < 4.6.7",
   "published": "2026-07-09T08:53:58.000Z",
   "modified": "2026-07-09T08:53:58.000Z",
   "upstream": [
-    "CVE-2026-15165"
+    "CVE-2026-15165",
+    "CVE-2026-15174",
+    "CVE-2026-15163",
+    "CVE-2026-15169",
+    "CVE-2026-15166",
+    "CVE-2026-15172",
+    "CVE-2026-15167",
+    "CVE-2026-15170",
+    "CVE-2026-15168",
+    "CVE-2026-15171"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tshark"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wireshark"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wireshark-qt"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wireshark-cli"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

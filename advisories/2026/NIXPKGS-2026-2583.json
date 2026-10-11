@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-55073"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.weasyprint"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.weasyprint"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

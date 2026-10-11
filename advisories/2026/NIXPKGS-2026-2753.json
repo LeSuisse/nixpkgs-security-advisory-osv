@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-96750"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mongodb-compass"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

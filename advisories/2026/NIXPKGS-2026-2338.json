@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-18536"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.DataEntropy"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.DataEntropy"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

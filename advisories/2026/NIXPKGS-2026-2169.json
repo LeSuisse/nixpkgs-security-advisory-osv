@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-60103"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "blender"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.blender"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

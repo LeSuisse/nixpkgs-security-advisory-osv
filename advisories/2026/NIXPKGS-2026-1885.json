@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2020-37248"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "offlineimap"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

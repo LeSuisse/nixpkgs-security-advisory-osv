@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-48788"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "remark42"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

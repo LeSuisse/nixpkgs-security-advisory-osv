@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-10725"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.ProtocolHTTP2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.ProtocolHTTP2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

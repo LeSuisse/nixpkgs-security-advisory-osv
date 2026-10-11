@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-61709"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openfga"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

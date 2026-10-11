@@ -7,7 +7,38 @@
   "upstream": [
     "CVE-2026-84361"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "phpPackages.composer"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "php82Packages.composer"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "php83Packages.composer"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "php84Packages.composer"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "php85Packages.composer"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

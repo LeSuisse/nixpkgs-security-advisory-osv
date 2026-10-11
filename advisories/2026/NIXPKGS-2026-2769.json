@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-93353"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "copyparty"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

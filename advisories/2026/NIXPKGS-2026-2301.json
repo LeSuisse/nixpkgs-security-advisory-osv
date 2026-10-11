@@ -1,13 +1,43 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2301",
-  "summary": "datamodel-code-generator vulnerable to SSRF via --url: no host/IP validation, follows redirects",
+  "summary": "datamodel-code-generator: security issues < 0.64.0 (backports needed)",
   "published": "2026-07-29T07:04:16.000Z",
   "modified": "2026-07-29T07:04:16.000Z",
   "upstream": [
-    "CVE-2026-54691"
+    "CVE-2026-54691",
+    "CVE-2026-55391",
+    "CVE-2026-54656",
+    "CVE-2026-55403",
+    "CVE-2026-55390",
+    "CVE-2026-55389",
+    "CVE-2026-55415",
+    "CVE-2026-54621",
+    "CVE-2026-54654",
+    "CVE-2026-54655",
+    "CVE-2026-54690",
+    "CVE-2026-54653"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "datamodel-code-generator"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.datamodel-code-generator"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.datamodel-code-generator"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-86118"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gonic"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,28 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2343",
-  "summary": "python-cryptography verifier accepts wildcard DNS names allowing escape from permittedSubtrees",
+  "summary": "python3Packages.cryptography: security issues < 49.0.0 (backport needed)",
   "published": "2026-08-04T11:07:40.000Z",
   "modified": "2026-08-04T11:07:40.000Z",
   "upstream": [
-    "CVE-2026-69248"
+    "CVE-2026-69248",
+    "CVE-2026-69249",
+    "CVE-2026-69247"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.cryptography"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.cryptography"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

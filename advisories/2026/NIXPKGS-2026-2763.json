@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-97222"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gnumeric"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

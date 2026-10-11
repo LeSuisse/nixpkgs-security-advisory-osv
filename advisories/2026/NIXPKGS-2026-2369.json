@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-61632"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pymdown-extensions"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pymdown-extensions"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-90467"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.aiosmtplib"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.aiosmtplib"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

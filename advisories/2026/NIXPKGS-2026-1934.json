@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-41556"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wordpressPackages.plugins.wp-user-avatars"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

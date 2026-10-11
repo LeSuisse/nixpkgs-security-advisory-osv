@@ -1,13 +1,30 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2667",
-  "summary": "OpenImageIO: Unbounded recursion in FITS header parser leads to stack overflow",
+  "summary": "openimageio: security issues < 3.1.16.0",
   "published": "2026-09-19T10:12:39.000Z",
   "modified": "2026-09-19T10:12:39.000Z",
   "upstream": [
-    "CVE-2026-59156"
+    "CVE-2026-59156",
+    "CVE-2026-67549",
+    "CVE-2026-65970",
+    "CVE-2026-63635",
+    "CVE-2026-63422",
+    "CVE-2026-65969",
+    "CVE-2026-59181",
+    "CVE-2026-59956",
+    "CVE-2026-63420",
+    "CVE-2026-63638",
+    "CVE-2026-63419"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openimageio"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

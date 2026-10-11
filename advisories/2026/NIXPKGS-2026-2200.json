@@ -1,13 +1,39 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2200",
-  "summary": "Puma PROXY Protocol v1 Accepts Repeated Protocol Headers on Persistent Connections",
+  "summary": "puma: security issues < 7.2.1",
   "published": "2026-07-21T11:20:34.000Z",
   "modified": "2026-07-21T11:20:34.000Z",
   "upstream": [
-    "CVE-2026-47737"
+    "CVE-2026-47737",
+    "CVE-2026-47736"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages.puma"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_3.puma"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_4.puma"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_4_0.puma"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

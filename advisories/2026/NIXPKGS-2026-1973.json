@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-57053"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libidn"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

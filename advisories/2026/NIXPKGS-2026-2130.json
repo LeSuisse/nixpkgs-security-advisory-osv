@@ -1,13 +1,33 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2130",
-  "summary": "GNU LibreDWG BMP Image dwg.c dwg_bmp heap-based overflow",
+  "summary": "libredwg: security issues < 0.14",
   "published": "2026-07-10T11:03:07.000Z",
   "modified": "2026-07-10T11:03:07.000Z",
   "upstream": [
-    "CVE-2026-15182"
+    "CVE-2026-15182",
+    "CVE-2026-15184"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libredwg"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.libredwg"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.libredwg"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-9318"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.tablib"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.tablib"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

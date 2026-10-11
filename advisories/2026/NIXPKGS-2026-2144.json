@@ -1,13 +1,41 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2144",
-  "summary": "Heap buffer overflow in gawk",
+  "summary": "gawk: security issues < 5.4.1",
   "published": "2026-07-15T06:26:28.000Z",
   "modified": "2026-07-15T06:26:28.000Z",
   "upstream": [
-    "CVE-2026-40468"
+    "CVE-2026-40468",
+    "CVE-2026-40469",
+    "CVE-2026-40467",
+    "CVE-2026-40553"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gawk"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gawkInteractive"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "minimal-bootstrap.gawk"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "minimal-bootstrap.gawk-static"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

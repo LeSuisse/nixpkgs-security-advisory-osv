@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-59180"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apprise"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.apprise"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.apprise"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

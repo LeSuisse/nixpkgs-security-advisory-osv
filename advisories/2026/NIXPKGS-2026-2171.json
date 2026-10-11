@@ -7,7 +7,32 @@
   "upstream": [
     "CVE-2026-5090"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.TemplateToolkit"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.TemplateToolkit"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl538Packages.TemplateToolkit"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl540Packages.TemplateToolkit"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

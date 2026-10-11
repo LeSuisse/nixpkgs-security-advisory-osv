@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-39919"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ghostscript"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ghostscriptX"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ghostscript_headless"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

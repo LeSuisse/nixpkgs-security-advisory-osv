@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-45409"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.idna"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.idna"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

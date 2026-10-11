@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-50291"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openimageio"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.openimageio"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.openimageio"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

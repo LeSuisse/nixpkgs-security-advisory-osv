@@ -1,13 +1,53 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2269",
-  "summary": "In JetBrains GoLand before 2026.2 sensitive configuration values written to …",
+  "summary": "JetBrains IDEs: security issues < 2026.2",
   "published": "2026-07-24T18:08:47.000Z",
   "modified": "2026-07-24T18:08:47.000Z",
   "upstream": [
-    "CVE-2026-64800"
+    "CVE-2026-64800",
+    "CVE-2026-64807",
+    "CVE-2026-64808",
+    "CVE-2026-64803",
+    "CVE-2026-65908",
+    "CVE-2026-64805",
+    "CVE-2026-64802",
+    "CVE-2026-64804",
+    "CVE-2026-64809",
+    "CVE-2026-64806"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.goland"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.webstorm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.phpstorm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.pycharm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.pycharm-oss"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

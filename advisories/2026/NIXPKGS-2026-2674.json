@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-75894"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "osmo-iuh"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

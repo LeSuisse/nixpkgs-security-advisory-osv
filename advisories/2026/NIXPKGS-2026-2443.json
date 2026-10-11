@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-49989"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cratedb"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

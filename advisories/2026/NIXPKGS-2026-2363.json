@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-71260"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "esphome"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

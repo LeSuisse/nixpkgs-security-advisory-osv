@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-84774"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wordpressPackages.plugins.wp-statistics"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

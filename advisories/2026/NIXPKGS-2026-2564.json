@@ -1,13 +1,39 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2564",
-  "summary": "Freeciv 3.1.0 through 3.2.5 Out-of-Bounds Read via Savegame",
+  "summary": "freeciv: security issues < 3.2.6",
   "published": "2026-09-13T10:16:21.000Z",
   "modified": "2026-09-13T10:16:21.000Z",
   "upstream": [
-    "CVE-2026-90557"
+    "CVE-2026-90557",
+    "CVE-2026-90556"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freeciv"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freeciv_qt"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freeciv_gtk"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freeciv_sdl2"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

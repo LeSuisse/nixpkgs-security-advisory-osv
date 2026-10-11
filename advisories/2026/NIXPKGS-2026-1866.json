@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1866",
-  "summary": "Cpanel::JSON::XS versions before 4.41 for Perl allow denial of service via UTF-8 BOM prefixed input when a decode filter callback throws",
+  "summary": "Cpanel::JSON::XS security issues before 4.41",
   "published": "2026-06-05T08:17:07.000Z",
   "modified": "2026-06-05T08:17:07.000Z",
   "upstream": [
-    "CVE-2026-9516"
+    "CVE-2026-9516",
+    "CVE-2026-9334"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.CpanelJSONXS"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.CpanelJSONXS"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

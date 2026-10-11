@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-74991"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wordpressPackages.plugins.wpforms-lite"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

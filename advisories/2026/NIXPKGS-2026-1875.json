@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-50292"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libinput"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

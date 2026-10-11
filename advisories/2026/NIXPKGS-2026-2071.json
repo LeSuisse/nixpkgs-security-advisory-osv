@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-14738"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "exo"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.exo"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

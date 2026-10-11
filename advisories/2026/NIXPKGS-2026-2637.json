@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-53534"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jabref"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

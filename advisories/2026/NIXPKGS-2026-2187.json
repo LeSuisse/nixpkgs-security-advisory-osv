@@ -7,7 +7,32 @@
   "upstream": [
     "CVE-2026-26199"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hdf5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hdf5-cpp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hdf5-mpi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hdf5_1_10"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-55830"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.restrictedpython"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.restrictedpython"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

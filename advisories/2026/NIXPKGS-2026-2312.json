@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2312",
-  "summary": "cJSON cJSON_Compare Exponential Complexity Denial of Service",
+  "summary": "cjson: security issues <= 1.7.19",
   "published": "2026-07-30T21:11:40.000Z",
   "modified": "2026-07-30T21:11:40.000Z",
   "upstream": [
-    "CVE-2026-67216"
+    "CVE-2026-67216",
+    "CVE-2026-67215",
+    "CVE-2026-67217"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cjson"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

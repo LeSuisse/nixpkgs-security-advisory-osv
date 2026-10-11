@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2195",
-  "summary": "h2o is vulnerable to heap overrun",
+  "summary": "h2o: security issues before June 4",
   "published": "2026-07-21T10:54:49.000Z",
   "modified": "2026-07-21T10:54:49.000Z",
   "upstream": [
-    "CVE-2026-44452"
+    "CVE-2026-44452",
+    "CVE-2026-44453",
+    "CVE-2026-54340"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "h2o"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-94286"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libXtst"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libxtst"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

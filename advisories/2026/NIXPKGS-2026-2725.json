@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-95508"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libslirp"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

@@ -1,13 +1,21 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2331",
-  "summary": "Coturn: Pre-authentication heap memory disclosure in ACME redirect (`try_acme_redirect`)",
+  "summary": "coturn: security issues < 4.15.0",
   "published": "2026-08-01T10:05:55.000Z",
   "modified": "2026-08-01T10:05:55.000Z",
   "upstream": [
-    "CVE-2026-62959"
+    "CVE-2026-62959",
+    "CVE-2026-65981"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "coturn"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

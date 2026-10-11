@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-16554"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cjson"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

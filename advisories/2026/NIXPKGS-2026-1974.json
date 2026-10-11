@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-54316"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "claude-code"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "claude-code-bin"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

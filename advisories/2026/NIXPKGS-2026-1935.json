@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-48775"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.langgraph-checkpoint"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.langgraph-checkpoint"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

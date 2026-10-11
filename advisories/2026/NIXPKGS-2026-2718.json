@@ -1,13 +1,22 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-2718",
-  "summary": "Vector: Arbitrary file write in the file sink via templated path (path traversal).",
+  "summary": "vector: security issues < 0.57.0 (backport needed)",
   "published": "2026-09-23T13:07:10.000Z",
   "modified": "2026-09-23T13:07:10.000Z",
   "upstream": [
-    "CVE-2026-77621"
+    "CVE-2026-77621",
+    "CVE-2026-77620",
+    "CVE-2026-77619"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vector"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

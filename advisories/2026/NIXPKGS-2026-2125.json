@@ -7,7 +7,32 @@
   "upstream": [
     "CVE-2026-59818"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "etcd"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "etcd_3_4"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "etcd_3_5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "etcd_3_6"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

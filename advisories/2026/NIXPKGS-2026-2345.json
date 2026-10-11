@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-48061"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "litestar"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.litestar"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.litestar"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

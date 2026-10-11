@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-73288"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rustfs"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

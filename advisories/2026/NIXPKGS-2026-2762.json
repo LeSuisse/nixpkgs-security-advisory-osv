@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-100310"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libextractor"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

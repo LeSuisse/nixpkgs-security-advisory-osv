@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-13482"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "skypilot"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

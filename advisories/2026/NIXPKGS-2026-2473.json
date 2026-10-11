@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-84305"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.sqlparse"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.sqlparse"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

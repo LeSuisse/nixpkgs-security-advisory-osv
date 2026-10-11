@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-88924"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gvfs"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

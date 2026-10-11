@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-96545"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gimp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gimp3"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

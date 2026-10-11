@@ -7,7 +7,26 @@
   "upstream": [
     "CVE-2026-92973"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ansi2html"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.ansi2html"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.ansi2html"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

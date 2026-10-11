@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-91986"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gitoxide"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

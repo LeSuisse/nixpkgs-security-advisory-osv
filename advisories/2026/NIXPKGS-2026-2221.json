@@ -7,7 +7,14 @@
   "upstream": [
     "CVE-2026-48863"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsolv"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

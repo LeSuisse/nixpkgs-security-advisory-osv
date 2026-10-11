@@ -7,7 +7,20 @@
   "upstream": [
     "CVE-2026-100697"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "adminer"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "adminerevo"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",

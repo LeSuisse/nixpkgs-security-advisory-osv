@@ -1,13 +1,27 @@
 {
   "schema_version": "1.7.5",
   "id": "NIXPKGS-2026-1863",
-  "summary": "Strawberry GraphQL: Default GraphiQL may expose HTTP headers in URLs",
+  "summary": "Strawberry GraphQL information leak and DoS",
   "published": "2026-06-05T07:33:42.000Z",
   "modified": "2026-06-05T07:33:42.000Z",
   "upstream": [
-    "CVE-2026-45739"
+    "CVE-2026-45739",
+    "CVE-2026-47706"
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.strawberry-graphql"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.strawberry-graphql"
+      }
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
