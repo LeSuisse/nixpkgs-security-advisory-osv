@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2882",
+  "summary": "Confluent Kafka Python Improper TLS Certificate Validation",
+  "published": "2026-10-02T08:40:22.000Z",
+  "modified": "2026-10-02T08:40:22.000Z",
+  "upstream": [
+    "CVE-2026-15911"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.confluent-kafka"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.confluent-kafka"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2882"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569368"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2854",
+  "summary": "moodle: security issues < 5.1.6",
+  "published": "2026-10-01T15:54:05.000Z",
+  "modified": "2026-10-01T15:54:05.000Z",
+  "upstream": [
+    "CVE-2026-102584",
+    "CVE-2026-102579",
+    "CVE-2026-102582",
+    "CVE-2026-102585",
+    "CVE-2026-102587",
+    "CVE-2026-102583",
+    "CVE-2026-102588",
+    "CVE-2026-102578",
+    "CVE-2026-102581",
+    "CVE-2026-102586",
+    "CVE-2026-102577",
+    "CVE-2026-102580"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "moodle"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2854"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569063"
+    }
+  ]
+}

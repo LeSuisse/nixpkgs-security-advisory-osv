@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2970",
+  "summary": "Immich through 3.3.1 Missing Authorization in Partner Sync Exposes Locked Folder Metadata",
+  "published": "2026-10-11T14:55:42.000Z",
+  "modified": "2026-10-11T14:55:42.000Z",
+  "upstream": [
+    "CVE-2026-108165"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "immich"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2970"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572841"
+    }
+  ]
+}

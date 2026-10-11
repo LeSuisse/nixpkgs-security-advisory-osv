@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2831",
+  "summary": "Freedesktop Poppler SplashClip.cc clipToPath integer overflow",
+  "published": "2026-09-30T12:21:25.000Z",
+  "modified": "2026-09-30T12:21:25.000Z",
+  "upstream": [
+    "CVE-2026-102621"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler_gi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler_min"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2831"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568621"
+    }
+  ]
+}

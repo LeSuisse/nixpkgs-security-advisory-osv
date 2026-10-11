@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2963",
+  "summary": "Uncontrolled recursion in DCMTK DICOMDIR parsing allows denial of service",
+  "published": "2026-10-10T08:25:12.000Z",
+  "modified": "2026-10-10T08:25:12.000Z",
+  "upstream": [
+    "CVE-2026-44035"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dcmtk"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2963"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572414"
+    }
+  ]
+}

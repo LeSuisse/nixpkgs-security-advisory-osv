@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2905",
+  "summary": "Immich: Authenticated SVG upload reaches ImageMagick coders and enables RCE",
+  "published": "2026-10-06T13:57:52.000Z",
+  "modified": "2026-10-06T13:57:52.000Z",
+  "upstream": [
+    "CVE-2026-105764"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "immich"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2905"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/570883"
+    }
+  ]
+}

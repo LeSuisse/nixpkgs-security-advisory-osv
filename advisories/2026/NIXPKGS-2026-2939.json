@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2939",
+  "summary": "cups: security issues =< 2.4.20",
+  "published": "2026-10-10T08:13:14.000Z",
+  "modified": "2026-10-10T08:13:14.000Z",
+  "upstream": [
+    "CVE-2026-107655",
+    "CVE-2026-107885"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cups"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2939"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572390"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2860",
+  "summary": "Libsoup: soupserver: http/1 request smuggling via undrained expect: 100-continue body",
+  "published": "2026-10-01T15:54:35.000Z",
+  "modified": "2026-10-01T15:54:35.000Z",
+  "upstream": [
+    "CVE-2026-103399"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsoup_3"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2860"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569071"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2885",
+  "summary": "Gegl: gegl04: gegl: out-of-bounds read in the radiance hdr uncompressed scanline decoder",
+  "published": "2026-10-02T08:40:30.000Z",
+  "modified": "2026-10-02T08:40:30.000Z",
+  "upstream": [
+    "CVE-2026-103641"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gegl"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2885"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569371"
+    }
+  ]
+}

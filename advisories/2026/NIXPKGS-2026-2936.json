@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2936",
+  "summary": "python3Packages.pydantic-ai-slim: security issues < 1.107.7",
+  "published": "2026-10-09T13:40:32.000Z",
+  "modified": "2026-10-09T13:40:32.000Z",
+  "upstream": [
+    "CVE-2026-107287",
+    "CVE-2026-107289",
+    "CVE-2026-107291",
+    "CVE-2026-107294",
+    "CVE-2026-107292",
+    "CVE-2026-107290",
+    "CVE-2026-107295",
+    "CVE-2026-107293",
+    "CVE-2026-107288"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pydantic-ai-slim"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pydantic-ai-slim"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2936"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572129"
+    }
+  ]
+}

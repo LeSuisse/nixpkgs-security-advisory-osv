@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2929",
+  "summary": "A path traversal vulnerability exists in the EmailSheet extract_parts functionality …",
+  "published": "2026-10-08T08:09:50.000Z",
+  "modified": "2026-10-08T08:09:50.000Z",
+  "upstream": [
+    "CVE-2026-42532"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "visidata"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2929"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/571641"
+    }
+  ]
+}

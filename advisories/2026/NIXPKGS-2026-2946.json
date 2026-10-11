@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2946",
+  "summary": "Open5GS through 2.8.0 Heap Out-of-Bounds Read via PFCP Volume Measurement IE",
+  "published": "2026-10-10T08:22:55.000Z",
+  "modified": "2026-10-10T08:22:55.000Z",
+  "upstream": [
+    "CVE-2026-108102"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2946"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572397"
+    }
+  ]
+}

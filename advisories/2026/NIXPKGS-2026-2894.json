@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2894",
+  "summary": "python3Packages.thrift: security issues < 0.25.0",
+  "published": "2026-10-03T14:05:35.000Z",
+  "modified": "2026-10-03T14:05:35.000Z",
+  "upstream": [
+    "CVE-2026-94634",
+    "CVE-2026-94654",
+    "CVE-2026-94636"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.thrift"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.thrift"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2894"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569838"
+    }
+  ]
+}

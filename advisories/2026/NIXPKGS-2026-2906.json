@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2906",
+  "summary": "Legcord 1.1.0 through 1.3.0 Path Traversal via Theme IPC Handlers",
+  "published": "2026-10-06T13:57:55.000Z",
+  "modified": "2026-10-06T13:57:55.000Z",
+  "upstream": [
+    "CVE-2026-105293"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "legcord"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2906"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/570884"
+    }
+  ]
+}

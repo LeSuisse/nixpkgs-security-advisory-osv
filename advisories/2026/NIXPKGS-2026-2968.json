@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2968",
+  "summary": "9router 0.4.1 through 0.5.99 Config Injection RCE via hermes-settings Endpoint",
+  "published": "2026-10-11T14:55:25.000Z",
+  "modified": "2026-10-11T14:55:25.000Z",
+  "upstream": [
+    "CVE-2026-108593"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "_9router"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2968"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572839"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2972",
+  "summary": "OpenRefine through 3.10.1 CSRF to RCE via get-rows Command",
+  "published": "2026-10-11T14:55:48.000Z",
+  "modified": "2026-10-11T14:55:48.000Z",
+  "upstream": [
+    "CVE-2026-108553"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openrefine"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2972"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572843"
+    }
+  ]
+}

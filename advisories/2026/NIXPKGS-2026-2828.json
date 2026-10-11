@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2828",
+  "summary": "Weblate: Mercurial argument injection via repository filenames allows authenticated command execution",
+  "published": "2026-09-30T10:21:45.000Z",
+  "modified": "2026-09-30T10:21:45.000Z",
+  "upstream": [
+    "CVE-2026-86035"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weblate"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2828"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568570"
+    }
+  ]
+}

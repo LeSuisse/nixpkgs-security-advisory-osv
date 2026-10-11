@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2919",
+  "summary": "OpenAPV before 1.1.1.0 has a read_bitstream heap-based buffer overflow.",
+  "published": "2026-10-07T09:53:24.000Z",
+  "modified": "2026-10-07T09:53:24.000Z",
+  "upstream": [
+    "CVE-2026-79113"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openapv"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2919"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/571248"
+    }
+  ]
+}

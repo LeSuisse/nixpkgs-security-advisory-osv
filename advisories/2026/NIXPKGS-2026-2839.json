@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2839",
+  "summary": "Fider before 0.38.0 SSRF via DNS rebinding in webhook validation",
+  "published": "2026-09-30T12:23:28.000Z",
+  "modified": "2026-09-30T12:23:28.000Z",
+  "upstream": [
+    "CVE-2026-102877"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fider"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2839"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568630"
+    }
+  ]
+}

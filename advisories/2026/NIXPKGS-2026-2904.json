@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2904",
+  "summary": "apko /etc/passwd and /etc/group UID/GID truncation writes package-supplied entries as root",
+  "published": "2026-10-06T13:57:45.000Z",
+  "modified": "2026-10-06T13:57:45.000Z",
+  "upstream": [
+    "CVE-2026-105768"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apko"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2904"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/570882"
+    }
+  ]
+}

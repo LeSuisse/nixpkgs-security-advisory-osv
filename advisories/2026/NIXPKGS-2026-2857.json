@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2857",
+  "summary": "WordPress WP Statistics plugin <= 14.16.13 - Cross Site Scripting (XSS) vulnerability",
+  "published": "2026-10-01T15:54:21.000Z",
+  "modified": "2026-10-01T15:54:21.000Z",
+  "upstream": [
+    "CVE-2026-93770"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wordpressPackages.plugins.wp-statistics"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2857"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569067"
+    }
+  ]
+}

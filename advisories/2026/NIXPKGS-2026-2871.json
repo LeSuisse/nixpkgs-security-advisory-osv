@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2871",
+  "summary": "perlPackages.Imager: security issues < 1.037",
+  "published": "2026-10-02T08:32:31.000Z",
+  "modified": "2026-10-02T08:32:31.000Z",
+  "upstream": [
+    "CVE-2026-102504",
+    "CVE-2026-102505"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.Imager"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.Imager"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2871"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569356"
+    }
+  ]
+}

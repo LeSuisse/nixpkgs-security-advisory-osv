@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2843",
+  "summary": "Barman snapshot backup deletion trusts unverified backup catalog metadata",
+  "published": "2026-09-30T12:23:42.000Z",
+  "modified": "2026-09-30T12:23:42.000Z",
+  "upstream": [
+    "CVE-2026-93853"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "barman"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2843"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568634"
+    }
+  ]
+}

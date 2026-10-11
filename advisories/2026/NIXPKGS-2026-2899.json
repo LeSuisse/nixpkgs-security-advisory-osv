@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2899",
+  "summary": "SiYuan before 3.8.5 Information Disclosure via /api/block/getDocInfo and getDocsInfo",
+  "published": "2026-10-05T08:23:15.000Z",
+  "modified": "2026-10-05T08:23:15.000Z",
+  "upstream": [
+    "CVE-2026-105205"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2899"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/570422"
+    }
+  ]
+}

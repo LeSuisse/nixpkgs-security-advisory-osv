@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2892",
+  "summary": "Kener 4.0.0 before 4.1.6 Hidden Monitor Data Disclosure via Dashboard API",
+  "published": "2026-10-03T14:04:14.000Z",
+  "modified": "2026-10-03T14:04:14.000Z",
+  "upstream": [
+    "CVE-2026-105030"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kener"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2892"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569835"
+    }
+  ]
+}

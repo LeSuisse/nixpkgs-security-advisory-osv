@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2849",
+  "summary": "Libsoup: libsoup: heap buffer overflow during websocket message reassembly",
+  "published": "2026-09-30T12:24:19.000Z",
+  "modified": "2026-09-30T12:24:19.000Z",
+  "upstream": [
+    "CVE-2026-102557"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsoup_3"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2849"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568640"
+    }
+  ]
+}

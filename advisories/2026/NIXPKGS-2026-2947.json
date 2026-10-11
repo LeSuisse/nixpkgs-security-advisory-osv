@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2947",
+  "summary": "Open5GS through 2.8.0 MME Reachable Assertion via GTPv1 SGSN Context Request",
+  "published": "2026-10-10T08:23:00.000Z",
+  "modified": "2026-10-10T08:23:00.000Z",
+  "upstream": [
+    "CVE-2026-108105"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open5gs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572398"
+    }
+  ]
+}

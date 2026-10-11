@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2969",
+  "summary": "Tabularis through 0.27.0 Read-Only Bypass via MCP run_query SELECT Classification",
+  "published": "2026-10-11T14:55:40.000Z",
+  "modified": "2026-10-11T14:55:40.000Z",
+  "upstream": [
+    "CVE-2026-108604"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tabularis"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2969"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572840"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2862",
+  "summary": "ZeroClaw before 0.8.5 Path Traversal via Plugin Manifest wasm_path",
+  "published": "2026-10-01T15:54:43.000Z",
+  "modified": "2026-10-01T15:54:43.000Z",
+  "upstream": [
+    "CVE-2026-101885"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zeroclaw"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2862"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569073"
+    }
+  ]
+}

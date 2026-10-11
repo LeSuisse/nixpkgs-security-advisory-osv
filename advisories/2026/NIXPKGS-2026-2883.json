@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2883",
+  "summary": "Collectl: collectl: colmux does not sanitize ansi/vt100 terminal escape sequences in data received from remote collectl instances",
+  "published": "2026-10-02T08:40:23.000Z",
+  "modified": "2026-10-02T08:40:23.000Z",
+  "upstream": [
+    "CVE-2026-103431"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "collectl"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2883"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569369"
+    }
+  ]
+}

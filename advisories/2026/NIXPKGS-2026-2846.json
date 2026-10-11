@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2846",
+  "summary": "JupyterLab: Cross-site scripting (XSS) in JupyterLab via notebook cells pasted from the system clipboard",
+  "published": "2026-09-30T12:23:45.000Z",
+  "modified": "2026-09-30T12:23:45.000Z",
+  "upstream": [
+    "CVE-2026-102831"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jupyterlite"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.notebook"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.notebook"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.jupyterlab"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.jupyterlab"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.jupyterlite-core"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.jupyterlite-core"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2846"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568637"
+    }
+  ]
+}

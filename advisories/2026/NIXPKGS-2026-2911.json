@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2911",
+  "summary": "docling: security issues < 2.132.0",
+  "published": "2026-10-06T14:02:00.000Z",
+  "modified": "2026-10-06T14:02:00.000Z",
+  "upstream": [
+    "CVE-2026-105746",
+    "CVE-2026-105751",
+    "CVE-2026-105742",
+    "CVE-2026-105748",
+    "CVE-2026-105745",
+    "CVE-2026-105750",
+    "CVE-2026-105747",
+    "CVE-2026-105743",
+    "CVE-2026-105744",
+    "CVE-2026-105749"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "docling"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.docling"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.docling"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.docling-slim"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.docling-slim"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2911"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/570893"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2964",
+  "summary": "Heap corruption via duplicate masterKey fields in MongoDB libmongocrypt",
+  "published": "2026-10-10T08:25:15.000Z",
+  "modified": "2026-10-10T08:25:15.000Z",
+  "upstream": [
+    "CVE-2026-106433"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libmongocrypt"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2964"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572415"
+    }
+  ]
+}

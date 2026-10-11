@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2840",
+  "summary": "JupyterLab: Cross-site scripting (XSS) in JupyterLab via crafted language package (jupyterlab.json)",
+  "published": "2026-09-30T12:23:32.000Z",
+  "modified": "2026-09-30T12:23:32.000Z",
+  "upstream": [
+    "CVE-2026-102830"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.jupyterlab"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.jupyterlab"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.jupyterlite-core"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.jupyterlite-core"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2840"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568631"
+    }
+  ]
+}

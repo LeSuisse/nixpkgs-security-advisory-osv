@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2875",
+  "summary": "Podgrab Unauthenticated DoS via Concurrent Map Access in WebSocket Handler",
+  "published": "2026-10-02T08:33:10.000Z",
+  "modified": "2026-10-02T08:33:10.000Z",
+  "upstream": [
+    "CVE-2026-104057"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "podgrab"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2875"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569360"
+    }
+  ]
+}

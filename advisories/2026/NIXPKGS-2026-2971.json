@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2971",
+  "summary": "SillyTavern 1.12.13 through 1.19.0 Pre-Authentication Denial of Service via Body Parsing",
+  "published": "2026-10-11T14:55:44.000Z",
+  "modified": "2026-10-11T14:55:44.000Z",
+  "upstream": [
+    "CVE-2026-108545"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sillytavern"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2971"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572842"
+    }
+  ]
+}

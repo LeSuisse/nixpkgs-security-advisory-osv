@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2935",
+  "summary": "python3Packages.banks: securty issues < 2.5.1 (needs something for stable)",
+  "published": "2026-10-09T13:38:44.000Z",
+  "modified": "2026-10-09T13:38:44.000Z",
+  "upstream": [
+    "CVE-2026-107716",
+    "CVE-2026-107717"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.banks"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.banks"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2935"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572128"
+    }
+  ]
+}

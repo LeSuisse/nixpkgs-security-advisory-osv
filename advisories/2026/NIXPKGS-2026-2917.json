@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2917",
+  "summary": "In ConvertX before 0.19.0, converters/calibre.ts does not block recipe files, …",
+  "published": "2026-10-07T09:53:16.000Z",
+  "modified": "2026-10-07T09:53:16.000Z",
+  "upstream": [
+    "CVE-2026-105080"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "convertx"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.convertx"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2917"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/571246"
+    }
+  ]
+}

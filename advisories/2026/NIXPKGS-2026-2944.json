@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2944",
+  "summary": "Libhangul: null pointer dereference in hanja_new() when looking up a malformed hanja dictionary entry",
+  "published": "2026-10-10T08:22:41.000Z",
+  "modified": "2026-10-10T08:22:41.000Z",
+  "upstream": [
+    "CVE-2026-108063"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libhangul"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2944"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572395"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2898",
+  "summary": "Gist RubyGem before 6.1.0 Disabled TLS Certificate Verification",
+  "published": "2026-10-05T08:23:12.000Z",
+  "modified": "2026-10-05T08:23:12.000Z",
+  "upstream": [
+    "CVE-2026-105221"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gist"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2898"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/570421"
+    }
+  ]
+}

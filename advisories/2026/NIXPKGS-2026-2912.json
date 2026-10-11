@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2912",
+  "summary": "lrzsz before 0.13.0 Heap Buffer Overflow via lrz procheader() Pathname",
+  "published": "2026-10-07T09:52:58.000Z",
+  "modified": "2026-10-07T09:52:58.000Z",
+  "upstream": [
+    "CVE-2026-105842"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lrzsz"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2912"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/571241"
+    }
+  ]
+}

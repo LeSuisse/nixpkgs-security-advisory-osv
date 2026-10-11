@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2827",
+  "summary": "pretix: security issues < 2026.7.1, < 2026.5.5",
+  "published": "2026-09-30T10:15:24.000Z",
+  "modified": "2026-09-30T10:15:24.000Z",
+  "upstream": [
+    "CVE-2026-101271",
+    "CVE-2026-101270",
+    "CVE-2026-101267",
+    "CVE-2026-101268",
+    "CVE-2026-101269",
+    "CVE-2026-101266"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pretix"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2827"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568566"
+    }
+  ]
+}

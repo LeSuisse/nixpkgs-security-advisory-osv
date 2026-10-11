@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2951",
+  "summary": "Uncontrolled recursion in the DCMTK bundled XML parser allows denial of service",
+  "published": "2026-10-10T08:23:45.000Z",
+  "modified": "2026-10-10T08:23:45.000Z",
+  "upstream": [
+    "CVE-2026-44033"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dcmtk"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2951"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572402"
+    }
+  ]
+}

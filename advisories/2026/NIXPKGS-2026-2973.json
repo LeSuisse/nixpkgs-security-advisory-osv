@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2973",
+  "summary": "perlPackages.ExtUtilsTypemapsDefault: security issues < 1.07",
+  "published": "2026-10-11T14:56:04.000Z",
+  "modified": "2026-10-11T14:56:04.000Z",
+  "upstream": [
+    "CVE-2026-107373",
+    "CVE-2026-107794"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.ExtUtilsTypemapsDefault"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.ExtUtilsTypemapsDefault"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2973"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572845"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2909",
+  "summary": "auto-changelog: code execution via untrusted in-repository configuration (handlebarsSetup/plugins), plus argument injection, path traversal, and SSRF",
+  "published": "2026-10-06T13:58:06.000Z",
+  "modified": "2026-10-06T13:58:06.000Z",
+  "upstream": [
+    "CVE-2026-12171"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "auto-changelog"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2909"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/570887"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2967",
+  "summary": "PairDrop through 1.11.2 IP Spoofing via cf-connecting-ip Header",
+  "published": "2026-10-11T14:55:14.000Z",
+  "modified": "2026-10-11T14:55:14.000Z",
+  "upstream": [
+    "CVE-2026-108555"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pairdrop"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2967"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572838"
+    }
+  ]
+}

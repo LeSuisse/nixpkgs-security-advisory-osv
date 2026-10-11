@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2876",
+  "summary": "youtrack: security issues < 2026.2.19422",
+  "published": "2026-10-02T08:35:25.000Z",
+  "modified": "2026-10-02T08:35:25.000Z",
+  "upstream": [
+    "CVE-2026-103490",
+    "CVE-2026-103489",
+    "CVE-2026-103496",
+    "CVE-2026-103491",
+    "CVE-2026-103495",
+    "CVE-2026-103494",
+    "CVE-2026-103492",
+    "CVE-2026-103497",
+    "CVE-2026-103493",
+    "CVE-2026-103488"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "youtrack"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2876"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569361"
+    }
+  ]
+}

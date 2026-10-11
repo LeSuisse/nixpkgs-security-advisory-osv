@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2836",
+  "summary": "marmite: security issues =< 0.4.2",
+  "published": "2026-09-30T12:22:26.000Z",
+  "modified": "2026-09-30T12:22:26.000Z",
+  "upstream": [
+    "CVE-2026-102810",
+    "CVE-2026-102811"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "marmite"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2836"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568627"
+    }
+  ]
+}

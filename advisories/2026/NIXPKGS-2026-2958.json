@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2958",
+  "summary": "Uncontrolled recursion in DCMTK JSON reader allows denial of service",
+  "published": "2026-10-10T08:24:36.000Z",
+  "modified": "2026-10-10T08:24:36.000Z",
+  "upstream": [
+    "CVE-2026-44037"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dcmtk"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2958"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572409"
+    }
+  ]
+}

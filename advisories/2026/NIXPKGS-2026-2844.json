@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2844",
+  "summary": "Nicotine+: Decompression of peer messages can exhaust available memory",
+  "published": "2026-09-30T12:23:39.000Z",
+  "modified": "2026-09-30T12:23:39.000Z",
+  "upstream": [
+    "CVE-2026-68911"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nicotine-plus"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2844"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/568635"
+    }
+  ]
+}

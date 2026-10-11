@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2891",
+  "summary": "LimeSurvey Community Edition 7.4.0 - Stored XSS through the Date/Time date_min question attribute",
+  "published": "2026-10-03T14:04:09.000Z",
+  "modified": "2026-10-03T14:04:09.000Z",
+  "upstream": [
+    "CVE-2026-102626"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "limesurvey"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2891"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569834"
+    }
+  ]
+}

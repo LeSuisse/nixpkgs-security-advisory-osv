@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2878",
+  "summary": "WordPress hCaptcha for WP plugin <= 5.3.0 - Bypass Vulnerability vulnerability",
+  "published": "2026-10-02T08:36:18.000Z",
+  "modified": "2026-10-02T08:36:18.000Z",
+  "upstream": [
+    "CVE-2026-103347"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wordpressPackages.plugins.hcaptcha-for-forms-and-more"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2878"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569363"
+    }
+  ]
+}

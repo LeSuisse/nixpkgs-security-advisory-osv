@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2874",
+  "summary": "Out-of-bounds write in PeaZip PEA extractor allows code execution via a crafted .pea archive",
+  "published": "2026-10-02T08:33:04.000Z",
+  "modified": "2026-10-02T08:33:04.000Z",
+  "upstream": [
+    "CVE-2026-102514"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "peazip"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2874"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569359"
+    }
+  ]
+}

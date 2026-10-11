@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2962",
+  "summary": "Eog: eog: arbitrary code execution via heap buffer overflow in png metadata reader",
+  "published": "2026-10-10T08:25:04.000Z",
+  "modified": "2026-10-10T08:25:04.000Z",
+  "upstream": [
+    "CVE-2026-107651"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "eog"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2962"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/572413"
+    }
+  ]
+}

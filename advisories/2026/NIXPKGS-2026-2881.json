@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2881",
+  "summary": "tnef: security issues =< 1.4.18",
+  "published": "2026-10-02T08:39:26.000Z",
+  "modified": "2026-10-02T08:39:26.000Z",
+  "upstream": [
+    "CVE-2026-103678",
+    "CVE-2026-103679",
+    "CVE-2026-103680"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tnef"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2881"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/569367"
+    }
+  ]
+}
