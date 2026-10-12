@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2989",
+  "summary": "Poppler 0.42.0 through 26.10.0 Stack Buffer Overflow via Decrypt::revision6Hash()",
+  "published": "2026-10-12T19:46:27.000Z",
+  "modified": "2026-10-12T19:46:27.000Z",
+  "upstream": [
+    "CVE-2026-107705"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler_gi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler_min"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "poppler-utils"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsForQt5.poppler"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kdePackages.poppler"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "qt6Packages.poppler"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2989"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/573333"
+    }
+  ]
+}
