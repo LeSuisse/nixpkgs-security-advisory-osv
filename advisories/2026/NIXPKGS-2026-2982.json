@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2982",
+  "summary": "JupyterHub through 6.0.1 OAuth Client ID Collision via Unescaped Hyphen",
+  "published": "2026-10-12T15:00:09.000Z",
+  "modified": "2026-10-12T15:00:09.000Z",
+  "upstream": [
+    "CVE-2026-108752"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.jupyterhub"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.jupyterhub"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.jupyterhub"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2982"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/573233"
+    }
+  ]
+}

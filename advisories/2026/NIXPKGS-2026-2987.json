@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2987",
+  "summary": "LibreNMS through 26.9.1.1 Authorization Bypass via Smokeping Graph auth.inc.php",
+  "published": "2026-10-12T15:00:37.000Z",
+  "modified": "2026-10-12T15:00:37.000Z",
+  "upstream": [
+    "CVE-2026-108715"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "librenms"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2987"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/573238"
+    }
+  ]
+}

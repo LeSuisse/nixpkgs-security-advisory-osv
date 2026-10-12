@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2988",
+  "summary": "Traccar through 6.16.0 Weak Password Recovery via TokenManager Token Purpose Confusion",
+  "published": "2026-10-12T15:00:41.000Z",
+  "modified": "2026-10-12T15:00:41.000Z",
+  "upstream": [
+    "CVE-2026-108737"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traccar"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2988"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/573239"
+    }
+  ]
+}

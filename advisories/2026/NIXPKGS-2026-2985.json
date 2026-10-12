@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2985",
+  "summary": "Traccar 5.7 through 6.16.0 Login CSRF via OpenID Connect Callback",
+  "published": "2026-10-12T15:00:32.000Z",
+  "modified": "2026-10-12T15:00:32.000Z",
+  "upstream": [
+    "CVE-2026-108738"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traccar"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2985"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/573236"
+    }
+  ]
+}

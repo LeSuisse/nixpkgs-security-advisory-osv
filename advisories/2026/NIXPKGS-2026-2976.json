@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2976",
+  "summary": "Speedtest Tracker through 1.15.0 IP Allowlist Bypass via X-Forwarded-For Spoofing",
+  "published": "2026-10-12T14:59:49.000Z",
+  "modified": "2026-10-12T14:59:49.000Z",
+  "upstream": [
+    "CVE-2026-108736"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "speedtest-tracker"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2976"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/573227"
+    }
+  ]
+}

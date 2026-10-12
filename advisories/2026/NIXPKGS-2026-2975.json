@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2975",
+  "summary": "Mealie 3.26.0 through 3.28.0 SSRF via OIDC Picture Claim Avatar Fetch",
+  "published": "2026-10-12T14:59:47.000Z",
+  "modified": "2026-10-12T14:59:47.000Z",
+  "upstream": [
+    "CVE-2026-108594"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mealie"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2975"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/573226"
+    }
+  ]
+}
