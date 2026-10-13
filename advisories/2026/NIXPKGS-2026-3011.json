@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3011",
+  "summary": "MONAI 0.4.0 before 1.6.1 RCE via SENet Pretrained Weights Over Plaintext HTTP",
+  "published": "2026-10-13T16:57:12.000Z",
+  "modified": "2026-10-13T16:57:12.000Z",
+  "upstream": [
+    "CVE-2026-109360"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.monai"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.monai"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.monai"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3011"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/573682"
+    }
+  ]
+}

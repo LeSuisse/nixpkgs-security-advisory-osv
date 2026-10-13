@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3005",
+  "summary": "hugo: security issues < 0.167.0",
+  "published": "2026-10-13T16:56:30.000Z",
+  "modified": "2026-10-13T16:56:30.000Z",
+  "upstream": [
+    "CVE-2026-109596",
+    "CVE-2026-109595",
+    "CVE-2026-109574",
+    "CVE-2026-109597"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hugo"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3005"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/573676"
+    }
+  ]
+}

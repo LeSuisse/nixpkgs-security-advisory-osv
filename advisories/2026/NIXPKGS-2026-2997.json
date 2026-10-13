@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2997",
+  "summary": "containerd CRI plugin: Checkpoint restore bypasses destination security context",
+  "published": "2026-10-13T16:55:23.000Z",
+  "modified": "2026-10-13T16:55:23.000Z",
+  "upstream": [
+    "CVE-2026-95837"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "containerd"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2997"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/573666"
+    }
+  ]
+}
