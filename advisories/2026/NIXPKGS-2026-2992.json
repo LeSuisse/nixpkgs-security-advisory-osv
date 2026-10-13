@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2992",
+  "summary": "janus-gateway: security issues < 1.4.3",
+  "published": "2026-10-13T11:44:10.000Z",
+  "modified": "2026-10-13T11:44:10.000Z",
+  "upstream": [
+    "CVE-2026-108831",
+    "CVE-2026-108830"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "janus-gateway"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2992"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/573573"
+    }
+  ]
+}
