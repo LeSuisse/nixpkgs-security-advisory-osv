@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-2990",
+  "summary": "surrealdb: security issues < 3.3.0",
+  "published": "2026-10-13T07:13:29.000Z",
+  "modified": "2026-10-13T07:13:29.000Z",
+  "upstream": [
+    "CVE-2026-109338",
+    "CVE-2026-109333",
+    "CVE-2026-109343",
+    "CVE-2026-109337",
+    "CVE-2026-109334",
+    "CVE-2026-109342",
+    "CVE-2026-102876",
+    "CVE-2026-109336",
+    "CVE-2026-109341",
+    "CVE-2026-109335"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "surrealdb"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-2990"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/573514"
+    }
+  ]
+}
