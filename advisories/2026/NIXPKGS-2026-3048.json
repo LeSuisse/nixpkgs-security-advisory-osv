@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3048",
+  "summary": "CGNS through 4.5.2 Stack Out-of-Bounds Read via ADFI_read_node_header",
+  "published": "2026-10-15T09:53:39.000Z",
+  "modified": "2026-10-15T09:53:39.000Z",
+  "upstream": [
+    "CVE-2026-110661"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cgns"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3048"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574380"
+    }
+  ]
+}

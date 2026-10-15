@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3042",
+  "summary": "gstreamer: security issues < 1.28.5 (backport needed)",
+  "published": "2026-10-15T07:05:50.000Z",
+  "modified": "2026-10-15T07:05:50.000Z",
+  "upstream": [
+    "CVE-2026-18297",
+    "CVE-2026-18295",
+    "CVE-2026-18299",
+    "CVE-2026-18298",
+    "CVE-2026-18296",
+    "CVE-2026-5056"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gst_all_1.gstreamer"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3042"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574311"
+    }
+  ]
+}

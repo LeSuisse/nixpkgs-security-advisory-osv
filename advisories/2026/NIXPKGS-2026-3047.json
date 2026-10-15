@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3047",
+  "summary": "ONLYOFFICE DocumentServer before 10.0.0 SSRF via downloadfile isInJwtToken Bypass",
+  "published": "2026-10-15T09:53:35.000Z",
+  "modified": "2026-10-15T09:53:35.000Z",
+  "upstream": [
+    "CVE-2026-110652"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "onlyoffice-documentserver"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3047"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574379"
+    }
+  ]
+}

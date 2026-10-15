@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3043",
+  "summary": "nsd: security issues < 4.15.3",
+  "published": "2026-10-15T09:18:29.000Z",
+  "modified": "2026-10-15T09:18:29.000Z",
+  "upstream": [
+    "CVE-2026-101338",
+    "CVE-2026-101337",
+    "CVE-2026-101339",
+    "CVE-2026-101341"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nsd"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3043"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574366"
+    }
+  ]
+}

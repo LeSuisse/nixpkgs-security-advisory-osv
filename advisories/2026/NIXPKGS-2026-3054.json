@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3054",
+  "summary": "pgbouncer: security issues < 1.26.1",
+  "published": "2026-10-15T09:56:09.000Z",
+  "modified": "2026-10-15T09:56:09.000Z",
+  "upstream": [
+    "CVE-2026-107348",
+    "CVE-2026-107350",
+    "CVE-2026-107349"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pgbouncer"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3054"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574387"
+    }
+  ]
+}

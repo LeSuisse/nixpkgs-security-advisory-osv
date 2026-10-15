@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3023",
+  "summary": "In fail2ban 0.10.5 through 1.1.1 before ddd879d, the sshd filter …",
+  "published": "2026-10-15T07:00:55.000Z",
+  "modified": "2026-10-15T07:00:55.000Z",
+  "upstream": [
+    "CVE-2026-109786"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fail2ban"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3023"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574292"
+    }
+  ]
+}

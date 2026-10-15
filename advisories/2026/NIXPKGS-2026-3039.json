@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3039",
+  "summary": "M17n-lib: uninitialized stack read in iso-2022 compound text utf-8 decoding",
+  "published": "2026-10-15T07:02:39.000Z",
+  "modified": "2026-10-15T07:02:39.000Z",
+  "upstream": [
+    "CVE-2026-109854"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "m17n_lib"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3039"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574308"
+    }
+  ]
+}

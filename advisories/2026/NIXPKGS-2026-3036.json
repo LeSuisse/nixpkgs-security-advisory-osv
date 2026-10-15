@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3036",
+  "summary": "Clevis: clevis: integer underflow in pkcs#11 data socket handler crashes daemon on unbound client connection",
+  "published": "2026-10-15T07:02:02.000Z",
+  "modified": "2026-10-15T07:02:02.000Z",
+  "upstream": [
+    "CVE-2026-109976"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "clevis"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3036"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574305"
+    }
+  ]
+}

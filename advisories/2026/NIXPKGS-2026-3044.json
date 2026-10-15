@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3044",
+  "summary": "dpdk: security issues < 25.11.4, < 26.07",
+  "published": "2026-10-15T09:26:24.000Z",
+  "modified": "2026-10-15T09:26:24.000Z",
+  "upstream": [
+    "CVE-2026-86564",
+    "CVE-2026-86565",
+    "CVE-2026-86567",
+    "CVE-2026-86561",
+    "CVE-2026-86562",
+    "CVE-2026-86845",
+    "CVE-2026-86846",
+    "CVE-2026-86563",
+    "CVE-2026-86847",
+    "CVE-2026-86848",
+    "CVE-2026-100236",
+    "CVE-2026-86849",
+    "CVE-2026-86566",
+    "CVE-2026-93683",
+    "CVE-2026-86856"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dpdk"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3044"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574370"
+    }
+  ]
+}

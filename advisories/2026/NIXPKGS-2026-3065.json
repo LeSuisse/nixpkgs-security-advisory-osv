@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3065",
+  "summary": "LASzip through 3.5.0 Invalid Free via Truncated VLR Header in laszip_read_header",
+  "published": "2026-10-15T09:57:49.000Z",
+  "modified": "2026-10-15T09:57:49.000Z",
+  "upstream": [
+    "CVE-2026-110603"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "laszip"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3065"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574398"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3034",
+  "summary": "Potential command execution on the host running JFrog CLI.",
+  "published": "2026-10-15T07:01:52.000Z",
+  "modified": "2026-10-15T07:01:52.000Z",
+  "upstream": [
+    "CVE-2026-92892"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jfrog-cli"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3034"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574303"
+    }
+  ]
+}

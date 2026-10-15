@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3026",
+  "summary": "KeePassXC: Heap use-after-free in KeePass1 (KDB) importer via unpruned m_entryUuids map",
+  "published": "2026-10-15T07:01:17.000Z",
+  "modified": "2026-10-15T07:01:17.000Z",
+  "upstream": [
+    "CVE-2026-69150"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "keepassxc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3026"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574295"
+    }
+  ]
+}

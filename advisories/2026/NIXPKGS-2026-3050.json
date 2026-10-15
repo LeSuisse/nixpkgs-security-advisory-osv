@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3050",
+  "summary": "Sofia-SIP through 1.13.18 Heap Out-of-Bounds Read via msg_multipart_parse",
+  "published": "2026-10-15T09:55:16.000Z",
+  "modified": "2026-10-15T09:55:16.000Z",
+  "upstream": [
+    "CVE-2026-110658"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sofia_sip"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3050"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574383"
+    }
+  ]
+}

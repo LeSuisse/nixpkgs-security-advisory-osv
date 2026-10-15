@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3033",
+  "summary": "libsndfile WAV Parsing wavlike.c wavlike_subchunk_parse uninitialized variable",
+  "published": "2026-10-15T07:01:36.000Z",
+  "modified": "2026-10-15T07:01:36.000Z",
+  "upstream": [
+    "CVE-2026-109828"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libsndfile"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3033"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574302"
+    }
+  ]
+}

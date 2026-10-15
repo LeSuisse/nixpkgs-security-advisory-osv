@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3040",
+  "summary": "MultiTail: Shell injection in execute-on-match command handling",
+  "published": "2026-10-15T07:02:41.000Z",
+  "modified": "2026-10-15T07:02:41.000Z",
+  "upstream": [
+    "CVE-2026-55601"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "multitail"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3040"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574309"
+    }
+  ]
+}

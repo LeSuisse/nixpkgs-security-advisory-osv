@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3038",
+  "summary": "muCommander through 1.6.2 Path Traversal via Archive Extraction to FTP/SFTP",
+  "published": "2026-10-15T07:02:37.000Z",
+  "modified": "2026-10-15T07:02:37.000Z",
+  "upstream": [
+    "CVE-2026-110231"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mucommander"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3038"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574307"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3067",
+  "summary": "LibreCAD libdxfrw through LC2.2.0 Stack Out-of-Bounds Read via dwgReader18::readFileHeader",
+  "published": "2026-10-15T09:58:00.000Z",
+  "modified": "2026-10-15T09:58:00.000Z",
+  "upstream": [
+    "CVE-2026-110606"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "librecad"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3067"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574400"
+    }
+  ]
+}

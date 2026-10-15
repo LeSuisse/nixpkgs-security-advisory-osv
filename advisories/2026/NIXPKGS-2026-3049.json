@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3049",
+  "summary": "python3Packages.gitpython: security issues < 3.2.0",
+  "published": "2026-10-15T09:54:54.000Z",
+  "modified": "2026-10-15T09:54:54.000Z",
+  "upstream": [
+    "CVE-2026-110860",
+    "CVE-2026-110858",
+    "CVE-2026-110856",
+    "CVE-2026-110855",
+    "CVE-2026-110859",
+    "CVE-2026-110857"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.gitpython"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.gitpython"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3049"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574382"
+    }
+  ]
+}

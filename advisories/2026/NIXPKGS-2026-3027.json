@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3027",
+  "summary": "Misskey: Cross-site scripting in RSS feed item links",
+  "published": "2026-10-15T07:01:19.000Z",
+  "modified": "2026-10-15T07:01:19.000Z",
+  "upstream": [
+    "CVE-2026-104816"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "misskey"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3027"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574296"
+    }
+  ]
+}

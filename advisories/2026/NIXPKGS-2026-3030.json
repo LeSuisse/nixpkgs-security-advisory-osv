@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3030",
+  "summary": "JupyterLab: Command link trust prompt in JupyterLab can trust a document other than the one clicked",
+  "published": "2026-10-15T07:01:27.000Z",
+  "modified": "2026-10-15T07:01:27.000Z",
+  "upstream": [
+    "CVE-2026-102832"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.notebook"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.notebook"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python312Packages.jupyterlab"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.jupyterlab"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.jupyterlab"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3030"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574299"
+    }
+  ]
+}

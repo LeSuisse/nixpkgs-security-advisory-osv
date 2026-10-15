@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3061",
+  "summary": "mise permits untrusted local configuration to override default shell arguments",
+  "published": "2026-10-15T09:57:36.000Z",
+  "modified": "2026-10-15T09:57:36.000Z",
+  "upstream": [
+    "CVE-2026-103929"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mise"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3061"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574394"
+    }
+  ]
+}

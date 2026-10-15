@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3025",
+  "summary": "SFTPGo source-side file-pattern filter bypass during copy operations",
+  "published": "2026-10-15T07:01:13.000Z",
+  "modified": "2026-10-15T07:01:13.000Z",
+  "upstream": [
+    "CVE-2026-103028"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sftpgo"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3025"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574294"
+    }
+  ]
+}

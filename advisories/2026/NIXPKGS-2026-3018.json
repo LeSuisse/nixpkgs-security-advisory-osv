@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3018",
+  "summary": "OpenVPN 2.7_alpha1 through 2.7.7 allows remote authenticated users to impersonate …",
+  "published": "2026-10-15T06:35:20.000Z",
+  "modified": "2026-10-15T06:35:20.000Z",
+  "upstream": [
+    "CVE-2026-84790"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openvpn"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3018"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/574280"
+    }
+  ]
+}
