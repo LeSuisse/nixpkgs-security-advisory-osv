@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3075",
+  "summary": "kin-openapi: Nil-pointer dereference panic in openapi3filter for OpenAPI 3.1 array schemas missing items",
+  "published": "2026-10-19T09:32:46.000Z",
+  "modified": "2026-10-19T09:32:46.000Z",
+  "upstream": [
+    "CVE-2026-97394"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kin-openapi"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3075"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575899"
+    }
+  ]
+}

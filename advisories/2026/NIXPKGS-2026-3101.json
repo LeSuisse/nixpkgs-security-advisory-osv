@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3101",
+  "summary": "snac2 before 2.93 Heap-Based Buffer Overflow via JSON Parser _xs_json_load_lexer()",
+  "published": "2026-10-19T09:53:03.000Z",
+  "modified": "2026-10-19T09:53:03.000Z",
+  "upstream": [
+    "CVE-2026-112021"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "snac2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3101"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575932"
+    }
+  ]
+}

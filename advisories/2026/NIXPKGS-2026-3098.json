@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3098",
+  "summary": "libmng through 2.0.3 Heap Buffer Overflow via ORDR Chunk Reader mng_read_ordr",
+  "published": "2026-10-19T09:52:59.000Z",
+  "modified": "2026-10-19T09:52:59.000Z",
+  "upstream": [
+    "CVE-2026-112008"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libmng"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3098"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575929"
+    }
+  ]
+}

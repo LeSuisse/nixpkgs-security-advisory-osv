@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3093",
+  "summary": "coder: security issues < 2.34.8 (backport needed)",
+  "published": "2026-10-19T09:50:05.000Z",
+  "modified": "2026-10-19T09:50:05.000Z",
+  "upstream": [
+    "CVE-2026-111928",
+    "CVE-2026-111933",
+    "CVE-2026-111929",
+    "CVE-2026-111931",
+    "CVE-2026-111926",
+    "CVE-2026-111927",
+    "CVE-2026-111930",
+    "CVE-2026-111932",
+    "CVE-2026-111934"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "coder"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3093"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575924"
+    }
+  ]
+}

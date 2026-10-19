@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3081",
+  "summary": "libewf through 20260924 Heap Out-of-Bounds Read via L01 Extended Attribute Parsing",
+  "published": "2026-10-19T09:35:24.000Z",
+  "modified": "2026-10-19T09:35:24.000Z",
+  "upstream": [
+    "CVE-2026-111159"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libewf"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libewf-legacy"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3081"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575906"
+    }
+  ]
+}

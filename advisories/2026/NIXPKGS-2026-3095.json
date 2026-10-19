@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3095",
+  "summary": "ssldump Heap Buffer Overflow in FAN/1 X.509 Fingerprint Formatting",
+  "published": "2026-10-19T09:52:54.000Z",
+  "modified": "2026-10-19T09:52:54.000Z",
+  "upstream": [
+    "CVE-2026-111458"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ssldump"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3095"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575926"
+    }
+  ]
+}

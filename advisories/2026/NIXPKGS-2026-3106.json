@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3106",
+  "summary": "libdvdnav before 7.0.0 Out-of-Bounds Read in dvdnav_describe_title_chapters",
+  "published": "2026-10-19T09:53:29.000Z",
+  "modified": "2026-10-19T09:53:29.000Z",
+  "upstream": [
+    "CVE-2026-112057"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libdvdnav"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libdvdnav_4_2_1"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3106"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575937"
+    }
+  ]
+}

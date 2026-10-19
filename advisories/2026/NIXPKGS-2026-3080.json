@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3080",
+  "summary": "unarr through 1.1.1 Heap Out-of-Bounds Read via zip_parse_extra_fields",
+  "published": "2026-10-19T09:35:15.000Z",
+  "modified": "2026-10-19T09:35:15.000Z",
+  "upstream": [
+    "CVE-2026-111274"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libunarr"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3080"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575905"
+    }
+  ]
+}

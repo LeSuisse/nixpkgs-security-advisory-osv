@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3084",
+  "summary": "SoX through 14.4.2 Heap Out-of-Bounds Write via MS ADPCM WAV Decoding",
+  "published": "2026-10-19T09:36:02.000Z",
+  "modified": "2026-10-19T09:36:02.000Z",
+  "upstream": [
+    "CVE-2026-111157"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sox"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3084"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575909"
+    }
+  ]
+}

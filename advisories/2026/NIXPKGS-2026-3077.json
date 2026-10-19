@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3077",
+  "summary": "OpenJPH through 0.32.0 Heap Out-of-Bounds Write in HTJ2K Cleanup-Pass Decoder",
+  "published": "2026-10-19T09:32:57.000Z",
+  "modified": "2026-10-19T09:32:57.000Z",
+  "upstream": [
+    "CVE-2026-111151"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openjph"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3077"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575901"
+    }
+  ]
+}

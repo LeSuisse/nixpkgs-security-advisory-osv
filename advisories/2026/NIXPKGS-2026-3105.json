@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3105",
+  "summary": "libspatialite through 5.1.0 Integer Overflow in WKB Geometry Parsing",
+  "published": "2026-10-19T09:53:28.000Z",
+  "modified": "2026-10-19T09:53:28.000Z",
+  "upstream": [
+    "CVE-2026-112052"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libspatialite"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3105"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575936"
+    }
+  ]
+}

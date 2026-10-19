@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3078",
+  "summary": "libytnef: security issues =< 2.1.2",
+  "published": "2026-10-19T09:33:35.000Z",
+  "modified": "2026-10-19T09:33:35.000Z",
+  "upstream": [
+    "CVE-2026-111145",
+    "CVE-2026-111146"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libytnef"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3078"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575902"
+    }
+  ]
+}

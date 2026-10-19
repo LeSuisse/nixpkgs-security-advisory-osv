@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3092",
+  "summary": "LibRaw through 0.22.2 Heap Out-of-Bounds Read via parseNikonMakernote ShotInfo",
+  "published": "2026-10-19T09:37:22.000Z",
+  "modified": "2026-10-19T09:37:22.000Z",
+  "upstream": [
+    "CVE-2026-111272"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libraw"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3092"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575917"
+    }
+  ]
+}

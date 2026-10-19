@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3090",
+  "summary": "libical through 4.0.6 Heap Out-of-Bounds Read via icalvalue_decode_ical_string",
+  "published": "2026-10-19T09:37:06.000Z",
+  "modified": "2026-10-19T09:37:06.000Z",
+  "upstream": [
+    "CVE-2026-111269"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libical"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3090"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/575915"
+    }
+  ]
+}
