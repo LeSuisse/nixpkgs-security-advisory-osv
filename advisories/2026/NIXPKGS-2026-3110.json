@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3110",
+  "summary": "perlPackages.CpanelJSONXS: security issues < 4.80",
+  "published": "2026-10-20T15:49:46.000Z",
+  "modified": "2026-10-20T15:49:46.000Z",
+  "upstream": [
+    "CVE-2026-110673",
+    "CVE-2026-110687",
+    "CVE-2026-110681",
+    "CVE-2026-110688",
+    "CVE-2026-110678",
+    "CVE-2026-110685",
+    "CVE-2026-110677",
+    "CVE-2026-110682",
+    "CVE-2026-110680",
+    "CVE-2026-110686",
+    "CVE-2026-110684",
+    "CVE-2026-110674",
+    "CVE-2026-110676",
+    "CVE-2026-110675",
+    "CVE-2026-110672"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.CpanelJSONXS"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.CpanelJSONXS"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3110"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/576457"
+    }
+  ]
+}
