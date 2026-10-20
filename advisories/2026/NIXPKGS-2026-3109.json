@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3109",
+  "summary": "python3Packages.pillow: security issues < 13.0.0",
+  "published": "2026-10-20T09:10:35.000Z",
+  "modified": "2026-10-20T09:10:35.000Z",
+  "upstream": [
+    "CVE-2026-112896",
+    "CVE-2026-112894",
+    "CVE-2026-112398",
+    "CVE-2026-112406",
+    "CVE-2026-112393",
+    "CVE-2026-112392",
+    "CVE-2026-112390",
+    "CVE-2026-112403",
+    "CVE-2026-112405",
+    "CVE-2026-112892",
+    "CVE-2026-112898",
+    "CVE-2026-112404",
+    "CVE-2026-112901",
+    "CVE-2026-112401",
+    "CVE-2026-112394",
+    "CVE-2026-112895",
+    "CVE-2026-112402",
+    "CVE-2026-112891",
+    "CVE-2026-112395",
+    "CVE-2026-112893",
+    "CVE-2026-112391",
+    "CVE-2026-112397",
+    "CVE-2026-112400",
+    "CVE-2026-112897",
+    "CVE-2026-112399",
+    "CVE-2026-112396"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pillow"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pillow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3109"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/576307"
+    }
+  ]
+}
