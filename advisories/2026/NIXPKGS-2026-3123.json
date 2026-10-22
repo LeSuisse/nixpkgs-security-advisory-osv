@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3123",
+  "summary": "docling-core 2.5.0 before 2.103.0 Local File Disclosure via Plain Path ImageRef",
+  "published": "2026-10-22T11:38:32.000Z",
+  "modified": "2026-10-22T11:38:32.000Z",
+  "upstream": [
+    "CVE-2026-112310"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.docling-core"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.docling-core"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.docling-core"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3123"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/577310"
+    }
+  ]
+}

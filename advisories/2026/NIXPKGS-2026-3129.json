@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3129",
+  "summary": "DiffSK configobj __init__.py _sectionmarker redos",
+  "published": "2026-10-22T11:39:08.000Z",
+  "modified": "2026-10-22T11:39:08.000Z",
+  "upstream": [
+    "CVE-2026-112300"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.configobj"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.configobj"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3129"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/577316"
+    }
+  ]
+}

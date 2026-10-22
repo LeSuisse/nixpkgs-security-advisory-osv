@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3120",
+  "summary": "GDevelop through 5.6.284 Cookie Leak via LocalFileDownloader Resource URLs",
+  "published": "2026-10-22T11:38:22.000Z",
+  "modified": "2026-10-22T11:38:22.000Z",
+  "upstream": [
+    "CVE-2026-112303"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gdevelop"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3120"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/577307"
+    }
+  ]
+}

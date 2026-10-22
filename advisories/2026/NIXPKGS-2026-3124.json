@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3124",
+  "summary": "libaribcaption 1.1.0 through 1.1.2 Out-of-Bounds Read via DecoderImpl::HandleGLGR",
+  "published": "2026-10-22T11:38:33.000Z",
+  "modified": "2026-10-22T11:38:33.000Z",
+  "upstream": [
+    "CVE-2026-112284"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libaribcaption"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3124"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/577311"
+    }
+  ]
+}

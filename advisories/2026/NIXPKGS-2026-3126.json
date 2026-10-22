@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3126",
+  "summary": "rdesktop through 1.9.0 Heap Out-of-Bounds Read via process_bmpcache2",
+  "published": "2026-10-22T11:38:45.000Z",
+  "modified": "2026-10-22T11:38:45.000Z",
+  "upstream": [
+    "CVE-2026-112279"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rdesktop"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3126"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/577313"
+    }
+  ]
+}

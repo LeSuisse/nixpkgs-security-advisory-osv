@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3122",
+  "summary": "Netpbm through 11.16.00 Heap Out-of-Bounds Write via rasttopnm pr_load_image",
+  "published": "2026-10-22T11:38:28.000Z",
+  "modified": "2026-10-22T11:38:28.000Z",
+  "upstream": [
+    "CVE-2026-112275"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "netpbm"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3122"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/577309"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3113",
+  "summary": "ntpsec: security issues < 1.26",
+  "published": "2026-10-22T11:36:11.000Z",
+  "modified": "2026-10-22T11:36:11.000Z",
+  "upstream": [
+    "CVE-2026-102485",
+    "CVE-2026-102484",
+    "CVE-2026-102486",
+    "CVE-2026-102483"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ntpsec"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3113"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/577299"
+    }
+  ]
+}

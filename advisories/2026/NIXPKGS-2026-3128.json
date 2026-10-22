@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3128",
+  "summary": "libbluray through 1.5.1 Uncontrolled Memory Allocation via _parse_extent_start_points",
+  "published": "2026-10-22T11:38:55.000Z",
+  "modified": "2026-10-22T11:38:55.000Z",
+  "upstream": [
+    "CVE-2026-112283"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libbluray"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libbluray-full"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3128"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/577315"
+    }
+  ]
+}

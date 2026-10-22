@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3114",
+  "summary": "Vyper 0.3.8 through 0.5.0b1 Memory Misread via Ternary Nested Array Selection",
+  "published": "2026-10-22T11:36:18.000Z",
+  "modified": "2026-10-22T11:36:18.000Z",
+  "upstream": [
+    "CVE-2026-114115"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vyper"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.vyper"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.vyper"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3114"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/577300"
+    }
+  ]
+}

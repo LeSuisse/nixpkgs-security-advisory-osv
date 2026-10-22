@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3133",
+  "summary": "Locust through 2.46.7 CSRF via Web UI /stop and /stats/reset",
+  "published": "2026-10-22T11:39:36.000Z",
+  "modified": "2026-10-22T11:39:36.000Z",
+  "upstream": [
+    "CVE-2026-111883"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.locust"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.locust"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3133"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NixOS/nixpkgs/issues/577320"
+    }
+  ]
+}
