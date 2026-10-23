@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3139",
+  "summary": "pillow: security issues < 13.0.0",
+  "published": "2026-10-23T09:23:44.000Z",
+  "modified": "2026-10-23T09:23:44.000Z",
+  "upstream": [
+    "CVE-2026-114501",
+    "CVE-2026-96644",
+    "CVE-2026-96642",
+    "CVE-2026-96778",
+    "CVE-2026-96636",
+    "CVE-2026-96639",
+    "CVE-2026-96641"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pillow"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pillow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3139"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577726"
+    }
+  ]
+}

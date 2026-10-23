@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3138",
+  "summary": "GStreamer rtpL16depay Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+  "published": "2026-10-23T08:50:54.000Z",
+  "modified": "2026-10-23T08:50:54.000Z",
+  "upstream": [
+    "CVE-2026-111183"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gst_all_1.gstreamer"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3138"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577720"
+    }
+  ]
+}
