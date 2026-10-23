@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3156",
+  "summary": "Memory allocation with excessive size value in the MQTT 3.1.1 compatibility adapter in aws-c-mqtt",
+  "published": "2026-10-23T11:32:43.000Z",
+  "modified": "2026-10-23T11:32:43.000Z",
+  "upstream": [
+    "CVE-2026-115417"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "aws-c-mqtt"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3156"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577790"
+    }
+  ]
+}

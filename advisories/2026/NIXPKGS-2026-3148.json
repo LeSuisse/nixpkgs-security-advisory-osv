@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3148",
+  "summary": "python3Packages.fpdf2: security issues < 2.8.8 (backport needed)",
+  "published": "2026-10-23T11:29:48.000Z",
+  "modified": "2026-10-23T11:29:48.000Z",
+  "upstream": [
+    "CVE-2026-114610",
+    "CVE-2026-114609"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.fpdf2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.fpdf2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3148"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577781"
+    }
+  ]
+}

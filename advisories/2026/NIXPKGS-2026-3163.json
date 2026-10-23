@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3163",
+  "summary": "Rsyslog: DynFile Path Traversal → Arbitrary File Write as Root → RCE",
+  "published": "2026-10-23T11:33:19.000Z",
+  "modified": "2026-10-23T11:33:19.000Z",
+  "upstream": [
+    "CVE-2026-92709"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rsyslog"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rsyslog-light"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3163"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577797"
+    }
+  ]
+}

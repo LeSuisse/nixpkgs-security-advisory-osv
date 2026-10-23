@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3159",
+  "summary": "fzf 0.36.0 through 0.74.5 Denial of Service via maskActionContents",
+  "published": "2026-10-23T11:32:52.000Z",
+  "modified": "2026-10-23T11:32:52.000Z",
+  "upstream": [
+    "CVE-2026-115319"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fzf"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3159"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577793"
+    }
+  ]
+}

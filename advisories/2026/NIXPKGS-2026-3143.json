@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3143",
+  "summary": "Vyper 0.4.0b1 through 0.5.0b1 Name Shadowing of Imported Constants and Default Arguments",
+  "published": "2026-10-23T11:24:28.000Z",
+  "modified": "2026-10-23T11:24:28.000Z",
+  "upstream": [
+    "CVE-2026-114663"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vyper"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.vyper"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.vyper"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3143"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577773"
+    }
+  ]
+}

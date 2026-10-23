@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3147",
+  "summary": "libyang through 6.4.13 Uninitialized Pointer Free in NETCONF RPC Parser",
+  "published": "2026-10-23T11:28:46.000Z",
+  "modified": "2026-10-23T11:28:46.000Z",
+  "upstream": [
+    "CVE-2026-115327"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libyang"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3147"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577780"
+    }
+  ]
+}

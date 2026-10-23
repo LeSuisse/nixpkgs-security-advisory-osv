@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3162",
+  "summary": "Out-of-Bounds Write in Google Brotli Decoder",
+  "published": "2026-10-23T11:33:10.000Z",
+  "modified": "2026-10-23T11:33:10.000Z",
+  "upstream": [
+    "CVE-2026-111497"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "brotli"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3162"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577796"
+    }
+  ]
+}

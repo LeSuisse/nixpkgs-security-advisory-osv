@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3141",
+  "summary": "OS command injection in the Terraform hook in AWS SAM CLI",
+  "published": "2026-10-23T11:22:11.000Z",
+  "modified": "2026-10-23T11:22:11.000Z",
+  "upstream": [
+    "CVE-2026-115414"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "aws-sam-cli"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3141"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577768"
+    }
+  ]
+}

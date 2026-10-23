@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3142",
+  "summary": "ghidra: security issues < 12.2",
+  "published": "2026-10-23T11:23:20.000Z",
+  "modified": "2026-10-23T11:23:20.000Z",
+  "upstream": [
+    "CVE-2026-115398",
+    "CVE-2026-115397",
+    "CVE-2026-115396",
+    "CVE-2026-115394",
+    "CVE-2026-115503",
+    "CVE-2026-115395"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ghidra"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ghidra-bin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3142"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577769"
+    }
+  ]
+}

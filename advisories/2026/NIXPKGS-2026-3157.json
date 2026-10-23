@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3157",
+  "summary": "KMS request injection via unsanitized key vault and provider values in libmongocrypt",
+  "published": "2026-10-23T11:32:48.000Z",
+  "modified": "2026-10-23T11:32:48.000Z",
+  "upstream": [
+    "CVE-2026-114655"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libmongocrypt"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3157"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577791"
+    }
+  ]
+}

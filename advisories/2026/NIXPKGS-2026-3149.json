@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3149",
+  "summary": "haproxy: security issues < 3.4.6, < 3.3.17",
+  "published": "2026-10-23T11:31:34.000Z",
+  "modified": "2026-10-23T11:31:34.000Z",
+  "upstream": [
+    "CVE-2026-110353",
+    "CVE-2026-110354"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "haproxy"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3149"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577783"
+    }
+  ]
+}

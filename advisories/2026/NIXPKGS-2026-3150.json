@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3150",
+  "summary": "Missing authorization in the unit resources download route in Juju controllers",
+  "published": "2026-10-23T11:31:55.000Z",
+  "modified": "2026-10-23T11:31:55.000Z",
+  "upstream": [
+    "CVE-2026-93336"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "juju"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3150"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577784"
+    }
+  ]
+}

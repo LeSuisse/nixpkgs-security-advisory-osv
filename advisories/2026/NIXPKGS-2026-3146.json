@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3146",
+  "summary": "Vikunja 2.2.0 before 2.7.1 HTML Injection via Notification Email Header",
+  "published": "2026-10-23T11:28:43.000Z",
+  "modified": "2026-10-23T11:28:43.000Z",
+  "upstream": [
+    "CVE-2026-115507"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vikunja"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3146"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577779"
+    }
+  ]
+}

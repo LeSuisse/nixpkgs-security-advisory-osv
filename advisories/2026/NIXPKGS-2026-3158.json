@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3158",
+  "summary": "CFITSIO through 4.7.0 Out-of-Bounds Write via ffgcls2 in getcols.c",
+  "published": "2026-10-23T11:32:51.000Z",
+  "modified": "2026-10-23T11:32:51.000Z",
+  "upstream": [
+    "CVE-2026-115504"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cfitsio"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3158"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/577792"
+    }
+  ]
+}
