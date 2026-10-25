@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3172",
+  "summary": "MongoDB Compass trusts certificates issued by recoverable eMudhra intermediate CAs",
+  "published": "2026-10-25T08:25:49.000Z",
+  "modified": "2026-10-25T08:25:49.000Z",
+  "upstream": [
+    "CVE-2026-115929"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mongodb-compass"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3172"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/578670"
+    }
+  ]
+}

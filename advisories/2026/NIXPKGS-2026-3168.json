@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3168",
+  "summary": "Snap7 through 1.4.3 Out-of-Bounds Write via BRecv and CheckAsBRecvCompletion",
+  "published": "2026-10-25T08:24:27.000Z",
+  "modified": "2026-10-25T08:24:27.000Z",
+  "upstream": [
+    "CVE-2026-115723"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "snap7"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3168"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/578666"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3169",
+  "summary": "Dulwich 0.23.1 before 1.2.8 Symlink Path Traversal via filter_branch Index Filter",
+  "published": "2026-10-25T08:25:03.000Z",
+  "modified": "2026-10-25T08:25:03.000Z",
+  "upstream": [
+    "CVE-2026-114097"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.dulwich"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.dulwich"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3169"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/578667"
+    }
+  ]
+}

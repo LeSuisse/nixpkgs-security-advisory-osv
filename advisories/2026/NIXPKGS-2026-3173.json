@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3173",
+  "summary": "open62541 1.5.0 before 1.5.7 Integer Overflow Heap Buffer Overflow via Custom DataType",
+  "published": "2026-10-25T08:25:54.000Z",
+  "modified": "2026-10-25T08:25:54.000Z",
+  "upstream": [
+    "CVE-2026-116014"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "open62541"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3173"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/578671"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3166",
+  "summary": "Tandoor Recipes before 2.7.0 SSRF via Pestle Importer Image URL",
+  "published": "2026-10-25T08:24:15.000Z",
+  "modified": "2026-10-25T08:24:15.000Z",
+  "upstream": [
+    "CVE-2026-115810"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tandoor-recipes"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3166"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/578664"
+    }
+  ]
+}

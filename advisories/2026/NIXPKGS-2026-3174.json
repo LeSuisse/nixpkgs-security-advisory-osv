@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3174",
+  "summary": "python3Packages.twisted: security issues < 26.10.0rc1",
+  "published": "2026-10-25T08:27:07.000Z",
+  "modified": "2026-10-25T08:27:07.000Z",
+  "upstream": [
+    "CVE-2026-83813",
+    "CVE-2026-115774",
+    "CVE-2026-115778",
+    "CVE-2026-115775"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.twisted"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.twisted"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pytest-twisted"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3174"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/578674"
+    }
+  ]
+}

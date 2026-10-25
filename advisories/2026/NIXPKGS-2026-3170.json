@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3170",
+  "summary": "BookStack before 26.09.2 Incorrect Authorization via AttachmentController on Draft Pages",
+  "published": "2026-10-25T08:25:38.000Z",
+  "modified": "2026-10-25T08:25:38.000Z",
+  "upstream": [
+    "CVE-2026-116020"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bookstack"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3170"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/578668"
+    }
+  ]
+}
