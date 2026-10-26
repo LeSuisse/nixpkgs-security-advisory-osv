@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3185",
+  "summary": "yeswiki: security issues < 4.7.0",
+  "published": "2026-10-26T08:37:57.000Z",
+  "modified": "2026-10-26T08:37:57.000Z",
+  "upstream": [
+    "CVE-2026-116202",
+    "CVE-2026-116207",
+    "CVE-2026-116203",
+    "CVE-2026-116208",
+    "CVE-2026-116204",
+    "CVE-2026-116205",
+    "CVE-2026-116211",
+    "CVE-2026-116206"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "yeswiki"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3185"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/579134"
+    }
+  ]
+}

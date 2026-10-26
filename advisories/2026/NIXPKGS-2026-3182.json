@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3182",
+  "summary": "siyuan: security issues < 3.8.7",
+  "published": "2026-10-26T08:28:51.000Z",
+  "modified": "2026-10-26T08:28:51.000Z",
+  "upstream": [
+    "CVE-2026-116168",
+    "CVE-2026-116167",
+    "CVE-2026-116169",
+    "CVE-2026-116171",
+    "CVE-2026-116170",
+    "CVE-2026-116166"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3182"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/579129"
+    }
+  ]
+}

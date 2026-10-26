@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3187",
+  "summary": "perlPackages.Starman: security issues < 0.4019",
+  "published": "2026-10-26T08:42:00.000Z",
+  "modified": "2026-10-26T08:42:00.000Z",
+  "upstream": [
+    "CVE-2026-115822",
+    "CVE-2026-115823",
+    "CVE-2026-115824",
+    "CVE-2026-115817"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.Starman"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.Starman"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3187"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/579136"
+    }
+  ]
+}

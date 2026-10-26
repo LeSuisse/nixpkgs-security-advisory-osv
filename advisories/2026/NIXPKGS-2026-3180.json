@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3180",
+  "summary": "Wasmtime: Bit-packing in Cranelift compiler causes silent overflow and miscompilation",
+  "published": "2026-10-26T08:27:18.000Z",
+  "modified": "2026-10-26T08:27:18.000Z",
+  "upstream": [
+    "CVE-2026-115889"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wasmtime_36"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3180"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/579127"
+    }
+  ]
+}
