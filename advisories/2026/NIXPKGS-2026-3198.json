@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3198",
+  "summary": "libcss through 0.9.2 NULL Pointer Dereference via Media-Query Parser",
+  "published": "2026-10-27T16:38:36.000Z",
+  "modified": "2026-10-27T16:38:36.000Z",
+  "upstream": [
+    "CVE-2026-116740"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libcss"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3198"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/579710"
+    }
+  ]
+}

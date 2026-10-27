@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3191",
+  "summary": "libimobiledevice AFC afc.c heap-based overflow",
+  "published": "2026-10-27T16:38:07.000Z",
+  "modified": "2026-10-27T16:38:07.000Z",
+  "upstream": [
+    "CVE-2026-116258"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libimobiledevice"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3191"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/579703"
+    }
+  ]
+}

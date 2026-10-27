@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3190",
+  "summary": "VMime through 0.9.2 Stack-Based Buffer Overflow via uuencode Decoder",
+  "published": "2026-10-27T16:38:04.000Z",
+  "modified": "2026-10-27T16:38:04.000Z",
+  "upstream": [
+    "CVE-2026-116738"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vmime"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3190"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/579702"
+    }
+  ]
+}

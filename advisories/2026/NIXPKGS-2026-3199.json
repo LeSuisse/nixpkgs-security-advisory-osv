@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3199",
+  "summary": "Kener 3.0.0 before 4.1.10 Authentication Bypass via Hardcoded Fallback JWT Secret",
+  "published": "2026-10-27T16:38:39.000Z",
+  "modified": "2026-10-27T16:38:39.000Z",
+  "upstream": [
+    "CVE-2026-116747"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kener"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3199"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/579711"
+    }
+  ]
+}

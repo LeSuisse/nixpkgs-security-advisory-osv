@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3193",
+  "summary": "YesWiki before 4.7.0 SSRF via copyUrlToLocalFile in Bazar CSV Import",
+  "published": "2026-10-27T16:38:11.000Z",
+  "modified": "2026-10-27T16:38:11.000Z",
+  "upstream": [
+    "CVE-2026-116827"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "yeswiki"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3193"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/579705"
+    }
+  ]
+}

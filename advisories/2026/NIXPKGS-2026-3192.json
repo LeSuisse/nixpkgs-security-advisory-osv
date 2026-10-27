@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3192",
+  "summary": "Infinite loop in Xpdf due to missing validation in JPEG 2000 decoder",
+  "published": "2026-10-27T16:38:09.000Z",
+  "modified": "2026-10-27T16:38:09.000Z",
+  "upstream": [
+    "CVE-2026-116671"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "xpdf"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3192"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/579704"
+    }
+  ]
+}
