@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3215",
+  "summary": "Axel Download Accelerator Path Traversal via URL Filename Decoding",
+  "published": "2026-10-29T14:22:05.000Z",
+  "modified": "2026-10-29T14:22:05.000Z",
+  "upstream": [
+    "CVE-2026-118485"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "axel"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3215"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580532"
+    }
+  ]
+}

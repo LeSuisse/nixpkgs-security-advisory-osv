@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3220",
+  "summary": "ESPHome Device Builder allows unauthenticated dashboard access via the HA add-on ingress site bound to all interfaces",
+  "published": "2026-10-29T14:22:19.000Z",
+  "modified": "2026-10-29T14:22:19.000Z",
+  "upstream": [
+    "CVE-2026-59177"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "esphome-device-builder"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3220"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580537"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3208",
+  "summary": "perlPackages.MIMETools: security issue < 5.521",
+  "published": "2026-10-29T14:21:30.000Z",
+  "modified": "2026-10-29T14:21:30.000Z",
+  "upstream": [
+    "CVE-2026-116267",
+    "CVE-2026-116272",
+    "CVE-2026-116268",
+    "CVE-2026-116270",
+    "CVE-2026-116273",
+    "CVE-2026-116264",
+    "CVE-2026-116266",
+    "CVE-2026-116269",
+    "CVE-2026-116271",
+    "CVE-2026-116265"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.MIMETools"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.MIMEtools"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.MIMETools"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.MIMEtools"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3208"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580525"
+    }
+  ]
+}

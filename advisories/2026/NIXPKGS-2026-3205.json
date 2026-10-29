@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3205",
+  "summary": "perlPackages.HTTPBody: security issues < 1.24_01",
+  "published": "2026-10-29T14:20:32.000Z",
+  "modified": "2026-10-29T14:20:32.000Z",
+  "upstream": [
+    "CVE-2026-116132",
+    "CVE-2026-116135",
+    "CVE-2026-116285",
+    "CVE-2026-116134",
+    "CVE-2026-116133",
+    "CVE-2026-117500",
+    "CVE-2026-117501",
+    "CVE-2026-116131"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.HTTPBody"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.HTTPBody"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3205"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580522"
+    }
+  ]
+}

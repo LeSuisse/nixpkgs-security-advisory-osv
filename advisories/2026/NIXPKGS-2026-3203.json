@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3203",
+  "summary": "n8n: security issues < 2.43.5",
+  "published": "2026-10-29T13:31:19.000Z",
+  "modified": "2026-10-29T13:31:19.000Z",
+  "upstream": [
+    "CVE-2026-118677",
+    "CVE-2026-118646",
+    "CVE-2026-118678",
+    "CVE-2026-118679",
+    "CVE-2026-118641",
+    "CVE-2026-118640",
+    "CVE-2026-118644",
+    "CVE-2026-118676",
+    "CVE-2026-118675",
+    "CVE-2026-118642",
+    "CVE-2026-118645",
+    "CVE-2026-118648",
+    "CVE-2026-118647",
+    "CVE-2026-118649",
+    "CVE-2026-118643"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3203"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580506"
+    }
+  ]
+}
