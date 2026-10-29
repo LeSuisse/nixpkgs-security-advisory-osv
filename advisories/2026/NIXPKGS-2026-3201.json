@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3201",
+  "summary": "Asterisk: Possible RED T.140 Generation Accumulation OOB Write",
+  "published": "2026-10-29T09:54:04.000Z",
+  "modified": "2026-10-29T09:54:04.000Z",
+  "upstream": [
+    "CVE-2026-57189"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk_20"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk_22"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk_23"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk-lts"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk-ldap"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "asterisk-stable"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3201"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580442"
+    }
+  ]
+}
