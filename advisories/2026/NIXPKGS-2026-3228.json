@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3228",
+  "summary": "nomad: security issues < 2.1.0",
+  "published": "2026-10-30T08:35:39.000Z",
+  "modified": "2026-10-30T08:35:39.000Z",
+  "upstream": [
+    "CVE-2026-119168",
+    "CVE-2026-107347",
+    "CVE-2026-102260"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nomad"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nomad_1_9"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nomad_2_0"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nomad_1_10"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nomad_1_11"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3228"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580839"
+    }
+  ]
+}

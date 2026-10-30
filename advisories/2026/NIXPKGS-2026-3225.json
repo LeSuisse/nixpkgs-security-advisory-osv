@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3225",
+  "summary": "python3Packages.pyasn1: security issues < 0.6.5",
+  "published": "2026-10-30T08:31:59.000Z",
+  "modified": "2026-10-30T08:31:59.000Z",
+  "upstream": [
+    "CVE-2026-119194",
+    "CVE-2026-119196",
+    "CVE-2026-119195",
+    "CVE-2026-119197"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pyasn1"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pyasn1"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3225"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580836"
+    }
+  ]
+}

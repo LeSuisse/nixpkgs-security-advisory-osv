@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3242",
+  "summary": "joserfc: Unbounded JWE General JSON `recipients` Array Leads to CPU Exhaustion (DoS) via Repeated RSA Private-Key Decryption",
+  "published": "2026-10-30T08:37:44.000Z",
+  "modified": "2026-10-30T08:37:44.000Z",
+  "upstream": [
+    "CVE-2026-119283"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.joserfc"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.joserfc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3242"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580854"
+    }
+  ]
+}

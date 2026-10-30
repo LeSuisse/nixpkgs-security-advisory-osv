@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3239",
+  "summary": "A heap-based buffer overflow vulnerability exists in the vtkWindBladeReader FindVariableOffsets …",
+  "published": "2026-10-30T08:37:33.000Z",
+  "modified": "2026-10-30T08:37:33.000Z",
+  "upstream": [
+    "CVE-2026-9536"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vtk"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vtk_9"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vtk_9_5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vtk_9_6"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vtk-full"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vtk_9_egl"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.vtk"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.vtk_9_5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.vtk_9_6"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.vtk-full"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3239"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580851"
+    }
+  ]
+}

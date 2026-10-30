@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3229",
+  "summary": "KeePassXC: Out-of-bounds write in browser integration response encryption with oversized database responses",
+  "published": "2026-10-30T08:35:54.000Z",
+  "modified": "2026-10-30T08:35:54.000Z",
+  "upstream": [
+    "CVE-2026-118673"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "keepassxc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3229"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580841"
+    }
+  ]
+}

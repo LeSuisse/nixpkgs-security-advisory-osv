@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3231",
+  "summary": "ZITADEL 3.0.0 through 3.4.15 and 4.0.0 before 4.19.5 Account Takeover via Device Authorization Approval",
+  "published": "2026-10-30T08:36:06.000Z",
+  "modified": "2026-10-30T08:36:06.000Z",
+  "upstream": [
+    "CVE-2026-119129"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zitadel"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3231"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580843"
+    }
+  ]
+}

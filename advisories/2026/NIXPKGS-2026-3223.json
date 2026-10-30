@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3223",
+  "summary": "python3Packages.pypdf: security issues < 6.21.3 (action needed for stable)",
+  "published": "2026-10-30T08:30:34.000Z",
+  "modified": "2026-10-30T08:30:34.000Z",
+  "upstream": [
+    "CVE-2026-119207",
+    "CVE-2026-119209",
+    "CVE-2026-119208",
+    "CVE-2026-119206",
+    "CVE-2026-119204"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pypdf"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pypdf"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3223"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580834"
+    }
+  ]
+}

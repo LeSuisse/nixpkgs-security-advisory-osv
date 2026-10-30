@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3232",
+  "summary": "Missing authorization check in event quick setup view",
+  "published": "2026-10-30T08:36:52.000Z",
+  "modified": "2026-10-30T08:36:52.000Z",
+  "upstream": [
+    "CVE-2026-18028"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pretix"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3232"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580844"
+    }
+  ]
+}

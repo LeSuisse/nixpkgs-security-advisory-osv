@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3230",
+  "summary": "oapi-codegen 2.5.0 before 2.8.1 Code Injection via servers[].x-go-name Extension",
+  "published": "2026-10-30T08:35:57.000Z",
+  "modified": "2026-10-30T08:35:57.000Z",
+  "upstream": [
+    "CVE-2026-119027"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "oapi-codegen"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3230"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580842"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3221",
+  "summary": "mariadb-connector-java: security issues < 3.5.11",
+  "published": "2026-10-30T08:25:44.000Z",
+  "modified": "2026-10-30T08:25:44.000Z",
+  "upstream": [
+    "CVE-2026-119277",
+    "CVE-2026-119210",
+    "CVE-2026-119281",
+    "CVE-2026-55857",
+    "CVE-2026-55858",
+    "CVE-2026-55856",
+    "CVE-2026-118693",
+    "CVE-2026-118692",
+    "CVE-2026-119276",
+    "CVE-2026-119279",
+    "CVE-2026-119278",
+    "CVE-2026-119280"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mariadb-connector-java"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cherrytree"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3221"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580831"
+    }
+  ]
+}

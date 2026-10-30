@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3255",
+  "summary": "Ultralytics check_det_dataset Code Injection Remote Code Execution Vulnerability",
+  "published": "2026-10-30T08:40:36.000Z",
+  "modified": "2026-10-30T08:40:36.000Z",
+  "upstream": [
+    "CVE-2026-118614"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ultralytics"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.ultralytics"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.ultralytics"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.ultralytics"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3255"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580867"
+    }
+  ]
+}

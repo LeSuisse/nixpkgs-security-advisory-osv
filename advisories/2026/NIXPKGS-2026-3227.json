@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3227",
+  "summary": "botan3: security issues < 3.13.0 (backport needed)",
+  "published": "2026-10-30T08:34:16.000Z",
+  "modified": "2026-10-30T08:34:16.000Z",
+  "upstream": [
+    "CVE-2026-118766",
+    "CVE-2026-118767",
+    "CVE-2026-118769",
+    "CVE-2026-118768"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "botan3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "botanEsdm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.botan3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.botan3"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3227"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/580838"
+    }
+  ]
+}
