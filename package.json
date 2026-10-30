@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^26.6.4",
-    "oxfmt": "^0.72.0",
+    "oxfmt": "^0.75.0",
     "oxlint": "^1.87.0",
     "oxlint-tsgolint": "^7.0.2004",
     "typescript": "^7.0.2"
