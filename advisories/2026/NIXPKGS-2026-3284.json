@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3284",
+  "summary": "tcpflow through 1.6.1 Out-of-Bounds Read via TCP Demultiplexer Payload Length",
+  "published": "2026-10-31T11:04:38.000Z",
+  "modified": "2026-10-31T11:04:38.000Z",
+  "upstream": [
+    "CVE-2026-119600"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tcpflow"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3284"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581365"
+    }
+  ]
+}

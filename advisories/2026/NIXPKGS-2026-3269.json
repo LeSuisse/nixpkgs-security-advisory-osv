@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3269",
+  "summary": "jellyfin: security issues < 12.0",
+  "published": "2026-10-31T10:59:39.000Z",
+  "modified": "2026-10-31T10:59:39.000Z",
+  "upstream": [
+    "CVE-2026-119551",
+    "CVE-2026-119550"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jellyfin"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jellyfin-web"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3269"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581350"
+    }
+  ]
+}

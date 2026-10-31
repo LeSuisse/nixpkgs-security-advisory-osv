@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3258",
+  "summary": "Ladybird: Missing origin-clean enforcement in CSSStyleSheet allows cross-origin CSS read and mutation",
+  "published": "2026-10-31T10:50:51.000Z",
+  "modified": "2026-10-31T10:50:51.000Z",
+  "upstream": [
+    "CVE-2026-119331"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ladybird"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3258"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581334"
+    }
+  ]
+}

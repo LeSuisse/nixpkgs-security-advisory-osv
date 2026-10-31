@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3288",
+  "summary": "Stirling-PDF: AI create-pdf-from-html-agent skips HTML sanitization enabling WeasyPrint SSRF and local file read",
+  "published": "2026-10-31T11:07:09.000Z",
+  "modified": "2026-10-31T11:07:09.000Z",
+  "upstream": [
+    "CVE-2026-119343"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "stirling-pdf"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3288"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581370"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3257",
+  "summary": "libredwg: security issues < 0.14",
+  "published": "2026-10-31T10:50:40.000Z",
+  "modified": "2026-10-31T10:50:40.000Z",
+  "upstream": [
+    "CVE-2026-62250",
+    "CVE-2026-54610"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libredwg"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.libredwg"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.libredwg"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3257"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581333"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3286",
+  "summary": "python3Packages.fickling: security issues < 0.1.12",
+  "published": "2026-10-31T11:05:52.000Z",
+  "modified": "2026-10-31T11:05:52.000Z",
+  "upstream": [
+    "CVE-2026-16760",
+    "CVE-2026-118938"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.fickling"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.fickling"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.fickling"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3286"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581367"
+    }
+  ]
+}

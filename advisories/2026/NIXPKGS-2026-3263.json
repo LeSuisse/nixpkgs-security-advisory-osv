@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3263",
+  "summary": "pybars3 through 0.9.7 Code Injection via Bracketed Path Segments",
+  "published": "2026-10-31T10:53:39.000Z",
+  "modified": "2026-10-31T10:53:39.000Z",
+  "upstream": [
+    "CVE-2026-119716"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pybars3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pybars3"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3263"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581340"
+    }
+  ]
+}

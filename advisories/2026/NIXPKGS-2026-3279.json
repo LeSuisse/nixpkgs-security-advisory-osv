@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3279",
+  "summary": "n8n: security issues < 2.46.3",
+  "published": "2026-10-31T11:03:50.000Z",
+  "modified": "2026-10-31T11:03:50.000Z",
+  "upstream": [
+    "CVE-2026-119408",
+    "CVE-2026-119557"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3279"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581360"
+    }
+  ]
+}

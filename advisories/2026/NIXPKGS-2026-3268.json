@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3268",
+  "summary": "tesseract: security issues < 5.5.4",
+  "published": "2026-10-31T10:57:30.000Z",
+  "modified": "2026-10-31T10:57:30.000Z",
+  "upstream": [
+    "CVE-2026-119341",
+    "CVE-2026-119340",
+    "CVE-2026-119339"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tesseract"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "tesseract5"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3268"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581348"
+    }
+  ]
+}

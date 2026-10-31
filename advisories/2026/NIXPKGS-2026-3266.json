@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3266",
+  "summary": "traefik: security issues < 3.7.15",
+  "published": "2026-10-31T10:55:07.000Z",
+  "modified": "2026-10-31T10:55:07.000Z",
+  "upstream": [
+    "CVE-2026-119574",
+    "CVE-2026-119572",
+    "CVE-2026-119573"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traefik"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3266"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581343"
+    }
+  ]
+}

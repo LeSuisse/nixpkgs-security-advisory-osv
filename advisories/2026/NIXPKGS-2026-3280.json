@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3280",
+  "summary": "uhttpd vulnerable to HTTP request smuggling via case-sensitive Transfer-Encoding matching",
+  "published": "2026-10-31T11:04:14.000Z",
+  "modified": "2026-10-31T11:04:14.000Z",
+  "upstream": [
+    "CVE-2026-55614"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "uhttpd"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3280"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581361"
+    }
+  ]
+}

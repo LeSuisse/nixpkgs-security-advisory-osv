@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3287",
+  "summary": "moodle: security issues < 5.1.8",
+  "published": "2026-10-31T11:06:52.000Z",
+  "modified": "2026-10-31T11:06:52.000Z",
+  "upstream": [
+    "CVE-2026-119554",
+    "CVE-2026-119556"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "moodle"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3287"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581368"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3261",
+  "summary": "blender: security issues < 5.2.3",
+  "published": "2026-10-31T10:52:09.000Z",
+  "modified": "2026-10-31T10:52:09.000Z",
+  "upstream": [
+    "CVE-2026-119719",
+    "CVE-2026-119722",
+    "CVE-2026-119718",
+    "CVE-2026-119721",
+    "CVE-2026-119720"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "blender"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.blender"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3261"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581338"
+    }
+  ]
+}

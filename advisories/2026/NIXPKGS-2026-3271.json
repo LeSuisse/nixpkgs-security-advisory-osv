@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3271",
+  "summary": "collabora-online: security issues < 25.04.11",
+  "published": "2026-10-31T11:01:54.000Z",
+  "modified": "2026-10-31T11:01:54.000Z",
+  "upstream": [
+    "CVE-2026-48164",
+    "CVE-2026-46499"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "collabora-online"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3271"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581352"
+    }
+  ]
+}

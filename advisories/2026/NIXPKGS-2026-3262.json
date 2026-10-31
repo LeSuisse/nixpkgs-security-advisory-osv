@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3262",
+  "summary": "perlPackages.Starlet: security issues < 0.33",
+  "published": "2026-10-31T10:53:09.000Z",
+  "modified": "2026-10-31T10:53:09.000Z",
+  "upstream": [
+    "CVE-2026-116128",
+    "CVE-2026-116127",
+    "CVE-2026-115866",
+    "CVE-2026-115865"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.Starlet"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.Starlet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3262"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581339"
+    }
+  ]
+}

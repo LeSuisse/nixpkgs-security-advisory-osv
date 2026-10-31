@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3272",
+  "summary": "Unauthenticated RCE vulnerability against ClickHouse Server",
+  "published": "2026-10-31T11:02:05.000Z",
+  "modified": "2026-10-31T11:02:05.000Z",
+  "upstream": [
+    "CVE-2026-116366"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "clickhouse"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3272"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581353"
+    }
+  ]
+}

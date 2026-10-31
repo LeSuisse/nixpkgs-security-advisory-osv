@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3267",
+  "summary": "rubyPackages.crass: security issues < 1.0.7",
+  "published": "2026-10-31T10:56:23.000Z",
+  "modified": "2026-10-31T10:56:23.000Z",
+  "upstream": [
+    "CVE-2026-61846",
+    "CVE-2026-61845",
+    "CVE-2026-61848",
+    "CVE-2026-61847"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages.crass"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_3.crass"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_4.crass"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_4_0.crass"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3267"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581346"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3275",
+  "summary": "AFFLIB through 3.7.22 Heap Out-of-Bounds Write in af_get_page",
+  "published": "2026-10-31T11:02:24.000Z",
+  "modified": "2026-10-31T11:02:24.000Z",
+  "upstream": [
+    "CVE-2026-119601"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "afflib"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3275"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581356"
+    }
+  ]
+}

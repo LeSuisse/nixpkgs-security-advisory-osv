@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3265",
+  "summary": "Kargo: Privilege escalation via Project RBAC management in the Kargo API",
+  "published": "2026-10-31T10:54:05.000Z",
+  "modified": "2026-10-31T10:54:05.000Z",
+  "upstream": [
+    "CVE-2026-61850"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kargo"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3265"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581342"
+    }
+  ]
+}
