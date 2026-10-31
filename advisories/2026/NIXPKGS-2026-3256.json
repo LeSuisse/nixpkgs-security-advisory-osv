@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3256",
+  "summary": "ipv4: free inet_opt and ireq_opt after an RCU grace period",
+  "published": "2026-10-31T09:49:26.000Z",
+  "modified": "2026-10-31T09:49:26.000Z",
+  "upstream": [
+    "CVE-2026-98432"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3256"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581322"
+    }
+  ]
+}
