@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3291",
+  "summary": "epiphany: clipboard/website-data permission prompt incorrectly grants camera and microphone access",
+  "published": "2026-11-01T11:48:51.000Z",
+  "modified": "2026-11-01T11:48:51.000Z",
+  "upstream": [
+    "CVE-2026-118598"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "epiphany"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pantheon.epiphany"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3291"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/581716"
+    }
+  ]
+}
