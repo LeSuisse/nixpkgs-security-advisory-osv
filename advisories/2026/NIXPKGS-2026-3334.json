@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3334",
+  "summary": "Libslirp: libslirp: queue pointer corruption in if_output() leading to denial of service",
+  "published": "2026-11-04T08:18:54.000Z",
+  "modified": "2026-11-04T08:18:54.000Z",
+  "upstream": [
+    "CVE-2026-120831"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libslirp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3334"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583082"
+    }
+  ]
+}

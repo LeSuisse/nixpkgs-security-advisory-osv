@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3318",
+  "summary": "rsync through 3.5.1 Denial of Service via hash_search() Checksum Collisions",
+  "published": "2026-11-04T08:16:50.000Z",
+  "modified": "2026-11-04T08:16:50.000Z",
+  "upstream": [
+    "CVE-2026-119741"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rsync"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3318"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583066"
+    }
+  ]
+}

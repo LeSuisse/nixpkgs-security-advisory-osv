@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3330",
+  "summary": "ruTorrent before 5.3.20 Path Traversal via datadir Plugin Symlink Following",
+  "published": "2026-11-04T08:17:39.000Z",
+  "modified": "2026-11-04T08:17:39.000Z",
+  "upstream": [
+    "CVE-2026-121546"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rutorrent"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3330"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583078"
+    }
+  ]
+}

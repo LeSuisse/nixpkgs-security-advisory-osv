@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3305",
+  "summary": "inih before r63 Stack Buffer Under-Read in ini_parse_stream Discard Loop",
+  "published": "2026-11-04T08:10:19.000Z",
+  "modified": "2026-11-04T08:10:19.000Z",
+  "upstream": [
+    "CVE-2025-71450"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "inih"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3305"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583053"
+    }
+  ]
+}

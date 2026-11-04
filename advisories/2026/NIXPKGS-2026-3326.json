@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3326",
+  "summary": "Libslirp: libslirp: out-of-bounds heap read in icmp_forward_error() leading to information disclosure",
+  "published": "2026-11-04T08:17:16.000Z",
+  "modified": "2026-11-04T08:17:16.000Z",
+  "upstream": [
+    "CVE-2026-120830"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libslirp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3326"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583074"
+    }
+  ]
+}

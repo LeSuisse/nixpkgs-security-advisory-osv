@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3320",
+  "summary": "Gst-plugins-good: assertion failures in FLV demuxer when parsing malformed enhanced audio/video tags",
+  "published": "2026-11-04T08:16:56.000Z",
+  "modified": "2026-11-04T08:16:56.000Z",
+  "upstream": [
+    "CVE-2026-119843"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gst_all_1.gst-plugins-good"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3320"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583068"
+    }
+  ]
+}

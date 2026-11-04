@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3317",
+  "summary": "upsmon: remote OS command injection (RCE) via attacker-controlled ups.alarm in NOTIFYCMD execution",
+  "published": "2026-11-04T08:16:49.000Z",
+  "modified": "2026-11-04T08:16:49.000Z",
+  "upstream": [
+    "CVE-2026-54161"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nut"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3317"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583065"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3319",
+  "summary": "DbGate before 7.3.3 Missing Authorization via /connections/test and /connections/save",
+  "published": "2026-11-04T08:16:54.000Z",
+  "modified": "2026-11-04T08:16:54.000Z",
+  "upstream": [
+    "CVE-2026-121455"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dbgate"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3319"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583067"
+    }
+  ]
+}

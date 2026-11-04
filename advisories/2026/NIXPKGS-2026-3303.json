@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3303",
+  "summary": "quickjs-ng: security issues < 0.16.0",
+  "published": "2026-11-04T08:10:08.000Z",
+  "modified": "2026-11-04T08:10:08.000Z",
+  "upstream": [
+    "CVE-2026-120438",
+    "CVE-2026-120439",
+    "CVE-2026-120440"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "quickjs-ng"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3303"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583051"
+    }
+  ]
+}

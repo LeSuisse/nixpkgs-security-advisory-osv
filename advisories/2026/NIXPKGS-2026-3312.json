@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3312",
+  "summary": "hdf5_2: secuirty issues < 2.3.0",
+  "published": "2026-11-04T08:12:32.000Z",
+  "modified": "2026-11-04T08:12:32.000Z",
+  "upstream": [
+    "CVE-2026-120756",
+    "CVE-2026-120758",
+    "CVE-2026-120689",
+    "CVE-2026-120757"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hdf5_2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hdf5-cpp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hdf5-mpi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hdf5-fortran-mpi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.hdf5-mpi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "haskellPackages.hdf5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "haskellPackages.hdf5-lite"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.hdf5-fortran-mpi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.hdf5plugin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3312"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583060"
+    }
+  ]
+}

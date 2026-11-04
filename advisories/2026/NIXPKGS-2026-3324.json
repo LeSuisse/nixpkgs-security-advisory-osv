@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3324",
+  "summary": "Solanum before commit 2ce64de Heap Buffer Overflow via JOIN and SJOIN",
+  "published": "2026-11-04T08:17:10.000Z",
+  "modified": "2026-11-04T08:17:10.000Z",
+  "upstream": [
+    "CVE-2026-121602"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "solanum"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3324"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583072"
+    }
+  ]
+}

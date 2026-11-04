@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3339",
+  "summary": "nnn through 5.3 Symlink-Following Write via NNN_FIFO Handling",
+  "published": "2026-11-04T08:19:22.000Z",
+  "modified": "2026-11-04T08:19:22.000Z",
+  "upstream": [
+    "CVE-2026-121550"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nnn"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3339"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583087"
+    }
+  ]
+}

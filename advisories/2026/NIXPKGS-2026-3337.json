@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3337",
+  "summary": "Stanza: RCE via pickle deserialization in the lemmatizer",
+  "published": "2026-11-04T08:19:04.000Z",
+  "modified": "2026-11-04T08:19:04.000Z",
+  "upstream": [
+    "CVE-2026-115878"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.stanza"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.stanza"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.stanza"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3337"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583085"
+    }
+  ]
+}

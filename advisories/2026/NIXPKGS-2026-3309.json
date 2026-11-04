@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3309",
+  "summary": "Furl versions through 3.15 for Perl allow memory exhaustion via unbounded decompression of HTTP responses",
+  "published": "2026-11-04T08:10:36.000Z",
+  "modified": "2026-11-04T08:10:36.000Z",
+  "upstream": [
+    "CVE-2026-65059"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.Furl"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.Furl"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3309"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583057"
+    }
+  ]
+}

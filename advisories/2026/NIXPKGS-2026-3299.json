@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3299",
+  "summary": "L-SMASH through 2.14.5 Heap Out-of-Bounds Write via hdlr and url Boxes",
+  "published": "2026-11-04T08:08:36.000Z",
+  "modified": "2026-11-04T08:08:36.000Z",
+  "upstream": [
+    "CVE-2026-120456"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "l-smash"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3299"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583047"
+    }
+  ]
+}

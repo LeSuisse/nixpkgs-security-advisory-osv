@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3301",
+  "summary": "krill: security issues < 0.16.1",
+  "published": "2026-11-04T08:09:13.000Z",
+  "modified": "2026-11-04T08:09:13.000Z",
+  "upstream": [
+    "CVE-2026-109141",
+    "CVE-2026-109142",
+    "CVE-2026-109140"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "krill"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3301"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583049"
+    }
+  ]
+}

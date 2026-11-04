@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3331",
+  "summary": "Koodo Reader through 2.4.6 Path Traversal via OPDS Cover and Download Handlers",
+  "published": "2026-11-04T08:17:45.000Z",
+  "modified": "2026-11-04T08:17:45.000Z",
+  "upstream": [
+    "CVE-2026-121544"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "koodo-reader"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3331"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583079"
+    }
+  ]
+}

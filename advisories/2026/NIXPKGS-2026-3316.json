@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3316",
+  "summary": "perlPackages.CGI: security issues < 5.00",
+  "published": "2026-11-04T08:16:41.000Z",
+  "modified": "2026-11-04T08:16:41.000Z",
+  "upstream": [
+    "CVE-2026-120641",
+    "CVE-2026-120631",
+    "CVE-2026-120638",
+    "CVE-2026-120639",
+    "CVE-2026-120646",
+    "CVE-2026-120642",
+    "CVE-2026-120635",
+    "CVE-2026-120633",
+    "CVE-2026-120651",
+    "CVE-2026-120645",
+    "CVE-2026-120643",
+    "CVE-2026-120650",
+    "CVE-2026-120637",
+    "CVE-2026-120636",
+    "CVE-2026-120632",
+    "CVE-2026-120634",
+    "CVE-2026-120640",
+    "CVE-2026-120648",
+    "CVE-2026-120644"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.CGI"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.CGI"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3316"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583064"
+    }
+  ]
+}

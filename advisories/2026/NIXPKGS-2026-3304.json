@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3304",
+  "summary": "libgphoto2 through 2.5.34 Heap Out-of-Bounds Read/Write via jl2005c Thumbnail Conversion",
+  "published": "2026-11-04T08:10:16.000Z",
+  "modified": "2026-11-04T08:10:16.000Z",
+  "upstream": [
+    "CVE-2026-120452"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libgphoto2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3304"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583052"
+    }
+  ]
+}

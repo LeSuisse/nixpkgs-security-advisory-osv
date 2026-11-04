@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3321",
+  "summary": "NVIDIA nvJPEG contains a vulnerability where an attacker could cause …",
+  "published": "2026-11-04T08:16:59.000Z",
+  "modified": "2026-11-04T08:16:59.000Z",
+  "upstream": [
+    "CVE-2026-65160"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cudaPackages.libnvjpeg"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3321"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583069"
+    }
+  ]
+}

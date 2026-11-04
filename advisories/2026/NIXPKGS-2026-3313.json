@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3313",
+  "summary": "libgphoto2 through 2.5.34 Buffer Overflow via jl2005c Camera Driver",
+  "published": "2026-11-04T08:12:46.000Z",
+  "modified": "2026-11-04T08:12:46.000Z",
+  "upstream": [
+    "CVE-2026-120451"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libgphoto2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3313"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583061"
+    }
+  ]
+}
