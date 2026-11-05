@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3349",
+  "summary": "freerdp: security issues < 3.32.2",
+  "published": "2026-11-05T18:37:09.000Z",
+  "modified": "2026-11-05T18:37:09.000Z",
+  "upstream": [
+    "CVE-2026-121950",
+    "CVE-2026-121951",
+    "CVE-2026-121952",
+    "CVE-2026-121958",
+    "CVE-2026-121957",
+    "CVE-2026-121955",
+    "CVE-2026-121956",
+    "CVE-2026-121962",
+    "CVE-2026-121960",
+    "CVE-2026-121963",
+    "CVE-2026-121954",
+    "CVE-2026-121959",
+    "CVE-2026-121953",
+    "CVE-2026-121964",
+    "CVE-2026-121961"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freerdp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3349"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583724"
+    }
+  ]
+}

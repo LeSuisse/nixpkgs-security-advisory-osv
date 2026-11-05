@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3359",
+  "summary": "sngrep: security issues <= 1.9.0",
+  "published": "2026-11-05T18:40:23.000Z",
+  "modified": "2026-11-05T18:40:23.000Z",
+  "upstream": [
+    "CVE-2026-121944",
+    "CVE-2026-121943"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sngrep"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3359"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583734"
+    }
+  ]
+}

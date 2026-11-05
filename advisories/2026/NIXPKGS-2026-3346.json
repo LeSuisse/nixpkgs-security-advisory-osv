@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3346",
+  "summary": "libmt32emu before 2.8.4 Heap Buffer Overflow via MidiStreamParserImpl::parseSysex",
+  "published": "2026-11-05T18:34:57.000Z",
+  "modified": "2026-11-05T18:34:57.000Z",
+  "upstream": [
+    "CVE-2026-121941"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libmt32emu"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3346"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583720"
+    }
+  ]
+}

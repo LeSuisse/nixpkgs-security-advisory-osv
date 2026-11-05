@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3348",
+  "summary": "perlPackages.SQLAbstract: security issues < 2.000001_04",
+  "published": "2026-11-05T18:35:48.000Z",
+  "modified": "2026-11-05T18:35:48.000Z",
+  "upstream": [
+    "CVE-2026-121009",
+    "CVE-2026-121007",
+    "CVE-2026-121008"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.SQLAbstract"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.SQLAbstract"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3348"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583723"
+    }
+  ]
+}

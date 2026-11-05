@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3355",
+  "summary": "ProxySQL: Uninitialized heap read in MySQL compressed packet decompression via zlib path",
+  "published": "2026-11-05T18:38:50.000Z",
+  "modified": "2026-11-05T18:38:50.000Z",
+  "upstream": [
+    "CVE-2026-102664"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "proxysql"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3355"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583730"
+    }
+  ]
+}

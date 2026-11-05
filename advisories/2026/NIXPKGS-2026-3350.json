@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3350",
+  "summary": "h2o: buffer overflow when using the %{error}x log directive",
+  "published": "2026-11-05T18:38:19.000Z",
+  "modified": "2026-11-05T18:38:19.000Z",
+  "upstream": [
+    "CVE-2026-55368"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "h2o"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3350"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583725"
+    }
+  ]
+}

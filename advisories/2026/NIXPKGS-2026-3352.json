@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3352",
+  "summary": "Guest access to Firecracker process memory after a failed memory discard",
+  "published": "2026-11-05T18:38:27.000Z",
+  "modified": "2026-11-05T18:38:27.000Z",
+  "upstream": [
+    "CVE-2026-122192"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "firecracker"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3352"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583727"
+    }
+  ]
+}

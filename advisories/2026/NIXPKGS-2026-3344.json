@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3344",
+  "summary": "Coder before 2.29.22, 2.34.13, 2.35.10, 2.36.8, 2.37.5, and 2.38.1 AI Gateway Path Traversal",
+  "published": "2026-11-05T18:34:43.000Z",
+  "modified": "2026-11-05T18:34:43.000Z",
+  "upstream": [
+    "CVE-2026-121967"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "coder"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3344"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/nixos/nixpkgs/issues/583718"
+    }
+  ]
+}
