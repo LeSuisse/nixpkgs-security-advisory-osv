@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3399",
+  "summary": "Gitleaks through 8.30.1 World-Readable Report Files via --report-path",
+  "published": "2026-11-07T12:00:26.000Z",
+  "modified": "2026-11-07T12:00:26.000Z",
+  "upstream": [
+    "CVE-2026-124039"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gitleaks"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3399"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

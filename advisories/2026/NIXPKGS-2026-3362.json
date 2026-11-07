@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3362",
+  "summary": "ntopng: authenticated (non-admin) OS command injection via the vulnerability-scan `scan_ports` parameter (`nmap` argument reaches `popen`)",
+  "published": "2026-11-07T11:46:39.000Z",
+  "modified": "2026-11-07T11:46:39.000Z",
+  "upstream": [
+    "CVE-2026-82413"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ntopng"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3362"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

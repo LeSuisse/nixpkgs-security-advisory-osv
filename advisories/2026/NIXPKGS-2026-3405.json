@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3405",
+  "summary": "gst_all_1.gst-plugins-good: security issues < 1.28.6",
+  "published": "2026-11-07T12:03:16.000Z",
+  "modified": "2026-11-07T12:03:16.000Z",
+  "upstream": [
+    "CVE-2026-73472",
+    "CVE-2026-73473",
+    "CVE-2026-73471"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gst_all_1.gst-plugins-good"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3405"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

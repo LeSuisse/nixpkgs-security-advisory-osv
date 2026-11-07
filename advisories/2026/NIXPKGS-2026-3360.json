@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3360",
+  "summary": "kyverno: security issues < 1.19.2",
+  "published": "2026-11-07T11:42:35.000Z",
+  "modified": "2026-11-07T11:42:35.000Z",
+  "upstream": [
+    "CVE-2026-122315",
+    "CVE-2026-122305",
+    "CVE-2026-122304",
+    "CVE-2026-122313",
+    "CVE-2026-122323",
+    "CVE-2026-122309",
+    "CVE-2026-122306",
+    "CVE-2026-122320",
+    "CVE-2026-122303",
+    "CVE-2026-122322",
+    "CVE-2026-122314",
+    "CVE-2026-122310",
+    "CVE-2026-122312",
+    "CVE-2026-122321",
+    "CVE-2026-122319",
+    "CVE-2026-122307",
+    "CVE-2026-122318",
+    "CVE-2026-122302",
+    "CVE-2026-122316",
+    "CVE-2026-122308",
+    "CVE-2026-122311"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kyverno"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3360"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

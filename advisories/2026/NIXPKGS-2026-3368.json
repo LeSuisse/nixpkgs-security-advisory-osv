@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3368",
+  "summary": "LXC: lxc-copy host-context hostname update follows symlink",
+  "published": "2026-11-07T11:50:04.000Z",
+  "modified": "2026-11-07T11:50:04.000Z",
+  "upstream": [
+    "CVE-2026-100395"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lxc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3368"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

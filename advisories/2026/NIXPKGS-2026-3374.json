@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3374",
+  "summary": "NEURON through 9.0.2 Stack-based Buffer Overflow via CoreNEURON dataset tokens",
+  "published": "2026-11-07T11:50:44.000Z",
+  "modified": "2026-11-07T11:50:44.000Z",
+  "upstream": [
+    "CVE-2026-123203"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "neuron"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "neuron-mpi"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.neuron-mpi"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3374"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

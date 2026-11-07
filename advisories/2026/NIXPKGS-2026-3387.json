@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3387",
+  "summary": "In JetBrains PyCharm before 2026.3 code execution was possible in …",
+  "published": "2026-11-07T11:55:50.000Z",
+  "modified": "2026-11-07T11:55:50.000Z",
+  "upstream": [
+    "CVE-2026-123854"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pycharm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pycharm-oss"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.pycharm"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jetbrains.pycharm-oss"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3387"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

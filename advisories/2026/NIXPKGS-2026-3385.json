@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3385",
+  "summary": "VRPN through 07.36 Out-of-bounds Write via SENDER_DESCRIPTION/TYPE_DESCRIPTION length index",
+  "published": "2026-11-07T11:53:36.000Z",
+  "modified": "2026-11-07T11:53:36.000Z",
+  "upstream": [
+    "CVE-2026-123200"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vrpn"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3385"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

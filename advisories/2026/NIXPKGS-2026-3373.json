@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3373",
+  "summary": "libnxml before 0.18.6 Stack-based Buffer Overflow via long multi-byte XML name",
+  "published": "2026-11-07T11:50:34.000Z",
+  "modified": "2026-11-07T11:50:34.000Z",
+  "upstream": [
+    "CVE-2026-123202"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libnxml"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3373"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

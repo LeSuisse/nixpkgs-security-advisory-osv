@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3372",
+  "summary": "buku through 5.1.1 SSRF via bukuserver fetch_data and network_handle API",
+  "published": "2026-11-07T11:50:27.000Z",
+  "modified": "2026-11-07T11:50:27.000Z",
+  "upstream": [
+    "CVE-2026-123201"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "buku"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3372"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

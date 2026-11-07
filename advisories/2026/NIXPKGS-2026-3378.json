@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3378",
+  "summary": "OAuthLib: Bearer token can be retrieved as long as client knows a valid client ID for device workflow",
+  "published": "2026-11-07T11:52:33.000Z",
+  "modified": "2026-11-07T11:52:33.000Z",
+  "upstream": [
+    "CVE-2026-49272"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.oauthlib"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.oauthlib"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3378"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3381",
+  "summary": "ntopng: Stack buffer overflow (write) in nDPI custom category detection allows remote code execution via crafted network packets",
+  "published": "2026-11-07T11:52:59.000Z",
+  "modified": "2026-11-07T11:52:59.000Z",
+  "upstream": [
+    "CVE-2026-97371"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ntopng"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3381"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

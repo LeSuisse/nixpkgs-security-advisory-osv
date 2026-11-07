@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3380",
+  "summary": "mpv 0.29.0 before 0.42.0 Playlist Entry Injection via ytdl_hook Newlines",
+  "published": "2026-11-07T11:52:50.000Z",
+  "modified": "2026-11-07T11:52:50.000Z",
+  "upstream": [
+    "CVE-2026-123095"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mpv"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3380"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

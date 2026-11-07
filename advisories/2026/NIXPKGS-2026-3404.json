@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3404",
+  "summary": "SQL Injection via unescaped DataFrame column names in Snowflake Connector for Python and Snowflake Connector for Python (Universal Core)",
+  "published": "2026-11-07T12:01:59.000Z",
+  "modified": "2026-11-07T12:01:59.000Z",
+  "upstream": [
+    "CVE-2026-123859"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.snowflake-connector-python"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.snowflake-connector-python"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3404"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

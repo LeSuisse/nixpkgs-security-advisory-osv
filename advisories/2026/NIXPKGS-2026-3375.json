@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3375",
+  "summary": "immich: security issues < 3.2.0",
+  "published": "2026-11-07T11:51:49.000Z",
+  "modified": "2026-11-07T11:51:49.000Z",
+  "upstream": [
+    "CVE-2026-77439",
+    "CVE-2026-104867"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "immich"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3375"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3365",
+  "summary": "GluonTS arbitrary file write during archive extraction",
+  "published": "2026-11-07T11:47:02.000Z",
+  "modified": "2026-11-07T11:47:02.000Z",
+  "upstream": [
+    "CVE-2026-119083"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.gluonts"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.gluonts"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.gluonts"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3365"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

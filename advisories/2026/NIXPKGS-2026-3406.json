@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3406",
+  "summary": "gpac: security issues < 26.07.0",
+  "published": "2026-11-07T12:04:32.000Z",
+  "modified": "2026-11-07T12:04:32.000Z",
+  "upstream": [
+    "CVE-2026-124031",
+    "CVE-2026-124030"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gpac"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3406"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

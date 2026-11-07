@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3361",
+  "summary": "freeswitch: security issues < 1.11.3",
+  "published": "2026-11-07T11:46:08.000Z",
+  "modified": "2026-11-07T11:46:08.000Z",
+  "upstream": [
+    "CVE-2026-116570",
+    "CVE-2026-116785",
+    "CVE-2026-116787",
+    "CVE-2026-116784",
+    "CVE-2026-116567",
+    "CVE-2026-115928",
+    "CVE-2026-116781",
+    "CVE-2026-116790",
+    "CVE-2026-116783",
+    "CVE-2026-116788",
+    "CVE-2026-116779",
+    "CVE-2026-116789",
+    "CVE-2026-116574",
+    "CVE-2026-116568",
+    "CVE-2026-116571",
+    "CVE-2026-116782",
+    "CVE-2026-116780",
+    "CVE-2026-116572",
+    "CVE-2026-116573",
+    "CVE-2026-116569",
+    "CVE-2026-116786"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freeswitch"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3361"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
