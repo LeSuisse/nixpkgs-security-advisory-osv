@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3410",
+  "summary": "SQL::Abstract versions before 2.000003 for Perl allow SQL injection via an arrayref column value in insert and update",
+  "published": "2026-11-08T10:38:42.000Z",
+  "modified": "2026-11-08T10:38:42.000Z",
+  "upstream": [
+    "CVE-2026-121265"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.SQLAbstract"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.SQLAbstract"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3410"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
