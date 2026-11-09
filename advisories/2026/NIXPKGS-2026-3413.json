@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3413",
+  "summary": "BabelDOC from 0.3.61 before 0.7.0 Denial of Service via ToUnicode CMap Parsing",
+  "published": "2026-11-09T15:10:34.000Z",
+  "modified": "2026-11-09T15:10:34.000Z",
+  "upstream": [
+    "CVE-2026-124553"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "babeldoc"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.babeldoc"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3413"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

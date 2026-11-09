@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3415",
+  "summary": "Kyverno before 1.19.2 Authorization Bypass via Variable Generate Target Kind",
+  "published": "2026-11-09T15:10:40.000Z",
+  "modified": "2026-11-09T15:10:40.000Z",
+  "upstream": [
+    "CVE-2026-124441"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kyverno"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3415"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
