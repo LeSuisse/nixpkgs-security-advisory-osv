@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3418",
+  "summary": "zizmor: Debug logging prints available GitHub credentials in cleartext",
+  "published": "2026-11-10T09:19:43.000Z",
+  "modified": "2026-11-10T09:19:43.000Z",
+  "upstream": [
+    "CVE-2026-102289"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zizmor"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3418"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
