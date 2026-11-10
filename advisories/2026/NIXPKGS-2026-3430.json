@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3430",
+  "summary": "Ettercap through 0.8.4.1 Stack Buffer Underwrite via Telnet Dissector Backspace Handling",
+  "published": "2026-11-10T14:18:56.000Z",
+  "modified": "2026-11-10T14:18:56.000Z",
+  "upstream": [
+    "CVE-2026-125406"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ettercap"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bettercap"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3430"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

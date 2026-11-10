@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3423",
+  "summary": "Ettercap through 0.8.4.1 Heap Buffer Overflow via Gadu-Gadu Dissector",
+  "published": "2026-11-10T14:18:23.000Z",
+  "modified": "2026-11-10T14:18:23.000Z",
+  "upstream": [
+    "CVE-2026-125401"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ettercap"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bettercap"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3423"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

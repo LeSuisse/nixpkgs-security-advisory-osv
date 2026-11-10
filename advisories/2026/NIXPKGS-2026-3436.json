@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3436",
+  "summary": "python3Packages.wagtail: security issues < 7.4.3 (backport needed)",
+  "published": "2026-11-10T14:20:45.000Z",
+  "modified": "2026-11-10T14:20:45.000Z",
+  "upstream": [
+    "CVE-2026-125106",
+    "CVE-2026-125105",
+    "CVE-2026-123820",
+    "CVE-2026-123819"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.wagtail"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.wagtail"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3436"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

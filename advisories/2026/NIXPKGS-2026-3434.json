@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3434",
+  "summary": "XRootD: Path traversal in directory listing allows access to the parent directory via trailing \"..\" pattern",
+  "published": "2026-11-10T14:19:20.000Z",
+  "modified": "2026-11-10T14:19:20.000Z",
+  "upstream": [
+    "CVE-2026-125113"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "xrootd"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.xrootd"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.xrootd"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3434"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

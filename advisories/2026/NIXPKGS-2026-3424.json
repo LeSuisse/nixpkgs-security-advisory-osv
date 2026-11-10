@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3424",
+  "summary": "Ettercap through 0.8.4.1 Use-After-Free via PCRE2 Filter Substitution",
+  "published": "2026-11-10T14:18:26.000Z",
+  "modified": "2026-11-10T14:18:26.000Z",
+  "upstream": [
+    "CVE-2026-125400"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ettercap"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bettercap"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3424"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

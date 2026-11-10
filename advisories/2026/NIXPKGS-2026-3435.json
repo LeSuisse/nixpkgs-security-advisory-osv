@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3435",
+  "summary": "libmodsecurity: security issues < 3.0.17",
+  "published": "2026-11-10T14:20:08.000Z",
+  "modified": "2026-11-10T14:20:08.000Z",
+  "upstream": [
+    "CVE-2026-104259",
+    "CVE-2026-73857",
+    "CVE-2026-61812"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libmodsecurity"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3435"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

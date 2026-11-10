@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3427",
+  "summary": "Nmaslib Hnswlib and Spotify Voyager HNSW Index Deserialization Heap Out-of-Bounds Write",
+  "published": "2026-11-10T14:18:34.000Z",
+  "modified": "2026-11-10T14:18:34.000Z",
+  "upstream": [
+    "CVE-2026-124959"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hnswlib"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.hnswlib"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.hnswlib"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3427"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

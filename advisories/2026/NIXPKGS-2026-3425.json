@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3425",
+  "summary": "Ettercap through 0.8.4.1 Out-of-Bounds Read via HTTP NTLM Authentication Parsing",
+  "published": "2026-11-10T14:18:28.000Z",
+  "modified": "2026-11-10T14:18:28.000Z",
+  "upstream": [
+    "CVE-2026-125405"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ettercap"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bettercap"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3425"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
