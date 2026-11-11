@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3443",
+  "summary": "Infinite Loop in CMS_encrypt() With an EC Group Order of 1",
+  "published": "2026-11-11T13:14:59.000Z",
+  "modified": "2026-11-11T13:14:59.000Z",
+  "upstream": [
+    "CVE-2026-107496"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_1_1"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_3_5"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_3_6"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_4_0"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_4_1"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_oqs"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openssl_legacy"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3443"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

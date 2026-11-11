@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3442",
+  "summary": "Nokogiri : Possible SSRF on JRuby when resolving external DTDs or entities with `NONET` set",
+  "published": "2026-11-11T13:14:55.000Z",
+  "modified": "2026-11-11T13:14:55.000Z",
+  "upstream": [
+    "CVE-2026-126062"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages.nokogiri"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_3.nokogiri"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_3_4.nokogiri"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rubyPackages_4_0.nokogiri"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3442"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3445",
+  "summary": "edk2: security issues =< 202608",
+  "published": "2026-11-11T14:38:15.000Z",
+  "modified": "2026-11-11T14:38:15.000Z",
+  "upstream": [
+    "CVE-2026-18448",
+    "CVE-2026-14968"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "edk2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "edk2-uefi-shell"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3445"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
