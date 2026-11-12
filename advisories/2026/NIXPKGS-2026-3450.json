@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3450",
+  "summary": "SiYuan 3.7.0 before 3.8.10 Path Traversal File Write via MCP web_fetch",
+  "published": "2026-11-12T20:01:08.000Z",
+  "modified": "2026-11-12T20:01:08.000Z",
+  "upstream": [
+    "CVE-2026-126776"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "siyuan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3450"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

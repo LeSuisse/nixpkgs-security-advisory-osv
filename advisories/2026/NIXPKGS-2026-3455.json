@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3455",
+  "summary": "MQTTX through 1.13.3 Stored XSS via Topic Tree and JSON Tree Tooltips",
+  "published": "2026-11-12T20:01:38.000Z",
+  "modified": "2026-11-12T20:01:38.000Z",
+  "upstream": [
+    "CVE-2026-126495"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mqttx"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "mqttx-cli"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3455"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

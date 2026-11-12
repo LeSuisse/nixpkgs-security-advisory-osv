@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3458",
+  "summary": "fider: security issues < 0.36.0",
+  "published": "2026-11-12T20:02:54.000Z",
+  "modified": "2026-11-12T20:02:54.000Z",
+  "upstream": [
+    "CVE-2026-65840",
+    "CVE-2026-65967"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fider"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3458"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

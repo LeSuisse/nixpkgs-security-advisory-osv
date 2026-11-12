@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3454",
+  "summary": "Social-auth-core 4.7.0 before 7.0.0 Login CSRF via SAML RelayState",
+  "published": "2026-11-12T20:01:36.000Z",
+  "modified": "2026-11-12T20:01:36.000Z",
+  "upstream": [
+    "CVE-2026-126775"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.social-auth-core"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.social-auth-core"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3454"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

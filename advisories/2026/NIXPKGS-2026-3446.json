@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3446",
+  "summary": "hyperscan: security issues < 5.4.2.1",
+  "published": "2026-11-12T19:35:51.000Z",
+  "modified": "2026-11-12T19:35:51.000Z",
+  "upstream": [
+    "CVE-2026-40216",
+    "CVE-2026-63540",
+    "CVE-2026-28730",
+    "CVE-2026-33094",
+    "CVE-2026-40424",
+    "CVE-2026-34017"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "hyperscan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3446"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
