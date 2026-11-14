@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3459",
+  "summary": "vault: security issues < 2.2.2",
+  "published": "2026-11-14T07:58:32.000Z",
+  "modified": "2026-11-14T07:58:32.000Z",
+  "upstream": [
+    "CVE-2026-92735",
+    "CVE-2026-93335",
+    "CVE-2026-93333",
+    "CVE-2026-128100",
+    "CVE-2026-92738"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vault"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "vault-bin"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3459"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
