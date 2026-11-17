@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3492",
+  "summary": "perlPackages.JSONXS: security issues < 4.05",
+  "published": "2026-11-15T12:26:17.000Z",
+  "modified": "2026-11-15T12:26:17.000Z",
+  "upstream": [
+    "CVE-2026-124539",
+    "CVE-2026-129113",
+    "CVE-2026-124536",
+    "CVE-2026-129114",
+    "CVE-2026-124540",
+    "CVE-2026-124541",
+    "CVE-2026-129115"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.JSONXS"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.JSONXS"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3492"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

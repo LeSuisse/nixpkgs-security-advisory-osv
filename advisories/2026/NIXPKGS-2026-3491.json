@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3491",
+  "summary": "Ettercap through 0.8.5.1 Heap Out-of-Bounds Read in NFS mountd Dissector",
+  "published": "2026-11-15T07:01:21.000Z",
+  "modified": "2026-11-15T07:01:21.000Z",
+  "upstream": [
+    "CVE-2026-129432"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "ettercap"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "bettercap"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3491"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3493",
+  "summary": "Weblate 2026.6 through 2026.11.2 Information Disclosure via Site-Wide Change History",
+  "published": "2026-11-17T11:21:53.000Z",
+  "modified": "2026-11-17T11:21:53.000Z",
+  "upstream": [
+    "CVE-2026-129881"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weblate"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.weblate-fonts"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.weblate-fonts"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.weblate-schemas"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.weblate-schemas"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.weblate-language-data"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.weblate-language-data"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3493"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
