@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3497",
+  "summary": "Cyrus SASL through 2.1.28 SRP Authentication Bypass via plugins/srp.c",
+  "published": "2026-11-18T22:23:46.000Z",
+  "modified": "2026-11-18T22:23:46.000Z",
+  "upstream": [
+    "CVE-2026-129483"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cyrus_sasl"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3497"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

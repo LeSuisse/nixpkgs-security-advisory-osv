@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3498",
+  "summary": "sigoden dufs WebDAV COPY Operation server.rs authorization",
+  "published": "2026-11-18T22:23:52.000Z",
+  "modified": "2026-11-18T22:23:52.000Z",
+  "upstream": [
+    "CVE-2026-129355"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "dufs"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3498"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
