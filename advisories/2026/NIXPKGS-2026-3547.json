@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3547",
+  "summary": "IO::Socket::SSL::PublicSuffix versions through 2.099 for Perl let an on-path attacker choose the installed public suffix list because update_self_from_url fetches it over cleartext HTTP with no integrity check",
+  "published": "2026-11-19T11:05:20.000Z",
+  "modified": "2026-11-19T11:05:20.000Z",
+  "upstream": [
+    "CVE-2026-129891"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.IOSocketSSL"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.IOSocketSSL"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3547"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

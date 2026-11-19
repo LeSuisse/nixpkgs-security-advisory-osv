@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3510",
+  "summary": "jxrlib: security issues < 1.4.4",
+  "published": "2026-11-19T10:46:43.000Z",
+  "modified": "2026-11-19T10:46:43.000Z",
+  "upstream": [
+    "CVE-2026-129857",
+    "CVE-2024-58408",
+    "CVE-2026-129858",
+    "CVE-2026-129860",
+    "CVE-2026-129859"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "jxrlib"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3510"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

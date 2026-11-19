@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3515",
+  "summary": "adminneo: security issues < 5.9.1",
+  "published": "2026-11-19T10:51:21.000Z",
+  "modified": "2026-11-19T10:51:21.000Z",
+  "upstream": [
+    "CVE-2026-130379",
+    "CVE-2026-130344",
+    "CVE-2026-130372",
+    "CVE-2026-130380",
+    "CVE-2026-130360",
+    "CVE-2026-130375",
+    "CVE-2026-130364",
+    "CVE-2026-130373",
+    "CVE-2026-130338",
+    "CVE-2026-130382",
+    "CVE-2026-130358",
+    "CVE-2026-130374",
+    "CVE-2026-130378",
+    "CVE-2026-130361",
+    "CVE-2026-130366",
+    "CVE-2026-130346",
+    "CVE-2026-130376",
+    "CVE-2026-130340",
+    "CVE-2026-130359"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "adminneo"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3515"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

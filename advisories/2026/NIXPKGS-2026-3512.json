@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3512",
+  "summary": "wiki-js: security issues < 2.5.315",
+  "published": "2026-11-19T10:48:28.000Z",
+  "modified": "2026-11-19T10:48:28.000Z",
+  "upstream": [
+    "CVE-2026-120698",
+    "CVE-2026-120697"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wiki-js"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3512"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

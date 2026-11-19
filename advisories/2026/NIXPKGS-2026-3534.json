@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3534",
+  "summary": "Seerr before 3.5.2 Unauthenticated Disk Exhaustion via /imageproxy Cache Keys",
+  "published": "2026-11-19T11:03:41.000Z",
+  "modified": "2026-11-19T11:03:41.000Z",
+  "upstream": [
+    "CVE-2026-130874"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "seerr"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3534"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

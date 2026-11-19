@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3511",
+  "summary": "python3Packages.mail-parser: security issues < 4.6.2",
+  "published": "2026-11-19T10:47:43.000Z",
+  "modified": "2026-11-19T10:47:43.000Z",
+  "upstream": [
+    "CVE-2026-129299",
+    "CVE-2026-129301",
+    "CVE-2026-129295",
+    "CVE-2026-129300"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.mail-parser"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.mail-parser"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3511"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

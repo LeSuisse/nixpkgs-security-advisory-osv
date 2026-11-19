@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3530",
+  "summary": "ModelScope 1.11.0 to before 1.40.1 Unsafe Reflection RCE via syncdreamer.yaml",
+  "published": "2026-11-19T11:03:17.000Z",
+  "modified": "2026-11-19T11:03:17.000Z",
+  "upstream": [
+    "CVE-2026-130839"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.modelscope"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.modelscope"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3530"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

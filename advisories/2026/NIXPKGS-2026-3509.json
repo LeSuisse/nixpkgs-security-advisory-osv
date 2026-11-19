@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3509",
+  "summary": "fleet: security issues < 4.89.0",
+  "published": "2026-11-19T10:36:56.000Z",
+  "modified": "2026-11-19T10:36:56.000Z",
+  "upstream": [
+    "CVE-2026-111924",
+    "CVE-2026-126402",
+    "CVE-2026-126401",
+    "CVE-2026-130760",
+    "CVE-2026-111923"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fleet"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3509"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

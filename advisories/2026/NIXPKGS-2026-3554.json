@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3554",
+  "summary": "libXfont2 PCF Font Parsing Negative Skip Out-Of-Bounds Read",
+  "published": "2026-11-19T12:32:02.000Z",
+  "modified": "2026-11-19T12:32:02.000Z",
+  "upstream": [
+    "CVE-2026-109909"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libXfont2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libxfont_2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3554"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

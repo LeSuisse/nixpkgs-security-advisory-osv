@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3538",
+  "summary": "KiCad Project Archive File Handling Directory Traversal Remote Code Execution Vulnerability",
+  "published": "2026-11-19T11:04:10.000Z",
+  "modified": "2026-11-19T11:04:10.000Z",
+  "upstream": [
+    "CVE-2026-126971"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kicad"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kicad-small"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kicad-unstable"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kicad-testing-small"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kicad-unstable-small"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3538"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

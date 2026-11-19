@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3528",
+  "summary": "openshell: security issues =< 0.0.66",
+  "published": "2026-11-19T11:03:00.000Z",
+  "modified": "2026-11-19T11:03:00.000Z",
+  "upstream": [
+    "CVE-2026-100974",
+    "CVE-2026-100975",
+    "CVE-2026-100973",
+    "CVE-2026-100977",
+    "CVE-2026-100976"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "openshell"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3528"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

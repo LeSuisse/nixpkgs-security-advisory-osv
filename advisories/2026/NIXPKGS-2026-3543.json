@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3543",
+  "summary": "fzf: Arbitrary command execution via bash arithmetic expansion on unvalidated layout size in fzf-tmux (-l/-u attached value)",
+  "published": "2026-11-19T11:04:42.000Z",
+  "modified": "2026-11-19T11:04:42.000Z",
+  "upstream": [
+    "CVE-2026-121716"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fzf"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3543"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

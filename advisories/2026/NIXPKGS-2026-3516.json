@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3516",
+  "summary": "containerd CRI ExecSync Goroutine Leak Leading to Node-Level Denial of Service",
+  "published": "2026-11-19T10:52:28.000Z",
+  "modified": "2026-11-19T10:52:28.000Z",
+  "upstream": [
+    "CVE-2026-53495"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "containerd"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3516"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

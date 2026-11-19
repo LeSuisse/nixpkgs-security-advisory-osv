@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3551",
+  "summary": "Traefik from 2.11.58 before 2.11.61 Denial of Service via NTLM/Negotiate Headers",
+  "published": "2026-11-19T12:31:51.000Z",
+  "modified": "2026-11-19T12:31:51.000Z",
+  "upstream": [
+    "CVE-2026-130732"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traefik"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3551"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

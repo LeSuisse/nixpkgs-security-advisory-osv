@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3536",
+  "summary": "Pika before 1.5.0 Memory Exhaustion via Unbounded AMQP Frame Size",
+  "published": "2026-11-19T11:03:51.000Z",
+  "modified": "2026-11-19T11:03:51.000Z",
+  "upstream": [
+    "CVE-2026-131856"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pika"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pika"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3536"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

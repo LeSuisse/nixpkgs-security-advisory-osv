@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3571",
+  "summary": "Meilisearch before 1.55.1 and 1.56.x before 1.56.1 Denial of Service via filter-parser Quadratic Memory Consumption",
+  "published": "2026-11-19T12:33:01.000Z",
+  "modified": "2026-11-19T12:33:01.000Z",
+  "upstream": [
+    "CVE-2026-132750"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "meilisearch"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3571"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

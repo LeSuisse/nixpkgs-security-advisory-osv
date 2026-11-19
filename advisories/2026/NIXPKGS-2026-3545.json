@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3545",
+  "summary": "freeswitch: security issues < 1.11.2",
+  "published": "2026-11-19T11:05:12.000Z",
+  "modified": "2026-11-19T11:05:12.000Z",
+  "upstream": [
+    "CVE-2026-119292",
+    "CVE-2026-119293"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "freeswitch"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3545"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3560",
+  "summary": "Lldpd: lldpd: out-of-bounds read in liblldpctl on a short lldp-med location",
+  "published": "2026-11-19T12:32:21.000Z",
+  "modified": "2026-11-19T12:32:21.000Z",
+  "upstream": [
+    "CVE-2026-132049"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "lldpd"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3560"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3507",
+  "summary": "nginx: November 2026 security issues (includes nginx2shell/nginx2root issues)",
+  "published": "2026-11-19T10:28:28.000Z",
+  "modified": "2026-11-19T10:28:28.000Z",
+  "upstream": [
+    "CVE-2026-113425",
+    "CVE-2026-123640",
+    "CVE-2026-121810",
+    "CVE-2026-123007",
+    "CVE-2026-125283",
+    "CVE-2026-123634",
+    "CVE-2026-120993",
+    "CVE-2026-120967",
+    "CVE-2026-118899",
+    "CVE-2026-123633"
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3507"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

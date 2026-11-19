@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3566",
+  "summary": "Geany through 2.1.0 OS Command Injection via Filename in Build Commands",
+  "published": "2026-11-19T12:32:33.000Z",
+  "modified": "2026-11-19T12:32:33.000Z",
+  "upstream": [
+    "CVE-2026-132756"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "geany"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "geany-with-vte"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3566"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

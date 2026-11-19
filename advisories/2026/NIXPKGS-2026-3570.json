@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3570",
+  "summary": "Cri-o: cri-o: writable linklogs bind mount allows pods to redirect privileged conmon log writes",
+  "published": "2026-11-19T12:32:55.000Z",
+  "modified": "2026-11-19T12:32:55.000Z",
+  "upstream": [
+    "CVE-2026-106096"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cri-o"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "cri-o-unwrapped"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3570"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

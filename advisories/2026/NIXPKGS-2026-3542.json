@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3542",
+  "summary": "Radicale 3.3.0 before 3.8.3 Authorization Bypass via Stale Group Memberships",
+  "published": "2026-11-19T11:04:36.000Z",
+  "modified": "2026-11-19T11:04:36.000Z",
+  "upstream": [
+    "CVE-2026-130838"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "radicale"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3542"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

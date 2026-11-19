@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3548",
+  "summary": "incus: security issues < 7.6.0",
+  "published": "2026-11-19T12:28:22.000Z",
+  "modified": "2026-11-19T12:28:22.000Z",
+  "upstream": [
+    "CVE-2026-130781",
+    "CVE-2026-130776",
+    "CVE-2026-130775",
+    "CVE-2026-130774",
+    "CVE-2026-130783",
+    "CVE-2026-130773",
+    "CVE-2026-130769",
+    "CVE-2026-130778",
+    "CVE-2026-130784",
+    "CVE-2026-130782",
+    "CVE-2026-130772",
+    "CVE-2026-130770",
+    "CVE-2026-130780",
+    "CVE-2026-130777",
+    "CVE-2026-130786"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "incus"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "incus-lts"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3548"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

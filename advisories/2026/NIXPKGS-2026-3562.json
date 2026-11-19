@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3562",
+  "summary": "GNU Emacs 31.1 contains a code injection vulnerability in its …",
+  "published": "2026-11-19T12:32:26.000Z",
+  "modified": "2026-11-19T12:32:26.000Z",
+  "upstream": [
+    "CVE-2026-131959"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "emacs"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "emacs31"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "emacs-gtk"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "emacs-nox"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "emacs-pgtk"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "emacs31-nox"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "emacs31-gtk3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "emacs31-pgtk"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3562"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3525",
+  "summary": "KiCad Altium SCHLIB File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+  "published": "2026-11-19T11:01:56.000Z",
+  "modified": "2026-11-19T11:01:56.000Z",
+  "upstream": [
+    "CVE-2026-126970"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kicad"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kicad-small"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kicad-testing"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kicad-unstable"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kicad-testing-small"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "kicad-unstable-small"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.kicad"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.kicad"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3525"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

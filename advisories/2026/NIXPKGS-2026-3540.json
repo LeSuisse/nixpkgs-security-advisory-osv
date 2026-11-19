@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3540",
+  "summary": "Weblate 2026.11 through 2026.11.2 Information Disclosure via Task Status API Race",
+  "published": "2026-11-19T11:04:30.000Z",
+  "modified": "2026-11-19T11:04:30.000Z",
+  "upstream": [
+    "CVE-2026-130385"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "weblate"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3540"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

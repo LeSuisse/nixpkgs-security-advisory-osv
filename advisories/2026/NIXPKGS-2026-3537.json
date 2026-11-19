@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3537",
+  "summary": "Snap7 through 1.4.3 Out-of-Bounds Write via TSnap7MicroClient::opReadMultiVars",
+  "published": "2026-11-19T11:04:05.000Z",
+  "modified": "2026-11-19T11:04:05.000Z",
+  "upstream": [
+    "CVE-2026-131848"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "snap7"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3537"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

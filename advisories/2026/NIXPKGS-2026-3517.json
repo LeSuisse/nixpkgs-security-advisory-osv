@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3517",
+  "summary": "containerd image-triggered daemon crash via malformed digest in subject-annotated descriptor",
+  "published": "2026-11-19T10:52:30.000Z",
+  "modified": "2026-11-19T10:52:30.000Z",
+  "upstream": [
+    "CVE-2026-95839"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "containerd"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3517"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

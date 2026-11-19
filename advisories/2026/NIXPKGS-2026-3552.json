@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3552",
+  "summary": "django-filer: Missing per-object authorization on `discard` and `edit_redirect` version transitions",
+  "published": "2026-11-19T12:31:55.000Z",
+  "modified": "2026-11-19T12:31:55.000Z",
+  "upstream": [
+    "CVE-2026-69131"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.django-filer"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.django-filer"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3552"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

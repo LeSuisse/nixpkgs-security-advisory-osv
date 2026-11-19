@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3523",
+  "summary": "Denial of Service via sending bogus X.509 certificates",
+  "published": "2026-11-19T11:00:10.000Z",
+  "modified": "2026-11-19T11:00:10.000Z",
+  "upstream": [
+    "CVE-2026-77205"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libreswan"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3523"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
