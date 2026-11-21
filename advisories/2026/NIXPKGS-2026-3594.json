@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3594",
+  "summary": "SABnzbd through 5.1.3 Path Traversal via NZB Propername and Episodename Metadata",
+  "published": "2026-11-21T13:03:57.000Z",
+  "modified": "2026-11-21T13:03:57.000Z",
+  "upstream": [
+    "CVE-2026-133238"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sabnzbd"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3594"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

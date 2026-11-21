@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3575",
+  "summary": "gitea: security issues < 28.4.0",
+  "published": "2026-11-21T11:46:12.000Z",
+  "modified": "2026-11-21T11:46:12.000Z",
+  "upstream": [
+    "CVE-2026-126338",
+    "CVE-2026-123006",
+    "CVE-2026-120729",
+    "CVE-2026-125423",
+    "CVE-2026-125617",
+    "CVE-2026-123638",
+    "CVE-2026-129525",
+    "CVE-2026-127958",
+    "CVE-2026-129337",
+    "CVE-2026-123002",
+    "CVE-2026-120725",
+    "CVE-2026-120991",
+    "CVE-2026-123642",
+    "CVE-2026-123009",
+    "CVE-2026-128359",
+    "CVE-2026-128365",
+    "CVE-2026-118535",
+    "CVE-2026-129341",
+    "CVE-2026-123065"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gitea"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gitea-mcp-server"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gitea-actions-runner"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "terraform-providers.gitea"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "terraform-providers.go-gitea_gitea"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3575"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

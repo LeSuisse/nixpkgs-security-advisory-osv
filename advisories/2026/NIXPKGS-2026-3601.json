@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3601",
+  "summary": "devpi-web before 5.2.0 Unauthenticated Path Traversal via +doc Route",
+  "published": "2026-11-21T13:19:26.000Z",
+  "modified": "2026-11-21T13:19:26.000Z",
+  "upstream": [
+    "CVE-2026-134167"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.devpi-web"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.devpi-web"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3601"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

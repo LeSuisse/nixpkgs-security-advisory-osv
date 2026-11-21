@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3576",
+  "summary": "gitea: security issues < 28.3.0",
+  "published": "2026-11-21T11:51:30.000Z",
+  "modified": "2026-11-21T11:51:30.000Z",
+  "upstream": [
+    "CVE-2026-119533",
+    "CVE-2026-118386",
+    "CVE-2026-116289",
+    "CVE-2026-117677",
+    "CVE-2026-117646",
+    "CVE-2026-112887",
+    "CVE-2026-119627",
+    "CVE-2026-117685",
+    "CVE-2026-116296",
+    "CVE-2026-120263",
+    "CVE-2026-118504",
+    "CVE-2026-119441",
+    "CVE-2026-117635",
+    "CVE-2026-113429",
+    "CVE-2026-116474",
+    "CVE-2026-114199",
+    "CVE-2026-118394",
+    "CVE-2026-119625",
+    "CVE-2026-118395",
+    "CVE-2026-118389",
+    "CVE-2026-117649"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gitea"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "terraform-providers.go-gitea_gitea"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3576"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

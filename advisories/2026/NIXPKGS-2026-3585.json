@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3585",
+  "summary": "netatalk: security issues < 4.5.2",
+  "published": "2026-11-21T12:53:12.000Z",
+  "modified": "2026-11-21T12:53:12.000Z",
+  "upstream": [
+    "CVE-2026-49388",
+    "CVE-2026-62318",
+    "CVE-2026-49389",
+    "CVE-2026-110779",
+    "CVE-2026-49387",
+    "CVE-2026-49390",
+    "CVE-2026-103933",
+    "CVE-2026-62321",
+    "CVE-2026-62320",
+    "CVE-2026-62319",
+    "CVE-2026-110780"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "netatalk"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3585"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

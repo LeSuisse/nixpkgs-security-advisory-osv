@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3587",
+  "summary": "python3Packages.pydantic: security issues < 2.14.2",
+  "published": "2026-11-21T12:58:43.000Z",
+  "modified": "2026-11-21T12:58:43.000Z",
+  "upstream": [
+    "CVE-2026-133429",
+    "CVE-2026-133426",
+    "CVE-2026-133428",
+    "CVE-2026-133424"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pydantic"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pydantic"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pydantic-argparse-extensible"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.json-schema-to-pydantic"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3587"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

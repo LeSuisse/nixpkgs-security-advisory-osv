@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3589",
+  "summary": "htslib: security issues < 1.22.3",
+  "published": "2026-11-21T13:01:52.000Z",
+  "modified": "2026-11-21T13:01:52.000Z",
+  "upstream": [
+    "CVE-2026-62259",
+    "CVE-2026-62260",
+    "CVE-2026-63390",
+    "CVE-2026-62256",
+    "CVE-2026-62258",
+    "CVE-2026-62255",
+    "CVE-2026-62257"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "htslib"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3589"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

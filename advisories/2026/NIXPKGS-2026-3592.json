@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3592",
+  "summary": "sqlmap before 1.10.11.89 Credential Leak via Cross-Host HTTP Redirects",
+  "published": "2026-11-21T13:03:10.000Z",
+  "modified": "2026-11-21T13:03:10.000Z",
+  "upstream": [
+    "CVE-2026-133305"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "sqlmap"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.sqlmap"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.sqlmap"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3592"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3586",
+  "summary": "python313Packages.pydantic_1: security issues < 1.10.27",
+  "published": "2026-11-21T12:55:36.000Z",
+  "modified": "2026-11-21T12:55:36.000Z",
+  "upstream": [
+    "CVE-2026-133421",
+    "CVE-2026-133422",
+    "CVE-2026-133276"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pydantic_1"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3586"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
