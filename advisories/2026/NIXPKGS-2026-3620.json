@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3620",
+  "summary": "FontForge through 20251009 Heap Out-of-Bounds Write via PCF Encodings Table",
+  "published": "2026-11-25T07:44:58.000Z",
+  "modified": "2026-11-25T07:44:58.000Z",
+  "upstream": [
+    "CVE-2026-135295"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fontforge"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fontforge-gtk"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fontforge-fonttools"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3620"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

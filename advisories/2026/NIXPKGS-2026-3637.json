@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3637",
+  "summary": "n8n: Custom Instance Role with User Management Permissions Gives Control of the Owner Account",
+  "published": "2026-11-25T07:45:57.000Z",
+  "modified": "2026-11-25T07:45:57.000Z",
+  "upstream": [
+    "CVE-2026-130167"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "n8n"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3637"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

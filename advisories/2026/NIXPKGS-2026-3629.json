@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3629",
+  "summary": "Snes9x Save-State Screenshot Restoration snapshot.cpp S9xUnfreezeFromStream out-of-bounds",
+  "published": "2026-11-25T07:45:32.000Z",
+  "modified": "2026-11-25T07:45:32.000Z",
+  "upstream": [
+    "CVE-2026-134856"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "snes9x"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "snes9x-gtk"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3629"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

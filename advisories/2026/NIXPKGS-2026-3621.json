@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3621",
+  "summary": "OpenCV through 4.14.0 and 5.0.0 through 5.1.0 Infinite Loop via YAMLParser::parse",
+  "published": "2026-11-25T07:45:01.000Z",
+  "modified": "2026-11-25T07:45:01.000Z",
+  "upstream": [
+    "CVE-2026-135290"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opencv"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opencv4"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opencv4WithoutCuda"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.opencv4"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.opencv4"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.opencv4Full"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.opencv4Full"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.opencv-python"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.opencv-python"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "pkgsRocm.python3Packages.opencv4Full"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.opencv-contrib-python"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.opencv-contrib-python"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.opencv-python-headless"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.opencv-python-headless"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3621"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

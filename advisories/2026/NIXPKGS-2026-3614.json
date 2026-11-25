@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3614",
+  "summary": "FLTK through 1.4.5 Heap Buffer Overflow via Fl_BMP_Image Row Pointer",
+  "published": "2026-11-25T07:44:30.000Z",
+  "modified": "2026-11-25T07:44:30.000Z",
+  "upstream": [
+    "CVE-2026-135433"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fltk"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fltk13"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fltk14"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fltk_1_3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fltk_1_4"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fltk-minimal"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fltk13-minimal"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fltk14-minimal"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fltk_1_3-minimal"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "fltk_1_4-minimal"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3614"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

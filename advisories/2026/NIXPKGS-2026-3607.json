@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3607",
+  "summary": "apacheHttpdPackages.mod_perl: security issues < 2.0.14",
+  "published": "2026-11-25T07:43:40.000Z",
+  "modified": "2026-11-25T07:43:40.000Z",
+  "upstream": [
+    "CVE-2026-116032",
+    "CVE-2026-116005",
+    "CVE-2026-116001",
+    "CVE-2026-116772",
+    "CVE-2026-116043",
+    "CVE-2026-116799"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.mod_perl2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.mod_perl2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apacheHttpdPackages.mod_perl"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "apacheHttpdPackages_2_4.mod_perl"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3607"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
