@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3641",
+  "summary": "surrealdb: security issues < 4.0.0",
+  "published": "2026-11-27T13:46:23.000Z",
+  "modified": "2026-11-27T13:46:23.000Z",
+  "upstream": [
+    "CVE-2026-137489",
+    "CVE-2026-137488",
+    "CVE-2026-137490"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "surrealdb"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3641"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

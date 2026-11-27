@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3686",
+  "summary": "OpenCV 3.0.0 through 4.14.0 and 5.0.0 through 5.1.0 MJPEG Encoder Out-of-Bounds Read",
+  "published": "2026-11-27T13:58:40.000Z",
+  "modified": "2026-11-27T13:58:40.000Z",
+  "upstream": [
+    "CVE-2026-137083"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opencv"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opencv4"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "opencv4WithoutCuda"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3686"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

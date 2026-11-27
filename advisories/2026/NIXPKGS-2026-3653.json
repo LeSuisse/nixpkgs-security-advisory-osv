@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3653",
+  "summary": "PDF::API2 versions before 2.049 for Perl allow unbounded recursion via circular cross-reference chains in readxrtr",
+  "published": "2026-11-27T13:49:35.000Z",
+  "modified": "2026-11-27T13:49:35.000Z",
+  "upstream": [
+    "CVE-2026-135092"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perlPackages.PDFAPI2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "perl5Packages.PDFAPI2"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3653"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3640",
+  "summary": "Kestra: Content-Disposition filename parameter injection through unvalidated `namespace` path segment in namespace-files export endpoint",
+  "published": "2026-11-27T13:45:59.000Z",
+  "modified": "2026-11-27T13:45:59.000Z",
+  "upstream": [
+    "CVE-2026-122263"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.kestra"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.kestra"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3640"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

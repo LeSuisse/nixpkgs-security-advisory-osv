@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3695",
+  "summary": "GPAC through 26.07.0 Infinite Loop in gf_rtsp_do_deinterleave via RTSP Data",
+  "published": "2026-11-27T13:59:26.000Z",
+  "modified": "2026-11-27T13:59:26.000Z",
+  "upstream": [
+    "CVE-2026-136191"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gpac"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gpac-unstable"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3695"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

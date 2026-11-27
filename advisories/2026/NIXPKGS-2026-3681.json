@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3681",
+  "summary": "WordPress Converter for Media plugin <= 6.7.2 - Sensitive Data Exposure vulnerability",
+  "published": "2026-11-27T13:58:28.000Z",
+  "modified": "2026-11-27T13:58:28.000Z",
+  "upstream": [
+    "CVE-2026-135006"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "wordpressPackages.plugins.webp-converter-for-media"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3681"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

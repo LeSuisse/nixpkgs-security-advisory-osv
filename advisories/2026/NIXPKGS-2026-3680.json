@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3680",
+  "summary": "nmap: security issues < 7.992",
+  "published": "2026-11-27T13:58:01.000Z",
+  "modified": "2026-11-27T13:58:01.000Z",
+  "upstream": [
+    "CVE-2026-81417",
+    "CVE-2026-81408",
+    "CVE-2026-81419",
+    "CVE-2026-81406",
+    "CVE-2026-81409",
+    "CVE-2026-81416",
+    "CVE-2026-81418",
+    "CVE-2026-81415",
+    "CVE-2026-81411",
+    "CVE-2026-81410",
+    "CVE-2026-81407",
+    "CVE-2026-81405",
+    "CVE-2026-81413",
+    "CVE-2026-81414",
+    "CVE-2026-81412"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "nmap"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3680"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

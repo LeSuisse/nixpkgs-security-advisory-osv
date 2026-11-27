@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3643",
+  "summary": "librechat: security issues < 0.8.9",
+  "published": "2026-11-27T13:47:50.000Z",
+  "modified": "2026-11-27T13:47:50.000Z",
+  "upstream": [
+    "CVE-2026-137586",
+    "CVE-2026-137656"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "librechat"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3643"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

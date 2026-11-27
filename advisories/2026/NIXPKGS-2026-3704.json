@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3704",
+  "summary": "Assimp through 6.0.6 Out-of-Bounds Read via glTF::Image::Read KHR_binary_glTF bufferView",
+  "published": "2026-11-27T14:00:24.000Z",
+  "modified": "2026-11-27T14:00:24.000Z",
+  "upstream": [
+    "CVE-2026-136197"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "assimp"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3704"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3650",
+  "summary": "ONNX ONNXMLTools Model Visualization visualize.py get_set_node cross site scripting",
+  "published": "2026-11-27T13:49:26.000Z",
+  "modified": "2026-11-27T13:49:26.000Z",
+  "upstream": [
+    "CVE-2026-137667"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.onnxmltools"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.onnxmltools"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3650"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

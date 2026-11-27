@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3639",
+  "summary": "traefik: security issues < 3.7.18",
+  "published": "2026-11-27T13:41:49.000Z",
+  "modified": "2026-11-27T13:41:49.000Z",
+  "upstream": [
+    "CVE-2026-137479",
+    "CVE-2026-137482",
+    "CVE-2026-137478",
+    "CVE-2026-137480",
+    "CVE-2026-137481"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "traefik"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3639"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

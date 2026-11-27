@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3679",
+  "summary": "karakeep: security issues < 0.35.0",
+  "published": "2026-11-27T13:57:09.000Z",
+  "modified": "2026-11-27T13:57:09.000Z",
+  "upstream": [
+    "CVE-2026-136619",
+    "CVE-2026-136618"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "karakeep"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3679"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

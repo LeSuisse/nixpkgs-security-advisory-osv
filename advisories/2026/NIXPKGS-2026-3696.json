@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3696",
+  "summary": "AppStream 0.14.5 before 1.2.3 Infinite Loop via Qt .qm Translation Parser",
+  "published": "2026-11-27T13:59:28.000Z",
+  "modified": "2026-11-27T13:59:28.000Z",
+  "upstream": [
+    "CVE-2026-136413"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "appstream"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3696"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

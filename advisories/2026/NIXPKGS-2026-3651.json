@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3651",
+  "summary": "pylxd: Improper certificate validation in websocket connections",
+  "published": "2026-11-27T13:49:27.000Z",
+  "modified": "2026-11-27T13:49:27.000Z",
+  "upstream": [
+    "CVE-2026-127163"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.pylxd"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.pylxd"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3651"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

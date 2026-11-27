@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3668",
+  "summary": "Rsyslog: rsyslog: imuxsock buffer underwrite in pid rewriting",
+  "published": "2026-11-27T13:54:44.000Z",
+  "modified": "2026-11-27T13:54:44.000Z",
+  "upstream": [
+    "CVE-2026-129832"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rsyslog"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "rsyslog-light"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3668"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3664",
+  "summary": "libyang through 6.4.13 Wrong Status Code in ly_in_filepath()",
+  "published": "2026-11-27T13:54:15.000Z",
+  "modified": "2026-11-27T13:54:15.000Z",
+  "upstream": [
+    "CVE-2026-136907"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libyang"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3664"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

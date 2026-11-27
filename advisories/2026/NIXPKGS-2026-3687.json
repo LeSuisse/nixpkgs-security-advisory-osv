@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3687",
+  "summary": "coleifer peewee File Import pwiz.py _print_table code injection",
+  "published": "2026-11-27T13:58:42.000Z",
+  "modified": "2026-11-27T13:58:42.000Z",
+  "upstream": [
+    "CVE-2026-136721"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.peewee"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.peewee"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.peewee_3"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.peewee_3"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3687"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

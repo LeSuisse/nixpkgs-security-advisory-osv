@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3645",
+  "summary": "ezdxf through 1.4.5 Code Injection via dxf2code DXF Table Entry Names",
+  "published": "2026-11-27T13:48:03.000Z",
+  "modified": "2026-11-27T13:48:03.000Z",
+  "upstream": [
+    "CVE-2026-137506"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.ezdxf"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.ezdxf"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3645"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

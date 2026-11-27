@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3688",
+  "summary": "GNOME libxml2 through 2.15.4 Double Free in xmlReaderNewWalker()",
+  "published": "2026-11-27T13:58:48.000Z",
+  "modified": "2026-11-27T13:58:48.000Z",
+  "upstream": [
+    "CVE-2026-137073"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libxml2"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "libxml2_13"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3688"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

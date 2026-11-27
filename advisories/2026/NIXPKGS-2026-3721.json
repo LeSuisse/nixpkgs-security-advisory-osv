@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3721",
+  "summary": "GNU Inetutils talkd Stack-based Buffer Overflow Denial-of-Service Vulnerability",
+  "published": "2026-11-27T14:01:44.000Z",
+  "modified": "2026-11-27T14:01:44.000Z",
+  "upstream": [
+    "CVE-2026-136614"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "inetutils"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3721"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

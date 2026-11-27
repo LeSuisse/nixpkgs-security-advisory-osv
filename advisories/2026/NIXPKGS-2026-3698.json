@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3698",
+  "summary": "Gimp: heap-based buffer overflow in the psd merged-image lab path",
+  "published": "2026-11-27T13:59:34.000Z",
+  "modified": "2026-11-27T13:59:34.000Z",
+  "upstream": [
+    "CVE-2026-136328"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gimp"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "gimp3"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3698"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

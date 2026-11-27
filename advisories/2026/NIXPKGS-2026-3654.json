@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3654",
+  "summary": "psqlodbc: security issues < 18.00.0007",
+  "published": "2026-11-27T13:50:44.000Z",
+  "modified": "2026-11-27T13:50:44.000Z",
+  "upstream": [
+    "CVE-2026-136514",
+    "CVE-2026-136510",
+    "CVE-2026-136503",
+    "CVE-2026-136507",
+    "CVE-2026-136500",
+    "CVE-2026-136499",
+    "CVE-2026-136501",
+    "CVE-2026-136504",
+    "CVE-2026-136505",
+    "CVE-2026-136509",
+    "CVE-2026-136506",
+    "CVE-2026-136508",
+    "CVE-2026-136515",
+    "CVE-2026-136511",
+    "CVE-2026-136512",
+    "CVE-2026-136513"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "psqlodbc"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "unixodbcDrivers.psql"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3654"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3720",
+  "summary": "The log viewer of Zoraxy admin panel fails to neutralize …",
+  "published": "2026-11-27T14:01:42.000Z",
+  "modified": "2026-11-27T14:01:42.000Z",
+  "upstream": [
+    "CVE-2026-105303"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "zoraxy"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3720"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}

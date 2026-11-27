@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.7.5",
+  "id": "NIXPKGS-2026-3647",
+  "summary": "Tornado before 6.6.1 NTFS Alternate Data Stream Disclosure via StaticFileHandler",
+  "published": "2026-11-27T13:49:15.000Z",
+  "modified": "2026-11-27T13:49:15.000Z",
+  "upstream": [
+    "CVE-2026-137540"
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python313Packages.tornado"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Nixpkgs",
+        "name": "python314Packages.tornado"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "http://tracker.security.nixos.org/issues/NIXPKGS-2026-3647"
+    },
+    {
+      "type": "WEB"
+    }
+  ]
+}
